@@ -17,3 +17,5 @@ mejorar la gestión de la red y ese es tu objetivo. Quieren mejorar los siguient
 * Los documentos importantes de la empresa deben ser accesible desde un servidor ftp anónimo.
 * Un grupo de usuarios (los técnicos) pueden gestionar el servidor de forma remota.
 * Todos los usuarios deben poseer una cuenta de correos de la forma usuario@masterlan.com
+
+#### Servidor DHCP
