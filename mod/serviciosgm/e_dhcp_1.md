@@ -40,4 +40,3 @@ Cambia la configuración del cliente para que tome una configuración de forma d
 4. Comprueba en cada uno de los clientes la configuración que han tomado.
 </div>
 [Volver](index)
-[pdf](http://www.htm2pdf.co.uk/display)
