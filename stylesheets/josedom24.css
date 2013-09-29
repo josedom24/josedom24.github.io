@@ -1,13 +1,9 @@
 div.objetivos, div.nota, div.ejercicios {
-                max-width: 800px;
-                margin: 60px;
-                padding: 40px 60px;
-                border-radius: 10px;
-                box-shadow: 0 0 5px rgba(255, 255, 255, 0.2), inset 0 0 50px rgba(255, 255, 255, 0.1);
+          margin: 10px;
+	  padding: 2px 2px;
+          border-radius: 10px;
+          box-shadow: 0 0 2px;
 
-                                           color: #2f4f4f ;
-                font-size: 1.5em;
-                font-family: "Telex", sans-serif;
                 }
 
 div.objetivos {
@@ -17,11 +13,6 @@ div.objetivos {
 div.nota {
            background-color: #EEFAE7;
            }
-
-div.ejercicios:before {
-    content: "Ejercicios " counter(ejercicios) ". ";
-    counter-increment: ejercicios; /* Add 1 to ejercicios */
-}
 
 div.ejercicios {
                  background-color: #E8F7FA;
