@@ -40,4 +40,5 @@ Renueva la concesión en los clientes y si es necesario, modifica la configuraci
 2. Comprueba las concesiones de direcciones que has realizado.
 3. Comprueba en cada uno de los clientes la configuración que han tomado.
 </div>
+[Volver](index)
 
