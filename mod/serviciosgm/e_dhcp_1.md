@@ -39,4 +39,4 @@ Cambia la configuración del cliente para que tome una configuración de forma d
 3. Coge la dirección MAC del cliente linux y realiza una reserva de la dirección 192.168.0.109 a dicho cliente. 
 4. Comprueba en cada uno de los clientes la configuración que han tomado.
 </div>
-
+[Volver](index)
