@@ -41,4 +41,10 @@ Los ordenadores clientes de nuestra LAN obtienen su configuración de red ofreci
 * Puerta de enlace: La ip del router
 * DNS: 8.8.8.8
 
-
+<div class='ejercicios' markdown='1'>
+##### **Entrega 1**
+1. Explica la configuración de red del servidor y de los dos clientes
+2. Explica la configuración del servidor para que funcione como router y nat
+3. Explica la instlación y configuración del servidor DHCP.
+4. Prueba de funcionamiento (Concesiones de direcciones)
+5. Realiza una reserva de unos de loclientes, explica cómo lo has realizado y haz una prueba de funcionamiento.
