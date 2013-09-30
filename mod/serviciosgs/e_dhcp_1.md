@@ -79,6 +79,7 @@ En Windows la instrucción **ipconfig /release** libera la concesión, la instru
  * Duración de la concesión: 1 hora
  * Puerta de enlace: 192.168.0.1
  * Servidores DNS: 8.8.8.8, 8.8.4.4
+
 2.Configura los clientes para obtener direccionamiento dinámico. Comprueba las configuraciones de red que han tomado los clientes. Visualiza el fichero del servidor donde se guarda las configuraciones asignadas.
 </div>
 
