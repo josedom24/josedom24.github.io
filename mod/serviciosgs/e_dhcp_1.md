@@ -66,4 +66,9 @@ Ejemplo de configuración de la sección subnet puede ser:
 	
 Sólo falta configurar los clientes para que tomem la configuración de red de forma dinámica.
 
+<div class='nota' markdown='1'>
+### Nota
+En Windows la instrucción **ipconfig /release** libera la concesión, la instrucción **ipconfig /renew** la renueva. En linux el comando para liberar la concesión es **dhclient -r** y el que nos permite renovarla será **dhclient**.
+</div>
+
 
