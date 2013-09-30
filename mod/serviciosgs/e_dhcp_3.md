@@ -33,4 +33,4 @@ Configurador el servidor para que funcione como router y haga NAT de esta forma 
 3. Realiza comprobaciones del funcionamiento (con salidas de los comandos ifconfig y contenido del fichero de concesión.
 4. Explica con detalle cómo has configurado el servidor para que funcione como router - nat.
 </div>
-[Volver](index)y
+[Volver](index)
