@@ -61,4 +61,43 @@ Ejemplo de configuración de la sección subnet puede ser:
 	subnet 192.168.0.0 netmask 255.255.255.0 {
 	  range 192.168.0.60 192.168.0.90;
 	  option routers 192.168.0.254;
-	  option domain­name­servers 80.58.0.33, 80.58.32.97;
+	  option domain­name­servers 80.58.0.33, 80.58.32.9;
+	}
+	
+Sólo falta configurar los clientes para que tomem la configuración de red de forma dinámica.
+<div class='nota' markdown='1'>
+### Nota
+En Windows la instrucción **ipconfig /release** libera la concesión, la instrucción **ipconfig /renew** la renueva. En linux el comando para liberar la concesión es **dhclient -r** y el que nos permite renovarla será **dhclient**.
+</div>
+
+<div class='ejercicios' markdown='1'>
+### Ejercicios 
+1. Configura el servidor dhcp con las siguientes características
+  * Rango de direcciones a repartir: 192.168.0.100 - 192.168.0.110
+  * Máscara de red: 255.255.255.0
+  * Duración de la concesión: 1 hora
+  * Puerta de enlace: 192.168.0.1
+  * Servidores DNS: 8.8.8.8, 8.8.4.4
+2. Configura los clientes para obtener direccionamiento dinámico. Comprueba las configuraciones de red que han tomado los clientes. Visualiza el fichero del servidor donde se guarda las configuraciones asignadas.
+</div>
+
+##### Creando reservas
+
+Veamos la sección host, en ella configuramos un host para reservar una dirección IP para él.
+
+En una sección host debemos poner el nombre que identifica al host y los siguientes parámetros:
+* hardware ethernet: Es la dirección MAC de la tarjeta de red del host.
+* fixed-address: La dirección IP que le vamos a asignar. 
+* Podemos usar también las opciones ya explicadas en la sección principal.
+<div class='ejercicios' markdown='1'>
+### Ejercicios 
+1. Crea en el servidor dhcp una sección HOST para conceder a un cliente una dirección IP determinada (por ejemplo la 192.168.0.105)
+2. Obtén una nueva dirección IP en el cliente y comprueba que es la que has asignado por medio de la sección host.
+</div>
+<div class='ejercicios' markdown='1'>
+### Realiza las siguientes comprobaciones
+Vamos a comprobar que ocurre con la configuración de los clientes en determinadas circunstacia, para ello vamos a poner un tiempo de conseción muy bajo.
+1. Los clientes toman una configuración, y a continuación apagamos el servidor dhcp. ¿qué ocurre con el cliente windows? ¿Y con el cliente linux?
+2. Los clientes toman una configuración, y a continuación cambiamos la configuración del servidor dhcp (por ejemplo el rango). ¿qué ocurre con el cliente windows? ¿Y con el cliente linux?
+</div>
+[Volver](index)
