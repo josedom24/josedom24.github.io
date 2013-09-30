@@ -11,6 +11,6 @@ tagline: CFGS ASIR
 * [Ejercicio 2:](e_dhcp_2)
 
 ### Proyectos
-* [Proyecto 1]()
+
 
 [Volver](http://josedom24.github.io)
