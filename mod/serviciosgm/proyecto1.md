@@ -18,4 +18,27 @@ mejorar la gestión de la red y ese es tu objetivo. Quieren mejorar los siguient
 * Un grupo de usuarios (los técnicos) pueden gestionar el servidor de forma remota.
 * Todos los usuarios deben poseer una cuenta de correos de la forma usuario@masterlan.com
 
+#### Esquema de red
+
+El esquema de red que tiene la empresa es el siguiente:
+
+imagen
+
+Como se observa en el esquema nuestro ordenador va a tener dos tarjetas de red, por lo tanto va a ser el
+responsable de gestionar la comunicación que entra y sale de nuestra red local.
+
+La primera tarjeta está conectada a internet (en nuestro caso está conectada a la red del instituto), la segunda
+tarjeta está conectada a la red local y tiene el siguiente direccionamiento:
+
+* Dirección IP: 10.0.0.1/24
+
 #### Servidor DHCP
+
+Los ordenadores clientes de nuestra LAN obtienen su configuración de red ofrecidas por dicho servidor, que tiene las siguientes características:
+
+* Rango: 10.0.0.2-10.0.0.200
+* Máscara de red: 255.255.255.0 
+* Puerta de enlace: La ip del router
+* DNS: 8.8.8.8
+
+
