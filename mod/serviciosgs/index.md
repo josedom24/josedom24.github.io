@@ -1,7 +1,7 @@
 ---
 layout: index
 
-title: Servicios de red e Internet
+title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 
