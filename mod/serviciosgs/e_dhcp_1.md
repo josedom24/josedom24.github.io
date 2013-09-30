@@ -26,5 +26,6 @@ Lo primero que tenemos que hacer es configurar el interfaz de red por el que va 
 	/etc/default/isc-dhcp-server
 
 Donde configuramos el parámetro interfaces, por ejemplo:
+	
 	INTERFACES="eth1"
  
