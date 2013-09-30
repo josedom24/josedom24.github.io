@@ -8,3 +8,4 @@ tagline: CFGS ASIR
 
 Después de leer la documentación, realiza lo misma configuración que en la [páctica anterior](e_dhcp_1) usando un servidor con Windows Server 2008.
 
+[Volver](index)
