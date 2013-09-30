@@ -19,3 +19,12 @@ Para instalar nuestro servidor dhcp ejecutamos:
 Cuando instalamos el servidor por primera se produce un error, ya que no está configurado. Puedes ver los errores producidos por el servidor en el fichero /var/log/syslog
 </div>
 
+#### Configuración del servidor isc-dhcp-server
+
+Lo primero que tenemos que hacer es configurar el interfaz de red por el que va a trabajar el servidor dhcp, para ello editamos el siguiente fichero:
+
+	/etc/default/isc-dhcp-server
+
+Donde configuramos el parámetro interfaces, por ejemplo:
+	INTERFACES="eth1"
+ 
