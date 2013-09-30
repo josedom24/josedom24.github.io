@@ -20,7 +20,7 @@ Una vez levantada las máquinas modifica los clientes para que tomen direccionam
 
 #### Servidor dhcp
 
-Instala un servidor web en el ordenador "servidor" que reparta direcciones a las dos redes locales.
+Instala un servidor dhcp en el ordenador "servidor" que reparta direcciones a las dos redes locales.
 
 #### Enrutador y NAT
 
