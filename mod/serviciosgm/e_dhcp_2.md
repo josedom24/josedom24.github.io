@@ -21,7 +21,6 @@ Cambia la dirección estática de la red interna del servidor Windows y ponle la
 
 Modifica la configuración del servidor DHCP con los siguientes datos:
 
-
 * Ámbito: iesgn
 * Rango de direcciones a repartir: 10.0.0.10 - 10.0.0.20
 * Máscara de red: 255.0.0.0
