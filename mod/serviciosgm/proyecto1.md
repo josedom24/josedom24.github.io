@@ -20,7 +20,7 @@ mejorar la gestión de la red y ese es tu objetivo. Quieren mejorar los siguient
 
 El esquema de red que tiene la empresa es el siguiente:
 
-![Esquema de red] (img/esquema_red,png)
+![Esquema de red](img/esquema_red.png)
 
 Como se observa en el esquema nuestro ordenador va a tener dos tarjetas de red, por lo tanto va a ser el
 responsable de gestionar la comunicación que entra y sale de nuestra red local.
