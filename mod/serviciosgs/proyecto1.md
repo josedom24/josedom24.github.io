@@ -101,15 +101,15 @@ El script se debe llamar gestionDNS.py y recibe cutro parámetros:
 
 Ejemplos
 
- gestionDNS.py -a -dir smtp 192.168.4.1
+  gestionDNS.py -a -dir smtp 192.168.4.1
 
 >Creará el registro -> smtp    A    192.168.4.1
 
- gestionDNS.py -a -alias correo smtp
+  gestionDNS.py -a -alias correo smtp
 
 >Creará el registro -> correo      CNAME    smtp
 
- gestionDNS.py -b correo
+  gestionDNS.py -b correo
 
 >Borrará el último registro
 
