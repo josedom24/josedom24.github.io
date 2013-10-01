@@ -41,9 +41,6 @@ Los ordenadores clientes de nuestra LAN obtienen su configuración de red ofreci
 
 <div class='ejercicios' markdown='1'>
 ##### **Entrega 1**
-1. Escribe una introducción donde expliques el objetivo de la práctica. El esquema real que estás desarrollando y cómo lo 
-vas a virtualizar para poder desarrollarlo en clase. Por último indica el nombre que le has puesto al ordenador servidor.
-¿Cómo has configurado ese nombre?
 2. Explica la configuración de red del servidor y de los dos clientes
 3. Explica la configuración del servidor para que funcione como router y nat
 4. Explica la instalación y configuración del servidor DHCP.
