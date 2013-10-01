@@ -88,7 +88,7 @@ Vamos a instalar en nuestra red un servidor DNS bind9 que permita la resolución
 
 * Cuando tengas funcionando el servidor DNS, tendrás que modificar el servidor DHCP para que los clientes usen el servidor DNS. 
 * Piensa el nombre que tiene el servidor. El servidor DNS debe poder resolver los siguientes nombres: nombredelservidor.example.com, www.example.com, informatica.example.com El primero es el nombre del servidor, los dos siguientes son dos páginas webs que el servidor va a servir. 
-*Debes implementar la zona inversa del servidor.
+* Debes implementar la zona inversa del servidor.
 
 Además nos indican que los profesores de informáticas les gustaría poder dar de alta nuevos nombres en el servidor DNS. Para ello vas a crear un scipt en python que nos permita añadir o borrar registros en las zonas de nuestro servidor.
 
