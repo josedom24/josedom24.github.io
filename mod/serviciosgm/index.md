@@ -11,6 +11,6 @@ tagline: CFGM SMR
 * [Ejercicio 2:Configuración de un servidor DHCP en Windows Server 2008 (2)](e_dhcp_2)
 
 ### Proyectos
-* [Proyecto 1](proyecto1)
+* [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
 
 [Volver](http://josedom24.github.io)
