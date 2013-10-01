@@ -102,11 +102,11 @@ El script se debe llamar gestionDNS.py y recibe cutro parámetros:
 Ejemplos
 
  gestionDNS.py -a -dir smtp 192.168.4.1
-         Creará el registro -> smtp    A    192.168.4.1
+* Creará el registro -> smtp    A    192.168.4.1
  gestionDNS.py -a -alias correo smtp
-         Creará el registro -> correo      CNAME    smtp
+* Creará el registro -> correo      CNAME    smtp
  gestionDNS.py -b correo
-         Borrará el último registro
+* Borrará el último registro
 
 Todos los registros creados o borrados pertenecen a las zonas example.com. Se debe modificar la zona inversa en los casos necesarios. El script debe reinciar el servidor bind9.
 
