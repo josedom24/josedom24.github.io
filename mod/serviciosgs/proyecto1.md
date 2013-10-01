@@ -47,3 +47,23 @@ Deficiencias que nos encontramos con este esquema
 5. Algunos servicios que faltan: web dinámica, servicio de ftp, servicio de correos, proxy,...
 
 ##2. Especificación del nuevo esquema de red
+
+El centro educativo ha comprado un servidor, en el que se va instalar una distribución Debian Wheezy, y que se va a instalr siguiendo este esquema de red:
+
+![Esquema de red](img/Diagrama2.png)
+
+Aunque vamos a mantener el servidor Windows 2008 dentro de nuestra red local, vamos a sustituyendo los distintos servicios que ofrece. Se mantiene por que suponemos que ofrece un servicio de directorio activo que no vamos a sustituir.
+
+###a) Enrutador
+
+Como se observa en el esquema nuestro ordenador va a tener dos tarjetas de red, por lo tanto va a ser el responsable de gestionar la comunicación que entra y sale de nuestra red local. En una segunda fase de nuestra implantación (esto se estudiará en la asignatura de seguridad) se implantará un cortafuego en este equipo. Lo que tenemos que configurar este equipo para que enrute y haga la función de NAT.
+
+###b) Servidor DHCP
+
+Debes instalar un servidor DHCP en este ordenador. Para probarlo sin ningún problema debes parar el servidor DHCP del Windows 2008. Debe tener las siguientes características:
+
+* Rango: 192.168.1.3-192.168.1.253
+* Máscara de red: 255.255.255.0 
+* DNS: Mientras no tengas instalado un servidor DNS, puedes usar el del Windows 2008.
+
+###c) Servidor Web
