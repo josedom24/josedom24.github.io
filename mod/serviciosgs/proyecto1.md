@@ -28,7 +28,7 @@ Lo primero que tienes que hacer es determinar el nombre de dominio (puede ser el
 
 * Cuando tengas funcionando el servidor DNS, tendrás que modificar el servidor DHCP para que los clientes usen el servidor DNS. 
 * Piensa el nombre que tiene el servidor. El servidor DNS debe poder resolver los siguientes nombres: nombredelservidor.example.com, www.example.com, informatica.example.com El primero es el nombre del servidor, los dos siguientes son dos páginas webs que el servidor va a servir. 
-*Debes implementar la zona inversa del servidor.
+* Debes implementar la zona inversa del servidor.
 
 ###c) Servidor WEB
 
