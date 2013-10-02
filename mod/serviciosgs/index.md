@@ -14,7 +14,6 @@ tagline: CFGS ASIR
 ### Proyectos
 
 * [Proyecto 1:Instalación de un servidor en un centro educativo](proyecto1)
-
  * [Entrega 1](proyecto1_entrega1)
 
 [Volver](http://josedom24.github.io)
