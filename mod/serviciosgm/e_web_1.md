@@ -28,7 +28,7 @@ Tenemos que hacer un presupuesto con las siguientes consideraciones:
    * Soporte de PHP y mySql
    * 500 cuentas de correo con webmail
 
-La empresa está interesada en saber los siguientes precios al año:
+ La empresa está interesada en saber los siguientes precios al año:
 
    * Si el servidor es compartido
    * Si el servidor es dedicado
