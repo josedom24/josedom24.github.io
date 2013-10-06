@@ -13,7 +13,7 @@ Para poder publicar una página web, tenemos que tener en cuenta los siguientes 
 1. Registrar un dominio
 2. Buscar alojamiento web en un servidor en una empresa de hosting
 
-<div class='ejercicios' markdown='1'>
+
 ##### **Ejercicios**
 
 Tenemos que hacer un presupuesto con las siguientes consideraciones:
@@ -35,7 +35,6 @@ Tenemos que hacer un presupuesto con las siguientes consideraciones:
    * Si el servidor tiene sistema operativo Linux
 3. Estudia también un presupuesto que indique el coste de un servidor, con las características anteriormente señaladas, que use la tecnología de cloud computing.
 
-</div>
 
 Se valorará por parte de la empresa el presupuesto que cumpla las prestaciones indicadas que sea más barato.
 
