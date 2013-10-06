@@ -15,11 +15,9 @@ Para poder publicar una página web, tenemos que tener en cuenta los siguientes 
 
 <div class='ejercicios' markdown='1'>
 ##### **Ejercicios**
-
 Tenemos que hacer un presupuesto con las siguientes consideraciones:
 
 * La empresa necesita un dominio .com, busca la mejor empresa que facilite el registro de un dominio, ¿cuánto dinero cuesta al año?
-
 * Por otro lado necesitamos un alojamiento web con las siguientes características:
 
    * 10000 MB (aprox. 10 GB) de capacidad de alojamiento.
@@ -34,6 +32,7 @@ Tenemos que hacer un presupuesto con las siguientes consideraciones:
    * Si el servidor es dedicado
    * Si el servidor tiene sistema operativo Windows
    * Si el servidor tiene sistema operativo Linux
+
 * Estudia también un presupuesto que indique el coste de un servidor, con las características anteriormente señaladas, que use la tecnología de cloud computing.
 
 </div>
