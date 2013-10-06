@@ -15,9 +15,11 @@ Para poder publicar una página web, tenemos que tener en cuenta los siguientes 
 
 <div class='ejercicios' markdown='1'>
 ##### **Ejercicios**
+
 Tenemos que hacer un presupuesto con las siguientes consideraciones:
 
 * La empresa necesita un dominio .com, busca la mejor empresa que facilite el registro de un dominio, ¿cuánto dinero cuesta al año?
+
 * Por otro lado necesitamos un alojamiento web con las siguientes características:
 
    * 10000 MB (aprox. 10 GB) de capacidad de alojamiento.
@@ -26,7 +28,7 @@ Tenemos que hacer un presupuesto con las siguientes consideraciones:
    * Soporte de PHP y mySql
    * 500 cuentas de correo con webmail
 
- La empresa está interesada en saber los siguientes precios al año:
+La empresa está interesada en saber los siguientes precios al año:
 
    * Si el servidor es compartido
    * Si el servidor es dedicado
