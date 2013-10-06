@@ -33,6 +33,7 @@ Tenemos que hacer un presupuesto con las siguientes consideraciones:
    * Si el servidor es dedicado
    * Si el servidor tiene sistema operativo Windows
    * Si el servidor tiene sistema operativo Linux
+
 3. Estudia también un presupuesto que indique el coste de un servidor, con las características anteriormente señaladas, que use la tecnología de cloud computing.
 
 
