@@ -10,11 +10,11 @@ Trabajamos para una empresa que necesita publicar una página web en internet y 
 
 Para poder publicar una página web, tenemos que tener en cuenta los siguientes aspectos:
 
-1. Registrar un dominio
+1.Registrar un dominio
 
     La empresa necesita un dominio .com, busca la mejor empresa que facilite el registro de un dominio, ¿cuánto dinero cuesta al año?
 
-2. Buscar alojamiento web en un servidor en una empresa de hosting
+2.Buscar alojamiento web en un servidor en una empresa de hosting
 
 Necesitamos un alojamiento web con las siguientes características:
 
