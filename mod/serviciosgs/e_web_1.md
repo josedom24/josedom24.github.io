@@ -5,7 +5,6 @@ title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 ### Ejercicio: Hacer peticiones: GET, HEAD y POST
-
 1. Utilizando el comando de linux HEAD visualiza la información de la cabeceras de los siguientes servidores webs:
 
         http://dit.gonzalonazareno.org
@@ -13,7 +12,7 @@ tagline: CFGS ASIR
         http://dit.gonzalonazareno.org/~josedom/xhtml/modelo.txt
         http://dit.gonzalonazareno.org/~josedom/xhtml/linux.jpg
 
-Identifica todos los parámetros que puedas.
+    Identifica todos los parámetros que puedas.
 
 2. Utilizando el método GET obtén el contenido de la página: 
 
