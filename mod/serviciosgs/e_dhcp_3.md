@@ -8,7 +8,7 @@ tagline: CFGS ASIR
 
 #### Preparación del escenario
 
-Crea un escenario usando Vagrant que defina las siguientes máuinas:
+Crea un escenario usando Vagrant que defina las siguientes máquinas:
 
 * Servidor: Tiene tres tarjetas de red: una pública y dos privadas que se conectan a dos redes locales.
 * nodo_lan1: Un cliente conectado a la primera red local.

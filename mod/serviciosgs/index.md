@@ -11,6 +11,10 @@ tagline: CFGS ASIR
 * [Ejercicio 2:Instalación y configuración del servidor dhcp en windows](e_dhcp_2)
 * [Ejercicio 3:Instalación y configuración del servidor dhcp en linux usando varios ámbitos](e_dhcp_3)
 
+#### Servidor web
+
+* [Ejercicio 1:Hacer peticiones: GET, HEAD y POST](e_web_1)
+
 ### Proyectos
 
 * [Proyecto 1:Instalación de un servidor en un centro educativo](proyecto1)
