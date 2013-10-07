@@ -22,18 +22,18 @@ Tenemos que hacer un presupuesto con las siguientes consideraciones:
 
 * Por otro lado necesitamos un alojamiento web con las siguientes características:
 
-   * 10000 MB (aprox. 10 GB) de capacidad de alojamiento.
-   * 500 GB de transferencia mensual.
-   * Acceso por FTP
-   * Soporte de PHP y mySql
-   * 500 cuentas de correo con webmail
+    * 10000 MB (aprox. 10 GB) de capacidad de alojamiento.
+    * 500 GB de transferencia mensual.
+    * Acceso por FTP
+    * Soporte de PHP y mySql
+    * 500 cuentas de correo con webmail
 
- La empresa está interesada en saber los siguientes precios al año:
+> La empresa está interesada en saber los siguientes precios al año:
 
-   * Si el servidor es compartido
-   * Si el servidor es dedicado
-   * Si el servidor tiene sistema operativo Windows
-   * Si el servidor tiene sistema operativo Linux
+    * Si el servidor es compartido
+    * Si el servidor es dedicado
+    * Si el servidor tiene sistema operativo Windows
+    * Si el servidor tiene sistema operativo Linux
 
 * Estudia también un presupuesto que indique el coste de un servidor, con las características anteriormente señaladas, que use la tecnología de cloud computing.
 
