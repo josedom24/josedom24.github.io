@@ -19,13 +19,13 @@ tagline: CFGS ASIR
 
         service apache2 <operación>
 
-2. ¿Qué diferencia hay entre un restart y un reload?
+* ¿Qué diferencia hay entre un restart y un reload?
 
     También podemos utilizar la utilidad apache2ctl / apachectl:
 
         apache2ctl [-k start|restart|graceful|graceful-stop|stop]
 
-3. ¿Qué es la opción graceful?
+* ¿Qué es la opción graceful?
 
     Con esta herramienta podemos obtener también más información del servidor:
 
@@ -34,10 +34,10 @@ tagline: CFGS ASIR
         apache2ctl -S : Lista los sitios virtuales.
         apache2ctl -V : Lista las opciones de compilación
 
-4. Comprueba la directiva donde indicamos el puerto de escucha del servidor
+* Comprueba la directiva donde indicamos el puerto de escucha del servidor
 
-5. Comprueba los módulos  cargados en el servidor: mirando en el directorio adecuado y utilizando la herramienta apache2ctl.
+* Comprueba los módulos  cargados en el servidor: mirando en el directorio adecuado y utilizando la herramienta apache2ctl.
 
-6. Comprueba los sitios webs activos en nuestro servidor: mirando en el directorio adecuado y utilizando la herramienta apache2ctl.
+* Comprueba los sitios webs activos en nuestro servidor: mirando en el directorio adecuado y utilizando la herramienta apache2ctl.
 
 [Volver](index)
