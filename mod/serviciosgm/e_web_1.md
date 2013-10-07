@@ -12,7 +12,7 @@ Para poder publicar una página web, tenemos que tener en cuenta los siguientes 
 
 1. Registrar un dominio
 
-La empresa necesita un dominio .com, busca la mejor empresa que facilite el registro de un dominio, ¿cuánto dinero cuesta al año?
+    La empresa necesita un dominio .com, busca la mejor empresa que facilite el registro de un dominio, ¿cuánto dinero cuesta al año?
 
 2. Buscar alojamiento web en un servidor en una empresa de hosting
 
