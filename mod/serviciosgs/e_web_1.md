@@ -8,26 +8,25 @@ tagline: CFGS ASIR
 
 1. Utilizando el comando de linux HEAD visualiza la información de la cabeceras de los siguientesservidores webs:
 
-     http://dit.gonzalonazareno.org
-     http://dit.gonzalonazareno.org/~josedom
-     http://dit.gonzalonazareno.org/~josedom/xhtml/modelo.txt
-     http://informatica.gonzalonazareno.org/~josedom/xhtml/linux.jpg
+	http://dit.gonzalonazareno.org
+	http://dit.gonzalonazareno.org/~josedom
+	http://dit.gonzalonazareno.org/~josedom/xhtml/modelo.txt
+	http://informatica.gonzalonazareno.org/~josedom/xhtml/linux.jpg
 
-     Identifica todos los parámetros que puedas.
+    Identifica todos los parámetros que puedas.
 
 2. Utilizando el método GET obten el contenido de la página: 
 
-     http://dit.gonzalonazareno.org/plataforma/index.php
-     http://dit http://www.debian.org/index.html
+	http://dit.gonzalonazareno.org/plataforma/index.php
+	http://dit http://www.debian.org/index.html
 
 3. Envio de información al servidor, comprueba como se manda información al servidor mediante el método GET en la URL:
 
-     http://dit.gonzalonazareno.org/~josedom/ejemplo/ejget.php?valor=hola
-     http://dit.gonzalonazareno.org/plataforma/course/view.php?id=40
+	http://dit.gonzalonazareno.org/~josedom/ejemplo/ejget.php?valor=hola
+	http://dit.gonzalonazareno.org/plataforma/course/view.php?id=40
 
-     Usando el comando GET manda tu nombre a la página http:/dit.gonzalonazareno.org/~josedom/ejemplo/ejget.php
-
-     Usando el comando POST (que envia el contenido en el cuerpo) manda tu nombre a la página http://dit.gonzalonazareno.org/~josedom/ejemplo/ejpost.php
+    Usando el comando GET manda tu nombre a la página http:/dit.gonzalonazareno.org/~josedom/ejemplo/ejget.php
+    Usando el comando POST (que envia el contenido en el cuerpo) manda tu nombre a la página http://dit.gonzalonazareno.org/~josedom/ejemplo/ejpost.php
 
 
 [Volver](index)
