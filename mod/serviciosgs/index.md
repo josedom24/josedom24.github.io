@@ -16,6 +16,7 @@ tagline: CFGS ASIR
 * [Ejercicio 1: Hacer peticiones: GET, HEAD y POST](e_web_1)
 * [Ejercicio 2: Instalación y configuración inicial del servidor web Apache 2.2](e_web_2)
 * [Ejercicio 3: Usar apache2.2 sin Virtual Hosting](e_web_3)
+* [Ejercicio 4: Introducción al Virtual hosting con apache 2.2](e_web_4)
 
 ### Proyectos
 
