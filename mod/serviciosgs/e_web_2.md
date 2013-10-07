@@ -5,7 +5,6 @@ title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 ### Ejercicio: Instalación y configuración inicial del servidor web Apache 2.2
-
 1. Instala el servidor web Apache e indica el FQDN para que al inciar el servicio no nos de ningún problema.
 
     Para controlar el servicio apache2 podemos usar: (para más información <http://httpd.apache.org/docs/2.2/es/stopping.html>):
