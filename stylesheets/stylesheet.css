@@ -199,10 +199,6 @@ ul, ol, dl {
   margin-bottom: 15px
 }
 
-ul li {
-  list-style: inside;
-  padding-left: 4px;
-}
 
 ul li p {
   list-style: inside;
@@ -210,7 +206,7 @@ ul li p {
 }
 
 
-ol li {
+ol li p{
   list-style: decimal inside;
   padding-left: 20px;
 }
