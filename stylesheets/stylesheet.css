@@ -201,8 +201,14 @@ ul, ol, dl {
 
 ul li {
   list-style: inside;
-  padding-left: 20px;
+  padding-left: 4px;
 }
+
+ul li p {
+  list-style: inside;
+  padding-left: 4px;
+}
+
 
 ol li {
   list-style: decimal inside;
