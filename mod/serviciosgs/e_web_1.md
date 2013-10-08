@@ -16,17 +16,18 @@ tagline: CFGS ASIR
 
 2. Utilizando el método GET obtén el contenido de la página: 
 
-        http://dit.gonzalonazareno.org/plataforma/index.php
+        http://dit.gonzalonazareno.org/moodle/index.php
         http://dit http://www.debian.org/index.html
 
 3. Envío de información al servidor, comprueba como se manda información al servidor mediante el método GET en la URL:
 
         http://dit.gonzalonazareno.org/~josedom/ejemplo/ejget.php?valor=hola
-        http://dit.gonzalonazareno.org/plataforma/course/view.php?id=40
+        http://dit.gonzalonazareno.org/moodle/course/view.php?id=4
 
     Usando el comando GET manda tu nombre a la página 
 
         http:/dit.gonzalonazareno.org/~josedom/ejemplo/ejget.php
+        
     Usando el comando POST (que envia el contenido en el cuerpo) manda tu nombre a la página 
 
         http://dit.gonzalonazareno.org/~josedom/ejemplo/ejpost.php
