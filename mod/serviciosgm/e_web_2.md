@@ -4,7 +4,7 @@ layout: index
 title: Servicios de red 
 tagline: CFGM SMR
 ---
-### Ejercicio: Estudio de distintos alojamientos Web
+### Ejercicio: Instalar un servidor web IIS para el uso en una Intranet
 
 #### Configuración inicial
 
