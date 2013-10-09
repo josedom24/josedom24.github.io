@@ -15,16 +15,8 @@ Lo primero que tienes que hacer es instalar el servidor web IIS y comprobar el e
 <div class='ejercicios' markdown='1'>
 ##### **Ejercicios**
 
-1. Crea dentro del directorio c:/inetpub/wwwroot un fichero llamado entrada.html con el siguiente código:
+1. Crea dentro del directorio c:/inetpub/wwwroot un fichero llamado entrada.html en el que pongaís un mensaje de bienvenida.
 
-        <html>
-        <head>
-          <title>Ejemplo de página web</title>
-        </head>
-        <body>
-            <h1> Bienvenidos a mi página web </h1>
-        </body>
-        </html>
 
 Accede desde un navegador del servidor con Windows 2008, usando la siguiente URL:
 
