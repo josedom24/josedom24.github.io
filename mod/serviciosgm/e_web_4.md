@@ -33,56 +33,10 @@ En la página de la práctica anterior *www.iesgn.com*, vamos a crear una zona p
 
  A continuación debemos hacer los siguiente:
 
-* Quitar el grupo Usuarios, para no permitir el acceso a ningún usuario.
-* Agregar el grupo Profesores, con los permisos con los permisos de "Lectura y ejecución", "Mostrar el contenido de la carpeta" y "Leer", de modo que cuando la ventana de la imagen superior presente el aspecto mostrado en la imagen inferior, pulsaremos sobre el botón "Aceptar".
+ * Quitar el grupo Usuarios, para no permitir el acceso a ningún usuario.
+ * Agregar el grupo Profesores, con los permisos con los permisos de "Lectura y ejecución", "Mostrar el contenido de la carpeta" y "Leer", de modo que cuando la ventana de la imagen superior presente el aspecto mostrado en la imagen inferior, pulsaremos sobre el botón "Aceptar".
 
 4. Desde el cliente prueba a acceder a la página *www.iesgn.com/profesores* y prueba a acceder con un usuario perteneciente al grupo "profesores" y otro que no pertenezca.
 
-
-
-
-
-
-
-Desde la consola de configuración del servidor IIS pulsamos sobre la opción "Editar permisos..." de la carpeta "privado", será una pantalla parecida a esta:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-El objetivo de esta práctica es la puesta en marcha de dos sitios web utilizando el mismo servidor web IIS. Hay que tener en cuenta lo siguiente:
-
-* Cada sitio web tendra nombres distintos.
-* Cada sitio web compartiran la misma dirección IP y el mismo puerto (80).
-
-Para ello vamos a configurar el servidor web IIS para crear dos nuevos sitios web (**el sitio web predeterminado lo debemos detener**).
-
-Para terminar lo único que tendremos que hacer es cambiar el fichero hosts en los clientes y poner dos nuevas líneas donde se haga la conversión entre los dos nombre de dominio y la dirección IP del servidor.
-
-<div class='ejercicios' markdown='1'>
-##### **Ejercicios**
-
-Queremos construir en nuestro servidor web IIS dos sitios web con las siguientes características:
-
-1. El nombre de dominio del primero será *www.iesgn.com*, su directorio base será *c:/inetpub/ies* y contendrá una página llamada index.html, donde sólo se verá una bienvenida a la página del insituto Gonzalo Nazareno.
-2. En el segundo sitio vamos a crear una página donde se pondrán noticias por parte de los departamento, el nombre de este sitio será *www.departamentosgn.com*, y su directorio base será *c:/inetpub/departamentos*. En este sitio sólo tendremos una página inicial index.html, dando la bienvenida a la página de los departamentos del instituto.
-
-Modifica el fichero hosts en los clientes y en el servidor para que se pueda acceder a los sitios web creados.
-
-</div>
 
 [Volver](index)
