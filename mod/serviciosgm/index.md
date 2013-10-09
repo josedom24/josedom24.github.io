@@ -18,6 +18,7 @@ tagline: CFGM SMR
 
 * [Ejercicio 1:Estudio de distintos alojamientos Web](e_web_1)
 * [Ejercicio 2: Instalar un servidor web IIS para el uso en una Intranet](e_web_2)
+* [Ejercicio 3: Configuración de sitios web virtuales usando IIS](e_web_3)
 
 ### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
