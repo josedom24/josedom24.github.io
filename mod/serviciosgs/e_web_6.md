@@ -14,14 +14,14 @@ determinado módulo, para ello usamos [<IfModule>](http://httpd.apache.org/docs/
 
 Para cargar dinámicamente los módulos se utilza la directiva [LoadModule](http://httpd.apache.org/docs/2.2/mod/mod_so.html#loadmodule), búscalos en los ficheros *.load dentro de /etc/apache2/mods-availables.
 
-Más información:[http://httpd.apache.org/docs/2.2/dso.html](http://httpd.apache.org/docs/2.2/dso.html)
+Más información: [http://httpd.apache.org/docs/2.2/dso.html](http://httpd.apache.org/docs/2.2/dso.html)
 
 3) Busca en la configuración una variable de entorno y determina en que fichero están definidas.
 
 4) La directiva [Include](http://httpd.apache.org/docs/2.2/mod/core.html#include) nos permite añdir ficheros de configuración a la configuración general de apache2. Comprueba qué ficheros son añadidos con esta directiva.
 
 5) Podemos aplicar directivas a partes concretas de nuestro servidor 
-web, para ello estudia las siguientes directivas (Para aprender más lee [Secciones de Configuración
+web, para ello estudia las siguientes directivas (Para aprender más lee [Secciones de Configuración]
 (http://httpd.apache.org/docs/2.2/sections.html)):
 
 * [<Directory>](http://httpd.apache.org/docs/2.2/mod/core.html#directory)
