@@ -8,8 +8,7 @@ tagline: CFGS ASIR
 
 1) Las directivas de configuración de apache2 se pueden aplicar si está definido un determinado parámetro. Para esto se utiliza la directiva [<IfDefine>](http://httpd.apache.org/docs/2.2/mod/core.html#ifdefine). Busca en algún fichero de configuración esta directiva.
 
-2) Igualmente podemos aplicar determinadas directivas si hay cargado un 
-determinado módulo, para ello usamos [<IfModule>](http://httpd.apache.org/docs/2.2/mod/core.html#ifmodule). Busca alguna directiva de este tipo.
+2) Igualmente podemos aplicar determinadas directivas si hay cargado un determinado módulo, para ello usamos [<IfModule>](http://httpd.apache.org/docs/2.2/mod/core.html#ifmodule). Busca alguna directiva de este tipo.
 
 Para cargar dinámicamente los módulos se utilza la directiva [LoadModule](http://httpd.apache.org/docs/2.2/mod/mod_so.html#loadmodule), búscalos en los ficheros *.load dentro de /etc/apache2/mods-availables.
 
@@ -19,8 +18,7 @@ Más información: <http://httpd.apache.org/docs/2.2/dso.html>
 
 4) La directiva [Include](http://httpd.apache.org/docs/2.2/mod/core.html#include) nos permite añdir ficheros de configuración a la configuración general de apache2. Comprueba qué ficheros son añadidos con esta directiva.
 
-5) Podemos aplicar directivas a partes concretas de nuestro servidor 
-web, para ello estudia las siguientes directivas (Para aprender más lee [Secciones de Configuración](http://httpd.apache.org/docs/2.2/sections.html)):
+5) Podemos aplicar directivas a partes concretas de nuestro servidor web, para ello estudia las siguientes directivas (Para aprender más lee [Secciones de Configuración](http://httpd.apache.org/docs/2.2/sections.html)):
 
 * [<Directory>](http://httpd.apache.org/docs/2.2/mod/core.html#directory)
 * [<DirectoryMatch>](http://httpd.apache.org/docs/2.2/mod/core.html#directorymatch)
