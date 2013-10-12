@@ -19,7 +19,8 @@ tagline: CFGS ASIR
 * [Ejercicio 4: Introducción al Virtual hosting con apache 2.2](e_web_4)
 * [Ejercicio 5: Puertos de escucha](e_web_5)
 * [Ejercicio 6: Estructura de los ficheros de configuración](e_web_6)
-* [Ejercicio 7: Mapear URL a ubicaciones de un sistema de ficheros](e_web_6)
+* [Ejercicio 7: Mapear URL a ubicaciones de un sistema de ficheros](e_web_7)
+* [Ejercicio 8: Mapear URL a ubicaciones de un sistema de ficheros II](e_web_8)
 
 ### Proyectos
 
