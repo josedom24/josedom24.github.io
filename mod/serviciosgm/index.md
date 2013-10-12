@@ -20,6 +20,7 @@ tagline: CFGM SMR
 * [Ejercicio 2: Instalar un servidor web IIS para el uso en una Intranet](e_web_2)
 * [Ejercicio 3: Configuración de sitios web virtuales usando IIS](e_web_3)
 * [Ejercicio 4: Acceso autentificado a nuestro servidor web](e_web_4)
+* [Ejercicio 5: Acceso a un sitio web desde internet](e_web_5)
 
 ### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
