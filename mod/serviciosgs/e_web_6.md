@@ -20,13 +20,13 @@ Más información: <http://httpd.apache.org/docs/2.2/dso.html>
 
 5) Podemos aplicar directivas a partes concretas de nuestro servidor web, para ello estudia las siguientes directivas (Para aprender más lee [Secciones de Configuración](http://httpd.apache.org/docs/2.2/sections.html)):
 
-* [<Directory>](http://httpd.apache.org/docs/2.2/mod/core.html#directory)
-* [<DirectoryMatch>](http://httpd.apache.org/docs/2.2/mod/core.html#directorymatch)
-* [<Files>](http://httpd.apache.org/docs/2.2/mod/core.html#files)
-* [<FilesMatch>](http://httpd.apache.org/docs/2.2/mod/core.html#filesmatch)
-* [<Location>](http://httpd.apache.org/docs/2.2/mod/core.html#location)
-* [<LocationMatch>](http://httpd.apache.org/docs/2.2/mod/core.html#locationmatch)
-* [<VirtualHost>](http://httpd.apache.org/docs/2.2/mod/core.html#virtualhost)
+* [Directory](http://httpd.apache.org/docs/2.2/mod/core.html#directory)
+* [DirectoryMatch](http://httpd.apache.org/docs/2.2/mod/core.html#directorymatch)
+* [Files>](http://httpd.apache.org/docs/2.2/mod/core.html#files)
+* [FilesMatch](http://httpd.apache.org/docs/2.2/mod/core.html#filesmatch)
+* [Location](http://httpd.apache.org/docs/2.2/mod/core.html#location)
+* [LocationMatch](http://httpd.apache.org/docs/2.2/mod/core.html#locationmatch)
+* [VirtualHost](http://httpd.apache.org/docs/2.2/mod/core.html#virtualhost)
 
 Localiza algunas de ellas en los ficheros de configuración.
 
