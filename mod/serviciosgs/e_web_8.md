@@ -10,8 +10,8 @@ tagline: CFGS ASIR
 www.mapeo.com, cuyo [DocumentRoot](http://httpd.apache.org/docs/2.2/mod/core.html#documentroot) sea /srv/mapeo. En este host virtual no se va ejecutar ningun script CGI, no es necesario que se visualice la documentación del sistema.
 
 2) [Alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html#alias): 
-Crea un alias en el host virtual default, que mi permita entrar en la 
-URL http://localhost/documentos y visualice los ficheros del 
+Crea un alias en el host virtual del ejercicio anterior, que mi permita entrar en la 
+URL http://www.mapeo.com/documentos y visualice los ficheros del 
 /home/usuario/Documentos. En la sección Directory... pon las mismas directivas que tiene la sección Directory del directorio DocumentRoot.
 
 3) [Options](http://httpd.apache.org/docs/2.2/mod/core.html#options): Determina para que sirven las siguientes opciones de funcionamieno:
