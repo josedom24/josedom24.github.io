@@ -67,4 +67,3 @@ Se necesitan crear dos páginas webs con las siguientes características:
 6. Por medio de capturas de pantalla, demuestra como se accede a las distintas páginas.
 </div>
 [Volver](index)
-Modifica el fichero hosts de forma adecuada en los clientes y accede a dichas páginas 
