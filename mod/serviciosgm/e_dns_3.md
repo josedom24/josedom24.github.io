@@ -36,7 +36,7 @@ Queremos instalar un servidor DNS local en nuestra intranet que nos permita gest
     * departamentos.iesgn.com esta alojado en el IIS de baltasar.
 
 <div class='ejercicios' markdown='1'>
-Para entregar...
+**Ejercicios**
 
 1) Configura el servidor DNS con los registros A, CNAME, MX y NS necesarios. Configura el SOA. Entrega una captura de la pantalla de la configuración principal del servidor.
 
