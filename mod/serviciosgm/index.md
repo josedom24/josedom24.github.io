@@ -22,6 +22,11 @@ tagline: CFGM SMR
 * [Ejercicio 4: Acceso autentificado a nuestro servidor web](e_web_4)
 * [Ejercicio 5: Acceso a un sitio web desde internet](e_web_5)
 
+##### Servidor dns
+
+* [Ejercicio 1: Consultas DNS con nslookup](e_dns_1)
+* [Ejercicio 2: Consultas DNS con dig](e_dns_2)
+
 ### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
 
