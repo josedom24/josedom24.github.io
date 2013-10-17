@@ -38,7 +38,7 @@ Para denegar el acceso a algún usuario basta con que borremos la línea corresp
 
  La principal ventaja de este método es su sencillez. Sus inconvenientes: lo incómodo de delegar la generación de nuevos usuarios en alguien que no sea un administrador de sistemas o de hacer un front-end para que sea el propio usuario quien cambie su contraseña. Y, por supuesto, que dichas contraseñas viajan en claro a través de la red. Si queremos evitar esto último podemos crear una [instancia Apache con SSL](http://blog.unlugarenelmundo.es/2008/09/23/chuletillas-y-viii-apache-2-con-ssl-en-debian/).
 
-Ejercicios
+**Ejercicios**
 
 1) Crea cuatro  usuarios de apache: pepe, maria, juan, ana.
 2) Crea dos grupos de usuarios: grupo1 (pepe,maria), grupo2 (juan,ana).
