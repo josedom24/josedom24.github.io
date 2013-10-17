@@ -26,6 +26,7 @@ tagline: CFGM SMR
 
 * [Ejercicio 1: Consultas DNS con nslookup](e_dns_1)
 * [Ejercicio 2: Consultas DNS con dig](e_dns_2)
+* [Ejercicio 3: Instalación de un servidor DNS local con Windows 2008 Server](e_dns_3)
 
 ### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
