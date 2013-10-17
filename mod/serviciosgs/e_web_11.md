@@ -41,9 +41,13 @@ Para denegar el acceso a algún usuario basta con que borremos la línea corresp
 **Ejercicios**
 
 1) Crea cuatro  usuarios de apache: pepe, maria, juan, ana.
+
 2) Crea dos grupos de usuarios: grupo1 (pepe,maria), grupo2 (juan,ana).
+
 3) Crea un directorio llamado privado1 en el host virtual default, que permita el acceso a todos los usuarios.
+
 4) Crea un directorio llamado privado2 en el host virtual default, que permita el acceso sólo a juan y a ana.
+
 5) Crea un directorio llamado privado3 en el host virtual default, que permita el acceso sólo los usuarios del grupo1.
 
 La directiva satisfy controla como el se debe comportar el servidor cuando tenemos autorizaciones a nives de host (order, allow, deny) y tenemos autorizaciones de usuarios (require).
