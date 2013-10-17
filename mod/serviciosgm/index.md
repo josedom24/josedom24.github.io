@@ -28,6 +28,13 @@ tagline: CFGM SMR
 * [Ejercicio 2: Consultas DNS con dig](e_dns_2)
 * [Ejercicio 3: Instalación de un servidor DNS local con Windows 2008 Server](e_dns_3)
 
+##### Servidor ftp
+
+* [Ejercicio 1: Instalación y configuración de un servidor FTP anónimo](e_ftp_1)
+* [Ejercicio 2: Configuración de un servidor FTP con acceso autentificado](e_ftp_2)
+* [Ejercicio 3: Gestión de páginas web mediante aceeso FTP](e_ftp_3)
+* [Ejercicio 4: Acceso a un servidor FTP desde Intenet](e_ftp_4)
+
 ### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
 
