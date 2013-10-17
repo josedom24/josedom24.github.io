@@ -23,6 +23,11 @@ tagline: CFGS ASIR
 * [Ejercicio 8: Mapear URL a ubicaciones de un sistema de ficheros](e_web_8)
 * [Ejercicio 9: Mapear URL a ubicaciones de un sistema de ficheros II](e_web_9)
 * [Ejercicio 10: Control de acceso](e_web_10)
+* [Ejercicio 11: Autentificación básica](e_web_11)
+* [Ejercicio 12: Autentificación tipo digest](e_web_12)
+* [Ejercicio 13: Autentificación con usuarios del sistema](e_web_13)
+* [Ejercicio 14: Autentificación con MySQL](e_web_14)
+ 
 
 ### Proyectos
 
