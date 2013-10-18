@@ -4,12 +4,6 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
----
-layout: index
-
-title: Servicios de Red e Internet
-tagline: CFGS ASIR
----
 #Proyecto 2: Implantación de un servidor de hosting
 
 El objetivo de la práctica es montar un servidor que ofrezca un servicio de de hospedaje de páginas web con las siguientes características:
