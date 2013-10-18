@@ -4,12 +4,7 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
----
-layout: index
 
-title: Servicios de Red e Internet
-tagline: CFGS ASIR
----
 #Proyecto 3: Instalación de un servidor en un centro educativo (Continuación)
 
 Algunos meses después de nuestro despliegue de un servidor en un centro educativo, el director te ha llamado y te ha comentado, que están teniendo problemas con el ancho de banda contratado y que internet va muy lento, además te comenta que les gustaría poder controlar las páginas a los que los alumnos tienen accesos, y tu respuesta es rápida: "Calamar".
