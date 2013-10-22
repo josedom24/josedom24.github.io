@@ -4,7 +4,7 @@ layout: index
 title: Servicios de red 
 tagline: CFGM SMR
 ---
-### Ejercicio: Consultas DNS con dig
+### Ejercicio: Instalación de un servidor DNS local con Windows 2008 Server
 <div class='nota' markdown='1'>
 **IMPORTANTE**
 
