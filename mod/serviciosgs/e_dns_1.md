@@ -15,6 +15,6 @@ Vamos a crear un servidor dns primario con windows 2008 server, con las siguient
 * Se debe resolver los nombres de todas las máquinas.
 * Se supone que hay un servidor web que sirve dos páginas webs: www.iesgn.com  y departamento.iesgn.com
 * Hay un servidor de base de datos (que está en otra máquina) que se llama mysql.iesgn.com
-* El servidor de correo se llama buzon.iesgn.com y está instalado en otra máuina.Además en ese ordenador, tenemos un servidor de correo saliente (smtp.iesgn.com) y otro pop3 (pop.iesgn.com)
+* El servidor de correo se llama buzon.iesgn.com y está instalado en otra máquina.Además en ese ordenador, tenemos un servidor de correo saliente (smtp.iesgn.com) y otro pop3 (pop.iesgn.com)
 
 [Volver](index)
