@@ -28,6 +28,9 @@ tagline: CFGS ASIR
 * [Ejercicio 13: Autentificación con usuarios del sistema](e_web_13)
 * [Ejercicio 14: Autentificación con MySQL](e_web_14)
  
+#### Servidor dns
+
+* [Ejercicio 1: Instalación y configuración del servidor DNS de Windows 2008 server en nuestra red local](e_dns_1)
 
 ### Proyectos
 
