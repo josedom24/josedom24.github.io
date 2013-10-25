@@ -4,7 +4,7 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
-### Ejercicio: Instalación y configuración del servidor de Windows 2008 server en nuestra red local
+### Ejercicio: Instalación y configuración del servidor DNS de Windows 2008 server en nuestra red local
 
 
 Vamos a crear un servidor dns primario con windows 2008 server, con las siguientes caracterísitcas:
