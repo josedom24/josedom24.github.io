@@ -12,7 +12,7 @@ tagline: CFGS ASIR
 
 3) Debe existir una URL que sea www.miweb.com/principal/miscosas, que visualize el directorio home del usuario. Por lo tanto se permitirá el listado de fichero y el seguimiento de enlaces símbolicos siempre que sean a ficheros o directorios cuyo dueño sea el usuario.
 
-4) En la URL www.miweb.com/principal/internacional, debe existir dos mensajes de bienvenida: en inglés y en español, por lo tanto se debe permitir la negociación de contenidos. Realiza una prueba de funcionamiento, donde se demuestre que se ha accedido a la web desde un navegador conel español como idioma configurado, y que se accedido con el inglés.
+4) En la URL www.miweb.com/principal/internacional, debe existir dos mensajes de bienvenida: en inglés y en español, por lo tanto se debe permitir la negociación de contenidos. Realiza una prueba de funcionamiento, donde se demuestre que se ha accedido a la web desde un navegador con el español como idioma configurado, y que se accedido con el inglés.
 
 5) En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error.
 
