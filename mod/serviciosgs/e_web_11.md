@@ -44,10 +44,12 @@ Para denegar el acceso a algún usuario basta con que borremos la línea corresp
 **Cómo funciona este método de autentificación**
 
 Cuando desde el cliente intentamos acceder a una URL que esta controlada por el método de autentificación básico:
-* El servidor manda una respuesta del tipo 401 *HTTP/1.1 401 Authorization Required* con  una cabecera *WWW-Authenticate* al cliente de la forma:
+
+1) El servidor manda una respuesta del tipo 401 *HTTP/1.1 401 Authorization Required* con  una cabecera *WWW-Authenticate* al cliente de la forma:
 
         WWW-Authenticate: Basic realm="Palabra de paso"
-* El navegador del cliente muestra una ventana emergente preguntando por el nombre de usuario y contraseña y cuando se rellena se manda una petición con una cabecera *Authorization*
+
+2) El navegador del cliente muestra una ventana emergente preguntando por el nombre de usuario y contraseña y cuando se rellena se manda una petición con una cabecera *Authorization*
 
         Authorization: Basic am9zZTpqb3Nl
 
