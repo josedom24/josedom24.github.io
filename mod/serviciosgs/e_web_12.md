@@ -37,13 +37,24 @@ Al igual que ocurría con htpassword, la opción -c (create) sólo debemos de us
 
 Cuando desde el cliente intentamos acceder a una URL que esta controlada por el método de autentificación de tipo digest:
 
-* El servidor manda una respuesta del tipo 401 *HTTP/1.1 401 Authorization Required* con  una cabecera *WWW-Authenticate* al cliente de la forma:
+1) El servidor manda una respuesta del tipo 401 *HTTP/1.1 401 Authorization Required* con  una cabecera *WWW-Authenticate* al cliente de la forma:
 
-        WWW-Authenticate: Digest realm="dominio", nonce="cIIDldTpBAA=9b0ce6b8eff03f5ef8b59da45a1ddfca0bc0c485", algorithm=MD5, qop="auth"
+        WWW-Authenticate: Digest realm="dominio", 
+                          nonce="cIIDldTpBAA=9b0ce6b8eff03f5ef8b59da45a1ddfca0bc0c485", 
+                          algorithm=MD5, 
+                          qop="auth"
 
-* El navegador del cliente muestra una ventana emergente preguntando por el nombre de usuario y contraseña y cuando se rellena se manda una petición con una cabecera *Authorization*
+2) El navegador del cliente muestra una ventana emergente preguntando por el nombre de usuario y contraseña y cuando se rellena se manda una petición con una cabecera *Authorization*
 
-        Authorization	Digest username="jose", realm="dominio", nonce="cIIDldTpBAA=9b0ce6b8eff03f5ef8b59da45a1ddfca0bc0c485", uri="/digest/", algorithm=MD5, response="814bc0d6644fa1202650e2c404460a21", qop=auth, nc=00000001, cnonce="3da69c14300e446b"
+        Authorization	Digest username="jose", 
+                        realm="dominio", 
+                        nonce="cIIDldTpBAA=9b0ce6b8eff03f5ef8b59da45a1ddfca0bc0c485",
+                        uri="/digest/", 
+                        algorithm=MD5, 
+                        response="814bc0d6644fa1202650e2c404460a21", 
+                        qop=auth, 
+                        nc=00000001, 
+                        cnonce="3da69c14300e446b"
 
 La información que se manda es *responde* que en este caso esta cifrada usando md5 y que se calcula de la siguiente manera:
 
