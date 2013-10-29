@@ -27,6 +27,7 @@ tagline: CFGS ASIR
 * [Ejercicio 12: Autentificación tipo digest](e_web_12)
 * [Ejercicio 13: Autentificación con usuarios del sistema](e_web_13)
 * [Ejercicio 14: Autentificación con MySQL](e_web_14)
+* [Ejercicio 15: Configuración de apache mediante archivo .htaccess](e_web_15)
  
 #### Servidor dns
 
