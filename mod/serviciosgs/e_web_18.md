@@ -11,6 +11,6 @@ El módulo [userdir](http://httpd.apache.org/docs/2.2/mod/mod_userdir.html) perm
 1. Activa el módulo y comprueba su funcionamiento.
 2. Comprueba las opciones configuradas para los directorios public_html.
 3. Cambia el nombre de directorio public_html por otro nombre.
-4. Prueba publicar una página de un usuario, y accede a la misma.
+4. Publica una página de un usuario, y accede a la misma.
 
 [Volver](index)
