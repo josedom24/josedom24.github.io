@@ -6,7 +6,7 @@ tagline: CFGS ASIR
 ---
 ### Ejercicio: Analizador de logs - awstats
 
-Vamos a instalar y configurar un analizados de logs de apache2 que nos permita generar estadísticas de acceso a nuestro servidor web. Hay muchos programas que ofrecen esta funcionalidad pero nosotros vamos a optar por *awstats*. Puede seguir la [documentación oficial](http://awstats.sourceforge.net/docs/awstats_setup.html) para la instalación y configurar.
+Vamos a instalar y configurar un analizados de logs de apache2 que nos permita generar estadísticas de acceso a nuestro servidor web. Hay muchos programas que ofrecen esta funcionalidad pero nosotros vamos a optar por *awstats*. Puede seguir la [documentación oficial](http://awstats.sourceforge.net/docs/awstats_setup.html) para realizar la instalación y la configuración.
 
 Tienes que tener en cuenta los siguientes puntos:
 
