@@ -1,10 +1,10 @@
-
 ---
 layout: index
 
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
+
 ### Ejercicio: Módulo rewrite
 
 El módulo **rewrite** nos va a permitir acceder a una URL e internamente estar accediendo a otra. Ayudado por los ficheros .htaccess, el módulo rewrite nos va a ayudar a formar URL amigables que son más consideradas por los motores de búsquedas y mejor recordadas por los humanos. Por ejemplo estas URL:
