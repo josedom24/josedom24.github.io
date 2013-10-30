@@ -1,4 +1,3 @@
-
 ---
 layout: index
 
@@ -35,3 +34,5 @@ A continuación creamos una sección directory para el directorio que queremos a
         </Directory>
 
 Por último prueba un cliente WebDAV en Linux y otro en Windows y comprueba el funcionamiento.
+
+[Volver](index)
