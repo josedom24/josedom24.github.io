@@ -17,5 +17,7 @@ Tienes que tener en cuenta los siguientes puntos:
 3. El acceso a la estadística desde la red local está permitido, si hace desde fuera, por ejemplo desde el host, se requiere autentificación tipo digest (realizar esto último por medio de un fichero .htaccess)
 
 4. Modifica el cron de awstats para que se genere las estadísticas cada 2 minutos.
+ 
+Además de una pequeña guía de los pasos que has dado para la configuración de awstats, entrega una captura de pantalla donde se vea funcionando.
 
 [Volver](index)
