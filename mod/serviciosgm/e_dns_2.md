@@ -33,6 +33,6 @@ Indica el nombre canónico de las máquinas a las que corresponden.
 
 5) Comprueba la dirección ip y el servidor DNS asociado a *dit.gonzalonazareno.org*, desde dentro de la intranet del ciclo formativo y desde fuera. ¿Cuáles son las diferencias? ¿A qué crees que es debido?
 
-6) Pregunta sobre resolución inversa: En clase, ¿a qué nombre corresponde la dirección ip *¹92.168.3.2*?
+6) Pregunta sobre resolución inversa: En clase, ¿a qué nombre corresponde la dirección ip *192.168.3.2*?
 
 [Volver](index)
