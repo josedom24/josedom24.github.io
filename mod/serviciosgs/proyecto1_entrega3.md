@@ -16,7 +16,7 @@ tagline: CFGS ASIR
 * Explica las modificación de la configuración para conseguir lo que se pide en el punto 4.
 * Explica la instalación de moodle
 * Explica las modificación de la configuración para conseguir lo que se pide en el punto 6. Entrega alguna captura de pantalla donde se vean las páginas de error modificadas.
-* Explica la instlación y configuración del módulo userdir. Presenta algún ejemplo donde se vea que podemos cambiar la configuración por medio de ficheros .htaccess.
+* Explica la instalación y configuración del módulo userdir. Presenta algún ejemplo donde se vea que podemos cambiar la configuración por medio de ficheros .htaccess.
 * Explica los pasos necesarios para instalar awstats para cada uno de los sitios webs.
 * Explica las modificación de la configuración para conseguir lo que se pide en el punto 9.
 * Explica como conseguir las URL "limpias" en wordpress.
