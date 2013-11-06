@@ -35,7 +35,7 @@ Queremos instalar un servidor DNS local en nuestra intranet que nos permita gest
  * Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.202 (esto es ficticio)
  * Vamos a tener las siguientes páginas webs:
 
-        www.iesgn.com esta alojado en el IIS de baltasar.
+        www.iesgn.com esta alojado en el IIS del servidor.
         departamentos.iesgn.com esta alojado en el IIS del servidor.
 
 <div class='ejercicios' markdown='1'>
