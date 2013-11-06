@@ -22,18 +22,18 @@ Queremos instalar un servidor DNS local en nuestra intranet que nos permita gest
 
 3) Vamos a tener los siguientes FQHN:
 
-> *) El servidor DNS (192.168.1.1) se llama homer.iesgn.com
-> *) Además queremos nombrar a cinco clientes:
+*3.1)* El servidor DNS (192.168.1.1) se llama homer.iesgn.com
+*3.2)* Además queremos nombrar a cinco clientes:
 
         bart.iesgn.com (192.168.1.2, pon la configuración de red estática).
         lisa.iesgn.com (192,.168.1.3, pon la configuración de red estática).
         krasty.iesgn.com (192.168.1.202) (esto es ficticio)
         apu.iesgn.com (192.168.1.203) (esto es ficticio)
         wiggu.iesgn.com (192.168.1.204) (esto es ficticio)
-        
-> *) Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.com y que está en 192.168.1.205 (esto es ficticio)
-> *) Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.202 (esto es ficticio)
-> *) Vamos a tener las siguientes páginas webs:
+
+*3.3)* Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.com y que está en 192.168.1.205 (esto es ficticio)
+*3.4)* Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.202 (esto es ficticio)
+*3.5)* Vamos a tener las siguientes páginas webs:
 
         www.iesgn.com esta alojado en el IIS del servidor.
         departamentos.iesgn.com esta alojado en el IIS del servidor.
