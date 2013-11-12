@@ -12,7 +12,7 @@ El objetivo de esta práctica es que los usuarios locales del equipo puedan tene
 
 Para ello sigue los siguiente pasos:
 
-1) Crea un nuevo sitio FTP con la opción de aislamiento de usuario, de lectura y escritura. En un primer momento no permita los accesos anónimos. El directorio paricular será c:/usuarios.
+1) Crea un nuevo sitio FTP con la opción de aislamiento de usuario indicada *"Directorio físico de nombre d eusuario"*, de lectura y escritura. En un primer momento no permita los accesos anónimos. El directorio paricular será c:/usuarios.
 
 2) Crea dos usuarios locales: Jose y Maria.
 
