@@ -4,12 +4,7 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
----
-layout: index
 
-title: Servicios de Red e Internet
-tagline: CFGS ASIR
----
 ### Ejercicio: DNSmasq como DNS cache/forward en una red local
 
 <div class='nota' markdown='1'>
