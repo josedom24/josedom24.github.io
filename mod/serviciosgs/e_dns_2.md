@@ -21,7 +21,7 @@ Una vez instalado, el paquete, editamos el fichero /etc/dnsmasq.conf y modificam
 * Descomentamos strict-order para que se realicen las peticiones DNS a los servidores que aparecen en el fichero /etc/resolv.conf en el orden en el aparecen.
 * Incluimos las interfaces de red que deben aceptar peticiones DNS, descomentando la línea interface por ejemplo: interface=eth0
 
-Finalmente reinciamos el servicio.
+Finalmente reiniciamos el servicio.
 
 Para entregar...
 
