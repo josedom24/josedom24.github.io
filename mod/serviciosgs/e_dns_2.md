@@ -1,5 +1,5 @@
 ---
-‬layout: index
+layout: index
 
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
@@ -11,29 +11,6 @@ El paquete dnsmasq permite poner en marcha un servidor DNS de una forma muy senc
 
 Queremos instalar un servidor DNS local en nuestra intranet que nos permita gestionar los nombres de las máquinas y recursos de nuestra red, vamos a instalar el servidor DNS en el mismo ordenador que tenemos instalado el servidor web. Las características del servidor DNS que queremos instalar son las siguientes:
 
-* El servidor web (IP que tenga el servidor linux) se llama *nombredelservisor*.iesgn.com
-* Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.201 (esto es ficticio)
-* Además queremos nombrar a otros clientes.
-* Las páginas webs que hiciste en la práctica de apache (www.iesgn.org,...) tienen que ser accesibles desde los clientes.
 
-Una vez instalado, el paquete, editamos el fichero /etc/dnsmasq.conf y modificamos las siguientes líneas:
-
-* Descomentamos strict-order para que se realicen las peticiones DNS a los servidores que aparecen en el fichero /etc/resolv.conf en el orden en el aparecen.
-* Incluimos las interfaces de red que deben aceptar peticiones DNS, descomentando la línea interface por ejemplo: interface=eth0
-
-Finalmente reiniciamos el servicio.
-
-Para entregar...
-
-<div class='ejercicios' markdown='1'>
-### Ejercicios 
-
-1) Configura los clientes para que utilicen el servidor DNS que has instalado.
-2) Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:
-
-* Dirección de *nombredelservidor*.iesgn.org, www.iesgn.org, ftp.iesgn.org
-* La dirección IP de www.josedomingo.org
-
-3) Comprueba que se puede entrar en las páginas webs
 </div>
 [Volver](index)
