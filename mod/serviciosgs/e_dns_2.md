@@ -11,16 +11,16 @@ tagline: CFGS ASIR
 
 **Nota importante**
 
-1) Desinstala el servidor dnsmasq que has instalado en la práctica anterior para que no tengas conflictos.
-2) Para hacer este ejercicio vamos a suponer que nuestro ordenadores están en la red 10.0.0.0/24, siendo nuestro servidor el 10.0.0.3, y los clientes 10.0.0.4 y 10.0.0.5. Adapta este direccionamiento a tu escenario.
+1. Desinstala el servidor dnsmasq que has instalado en la práctica anterior para que no tengas conflictos.
+2. Para hacer este ejercicio vamos a suponer que nuestro ordenadores están en la red 10.0.0.0/24, siendo nuestro servidor el 10.0.0.3, y los clientes 10.0.0.4 y 10.0.0.5. Adapta este direccionamiento a tu escenario.
 
 </div>
 
 Queremos instalar un servidor DNS local en nuestra intranet que nos permita gestionar los nombres de las máquinas y recursos de nuestra red, vamos a instalar el servidor DNS en nuestro servidor debian. Las características del servidor DNS que queremos instalar son las siguientes:
 
-1) Vamos a crear una zona para el dominio: iesgn.org
-2) Vamos a crear una zona de resolución inversa.
-3) Vamos a tener los siguientes FQDN
+1. Vamos a crear una zona para el dominio: iesgn.org
+2. Vamos a crear una zona de resolución inversa.
+3. Vamos a tener los siguientes FQDN
 
 * El servidor web (IP que tenga el servidor linux) se llama *nombredelservidor*.iesgn.org
 * Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.org y que está en 10.0.0.200 (esto es ficticio)
