@@ -40,6 +40,10 @@ tagline: CFGM SMR
 * [Ejercicio 1: Escritorio remoto en Windows 2008 Server](e_rdp_1)
 * [Ejercicio 2: Acceso al escritorio remoto del servidor de tu casa](e_rdp_2)
 
+#### Servidor de correo electróncio
+
+* [Ejercicio 1: Configura Thunderbird para recibir correo](e_mail_1)
+* [Ejercicio 2: Instalación y configuración de un servidor de correo en una red local](e_mail_2)
 
 ### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
