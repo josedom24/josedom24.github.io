@@ -35,6 +35,12 @@ tagline: CFGM SMR
 * [Ejercicio 3: Gestión de páginas web mediante aceeso FTP](e_ftp_3)
 * [Ejercicio 4: Acceso a un servidor FTP desde Intenet](e_ftp_4)
 
+#### Acceso remoto
+
+* [Ejercicio 1: Escritorio remoto en Windows 2008 Server](e_rdp_1)
+* [Ejercicio 2: Acceso al escritorio remoto del servidor de tu casa](e_rdp_2)
+
+
 ### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
 
