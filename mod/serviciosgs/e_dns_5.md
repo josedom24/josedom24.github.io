@@ -8,7 +8,8 @@ tagline: CFGS ASIR
 
 <div class='nota' markdown='1'>
 **Nota**
-1. Suponemos que tenemos instalado el servidor DNS de la [práctica anterior](e_dns_3).
+
+Suponemos que tenemos instalado el servidor DNS de la [práctica anterior](e_dns_3).
 </div>
 
 Suponemos que actualmente tenemos instalado un servidor DNS caché que da servicio a los ordenadores de nuestra intranet y además actúa como servidor maestro (master) de un dominio DNS (iesgn.org), de forma que todos los equipos de la red local tengan un nombre DNS completo o FQHN (Full Qualified Host Name). Por otra parte, tenemos instalado en la misma máquina un servidor DHCP para que asigne direcciones IPv4 únicas a los equipos de la red local y les facilite el resto de parámetros necesarios para tengan conectividad y salida a Internet.

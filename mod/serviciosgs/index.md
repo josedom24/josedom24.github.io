@@ -40,6 +40,7 @@ tagline: CFGS ASIR
 * [Ejercicio 2: DNSmasq como DNS cache/forward en una red local](e_dns_2)
 * [Ejercicio 3: Instalación y configuración del servidor bind9 en nuestra red local](e_dns_3)
 * [Ejercicio 4: Instalación y configuración de un servidor DNS esclavo](e_dns_4)
+* [Ejercicio 5: Instalación y configuración de un servidor DNS dinámico](e_dns_5)
 
 ### Proyectos
 
@@ -47,5 +48,6 @@ tagline: CFGS ASIR
 * [Entrega 1](proyecto1_entrega1)
 * [Entrega 2](proyecto1_entrega2)
 * [Entrega 3](proyecto1_entrega3)
+* [Entrega 4](proyecto1_entrega4)
 
 [Volver](http://josedom24.github.io)

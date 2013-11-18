@@ -8,7 +8,8 @@ tagline: CFGS ASIR
 
 <div class='nota' markdown='1'>
 **Nota**
-1. Suponemos que tenemos instalado el servidor DNS de la [práctica anterior](e_dns_3).
+
+Suponemos que tenemos instalado el servidor DNS de la [práctica anterior](e_dns_3).
 </div>
 
 Actualmente tenemos instalado un servidor DNS que tiene autoridad sobre la zona iesgn.org y sobre la zona de resolución inversa correspondiente. Este servidor va a funcionar como **DNS maestro**. Vamos a instalar un nuevo servidor DNS que va a estar configurado como **DNS esclavo** del anterior, donde se van a ir copiando periódicamente las zonas del DNS maestro. Suponemos que el nombre del servidor DNS esclavo se va llamar *nombredelesclavo*.iesgn.org.
