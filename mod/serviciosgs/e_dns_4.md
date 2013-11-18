@@ -20,7 +20,7 @@ Modifica la configuración del servidor DNS actual para que funcione como maestr
 
 1. Comprueba si las zonas definidas en el maestro tienen algún error con el comando adecuado.
 2. Comprueba si la configuración de named.conf tiene algún error con el comando adecuado.
-3. Reinicia los servidores y comprueba en los logs si hay algún error. **No olvides de incrementar el número de serie en el registro SOA si has modificado la zona en el maestro**.
+3. Reinicia los servidores y comprueba en los logs si hay algún error. **No olvides incrementar el número de serie en el registro SOA si has modificado la zona en el maestro**.
 4. Muestra la salida del log donde se demuestra que se ha realizado la transferencia de zona.
 5. Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?
 6. Configura un cliente para que utilice los dos servidores como servidores DNS.
