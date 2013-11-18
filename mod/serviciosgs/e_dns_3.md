@@ -18,7 +18,7 @@ Queremos instalar un servidor DNS local en nuestra intranet que nos permita gest
 2. Vamos a crear una zona de resolución inversa.
 3. Vamos a tener los siguientes FQDN
 
-* El servidor web (IP que tenga el servidor linux) se llama *nombredelservidor*.iesgn.org
+* El servidor DNS se llama *nombredelservidor*.iesgn.org
 * Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.org y que está en 10.0.0.200 (esto es ficticio)
 * Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.org y que está en 10.0.0.201 (esto es ficticio)
 * Además queremos nombrar a varios clientes.
@@ -31,7 +31,7 @@ Queremos instalar un servidor DNS local en nuestra intranet que nos permita gest
 2. Configura los clientes para que su DNS sea el servidor Debian, debes indicar en la configuración de red del cliente como DNS primario la ip del servidor linux.
 3. Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:
 
-* Dirección de *nombredelservidor*.iesgn.com, www.iesgn.org, ftp.iesgn.org
+* Dirección de *nombredelservidor*.iesgn.org, www.iesgn.org, ftp.iesgn.org
 * El servidor DNS que tiene configurado la zona del dominio iesgn.org
 * El servidor de correo configurado para iesgn.org
 * La dirección IP de www.josedomingo.org

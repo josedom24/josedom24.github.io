@@ -39,6 +39,7 @@ tagline: CFGS ASIR
 * [Ejercicio 1: Instalación y configuración del servidor DNS de Windows 2008 server en nuestra red local](e_dns_1)
 * [Ejercicio 2: DNSmasq como DNS cache/forward en una red local](e_dns_2)
 * [Ejercicio 3: Instalación y configuración del servidor bind9 en nuestra red local](e_dns_3)
+* [Ejercicio 4: Instalación y configuración de un servidor DNS esclavo](e_dns_4)
 
 ### Proyectos
 
