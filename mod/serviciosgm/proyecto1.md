@@ -121,7 +121,7 @@ Para facilitar el trabajo de los empleados de la empresa, queremos configurar el
 
 #### Servidor de Correo Electrónico
 
-Queremos ofrecer un servicio de correo electrónico entre los trabajadores de la empresa. Nuestro sistema no va a enviar o recibir correos desde el exterior. Para ello vamos a instalar el servidor de correo hMailServer y vamos a crear dos buzones para los usuarios del sistemas. El servidor que envía correo se llamará smtp.masterlan.com y el servidor pop3 (mail.masterlan.com).
+Queremos ofrecer un servicio de correo electrónico entre los trabajadores de la empresa. Nuestro sistema no va a enviar o recibir correos desde el exterior. Para ello vamos a instalar el servidor de correo hMailServer y vamos a crear dos buzones para los usuarios del sistemas. El servidor que envía correo se llamará smtp.masterlan.com y el servidor pop3 se llamará correo.masterlan.com.
 
 Configura en el cliente el thunderbird con las cuentas de correos de los usuarios.
 
