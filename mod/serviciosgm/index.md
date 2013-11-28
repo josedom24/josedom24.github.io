@@ -39,6 +39,7 @@ tagline: CFGM SMR
 
 * [Ejercicio 1: Escritorio remoto en Windows 2008 Server](e_rdp_1)
 * [Ejercicio 2: Acceso al escritorio remoto del servidor de tu casa](e_rdp_2)
+* [Ejercicio 3: Estudio de programas de acceso remoto en modo gráfico](e_rdp_3)
 
 #### Servidor de correo electróncio
 
