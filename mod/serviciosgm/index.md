@@ -35,18 +35,24 @@ tagline: CFGM SMR
 * [Ejercicio 3: Gestión de páginas web mediante aceeso FTP](e_ftp_3)
 * [Ejercicio 4: Acceso a un servidor FTP desde Intenet](e_ftp_4)
 
-#### Acceso remoto
+##### Acceso remoto
 
 * [Ejercicio 1: Escritorio remoto en Windows 2008 Server](e_rdp_1)
 * [Ejercicio 2: Acceso al escritorio remoto del servidor de tu casa](e_rdp_2)
 * [Ejercicio 3: Estudio de programas de acceso remoto en modo gráfico](e_rdp_3)
 
-#### Servidor de correo electróncio
+##### Servidor de correo electróncio
 
 * [Ejercicio 1: Configura Thunderbird para recibir correo](e_mail_1)
 * [Ejercicio 2: Instalación y configuración de un servidor de correo en una red local](e_mail_2)
 
-### Proyectos
+##### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
+
+#### Linux
+##### Ejercicios de repaso
+
+* [Ejercicio 1: Instalación de paquetes](e_linux_1)
+
 
 [Volver](http://josedom24.github.io)
