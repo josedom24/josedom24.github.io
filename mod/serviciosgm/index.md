@@ -53,6 +53,6 @@ tagline: CFGM SMR
 ##### Ejercicios de repaso
 
 * [Ejercicio 1: Instalación de paquetes](e_linux_1)
-
+* [Ejercicio 2: Niveles de ejecución. Arranque y parada de los servicios](e_linux_2)
 
 [Volver](http://josedom24.github.io)
