@@ -81,7 +81,6 @@ Con esta instrucción actualizamos la instalación de los paquetes a su última 
 Algunas consideraciones:
 
 1. Si estamos trabajando en la rama estable (wheezy) las dependencias de los paquetes no cambian por lo que es lo mismo usar un upgrade que un dist-upgrade.
-
 2. En la versión testing las dependencias pueden ir cambiando por lo que si utilizamos upgrade los paquetes cuyas dependencias han cambiado se retienen y no se actualizan, por lo que es conveniente usar el dist-upgrade para ir resolviendo las dependencias.
 Cuando usamos APT para instalar paquetes hace dos tareas por separado: en un primer paso descarga de los repositorios los paquetes que va a instalar, para a continuación usar la instrucción dpkg para desempaquetar y configurar cada paquete. Veamos algunas cuestiones relacionadas con estas dos tares.
 
