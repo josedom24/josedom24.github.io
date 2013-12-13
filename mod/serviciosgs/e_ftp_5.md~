@@ -1,0 +1,11 @@
+---
+layout: index
+
+title: Servicios de Red e Internet
+tagline: CFGS ASIR
+---
+### Ejercicio: Usuarios virtuales con mysql
+
+Siguiendo la documentación suministrada configura proftpd para usar usuarios virtuales guardados en mysql.
+
+[Volver](index)
