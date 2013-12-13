@@ -7,10 +7,6 @@ tagline: CFGS ASIR
 
 ### Ejercicio: Mediciones de rendimiento de Apache2 sirviendo páginas estáticas
 
-
-
-### Ejercicio: Mediciones de rendimiento de Apache2 sirviendo páginas estáticas
-
 Vamos a comparar el uso de memoria y el rendimiento de APache2 usando los módulos de preprocesamiento prefork y worker. Para ello vamos a usar tres pruebas distintas:
 
         5000 peticiones y 50 concurrentes
