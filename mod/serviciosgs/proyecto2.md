@@ -19,12 +19,14 @@ El objetivo de la práctica es montar un servidor que ofrezca un servicio de de 
 * El sistema utilizará usuarios virtuales cuya información estará guardad en una base de datos mysql.
 * El administrador debe decidir la estructura para guardar los directorios personales de los usuarios.
 * Se tendrá que implementar un script bash/python (alta) que reciba el nombre del usuario y el nombre de dominio relacionado con el usuario, el script tendrá que realizar las siguientes acciones:
-    1. Si ya existe el nombre de usuario o el nombre de dominio dará un error y no continuará.
-    2. Creará el directorio personal para el usuario con un fichero index.html estándar.
-    3. Creará un nuevo virtual hosting (www.nombrededomino.com) en apache2 con el DocumentRoot apuntando al directorio personal que anteriormente hemos instalado.
-    4. Se creará un nuevo usuario virtual para el acceso por FTP. El administrador decidirá la política para generar la contraseña. Dicha contraseña generada tendrá que visualizarse por pantalla. La contraseña será guardada en la base de datos encriptada.
-    5. Se creará un nuevo usuario en el gestor de base de datos mysql, se debe llamar mynombredeusuario, la contraseña que se genere para mysql debe ser distinta a la generada para la gestión del FTP y también se debe mostrar.
-    6. Se creará una nueva zona nombrededominio.com en el servidor DNS bind9 con las zonas de resolución directa e inversa que permitan conocer los distintos nombres (www,ftp, mysql, ...)
+
+1. Si ya existe el nombre de usuario o el nombre de dominio dará un error y no continuará.
+2. Creará el directorio personal para el usuario con un fichero index.html estándar.
+3. Creará un nuevo virtual hosting (www.nombrededomino.com) en apache2 con el DocumentRoot apuntando al directorio personal que anteriormente hemos instalado.
+4. Se creará un nuevo usuario virtual para el acceso por FTP. El administrador decidirá la política para generar la contraseña. Dicha contraseña generada tendrá que visualizarse por pantalla. La contraseña será guardada en la base de datos encriptada.
+5. Se creará un nuevo usuario en el gestor de base de datos mysql, se debe llamar mynombredeusuario, la contraseña que se genere para mysql debe ser distinta a la generada para la gestión del FTP y también se debe mostrar.
+6. Se creará una nueva zona nombrededominio.com en el servidor DNS bind9 con las zonas de resolución directa e inversa que permitan conocer los distintos nombres (www,ftp, mysql, ...)
+
 * Se implementará un script bash/python (baja) que reciba un nombre de dominio e elimine la cuenta del usuario relacionado a dicho nombre de dominio. Borrará el vitual host de apache2, la zona del servidor DNS, el usuario de la base de datos y las bases de datos creados, el usuario virtual para el acceso a la base de datos y el directorio personal del usuario.
 * Se implementará un script bash/python (change_password) que nos permite cambiar las contraseñas de un determinado usuario. Por lo tanto recibe el nombre de un usuario, una opción (-sql, si queremos cambiar la contraseña de mysql, o -ftp, si queremos cambar la contraseña del ftp) y un nueva contraseña y haga la modificación de la contraseña indicada si el usuario existe.
 
