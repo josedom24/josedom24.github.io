@@ -27,7 +27,7 @@ Los ordenadores clientes de nuestra LAN obtienen su configuración de red ofreci
 Vamos a suponer que el cliente linux es un ordenador del equipo directivo que debe tener la dirección ip 192.168.1.200. Configura una reserva en el servidor dhcp.
 
 <div class='ejercicios' markdown='1'>
-##### **BLOG**
+##### **DHCP**
 1. Empieza con una introducción, donde se explique el objetivo del proyecto que vas a realizar y a continuación inserta un "Seguir leyendo..."
 2. Tienes que pensar un nombre para el instituto, y a partir de ese nombre piensa un nombre de dominio que suponemos que ha comprado el centro.
 3. Configura de forma adecuada el nombre del servidor totalmente cualificado. Ejecute la instrucción hostname -f
