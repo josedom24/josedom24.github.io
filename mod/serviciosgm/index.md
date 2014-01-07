@@ -68,6 +68,8 @@ tagline: CFGM SMR
 ##### Servidor web
 
 * [Ejercicio 1: Instalar un servidor web Apache para el uso en una Intranet](e_linux_web_1)
+* [Ejercicio 2: Configuración de sitios web virtuales usando Apache](e_linux_web_2)
+
 
 ##### Proyectos
 
