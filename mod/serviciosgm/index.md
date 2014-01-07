@@ -56,4 +56,10 @@ tagline: CFGM SMR
 * [Ejercicio 2: Niveles de ejecución. Arranque y parada de los servicios](e_linux_2)
 * [Ejercicio 3: Configuración básica de red](e_linux_3)
 
+##### Instalación
+
+* [Ejercicio 1: Instalación de máquinas virtuales (Linux)](e_linux_4)
+
+
+
 [Volver](http://josedom24.github.io)
