@@ -60,6 +60,13 @@ tagline: CFGM SMR
 
 * [Ejercicio 1: Instalación de máquinas virtuales (Linux)](e_linux_4)
 
+##### Servidor dhcp
 
+* [Ejercicio 1: Instalación y configuración de un servidor dhcp en linux](e_linux_dhcp_1)
+* [Ejercicio 2: Instalación y configuración de una reserva en un servidor dhcp dhcp en linux](e_linux_dhcp_2)
+
+##### Proyectos
+
+* [Proyecto 2: Instalación de un servidor en un centro educativo](proyecto2)
 
 [Volver](http://josedom24.github.io)
