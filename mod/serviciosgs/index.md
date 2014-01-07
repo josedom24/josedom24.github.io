@@ -48,6 +48,15 @@ tagline: CFGS ASIR
 * [Ejercicio 6: Configuración de subdominios virtuales con bind9](e_dns_6)
 * [Ejercicio 7: Delegación de subdominios con bind9](e_dns_7)
 
+#### Servidor ftp
+
+* [Ejercicio 1: Estudio del protocolo ftp](e_ftp_1)
+* [Ejercicio 2: Instalación de proFTPd y uso de clientes FTP](e_ftp_2)
+* [Ejercicio 3: Configuración de proFTPd para el acceso anónimo](e_ftp_3)
+* [Ejercicio 4: Instalación de net2ftp](e_ftp_4)
+* [Ejercicio 5: Configuración de proFTPd para usar usuarios virtuales con ldap](e_ftp_5)
+
+
 ### Proyectos
 
 * [Proyecto 1:Instalación de un servidor en un centro educativo](proyecto1)

@@ -4,7 +4,7 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
-### Ejercicio:  Usuarios virtuales con ldap
+### Ejercicio:  Configuración de proFTPd para usar usuarios virtuales con ldap
 
 Al igual que otros muchos servicios proftp puede almacenar la información de autenticación de usuarios en LDAP, por lo que se suele denominar a éstos usuarios virtuales para diferenciarlos de los usuarios reales o del sistema.
 
