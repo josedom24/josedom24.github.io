@@ -65,6 +65,10 @@ tagline: CFGM SMR
 * [Ejercicio 1: Instalación y configuración de un servidor dhcp en linux](e_linux_dhcp_1)
 * [Ejercicio 2: Instalación y configuración de una reserva en un servidor dhcp dhcp en linux](e_linux_dhcp_2)
 
+##### Servidor web
+
+* [Ejercicio 1: Instalar un servidor web Apache para el uso en una Intranet](e_linux_web_1)
+
 ##### Proyectos
 
 * [Proyecto 2: Instalación de un servidor en un centro educativo](proyecto2)
