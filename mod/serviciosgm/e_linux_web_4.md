@@ -36,7 +36,7 @@ Para probar el funcionamiento de Apache y PHP es habitual crear un documento ind
 
         <html>
         <body>
-        <? echo phpinfo(); ?>
+        	<? echo phpinfo(); ?>
         </body>
         </html>
 
