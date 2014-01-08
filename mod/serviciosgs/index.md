@@ -57,6 +57,7 @@ tagline: CFGS ASIR
 * [Ejercicio 5: Configuración de proFTPd para usar usuarios virtuales con ldap](e_ftp_5)
 * [Ejercicio 6: Instalación y configuración de un servidor FTP anónimo wn Windows 2008 Server](e_ftp_6)
 * [Ejercicio 7: Configuración de un servidor FTP con acceso autentificado en Windows 2008 Server](e_ftp_7)
+* [Ejercicio 8: Gestionar un hosting por FTP](e_ftp_8)
 
 
 ### Proyectos
