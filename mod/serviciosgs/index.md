@@ -55,6 +55,8 @@ tagline: CFGS ASIR
 * [Ejercicio 3: Configuración de proFTPd para el acceso anónimo](e_ftp_3)
 * [Ejercicio 4: Instalación de net2ftp](e_ftp_4)
 * [Ejercicio 5: Configuración de proFTPd para usar usuarios virtuales con ldap](e_ftp_5)
+* [Ejercicio 6: Instalación y configuración de un servidor FTP anónimo wn Windows 2008 Server](e_ftp_6)
+* [Ejercicio 7: Configuración de un servidor FTP con acceso autentificado en Windows 2008 Server](e_ftp_7)
 
 
 ### Proyectos
@@ -64,5 +66,6 @@ tagline: CFGS ASIR
 * [Entrega 2](proyecto1_entrega2)
 * [Entrega 3](proyecto1_entrega3)
 * [Entrega 4](proyecto1_entrega4)
+* [Proyecto 2: Implantación de un servidor de hosting](proyecto2)
 
 [Volver](http://josedom24.github.io)
