@@ -61,7 +61,7 @@ Para que nuestros clientes tengan acceso a internet, debemos configurar el fiche
         down iptables -t nat -D POSTROUTING -o eth0 -s 192.168.0.0/24 -j MASQUERADE
 
 <div class='ejercicios' markdown='1'>
-##### **Instlación y configuración inicial**
+##### **Instalación y configuración inicial**
 1. Empieza con una introducción, donde se explique el objetivo del proyecto que vas a realizar y a continuación inserta un ["Seguir leyendo..."](http://lgredsocial.wordpress.com/2012/02/14/como-poner-seguir-leyendo/)
 2. Tienes que pensar un nombre para el instituto, y a partir de ese nombre piensa un nombre de dominio que suponemos que ha comprado el centro.
 3. Explica la instlación del servidor (Suponemos que los clientes ya lo tenemos instalados)
