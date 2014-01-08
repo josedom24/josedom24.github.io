@@ -34,10 +34,10 @@ Definimos la primera interfaz virtual en modo puente, en nuestro servidor será 
 
 Será la interfaz eth1 de nuestro servidor. Configuramos eth1 para que tenga direccionamiento estático con la siguiente configuración:
 
-* Dirección IP: 192.168.0.254
+* Dirección IP: 192.168.1.254
 * Mascara de red: 255.255.255.0
-* Broadcast: 192.168.0.255
-* Red: 192.168.0.0
+* Broadcast: 192.168.1.255
+* Red: 192.168.1.0
 
 
 
@@ -57,8 +57,8 @@ Para que nuestros clientes tengan acceso a internet, debemos configurar el fiche
         allow-hotplug eth1 
         iface eth1 inet static 
         ...
-        up iptables -t nat -A POSTROUTING -o eth0 -s 192.168.0.0/24 -j MASQUERADE
-        down iptables -t nat -D POSTROUTING -o eth0 -s 192.168.0.0/24 -j MASQUERADE
+        up iptables -t nat -A POSTROUTING -o eth0 -s 192.168.1.0/24 -j MASQUERADE
+        down iptables -t nat -D POSTROUTING -o eth0 -s 192.168.1.0/24 -j MASQUERADE
 
 <div class='ejercicios' markdown='1'>
 ##### **Instalación y configuración inicial**
