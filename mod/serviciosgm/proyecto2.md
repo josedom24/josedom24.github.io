@@ -87,9 +87,10 @@ Vamos a suponer que el cliente linux es un ordenador del equipo directivo que de
 
 <div class='ejercicios' markdown='1'>
 ##### **DHCP**
-1. Explica la instalación y configuración del servidor dhcp
-2. Prueba de funcionamiento (Concesiones de direcciones)
-3. Prueba de funcionamiento de la reserva
+1. Empieza con una introducción y a continuación inserta un "Seguir leyendo..."
+2. Explica la instalación y configuración del servidor dhcp
+3. Prueba de funcionamiento (Concesiones de direcciones)
+4. Prueba de funcionamiento de la reserva
 </div>
 
 
