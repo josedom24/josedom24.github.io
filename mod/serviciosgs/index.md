@@ -59,6 +59,15 @@ tagline: CFGS ASIR
 * [Ejercicio 7: Configuración de un servidor FTP con acceso autentificado en Windows 2008 Server](e_ftp_7)
 * [Ejercicio 8: Gestionar un hosting por FTP](e_ftp_8)
 
+#### Servidor proxy
+
+* [Ejercicio 1: Instalación y configuración básica de squid](e_proxy_1)
+* [Ejercicio 2: Controlando la cache de squid](e_proxy_2)
+* [Ejercicio 3: Forzar el contenido cacheado](e_proxy_3)
+* [Ejercicio 4: Configuración de los esquemas de control de acceso](e_proxy_4)
+* [Ejercicio 5: Autenticación básica por usuarios y grupos con Squid](e_proxy_5)
+* [Ejercicio 6: Configuración de parámetros de proxy en clientes web](e_proxy_6)
+
 
 ### Proyectos
 
