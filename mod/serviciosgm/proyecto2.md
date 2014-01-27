@@ -110,7 +110,7 @@ Una de los principales servicios que va a ofrecer nuestro servidor es una págin
 ##### **WEB**
 1. Explica la instalación del servidor web.
 2. Se valorará positivamente la plantilla escogida y la modificación que se haga para que parezca una página real. Utiliza la misma plantilla para todas las páginas del sitio.
-3. Explica como has configurado el servicor para mostrar la página www.dominio.com/documentos.
+3. Explica como has configurado el servidor para mostrar la página www.dominio.com/documentos.
 4. Autentificación: Explica como se crean los usuarios y cómo se configura las distintas páginas (www.dominio.com/profesores, www.dominio.com/equipodirectivo) para configurar la autentificación.
 5. Invenstiga como activar el módulo mod_userdir, ¿para qué sirve? Pon algún ejemplo para comprobar el funcionamiento. 
 6. Explica la instalación de un servidor LAMP.
