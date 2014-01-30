@@ -15,9 +15,9 @@ Nos han pedido la configuración de un proxy/cache/filtro de contenido en un ser
 
 2) Tenemos dos clases de usuarios: profesores y alumnos.
 
-3) Todos los profesores acceden al proxy con un solo nombre de usuario (profesor) y una única contraseña (profe2012).
+3) Todos los profesores acceden al proxy con un solo nombre de usuario (profesor) y una única contraseña (pass_profe).
 
-4) Todos los alumnos acceden al proxy con un solo nombre de usuario (alumno) y una única contraseña (alum2012).
+4) Todos los alumnos acceden al proxy con un solo nombre de usuario (alumno) y una única contraseña (pass_alum).
 
 5). Se deniega cualquier conexión que no este autentificada con alguno de estos usuarios.
 
@@ -46,7 +46,7 @@ Siendo -opciones: -a: añadir, -d: borrar; -tipo: -url: expresa una url, -dom: e
 
 ###Posible mejora
 
-Realizar el punto 10 y 11 usando el filtro de contenidos dansguardian. Es decir, las listas negras estarán gestionada por dansguardian. Al script filtrar.sh se le añade un nuevo -tipo: -palabra que permite gestionar las lista de palabras prohibidas. Tendrás que pensar que cambios tienes que hacer en el fichero pac.
+Realizar el punto 7 y 8 usando el filtro de contenidos dansguardian. Es decir, las listas negras estarán gestionada por dansguardian. Al script filtrar.sh se le añade un nuevo -tipo: -palabra que permite gestionar las lista de palabras prohibidas. Tendrás que pensar que cambios tienes que hacer en el fichero pac.
 
       
 [Volver](index)

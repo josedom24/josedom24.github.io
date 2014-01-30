@@ -77,5 +77,6 @@ tagline: CFGS ASIR
 * [Entrega 3](proyecto1_entrega3)
 * [Entrega 4](proyecto1_entrega4)
 * [Proyecto 2: Implantación de un servidor de hosting](proyecto2)
+* [Proyecto 3: Instalación de un proxy en el servidor de un centro educativo](proyecto3)
 
 [Volver](http://josedom24.github.io)
