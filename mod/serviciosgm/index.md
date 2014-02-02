@@ -71,7 +71,10 @@ tagline: CFGM SMR
 * [Ejercicio 2: Configuración de sitios web virtuales usando Apache](e_linux_web_2)
 * [Ejercicio 3: Acceso autentificado al servidor web Apache](e_linux_web_3)
 
+##### Servidor dns
 
+* [Ejercicio 1: DNSmasq como DNS cache/forward en una red local](e_linux_dns_1)
+* [Ejercicio 2: Instalación y configuración del servidor bind9 en nuestra red local](e_linux_dns_2)
 
 ##### Proyectos
 
