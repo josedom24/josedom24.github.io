@@ -10,19 +10,19 @@ tagline: CFGM SMR
 
 Queremos instalar un servidor DNS local en nuestra intranet que nos permita gestionar los nombres de las máquinas y recursos de nuestra red, vamos a instalar el servidor DNS en el mismo ordenador que tenemos instalado el servidor web. Las características del servidor DNS que queremos instalar son las siguientes:
 
-* El dominio que hemos elegido es iesgn.com
+* El dominio que hemos elegido es iesgn.org
 * Suponemos que el nombre del servidor es *miservidor*.
-* Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.201 (esto es ficticio)
+* Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.org y que está en 192.168.1.201 (esto es ficticio)
 * Además queremos nombrar al cliente que tenía asignada una reserva: lisa.
-* Suponemos que tenemos dos sitios webs: www.iesgn.com y departamentos.iesgn.com
+* Suponemos que tenemos dos sitios webs: www.iesgn.org y departamentos.iesgn.org
 
 Por lo tanto los nombres que debe conocer los clientes son:
 
-* *miservidor*.iesgn.com
-* ftp.iesgn.com
-* lisa.iesgn.com
-* www.iesgn.com
-* departamentos.iesgn.com
+* *miservidor*.iesgn.org
+* ftp.iesgn.org
+* lisa.iesgn.org
+* www.iesgn.org
+* departamentos.iesgn.org
 
 Para instalar el servicio:
 
@@ -41,6 +41,6 @@ Para arrancar y parar el servicio
 ##### **Ejercicios**
 1. Configura los clientes e indica que su DNS es nuestro servidor. Si tienes un servidor DHCP modifícalo para que envíe el nuevo DNS a los clientes.
 2. Comprueba el funcionamiento usando el comando dig/nslookup desde los clientes preguntando por los distintos nombres. Comprueba que el servidor DNS hace de forwarder preguntando con dig/nslookup la dirección ip de  www.josedomingo.org.
-3. Comprueba que puedes acceder a las páginas www.iesgn.com y departamentos.iesgn.com
+3. Comprueba que puedes acceder a las páginas www.iesgn.org y departamentos.iesgn.org
 </div>
 [Volver](index)
