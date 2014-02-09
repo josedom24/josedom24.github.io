@@ -76,6 +76,12 @@ tagline: CFGM SMR
 * [Ejercicio 1: DNSmasq como DNS cache/forward en una red local](e_linux_dns_1)
 * [Ejercicio 2: Instalación y configuración del servidor bind9 en nuestra red local](e_linux_dns_2)
 
+##### Servidor ftp
+
+* [Ejercicio 1: Instalación del servidor proFTPd autentificado](e_linux_ftp_1)
+* [Ejercicio 2: Configuración de proFTPd para crear ftp anónimo](e_linux_ftp_2)
+* [Ejercicio 3: Gestión de páginas web mediante ftp](e_linux_ftp_3)
+
 ##### Proyectos
 
 * [Proyecto 2: Instalación de un servidor en un centro educativo](proyecto2)
