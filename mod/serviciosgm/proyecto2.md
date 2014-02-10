@@ -136,5 +136,19 @@ Queremos centralizar la gestión de los nombres de las máquinas de nuestro domi
 * Nombre de la dirección ip del servidor (resolución inversa)
 * Dirección ip de www.josedomingo.org
 </div>
+#### Servidor FTP
+
+Para facilitar el acceso al servidor hemos instalado un servidor ftp proftpd, con la siguiente funcionalidad:
+
+* Si se accede de forma autentificada cada usuario accedera a su carpeta public_html, donde podra gestionar los archivos de su página web personal.
+* Si se accede de forma anónima, se accedera al directorio /srv/doc, donde está toda la documentación pública del instituto (la misma carpeta a la que se accede por medio de http://www.dominio.com/documentos).
+
+<div class='ejercicios' markdown='1'>
+##### **FTP**
+1. Explica la modificación en el servidor DNS para que los usarios puedan acceder al nombre ftp.dominio.com
+2. Explica como se intala el servidor proftpd y la configuración que necesita.
+3. Muestra un acceso autentificado al servidor con un cliente gráfico.
+4. Muestra un acceso anónimo al servidor con un cliente gráfico.
+</div>
 
 [Volver](index)
