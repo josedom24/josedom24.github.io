@@ -82,6 +82,11 @@ tagline: CFGM SMR
 * [Ejercicio 2: Configuración de proFTPd para crear ftp anónimo](e_linux_ftp_2)
 * [Ejercicio 3: Gestión de páginas web mediante ftp](e_linux_ftp_3)
 
+##### Acceso remoto
+
+* [Ejercicio 1: Gestión remota usando ssh](e_linux_ssh_1)
+* [Ejercicio 2: Gestión remota usando VNC](e_linux_ssh_2)
+
 ##### Proyectos
 
 * [Proyecto 2: Instalación de un servidor en un centro educativo](proyecto2)
