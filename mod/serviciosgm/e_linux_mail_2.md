@@ -51,7 +51,7 @@ Creamos una nueva cuenta de correo con las siguientes características:
 
 * Servidor POP
 
-![mail2](img/mai2.png)
+![mail2](img/mail2.png)
 
 * Servidor SMTP
 
