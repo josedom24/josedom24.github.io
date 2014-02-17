@@ -87,6 +87,13 @@ tagline: CFGM SMR
 * [Ejercicio 1: Gestión remota usando ssh](e_linux_ssh_1)
 * [Ejercicio 2: Gestión remota usando VNC](e_linux_ssh_2)
 
+##### Servidor de correo electróncio
+
+* [Ejercicio 1: Instalación del servidor de correo postfix](e_linux_mail_1)
+* [Ejercicio 2: Servidor POP y configuración de cliente de correo](e_linux_mail_2)
+* [Ejercicio 3: Servidor IMAP y webmail](e_linux_mail_3)
+
+
 ##### Proyectos
 
 * [Proyecto 2: Instalación de un servidor en un centro educativo](proyecto2)
