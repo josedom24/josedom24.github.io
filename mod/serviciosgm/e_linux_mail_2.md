@@ -30,9 +30,16 @@ Una vez realizado el cambio reiniciamos el servicio:
 
 #### Configuración del servidor pop3
 
-El fichero de configuración de este servicio está en /etc/dovecot/dovecot.conf, y hay que modificar las siguientes líneas (si están comentadas hay que descomentarlas):
+Cambiar en /etc/dovecot/conf.d/10-auth.conf
 
-        disable_plaintext_auth = no → para permitir la autenticación en texto plano
+        #disable_plaintext_auth = yes    ->    disable_plaintext_auth = no
+
+Para que este habilitada la autentificación con contraseña en claro.
+
+Cambia en el fichero /etc/dovecot/conf.d/10-mail.conf, donde se encuentra el buzón:
+
+#mail_location = mbox:~/mail:INBOX=/var/mail/%u
+mail_location = maildir:~/Maildir
 
 Reiniciamos el servicio:
 
