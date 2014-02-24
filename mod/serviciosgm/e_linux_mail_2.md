@@ -38,8 +38,8 @@ Para que este habilitada la autentificación con contraseña en claro.
 
 Cambia en el fichero /etc/dovecot/conf.d/10-mail.conf, donde se encuentra el buzón:
 
-#mail_location = mbox:~/mail:INBOX=/var/mail/%u
-mail_location = maildir:~/Maildir
+        #mail_location = mbox:~/mail:INBOX=/var/mail/%u
+        mail_location = maildir:~/Maildir
 
 Reiniciamos el servicio:
 
