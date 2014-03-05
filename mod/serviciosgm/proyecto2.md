@@ -127,9 +127,9 @@ Queremos centralizar la gestión de los nombres de las máquinas de nuestro domi
 <div class='ejercicios' markdown='1'>
 ##### **DNS**
 1. Explica razonadamente la afirmación: " instalando un DNS en nuestro servidor, además podremos conseguir aumentar la velocidad de navegación de nuestros clientes"
-2. Explica cómo se instala el servidor DNS y configura el servidor de manera adecuada, muestra los archivos necesarios trás la configuración. Debes decidir, teniendo en cuenta el punto anterior, los nombres que debe resolver el servidor (el cliente que tiene hecha la reserva DHCP también se debe resolver).
+2. Explica cómo se instala el servidor DNS y configura el servidor de manera adecuada, muestra los archivos necesarios tras la configuración. Debes decidir, teniendo en cuenta el punto anterior, los nombres que debe resolver el servidor (el cliente que tiene hecha la reserva DHCP también se debe resolver).
 3. ¿Qué modificación debes hacer en el servidor DHCP para qué los clientes utilicen el servidor DNS?
-4. Muestra desde los clientes, las consulas dns hechas con dig y nslookup que respondan:
+4. Muestra desde los clientes, las consultas dns hechas con dig y nslookup que respondan:
 
 * Servidor dns de dominio.com
 * Dirección ip de informatica.dominio.com
@@ -140,13 +140,13 @@ Queremos centralizar la gestión de los nombres de las máquinas de nuestro domi
 
 Para facilitar el acceso al servidor hemos instalado un servidor ftp proftpd, con la siguiente funcionalidad:
 
-* Si se accede de forma autentificada cada usuario accedera a su carpeta public_html, donde podra gestionar los archivos de su página web personal.
-* Si se accede de forma anónima, se accedera al directorio /srv/doc, donde está toda la documentación pública del instituto (la misma carpeta a la que se accede por medio de http://www.dominio.com/documentos).
+* Si se accede de forma autentificada cada usuario accederá a su carpeta public_html, donde podrá gestionar los archivos de su página web personal.
+* Si se accede de forma anónima, se accederá al directorio /srv/doc, donde está toda la documentación pública del instituto (la misma carpeta a la que se accede por medio de http://www.dominio.com/documentos).
 
 <div class='ejercicios' markdown='1'>
 ##### **FTP**
-1. Explica la modificación en el servidor DNS para que los usarios puedan acceder al nombre ftp.dominio.com
-2. Explica como se intala el servidor proftpd y la configuración que necesita.
+1. Explica la modificación en el servidor DNS para que los usuarios puedan acceder al nombre ftp.dominio.com
+2. Explica como se instala el servidor proftpd y la configuración que necesita.
 3. Muestra un acceso autentificado al servidor con un cliente gráfico.
 4. Muestra un acceso anónimo al servidor con un cliente gráfico.
 </div>
@@ -165,6 +165,23 @@ Para facilitar la administración por parte de los técnicos de los clientes lin
 2. Muestra la configuración en linux para permitir el acceso remoto por VNC, y muestra algunas capturas de pantalla (con Windows y Linux) accediendo por escritorio remoto.
 </div>
 
+#### Servidor Correos
 
+Queremos ofrecer en nuestro sistema el servicio de correo electrónico para permitir que los usuarios del servidor puedan mandarse correos. Para ello vamos a instalar un servidor postfix. Nuestro sistema de correos tendrá las siguientes características:
+
+* Crearemos un nuevo nombre smtp.dominio.com que será el servidor de correos saliente.
+* Crearemos un servidor mail.dominio.com que será un servidor de correo pop.
+* Los usuarios tendrán en sus ordenadores clientes de correo que podrán utilizar usando  los dos servidores anteriores.
+* Además usando el protocolo imap, y un cliente web de correos (squirredmail) podrán gestionar sus correos desde la URL correo.dominio.com
+
+<div class='ejercicios' markdown='1'>
+##### **Servidor de correos**
+
+1. Describe la instlación y configuración del servidor postfix.
+2. Muestra una prueba de envío y recepción de correo desde el servidor usando el comando mail. Muestra también la salida del log.
+3. Explica la instalación y configuración del servidor pop e imap.
+4. Muestra la configuración del cliente de correos (servidor de correo saliente y servidor de correos pop).
+5. Explica la instalación de squirrelmail y la configuración necesaria para que se pueda acceder desde la URL indicada anteriormente.
+6. Con captura de pantalla demuestra el envío de un correo desde el squirredmail y la recepción por parte del usuario destinatario usando un cliente de correos.
 
 [Volver](index)
