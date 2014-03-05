@@ -183,5 +183,5 @@ Queremos ofrecer en nuestro sistema el servicio de correo electrónico para perm
 4. Muestra la configuración del cliente de correos (servidor de correo saliente y servidor de correos pop).
 5. Explica la instalación de squirrelmail y la configuración necesaria para que se pueda acceder desde la URL indicada anteriormente.
 6. Con captura de pantalla demuestra el envío de un correo desde el squirredmail y la recepción por parte del usuario destinatario usando un cliente de correos.
-
+</div>
 [Volver](index)
