@@ -29,7 +29,7 @@
     <div id="menucont" class="clearfix">
         <div class="menu">
             <ul>
-                <p>{{site.data.menu|first}}</p>
+                
             	{% assign pmenu = {{site.data.menu|first}} %}
              {% for m in site.data.menu %}
                  
@@ -55,7 +55,7 @@
 		<div id="mainright">
              {% for m in site.data.menu %}
                  
-                {% if m.nombre != {{pmenu}} %}
+                {% if m.nombre != {{pmenu.nombre}} %}
                 {% if page.menu contains {{m.nombre}} %}
             <h3>{{m.nombre}}</h3>
             <ul class="otherlinks clearfix">
