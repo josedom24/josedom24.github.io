@@ -29,6 +29,7 @@
     <div id="menucont" class="clearfix">
         <div class="menu">
             <ul>
+                <p>{{page.menu|first}}</p>
             	{% assign pmenu = {{page.menu|first}} %}
              {% for m in site.data.menu %}
                 {% if pmenu == {{m.nombre}} %}
