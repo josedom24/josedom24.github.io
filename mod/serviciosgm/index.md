@@ -6,6 +6,7 @@ tagline: CFGM SMR
 ---
 
 ### Ejercicios
+
 #### Windows
 
 ##### Servidor dhcp
