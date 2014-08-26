@@ -1,13 +1,13 @@
 ---
-layout: blog
+layout: index
 
-title: Servicios de red 
+title: Servicios de red
 tagline: CFGM SMR
 ---
 ### Ejercicio: Configuración de un servidor DHCP en Windows Server 2008 (1)
 
 En esta práctica vamos a instalar y configurar un servidor DHCP en nuestro servidor, con todas las opciones de configuración.
-Vamos a instalar en nuestro servidor windows server2008 un servidor DHCP y vamos a probar su funcionamiento en nuestros dos 
+Vamos a instalar en nuestro servidor windows server2008 un servidor DHCP y vamos a probar su funcionamiento en nuestros dos
 clientes.
 Pasos a seguir:
 
@@ -36,7 +36,7 @@ Cambia la configuración del cliente para que tome una configuración de forma d
 ##### **Ejercicios**
 1. Comprueba en las propiedades del servidor DHCP que has realizado la configuración adecuada.
 2. Comprueba las concesiones de direcciones que has realizado.
-3. Coge la dirección MAC del cliente linux y realiza una reserva de la dirección 192.168.0.109 a dicho cliente. 
+3. Coge la dirección MAC del cliente linux y realiza una reserva de la dirección 192.168.0.109 a dicho cliente.
 4. Comprueba en cada uno de los clientes la configuración que han tomado.
 </div>
 [Volver](index)
