@@ -52,3 +52,4 @@ En este fichero tenemos que poner la dirección IP y el nombre al que correspond
 </div>
 
 [Volver](index)
+

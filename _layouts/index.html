@@ -18,6 +18,7 @@
 	<div id="headercont" class="clearfix">
 		<div id="headerlogo">
 			<h1><a title="" href="">IES Gonzalo Nazareno</a></h1>
+			<h3>José Domingo Muñoz Rodríguez</h3>
 		</div>
 		<div id="headerright">
             <p>{{page.tittle}}</p>
@@ -29,10 +30,10 @@
     <div id="menucont" class="clearfix">
         <div class="menu">
             <ul>
-                
+
             	{% assign pmenu = {{site.data.menu|first}} %}
              {% for m in site.data.menu %}
-                 
+
                 {% if pmenu.nombre == {{m.nombre}} %}
                    {% for me in m.items %}
 
@@ -50,13 +51,13 @@
 <div class="container clearfix">
 	<div id="maincont" class="clearfix">
 		<div id="mainleft">
- 	{{content}}	           
+ 	{{content}}
         </div>
 		<div id="mainright">
              {% for m in site.data.menu %}
-                 
+
                 {% if m.nombre != {{pmenu.nombre}} %}
-               
+
             <h3>{{m.nombre}}</h3>
             <ul class="otherlinks clearfix">
 	         {% for me in m.items %}
@@ -66,8 +67,8 @@
 	
             </ul>
 	    {% endfor %}
-	    
-	    
+
+
              <div class="sidebottom">
                         <p>Avisanos si quieres que tu página este aquí...</p>
                     </div>

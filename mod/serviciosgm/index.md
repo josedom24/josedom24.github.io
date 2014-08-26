@@ -1,7 +1,7 @@
 ---
-layout: blog
+layout: index
 
-title: Servicios de red 
+title: Servicios de red
 tagline: CFGM SMR
 ---
 
