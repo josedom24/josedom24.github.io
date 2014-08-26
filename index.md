@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: index
 
 title: Página web josedom24 @pledin_jd
 tagline: www.josedomingo.org
