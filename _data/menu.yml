@@ -1,7 +1,7 @@
 - nombre: principal
   items:
   - name: Home
-    url: #
+    url: http://josedom24.github.io
   - name: Portal
     url: http://informatica.gonzalonazareno.org/
   - name: Plataforma
@@ -10,15 +10,15 @@
     url: https://dit.gonzalonazareno.org/redmine
   - name: Gestiona
     url: https://dit.gonzalonazareno.org/gestiona
-- nombre: Unidades
+- nombre: Módulos
   items:
-  - name: Unidad 1
-    url: http://www.google.es
-  - name: Unidad 2
-    url: http://www.josedomingo.org
+  - name: Servicios de red
+    url: http://josedom24.github.io/mod/serviciosgm
+  - name: Servicios de red e internet
+    url: http://josedom24.github.io/mod/serviciosgs
+  - name: Lenguaje de marcas
+    url: http://josedom24.github.io/mod/lm
 - nombre: Enlaces
   items:
-  - name: Goole
-    url: http://www.google.es
   - name: Pledin
     url: http://www.josedomingo.org
