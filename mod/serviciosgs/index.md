@@ -6,6 +6,7 @@ tagline: CFGS ASIR
 ---
 
 ### Ejercicios
+
 #### Servidor DHCP
 
 * [Ejercicio 1: Instalación y configuración del servidor dhcp en linux](e_dhcp_1)
