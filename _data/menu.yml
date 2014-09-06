@@ -12,13 +12,15 @@
     url: https://dit.gonzalonazareno.org/gestiona
 - nombre: Módulos
   items:
-  - name: Servicios de red
-    url: http://josedom24.github.io/mod/serviciosgm
-  - name: Servicios de red e internet
-    url: http://josedom24.github.io/mod/serviciosgs
-  - name: Lenguaje de marcas
+  - name: Lenguaje de marcas (ASIR)
     url: http://josedom24.github.io/mod/lm
-- nombre: Enlaces
+  - name: Servicios de red e internet (ASIR)
+    url: http://josedom24.github.io/mod/serviciosgs
+  - name: Servicios de red (SMR)
+    url: http://josedom24.github.io/mod/serviciosgm
+  - name: Aplicaciones Webs (SMR)
+    url: http://josedom24.github.io/mod/awebs
+  - nombre: Enlaces
   items:
   - name: Pledin
     url: http://www.josedomingo.org
