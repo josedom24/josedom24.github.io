@@ -51,6 +51,7 @@ tagline: CFGM SMR
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)
 
 #### Linux
+
 ##### Ejercicios de repaso
 
 * [Ejercicio 1: Instalación de paquetes](e_linux_1)
