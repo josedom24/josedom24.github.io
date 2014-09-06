@@ -92,6 +92,7 @@ En Windows la instrucción **ipconfig /release** libera la concesión, la instru
 Veamos la sección host, en ella configuramos un host para reservar una dirección IP para él.
 
 En una sección host debemos poner el nombre que identifica al host y los siguientes parámetros:
+
 * hardware ethernet: Es la dirección MAC de la tarjeta de red del host.
 * fixed-address: La dirección IP que le vamos a asignar. 
 * Podemos usar también las opciones ya explicadas en la sección principal.
