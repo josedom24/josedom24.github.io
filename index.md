@@ -14,4 +14,4 @@ tagline: www.josedomingo.org
 ## SMR
 
 * [Servicios en red](/mod/serviciosgm)
-* [Aplicaciones Webs])(/mod/awebs)
+* [Aplicaciones Webs](/mod/awebs)
