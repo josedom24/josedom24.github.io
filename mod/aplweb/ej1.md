@@ -11,14 +11,14 @@ Después de estudiar la presentación del tema y ver los vídeos propuestos por 
 
 1. Define los siguientes conceptos:
 
-* Internet
-* WWW
-* HTTP
-* HTML
-* Hoja de estilos (CSS)
-* JavaScript
-* Servidor web
-* Navegador web
+	* Internet
+	* WWW
+	* HTTP
+	* HTML
+	* Hoja de estilos (CSS)
+	* JavaScript
+	* Servidor web
+	* Navegador web
 
 2. ¿Qué es un lenguaje de programación web?. Indica cuatro ejemplos de lenguajes de programación web
 
@@ -26,13 +26,13 @@ Después de estudiar la presentación del tema y ver los vídeos propuestos por 
 
 4. Lee el artíuculo [Qué son los Estandares Web](http://alfonsocatron.com.ar/2007/07/19/que-son-los-estandares-web-una-explicacion-sintetica-de-lo-que-abarca-el-termino/) y contesta las siguientes preguntas:
 
-* ¿Qué significa que un estándar web es una recomendación?
-* ¿Qué organismo es el responsable de trabajar y elaborar los estándares web?
-* ¿Qué areas principales se regulan con los estándares webs?
-* ¿Qué es la validación del código html/xhtml?
-* ¿Qué es el doctype? Indica algún ejemplo.
-* Explica con tus palabras la importancia de que el código sea semánticamente correcto.
-* Explica las razones principales para la separación del contenido, presentación y interacción.
+	* ¿Qué significa que un estándar web es una recomendación?
+	* ¿Qué organismo es el responsable de trabajar y elaborar los estándares web?
+	* ¿Qué areas principales se regulan con los estándares webs?
+	* ¿Qué es la validación del código html/xhtml?
+	* ¿Qué es el doctype? Indica algún ejemplo.
+	* Explica con tus palabras la importancia de que el código sea semánticamente correcto.
+	* Explica las razones principales para la separación del contenido, presentación y interacción.
 
 
 5. ¿Qué es el motor de renderización en un navegador web. Indica que motor utiliza cada uno de los navegadores actuales: IE, Firefox, Chrome, Opera, Safari.
