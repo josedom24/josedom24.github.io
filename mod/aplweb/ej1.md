@@ -41,3 +41,5 @@ Después de estudiar la presentación del tema y ver los vídeos propuestos por 
 
 
 7. Instala la última versión de los últimos navegadores (IE, Firefox, Chrome, Opera) y pasales el test acid3. Escribe una conclusión de las pruebas realizadas.
+
+[Volver](index)

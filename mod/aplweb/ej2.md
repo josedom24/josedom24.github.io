@@ -31,3 +31,4 @@ Trás la lectura y el estudio de los capítulos 1 y 2 del libro [Introducción a
 8. Lee el artículo [Diferencias entre HTML y XHTML](http://www.desarrolloweb.com/articulos/diferencias-html-xhtml.html) y el apartado 2.5 del libro, [Sintaxis de las etiquetas XHTML ](http://librosweb.es/xhtml/capitulo_2/sintaxis_de_las_etiquetas_xhtml.html) e indica las principales características de xhtml que lo difrencias de html.
 
 
+[Volver](index)
