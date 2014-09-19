@@ -9,6 +9,6 @@ tagline: CFGM SMR
 
 1. Determinar el código HTML correspondiente a la siguiente página:
 
-![ej1](/img/ej3_1.png)
+![ej1](img/ej3_1.png)
 
 [Volver](index)
