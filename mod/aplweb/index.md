@@ -14,3 +14,4 @@ tagline: CFGM SMR
 #### Tema 2: XHTML y CSS
 
 * [Ejercicio 2: Introducción y características básicas de xhtml](ej2)
+* [Ejercicio 3: Ejercicio 3: xhtml. Formato de texto](ej3)
