@@ -24,7 +24,7 @@ Después de estudiar la presentación del tema y ver los vídeos propuestos por 
 
 3. ¿Qé es una plicación web?. Pon algunos ejemplos.
 
-4. Lee el artíuculo [Estandares Web](http://www.maestrosdelweb.com/editorial/estandaresweb/) y la [presentación: Estándares de sitios web](http://es.slideshare.net/joserodrigu/estndares-web-presentation)y contesta las siguientes preguntas:
+4. Lee el artíuculo [Estandares Web](http://www.maestrosdelweb.com/editorial/estandaresweb/) y la [presentación: Estándares de sitios web](http://es.slideshare.net/joserodrigu/estndares-web-presentation) y contesta las siguientes preguntas:
 
 	* ¿Qué son los estándares web y qué significa que son una recomendación?
 	* ¿Qué organismo es el responsable de trabajar y elaborar los estándares web?
