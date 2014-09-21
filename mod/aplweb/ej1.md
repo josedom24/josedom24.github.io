@@ -24,16 +24,17 @@ Después de estudiar la presentación del tema y ver los vídeos propuestos por 
 
 3. ¿Qé es una plicación web?. Pon algunos ejemplos.
 
-4. Lee el artíuculo [Qué son los Estandares Web](http://alfonsocatron.com.ar/2007/07/19/que-son-los-estandares-web-una-explicacion-sintetica-de-lo-que-abarca-el-termino/) y contesta las siguientes preguntas:
+4. Lee el artíuculo [Estandares Web](http://www.maestrosdelweb.com/editorial/estandaresweb/) y la [presentación: Estándares de sitios web](http://es.slideshare.net/joserodrigu/estndares-web-presentation)y contesta las siguientes preguntas:
 
-	* ¿Qué significa que un estándar web es una recomendación?
+	* ¿Qué son los estándares web y qué significa que son una recomendación?
 	* ¿Qué organismo es el responsable de trabajar y elaborar los estándares web?
-	* ¿Qué areas principales se regulan con los estándares webs?
+	* ¿Qué capas principales se regulan con los estándares webs?
 	* ¿Qué es la validación del código html/xhtml?
 	* ¿Qué es el doctype? Indica algún ejemplo.
-	* Explica con tus palabras la importancia de que el código sea semánticamente correcto.
+	* Explica las ventajas del uso de estándares webs?
 	* Explica las razones principales para la separación del contenido, presentación y interacción.
-
+	* Explica los siguientes conceptos: accesibilidad, interoperabilidad, usabilidad, visibilidad.
+	
 
 5. ¿Qué es el motor de renderización en un navegador web. Indica que motor utiliza cada uno de los navegadores actuales: IE, Firefox, Chrome, Opera, Safari.
 
