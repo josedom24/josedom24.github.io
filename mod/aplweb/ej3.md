@@ -78,6 +78,6 @@ tagline: CFGM SMR
 	![ej9](img/ej3_9.png)
 
 
-10.  Crea un documento web que contenga un glosario de términos ordenados alfabéticamente, de los vistos en el tema de Introducción de la asignatura. Cada término deberá tener una breve definición de su significado. Finalmente añádele un formato libre, pero decente, utilizando CSS. Se valorará de forma positiva el uso del máximo número posible de etiquetas vista en este tema.
+10.  Crea un documento web que contenga un glosario de términos ordenados alfabéticamente, de los vistos en el tema de Introducción de la asignatura. Cada término deberá tener una breve definición de su significado. Finalmente añádele un formato libre, pero decente, utilizando CSS. Se valorará de forma positiva el uso del máximo número posible de etiquetas vista en este tema. Entrega una captura de pantalla donde se vea el resultado de la validación de la página.
 
 [Volver](index)
