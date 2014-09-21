@@ -52,6 +52,29 @@ tagline: CFGM SMR
 			{ font-style:italic; }
 			/* Todos los elementos "strong" y cite de los dos ultimos parrafos */
 			{ text-decoration: underline; }
-	</style>
+		</style>
+
+El aspecto final deberá ser algo parecido a esto:
+
+	![ej8](img/ej3_8.png)
 	
+9. Haz lo mismo con el ejercicio nº 3, según la siguiente descripción de estilo:
+
+		<style type="text/css">
+			/* Todo el cuerpo de la pagina */
+			{ font: 14px "Century Gothic","Trebuchet MS",Arial,Helvetica, sans-serif;background:#ffff99; }
+			/* El titular de la pagina */
+			{ font: 2em/1.3 "Trebuchet MS",Arial,Helvetica, sans-serif;background:#f0f0f0;color: navy;border: 6px inset #ff0000;padding: 10px;}
+			/* La referencia a la ciudad de "Washington" en el primer parrafo */
+			{ font-size: 1.5em;font-weight:bold; }
+			/* Los acronimos */
+			{ font-size: 1.2em;text-decoration: underline; }
+			/* La cita del final */
+			{ font-style: italic;padding-left: 20px;padding-right: 20px;text-align: right;}
+		</style>
+
+El aspecto final deberá ser algo parecido a esto:
+
+10.  Crea un documento web que contenga un glosario de términos ordenados alfabéticamente, de los vistos en el tema de Introducción de la asignatura. Cada término deberá tener una breve definición de su significado. Finalmente añádele un formato libre, pero decente, utilizando CSS. Se valorará de forma positiva el uso del máximo número posible de etiquetas vista en este tema.
+
 [Volver](index)
