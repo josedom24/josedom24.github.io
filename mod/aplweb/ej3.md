@@ -37,25 +37,24 @@ tagline: CFGM SMR
 	
 8. Vuelve al ejercicio nº 2 de esta relación e incluye en su cabecera (<head>...</head>) la siguiente descripción de estilo, sustituyendo cada comentario por su correspondiente selector:
 
-		<style type="text/css">
-			/* Todos los elementos de la pagina */
-			{ font: 1em/1.3 Arial,Helvetica, sans-serif; }
-			/* El titular de la pagina */
-			{ font: 3em/1.3 Garamond,Helvetica, sans-serif; text-align:center;color: #ff0000; }
-			/* Los dos primeros parrafos usando la etiqueta "div"*/
-			{ border: 2px double #ff0000;padding: 5px; color: #336699; }
-			/* Los dos ultimos parrafos usando el atributo "class" */
-			{ color:339966; padding-left: 20px; padding-right: 20px;}
-			/* Todos los elementos "strong" de los dos primeros parrafos */
-			{ background: #ffffcc; padding: .1em; font-weight:bold; }
-			/* Todos los elementos "cite" de los dos primeros parrafos */
-			{ font-style:italic; }
-			/* Todos los elementos "strong" y cite de los dos ultimos parrafos */
-			{ text-decoration: underline; }
-		</style>
+	<style type="text/css">
+		/* Todos los elementos de la pagina */
+		{ font: 1em/1.3 Arial,Helvetica, sans-serif; }
+		/* El titular de la pagina */
+		{ font: 3em/1.3 Garamond,Helvetica, sans-serif; text-align:center;color: #ff0000; }
+		/* Los dos primeros parrafos usando la etiqueta "div"*/
+		{ border: 2px double #ff0000;padding: 5px; color: #336699; }
+		/* Los dos ultimos parrafos usando el atributo "class" */
+		{ color:339966; padding-left: 20px; padding-right: 20px;}
+		/* Todos los elementos "strong" de los dos primeros parrafos */
+		{ background: #ffffcc; padding: .1em; font-weight:bold; }
+		/* Todos los elementos "cite" de los dos primeros parrafos */
+		{ font-style:italic; }
+		/* Todos los elementos "strong" y cite de los dos ultimos parrafos */
+		{ text-decoration: underline; }
+	</style>
 
-
-El aspecto final deberá ser algo parecido a esto:
+	El aspecto final deberá ser algo parecido a esto:
 
 	![ej8](img/ej3_8.png)
 	
@@ -74,7 +73,7 @@ El aspecto final deberá ser algo parecido a esto:
 			{ font-style: italic;padding-left: 20px;padding-right: 20px;text-align: right;}
 		</style>
 
-El aspecto final deberá ser algo parecido a esto:
+	El aspecto final deberá ser algo parecido a esto:
 
 	![ej9](img/ej3_9.png)
 
