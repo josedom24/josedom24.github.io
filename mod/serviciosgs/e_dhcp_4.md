@@ -6,6 +6,15 @@ tagline: CFGS ASIR
 ---
 ### Ejercicio: Ejercicio completo del servidor dhcp
 
+#### Teoria
+
+<div class='ejercicios' markdown='1'>
+### Ejercicios 
+1. Lee el documento [eoría: Servidor DHCP](http://dit.gonzalonazareno.org/moodle/mod/resource/view.php?id=1868) y explica el funcionamiento del servidor DHCP resumido en este [grfico](img/dhcp.png).
+</div>
+
+
+
 #### Preparación del escenario
 
 Crea un escenario usando Vagrant que defina las siguientes máquinas:
