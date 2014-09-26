@@ -37,6 +37,9 @@ tagline: CFGM SMR
 	
 8. Vuelve al ejercicio nº 2 de esta relación e incluye en su cabecera (<head>...</head>) la siguiente descripción de estilo, sustituyendo cada comentario por su correspondiente selector:
 
+<div class='nota' markdown='1'>
+**Selector:** indica el elemento o elementos HTML a los que se aplica la regla CSS. Para más [información](http://librosweb.es/css/capitulo_2/selectores_basicos.html).
+</div>
 		<style type="text/css">
 			/* Todos los elementos de la pagina */
 			{ font: 1em/1.3 Arial,Helvetica, sans-serif; }
