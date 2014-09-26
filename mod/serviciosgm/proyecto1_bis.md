@@ -6,9 +6,8 @@ tagline: CFGM SMR
 ---
 ### Proyecto 1: Configuración de un servidor Windows Server
 
-Te han contratado como administrador de redes en una empresa que posee una red de ordenadores con varios clientes 
-y un servidor donde se ha instalado un sistema operativo Windows 2008. Actualmente la dirección de la empresa quiere 
-mejorar la gestión de la red y ese es tu objetivo. Quieren mejorar los siguientes aspectos de la red:
+Te han contratado como administrador de redes en una empresa que posee una red de ordenadores con varios clientes y un servidor donde se ha instalado un sistema operativo Windows 2008. Actualmente la dirección de la empresa quiere mejorar la gestión de la red y ese es tu objetivo. Quieren mejorar los siguientes aspectos de la red:
+
 * Actualmente la configuración de red de los cliente se hacía de forma estática, en un segmento de direcciones 10.0.0.0/24. Quieren tener un sistema de asignación dinámica de direcciones IP.
 * Quieren crear varias páginas web para dar servicio a la intranet para ello han contratado un dominio masterlan.com
 * Para poder acceder a los distintas máquinas de la intranet, se necesita que instales un servidor DNS.
@@ -25,8 +24,7 @@ El esquema de red que tiene la empresa es el siguiente:
 Como se observa en el esquema nuestro ordenador va a tener dos tarjetas de red, por lo tanto va a ser el
 responsable de gestionar la comunicación que entra y sale de nuestra red local.
 
-La primera tarjeta está conectada a internet (en nuestro caso está conectada a la red del instituto), la segunda
-tarjeta está conectada a la red local y tiene el siguiente direccionamiento:
+La primera tarjeta está conectada a internet (en nuestro caso está conectada a la red del instituto), la segunda tarjeta está conectada a la red local y tiene el siguiente direccionamiento:
 
 * Dirección IP: 10.0.0.1/24
 
@@ -95,6 +93,7 @@ Configura el servidor DNS de manera adecuada, y modifica el servidor DHCP para m
 * Nombre de la dirección 10.0.0.1
 </div>
 
+
 #### Servidor FTP
 
 Se quiere instalar y configurar un servidor FTP que nos permita el acceso al sistema de archivos del servidor, se quiere configurar el servidor con las siguientes funcionalidades:
@@ -120,7 +119,7 @@ Para facilitar el trabajo de los empleados de la empresa, queremos configurar el
 
 #### Servidor de Correo Electrónico
 
-Queremos ofrecer un servicio de correo electrónico entre los trabajadores de la empresa. Nuestro sistema no va a enviar o recibir correos desde el exterior. Para ello vamos a instalar el servidor de correo hMailServer y vamos a crear dos buzones para los usuarios del sistemas. El servidor que envía correo se llamará smtp.masterlan.com y el servidor pop3 (mail.masterlan.com).
+Queremos ofrecer un servicio de correo electrónico entre los trabajadores de la empresa. Nuestro sistema no va a enviar o recibir correos desde el exterior. Para ello vamos a instalar el servidor de correo hMailServer y vamos a crear dos buzones para los usuarios del sistemas. El servidor que envía correo se llamará smtp.masterlan.com y el servidor pop3 se llamará correo.masterlan.com.
 
 Configura en el cliente el thunderbird con las cuentas de correos de los usuarios.
 
@@ -131,6 +130,5 @@ Configura en el cliente el thunderbird con las cuentas de correos de los usuario
 3. Explica como has configurado la cuenta de correos en los clientes thunderbird.
 4. Realiza una prueba de funcionamiento donde se comprueba que se ha enviado un correo y se ha recibido.
 </div>
-
 
 [Volver](index)
