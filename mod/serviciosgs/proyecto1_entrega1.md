@@ -5,6 +5,7 @@ title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 #Proyecto 1: Instalación de un servidor en un centro educativo
+
 ## Entrega 1
 
 1) Configura en kvm el esquema de red del punto 1. 
@@ -28,7 +29,7 @@ tagline: CFGS ASIR
 
 4) Punto 2a: Enrutador
 
-* Explica la configuración edls ervidor para que haga de enrutador
+* Explica la configuración del servidor para que haga de enrutador
 
 5) Punto 2b: Instalación y configuración del servidor DHCP. Implementa una reserva. 
 
