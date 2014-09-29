@@ -48,7 +48,7 @@ Deficiencias que nos encontramos con este esquema
 
 ##2. Especificación del nuevo esquema de red
 
-El centro educativo ha comprado un servidor, en el que se va instalar una distribución Debian Wheezy, y que se va a instalr siguiendo este esquema de red:
+El centro educativo ha comprado un servidor, en el que se va instalar una distribución Debian Wheezy, y que se va a instalar siguiendo este esquema de red:
 
 ![Esquema de red](img/Diagrama2.png)
 
@@ -103,7 +103,7 @@ Ejemplos
 
     gestionDNS.py -a -dir smtp 192.168.4.1
 
->Creará el registro -> smtp    A    192.168.4.1
+	Creará el registro -> smtp    A    192.168.4.1
 
     gestionDNS.py -a -alias correo smtp
 
