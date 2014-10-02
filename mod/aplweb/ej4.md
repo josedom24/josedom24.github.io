@@ -30,3 +30,7 @@ tagline: CFGM SMR
 3. Determinar el código HTML que corresponde a la siguiente lista anidada compleja:
 
 	![ej5](img/enl5.gif) 	
+
+4. Determina el código xhtml de la siguiente página:
+
+	![ej6](img/ej4_1.png) 	
