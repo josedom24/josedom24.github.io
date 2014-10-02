@@ -19,5 +19,7 @@ tagline: CFGM SMR
 
 	![ej3](img/enl3.gif) 	
 
+	Enlaza el favicon en todas las páginas
+
 	[Descargar ZIP con las imágenes](img/imagenes.zip)
 
