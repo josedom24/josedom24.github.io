@@ -11,7 +11,7 @@ tagline: CFGM SMR
 
 	![ej1](img/enl1.gif)
 
- Crear la siguiente página llamada indice.html que sirva como página principal del sitio:
+Crear la siguiente página llamada indice.html que sirva como página principal del sitio:
 
 	![ej2](img/enl2.gif) 
 
