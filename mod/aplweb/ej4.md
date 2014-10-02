@@ -5,7 +5,7 @@ title: Aplicaciones web
 tagline: CFGM SMR
 ---
 
-### Ejercicio 4: xhtml. Enlaces.
+### Ejercicio 4: xhtml. Enlaces y listas.
 
 1. A partir de la estructura de directorios y archivos indicada en la siguiente imagen:
 
@@ -23,3 +23,10 @@ tagline: CFGM SMR
 
 	[Descargar ZIP con las imágenes](img/imagenes.zip)
 
+2. Determinar el código HTML que corresponde a la siguiente lista anidada simple:
+
+	![ej4](img/enl4.gif) 	
+
+3. Determinar el código HTML que corresponde a la siguiente lista anidada compleja:
+
+	![ej5](img/enl5.gif) 	
