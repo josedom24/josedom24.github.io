@@ -38,12 +38,12 @@ Detemina como funciona si delante de las opciones pongo el signo + o -.
 
 5) Con la directiva  se puede crear [Respuesta de error personalizadas](http://httpd.apache.org/docs/2.2/custom-error.html). Todo esto se puede llevar a cabo en el fichero /etc/apache2/conf.d/localized-error-pages. Después de leer sobre el tema realiza los siguientes ejercicios.
 
-> 5.1) Cuando no se encuentre una página (error 404) por un mensje de error.
-> 5.2) Crea un alias llamado a error que corresponda a /srv/mapeo/error. Dentro de ese directorio crea páginas personalizadas para visualizar cuando  se produzca un error 404 y cuando se tenga un forbidden (403). Configura el sistema para que se redireccione a estas páginas cuando se produce un error.
-> 5.3) Descomenta en el fichero localized-error-pages las líneas adecuadas para tener los mensajes de error traducidos a los diferentes idiomas. Para que funcione tienes que hacer dos cosas:
+	5.1) Cuando no se encuentre una página (error 404) por un mensje de error.
+	5.2) Crea un alias llamado a error que corresponda a /srv/mapeo/error. Dentro de ese directorio crea páginas personalizadas para visualizar cuando  se produzca un error 404 y cuando se tenga un forbidden (403). Configura el sistema para que se redireccione a estas páginas cuando se produce un error.
+	5.3) Descomenta en el fichero localized-error-pages las líneas adecuadas para tener los mensajes de error traducidos a los diferentes idiomas. Para que funcione tienes que hacer dos cosas:
 
-> > * Activar el módulo include.
-> > * Si quieres los mensajes en español modifica adecuadamente la directiva LanguagePriority del módulo negotiation.
+		* Activar el módulo include.
+		* Si quieres los mensajes en español modifica adecuadamente la directiva LanguagePriority del módulo negotiation.
 
 
 [Volver](index)
