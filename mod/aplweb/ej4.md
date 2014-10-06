@@ -33,4 +33,6 @@ tagline: CFGM SMR
 
 4. Determina el código xhtml de la siguiente página:
 
-	![ej6](img/ej4_1.png) 	
+	![ej6](img/ej4_1.png)
+
+[Volver](index) 	
