@@ -5,7 +5,7 @@ title: Aplicaciones web
 tagline: CFGM SMR
 ---
 
-### Ejercicio 5: xhtml. Imágenes y tablas
+### Ejercicio 5: xhtml. Imágenes y tablas.
 
 1. Modificar la página de índice del portfolio del ejercicio 1 del [boletín anterior](http://josedom24.github.io/mod/aplweb/ej4) para mostrar directamente las imágenes de los proyectos.
 
