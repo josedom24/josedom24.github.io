@@ -7,7 +7,7 @@ tagline: CFGS ASIR
 
 ### Ejercicio: Ejercicio completo del servidor Web(1) (Tiempo estimado: 12 horas)
 
-1. Instala el servidor web Apache2 en un servidor. Modifica la paǵina index.html que viene por defecto y accede a ella desde un navegador.
+1. Instala el servidor web Apache2 en una máquina. Modifica la paǵina index.html que viene por defecto y accede a ella desde un navegador.
 
 2. Queremos que nuestro servidor web ofrezca dos sitios web, teniendo en cuenta lo siguiente:
 
