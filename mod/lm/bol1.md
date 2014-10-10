@@ -19,7 +19,9 @@ tagline: CFGS ASIR
 
 	Donde C es el capital inicial, x es la tasa de interés y n es el número de años a calcular.
 8.  Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius. Recordar que la fórmula para la conversión es: 
+
 		F = 9/5 * C + 32.
+
 9. Calcular la media de tres números pedidos por teclado.
 
 
