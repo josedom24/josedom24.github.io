@@ -24,7 +24,7 @@ tagline: CFGS ASIR
 
 9. Calcular la media de tres números pedidos por teclado.
 
-10. realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde.
+10. Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde.
 
 	Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
 
