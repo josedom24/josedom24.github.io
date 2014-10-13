@@ -17,4 +17,5 @@ tagline: CFGM SMR
 * [Ejercicio 3: xhtml. Formato de texto](ej3)
 * [Ejercicio 4: xhtml. Enlaces y listas](ej4)
 * [Ejercicio 5: xhtml. Imágenes y tablas](ej5)
+* [Ejercicio 6: xhtml. Formularios](ej6)
 
