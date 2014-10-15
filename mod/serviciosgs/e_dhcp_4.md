@@ -29,7 +29,7 @@ Instala un servidor dhcp en el ordenador "servidor" que de servicio a los ordena
 1. Entrega el fichero Vagrantfile que define el escenario.
 2. Explica las modificaciones que has hecho en los distintos ficheros de configuración del servidor.
 3. Explica la configuración que has hecho en el cliente para que tome la configuración de forma automática y muestra la salida del comando ifconfig.
-4.Configura el servidor para que funcione como router y haga NAT de esta forma los clientes tendrán internet.
+4. Configura el servidor para que funcione como router y haga NAT de esta forma los clientes tendrán internet.
 5. Realizar una captura, desde el cliente usando **tcpdump**, de los cuatro paquetes que corresponden a una concesión: DISCOVER, OFFER, REQUEST, ACK.
 </div>
 
