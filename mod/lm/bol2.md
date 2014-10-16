@@ -26,7 +26,9 @@ cero.
     * Nota 2: Si el número del dado introducido es menor que 1 ó mayor que 6, se mostrará el mensaje: "ERROR: número incorrecto.".
 
 	Ejemplo:
+	
 	*Introduzca número del dado: 5*
+
 	*En la cara opuesta está el "dos".*
 
 8.  Programa que lea 3 datos de entrada A, B y C. Estos corresponden a las dimensiones de los lados
