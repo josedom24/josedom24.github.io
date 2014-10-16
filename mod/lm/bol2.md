@@ -22,12 +22,10 @@ cero.
 
 7. Realiza un programa en python que pida por teclado el resultado (dato entero) obtenido al lanzar un dado de seis caras y muestre por pantalla el número en letras (dato cadena) de la cara opuesta al resultado obtenido.
 
-	Nota 1: En las caras opuestas de un dado de seis caras están los números: 1-6, 2-5 y 3-4.
-	
-	Nota 2: Si el número del dado introducido es menor que 1 ó mayor que 6, se mostrará el mensaje: "ERROR: número incorrecto.".
+	* Nota 1: En las caras opuestas de un dado de seis caras están los números: 1-6, 2-5 y 3-4.
+    * Nota 2: Si el número del dado introducido es menor que 1 ó mayor que 6, se mostrará el mensaje: "ERROR: número incorrecto.".
 
 	Ejemplo:
-	
 	*Introduzca número del dado: 5*
 	*En la cara opuesta está el "dos".*
 
@@ -39,4 +37,4 @@ de un triángulo. El programa debe determinar que tipo de triangulo es, teniedno
 	* Si los 3 lados son iguales entonces es equilátero.
 	* Si no se cumple ninguna de las condiciones anteriores, es escaleno.
 
-8.
+9. 
