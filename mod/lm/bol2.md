@@ -29,5 +29,4 @@ cero.
 	Ejemplo:
 	
 	*Introduzca número del dado: 5*
-	
 	*En la cara opuesta está el "dos".*
