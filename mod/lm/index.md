@@ -10,6 +10,6 @@ tagline: CFGS ASIR
 #### Python
 
 * [Boletín 1: Ejercicios sencillos](bol1)
-
+* [Boletín 2: Ejercicios alternativas](bol2)
 
 [Volver](http://josedom24.github.io)
