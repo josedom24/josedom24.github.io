@@ -47,6 +47,7 @@ tagline: CFGS ASIR
 7. Escribir un programa que le pregunte al usuario una cantidad de euros, una tasa de interés y un número de años y muestre como resultado la cantidad final a pagar. La fórmula a utilizar es:
 
 		Cn = C * (1 + x/100) ^ n
+	
 	Donde C es el capital inicial, x es la tasa de interés y n es el número de años a calcular.
 
 		cant=float(raw_input("Euros:"))
