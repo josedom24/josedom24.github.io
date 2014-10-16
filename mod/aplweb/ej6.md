@@ -31,4 +31,5 @@ tagline: CFGM SMR
 
 	* Envía el formulario utilizando el método post.
     * La aplicación que se encarga de procesar el formulario se encuentra en *http://dit.gonzalonazareno.org/~josedom/aweb/resultado.php*.
+
 [Volver](index)
