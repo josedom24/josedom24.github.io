@@ -26,7 +26,9 @@ cero.
     * Nota 2: Si el número del dado introducido es menor que 1 ó mayor que 6, se mostrará el mensaje: "ERROR: número incorrecto.".
 
 	Ejemplo:
+	
 	*Introduzca número del dado: 5*
+
 	*En la cara opuesta está el "dos".*
 
 8.  Programa que lea 3 datos de entrada A, B y C. Estos corresponden a las dimensiones de los lados
@@ -37,4 +39,6 @@ de un triángulo. El programa debe determinar que tipo de triangulo es, teniedno
 	* Si los 3 lados son iguales entonces es equilátero.
 	* Si no se cumple ninguna de las condiciones anteriores, es escaleno.
 
-9. 
+9. Escribir un programa que lea un año indicar si es bisiesto. Nota: un año es bisiesto si es un número divisible por 4, pero no si es divisible por 100, excepto que también sea divisible por 400.
+
+10. Programa que lea un carácter por teclado y compruebe si es una letra mayúscula.
