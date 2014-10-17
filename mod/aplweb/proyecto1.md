@@ -39,3 +39,10 @@ funciona nuestro ciclo SMR.
 11. Debe existir un formulario que envíe los datos *http://dit.gonzalonazareno.org/~josedom/aweb/resultado.php*.
 12. Todas las páginas deben tener un favicon.
 
+#### Documentación a entregar
+
+* Estructura de ficheros que forman el sitio web comprimido.
+* La URL de la página donde tienes alojada la página, teniendo en cuenta que debe estar guardada en un directorio llamado **proyecto**.
+* Breve documento donde se describirá la página y se indicarán el origen de las plantillas
+descargadas y los códigos extra que hayamos incluido en nuestra web (menús,javascript,...)
+
