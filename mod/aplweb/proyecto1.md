@@ -23,7 +23,13 @@ funciona nuestro ciclo SMR.
 
 1. La página debe tener al menos 5 páginas webs enlazadas entre si.
 2. La página debe estar hecha en HTML5 y todas las páginas deberán ser válidas.
-3. Se deben utilizar las etiquetas de texto estudiadas: títulos, párrafos, marcado de texto,...
+3. El layout de las páginas realizadas debe tener al menos los siguientes componentes:
+	* Cabecera (header) que incluye todos los elementos invariantes de la parte superior de la página (logotipo, imagen o banner, cuadro de búsqueda superior, etc.)
+	* Contenido (content) engloba el contenido principal del sitio (la zona de noticias, la zona de artículos, la zona de productos, etc. dependiendo del tipo de sitio web)
+	* Menú (menu) se emplea para agrupar todos los elementos del menú lateral de navegación de la página
+	* Pie (footer) que incluye todos los elementos invariantes de la parte inferior de la página (aviso de copyright, política de privacidad, términos de uso, etc.)
+	* Lateral (sidebar) se emplea para agrupar los elementos de las columnas laterales y secundarias de la página.
+4. Se deben utilizar las etiquetas de texto estudiadas: títulos, párrafos, marcado de texto,...
 5. Al menos en una página debe existir enlaces a la misma página.
 6. Debe existir enlaces a páginas externas a nuestro sitio web.
 7. Debe existir alguna lista ordenada y no ordenada.
@@ -32,3 +38,4 @@ funciona nuestro ciclo SMR.
 10. Debe existir al menos una tabla.
 11. Debe existir un formulario que envíe los datos *http://dit.gonzalonazareno.org/~josedom/aweb/resultado.php*.
 12. Todas las páginas deben tener un favicon.
+
