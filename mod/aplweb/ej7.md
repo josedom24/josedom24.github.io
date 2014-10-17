@@ -23,5 +23,5 @@ Debes hacer un sitio web con al menos 5 páginas, teniendo en cuenta las siguien
 10. Debe existir al menos una tabla.
 11. Debe existir un formulario que envíe los datos *http://dit.gonzalonazareno.org/~josedom/aweb/resultado.php*.
 
-Elige una temática que te interese y realiza una página donde hables de ese tema.
+Elige una temática que te interese y realiza una página donde hables de ese tema. Debes entregar capturas de pantalla donde se vea la validación de las páginas.
 
