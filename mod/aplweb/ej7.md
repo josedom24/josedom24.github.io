@@ -5,7 +5,7 @@ title: Aplicaciones web
 tagline: CFGM SMR
 ---
 
-### Ejercicio 6: xhtml. Trabajo final.
+### Ejercicio 7: xhtml. Trabajo final.
 
 El objetivo de este ejercicio es aplicar todos los conocimientos que hemos estudiado en la realización de páginas webs con xhtml. 
 
