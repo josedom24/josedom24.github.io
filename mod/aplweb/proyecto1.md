@@ -14,9 +14,10 @@ funciona nuestro ciclo SMR.
 2. El segundo elegir el diseño. Para ello podrás utilizar plantillas CSS ya diseñadas. Páginas de ejemplo:
 	* [http://www.mejoresplantillasgratis.es/free-templates/Plantillas-CSS.html](http://www.mejoresplantillasgratis.es/free-templates/Plantillas-CSS.html)
 	* [http://www.freecsstemplates.org/](http://www.freecsstemplates.org/)
+	
 	Descarga la que te guste y estudia el código, tanto el HTML como el CSS.
 3. Modifica el HTML y el CSS de la plantilla para que se adapte a lo que necesitas. Puedes incluir los elementos que desees, para ello puedes utilizar código ya creado que puedas encontrar en Internet. Por ejemplo, en la siguiente página encontrarás distintos menús:
-[http://www.araudi.net/ejemplos/menus_desplegables_CSS.html](http://www.araudi.net/ejemplos/menus_desplegables_CSS.html)
+[http://www.araudi.net/ejemplos/menus_desplegables_CSS.html](http://www.araudi.net/ejemplos/menus_desplegables_CSS.html). Si quieres puedes incluir javascript, en esta página puedes encontrar algunos ejemplos: [http://www.htmlpoint.com/jscript/index.html](http://www.htmlpoint.com/jscript/index.html).
 
 #### Características que debe tener el sitio web realizado
 
