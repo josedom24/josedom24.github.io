@@ -29,6 +29,9 @@ funciona nuestro ciclo SMR.
 	* Menú (menu) se emplea para agrupar todos los elementos del menú lateral de navegación de la página
 	* Pie (footer) que incluye todos los elementos invariantes de la parte inferior de la página (aviso de copyright, política de privacidad, términos de uso, etc.)
 	* Lateral (sidebar) se emplea para agrupar los elementos de las columnas laterales y secundarias de la página.
+
+	![layout](img/layout.gif)
+
 4. Se deben utilizar las etiquetas de texto estudiadas: títulos, párrafos, marcado de texto,...
 5. Al menos en una página debe existir enlaces a la misma página.
 6. Debe existir enlaces a páginas externas a nuestro sitio web.
