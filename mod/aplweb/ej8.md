@@ -14,7 +14,7 @@ tagline: CFGM SMR
 	* Selector universal: Se utiliza para seleccionar todos los elementos de la página. *
 	* Selector tipo etiqueta: Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del selector. Ejemplo: p { }
 	* Selector descendente: Selecciona los elementos que se encuentran dentro de otros elementos. Ejemplo: p span
-	Selector de clase: Selecciona todos los elementos que tenga un atributo class determinado. Ejemplo: .destacado, p.destacado
+    * Selector de clase: Selecciona todos los elementos que tenga un atributo class determinado. Ejemplo: .destacado, p.destacado
 	* Selectores de ID: Selecciona todos los elementos que tenga un atributo id determinado. Ejemplo: #destacado, p#destacado
 
 * **Herencia de estilos**: Cuando se establece el valor de una propiedad CSS en un elemento, sus elementos descendientes heredan de forma automática el valor de esa propiedad. 
