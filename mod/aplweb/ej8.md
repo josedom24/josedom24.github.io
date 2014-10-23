@@ -32,9 +32,9 @@ tagline: CFGM SMR
     * Unidades relativas: no están completamente definidas, ya que su valor siempre está referenciado respecto a otro valor.
 
 
-    		* em, (no confundir con la etiqueta <em> de HTML) relativa respecto del tamaño de letra del elemento. Si se utiliza una tipografía de 12 puntos, 1em equivale a 12 puntos.
-    		* ex, relativa respecto de la altura de la letra x ("equis minúscula") del tipo y tamaño de letra del elemento.  El valor de 1ex se puede aproximar por 0.5 em.
-    		* px, (píxel) relativa respecto de la resolución de la pantalla del dispositivo en el que se visualiza la página HTML.
+    	* em, (no confundir con la etiqueta <em> de HTML) relativa respecto del tamaño de letra del elemento. Si se utiliza una tipografía de 12 puntos, 1em equivale a 12 puntos.
+    	* ex, relativa respecto de la altura de la letra x ("equis minúscula") del tipo y tamaño de letra del elemento.  El valor de 1ex se puede aproximar por 0.5 em.
+    	* px, (píxel) relativa respecto de la resolución de la pantalla del dispositivo en el que se visualiza la página HTML.
 
     * Porcentajes: Un porcentaje está formado por un valor numérico seguido del símbolo % y siempre está referenciado a otra medida. 
 
