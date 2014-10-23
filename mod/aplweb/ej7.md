@@ -25,3 +25,4 @@ Debes hacer un sitio web con al menos 5 páginas, teniendo en cuenta las siguien
 
 Elige una temática que te interese y realiza una página donde hables de ese tema. Debes entregar capturas de pantalla donde se vea la validación de las páginas.
 
+[Volver](index)

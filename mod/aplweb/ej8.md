@@ -170,6 +170,6 @@ tagline: CFGM SMR
 
     Los nombres de los colores también están estandarizados y se corresponden con el nombre en inglés de cada color. En este ejercicio, se deben utilizar los colores: teal, red, blue, orange, purple, olive, fuchsia y green.
 
-
+[Volver](index)
 
 
