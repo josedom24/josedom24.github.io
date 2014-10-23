@@ -46,7 +46,7 @@ funciona nuestro ciclo SMR.
 
 * Estructura de ficheros que forman el sitio web comprimido.
 * La URL de la página donde tienes alojada la página, teniendo en cuenta que debe estar guardada en un directorio llamado **proyecto**.
-* Breve documento donde se describirá la página y se indicarán el origen de las plantillas
-descargadas y los códigos extra que hayamos incluido en nuestra web (menús,javascript,...)
+* Breve documento donde se describirá la página y se indicarán el origen de las plantillas descargadas y los códigos extra que hayamos incluido en nuestra web (menús,javascript,...)
+* Capturas de pantalla donde se vea la validación ed cada una de las páginas.
 
 [Volver](index)
