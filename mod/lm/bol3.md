@@ -5,7 +5,7 @@ title: Lenguaje de marcas
 tagline: CFGS ASIR
 ---
 
-### Boletín 2: Ejercicios bucles
+### Boletín 3: Ejercicios bucles
 
 1. Realiza un programa en python que muestre la tabla de multiplicar.
 
