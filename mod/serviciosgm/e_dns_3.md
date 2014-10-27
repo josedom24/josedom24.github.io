@@ -8,54 +8,44 @@ tagline: CFGM SMR
 <div class='nota' markdown='1'>
 **IMPORTANTE**
 
-1) Modifica el fichero hosts y borra todas las líneas que has incluido en prácticas anteriores, sólo debes dejar la del localhost.
+1. Modifica el fichero hosts y borra todas las líneas que has incluido en prácticas anteriores, sólo debes dejar la del localhost.
 
-2) Para esta práctica se necesita configurar IIS de forma similar a la práctica: Configuración de sitios web virtuales usando IIS, por lo tanto debes tener el IIS configurado y crear dos sitios webs: www.iesgn.com y departamentos.iesgn.com
+2. Para esta práctica se necesita configurar IIS de forma similar a la práctica: Configuración de sitios web virtuales usando IIS, por lo tanto debes tener el IIS configurado y crear dos sitios webs: www.iesgn.com y departamentos.iesgn.com
 </div>
 
 Queremos instalar un servidor DNS local en nuestra intranet que nos permita gestionar los nombres de las máquinas y recursos de nuestra red, vamos a instalar el servidor DNS en nuestro servidor. El dominio con el que vamos a trabajar es iesgn.com, y la red la 192.168.1.0, la ip del servidor es la 192.168.1.1
 
 
-1) Vamos a crear una zona para el dominio: iesgn.com
+1. Vamos a crear una zona para el dominio: iesgn.com
+2. Vamos a crear una zona de resolución inversa: 1.168.192.in-addr.arpa
+3. Vamos a tener los siguientes FQHN:
 
-2) Vamos a crear una zona de resolución inversa: 1.168.192.in-addr.arpa
-
-3) Vamos a tener los siguientes FQHN:
-
-**3.1)** El servidor DNS (192.168.1.1) se llama homer.iesgn.com
-
-**3.2)** Además queremos nombrar a cinco clientes:
-
-        bart.iesgn.com (192.168.1.2, pon la configuración de red estática).
-        lisa.iesgn.com (192,.168.1.3, pon la configuración de red estática).
-        krasty.iesgn.com (192.168.1.202) (esto es ficticio)
-        apu.iesgn.com (192.168.1.203) (esto es ficticio)
-        wiggu.iesgn.com (192.168.1.204) (esto es ficticio)
-
-**3.3)** Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.com y que está en 192.168.1.205 (esto es ficticio)
-
-**3.4)** Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.202 (esto es ficticio)
-
-**3.5)** Vamos a tener las siguientes páginas webs:
-
-        www.iesgn.com esta alojado en el IIS del servidor.
-        departamentos.iesgn.com esta alojado en el IIS del servidor.
+	* El servidor DNS (192.168.1.1) se llama pandora.iesgn.com
+	* asterix.iesgn.com (192.168.1.2, pon la configuración de red estática).
+    * obelix.iesgn.com (192,.168.1.3, pon la configuración de red estática).
+    * panoramix.iesgn.com (192.168.1.202) (esto es ficticio)
+    * amerix.iesgn.com (192.168.1.203) (esto es ficticio)
+    * cuadrix.iesgn.com (192.168.1.204) (esto es ficticio)
+	* Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.com y que está en 192.168.1.205 (esto es ficticio)
+	* Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.202 (esto es ficticio)
+	* www.iesgn.com esta alojado en el IIS del servidor.
+    * departamentos.iesgn.com esta alojado en el IIS del servidor.
 
 <div class='ejercicios' markdown='1'>
 **Ejercicios**
 
-1) Configura el servidor DNS con los registros A, CNAME, MX y NS necesarios. Configura el SOA. Entrega una captura de la pantalla de la configuración principal del servidor.
+1. Configura el servidor DNS con los registros A, CNAME, MX y NS necesarios. Configura el SOA. Entrega una captura de la pantalla de la configuración principal del servidor.
 
-2) Configura los clientes para que su DNS sea el servidor Windows 2008, debes indicar en la configuración de red del cliente como DNS primario la ip del mservidor. 
+2. Configura los clientes para que su DNS sea el servidor Windows 2008, debes indicar en la configuración de red del cliente como DNS primario la ip del mservidor. 
 
-3) Comprueba el funcionamiento utilizando los comandos nslookup / dig desde los clientes preguntando por los siguientes:
+3. Comprueba el funcionamiento utilizando los comandos nslookup / dig desde los clientes preguntando por los siguientes:
 
-* Dirección de homer.iesgn.com, www.iesgn.com, ftp.iesgn.com, apu.iesgn.com
+* Dirección de pandora.iesgn.com, www.iesgn.com, ftp.iesgn.com, panoramix.iesgn.com
 * El servidor DNS que tiene configurado la zona del dominio iesgn.com
 * El servidor de correo configurado para iesgn.com
 * La dirección IP de www.josedomingo.org
 
-5) Comprueba que se puede acceder a las páginas web desde los clientes.
+4. Comprueba que se puede acceder a las páginas web desde los clientes.
 
 </div>
 [Volver](index)
