@@ -40,10 +40,10 @@ Queremos instalar un servidor DNS local en nuestra intranet que nos permita gest
 
 3. Comprueba el funcionamiento utilizando los comandos nslookup / dig desde los clientes preguntando por los siguientes:
 
-* Dirección de pandora.iesgn.com, www.iesgn.com, ftp.iesgn.com, panoramix.iesgn.com
-* El servidor DNS que tiene configurado la zona del dominio iesgn.com
-* El servidor de correo configurado para iesgn.com
-* La dirección IP de www.josedomingo.org
+	* Dirección de pandora.iesgn.com, www.iesgn.com, ftp.iesgn.com, panoramix.iesgn.com
+	* El servidor DNS que tiene configurado la zona del dominio iesgn.com
+	* El servidor de correo configurado para iesgn.com
+	* La dirección IP de www.josedomingo.org
 
 4. Comprueba que se puede acceder a las páginas web desde los clientes.
 
