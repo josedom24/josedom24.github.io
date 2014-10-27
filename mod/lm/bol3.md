@@ -7,7 +7,7 @@ tagline: CFGS ASIR
 
 ### Boletín 3: Ejercicios bucles
 
-1. Realiza un programa en python que muestre la tabla de multiplicar.
+1. Realiza un programa en python que muestre la tabla de multiplicar, convierte este pseudocódigo en el programa python:
 
 		INICIO
 		MIENTRAS numero < 0 O numero > 9
@@ -43,7 +43,7 @@ tagline: CFGS ASIR
 son positivos, y cuántos son negativos.
 
 9. Escribe un programa que dados dos números, uno real (base) y un entero
-positivo (exponente), saque por pantalla el resultado de la potencia. No se puede utilizar el operador de portencia (**).
+positivo (exponente), saque por pantalla el resultado de la potencia. No se puede utilizar el operador de potencia (**).
 
 10. Escribe un programa que diga si un número introducido por teclado es o no
 primo. Un número primo es aquel que sólo es divisible entre él mismo y la
