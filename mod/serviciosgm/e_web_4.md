@@ -26,12 +26,12 @@ En la página de la práctica anterior *www.iesgn.com*, vamos a crear una zona p
 3. A continuación le damos los permisos necesarios a la carpeta C:/inetpub/ies/profesores, para ello botón derecho->Editar permisos->seguridad
 
 	![win1.png](img/win1.png)
-
  	En primer lugar hemos de romper la herencia de permisos sobre esta carpeta: pulsando sobre el botón *"Opciones avanzadas"* en la ventana de la imagen anterior para posteriormente desactivar la casilla "Incluir todos los permisos heredables del objeto primario de este objeto" en la nueva ventana mostrada, y pulsando tras ello sobre el botón "Copiar" en la ventana mostrada tras desactivar dicha casilla.
 
  	Una vez que hayamos roto la herencia de permisos sobre esta carpeta, los permisos mostrados serán los mismos, pero con la diferencia de que ahora podremos modificarlos a nuestro gusto, luego nos ubicaremos sobre el grupo "Usuarios" y tras ello pulsaremos sobre el botón "Quitar";
 
  	A continuación debemos hacer los siguiente:
+ 	
  	* Quitar el grupo Usuarios, para no permitir el acceso a ningún usuario.
  	* Agregar el grupo Profesores, con los permisos con los permisos de "Lectura y ejecución", "Mostrar el contenido de la carpeta" y "Leer", de modo que cuando la ventana de la imagen superior presente el aspecto mostrado en la imagen inferior, pulsaremos sobre el botón "Aceptar".
 
