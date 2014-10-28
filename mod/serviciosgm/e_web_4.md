@@ -32,7 +32,6 @@ En la página de la práctica anterior *www.iesgn.com*, vamos a crear una zona p
  	Una vez que hayamos roto la herencia de permisos sobre esta carpeta, los permisos mostrados serán los mismos, pero con la diferencia de que ahora podremos modificarlos a nuestro gusto, luego nos ubicaremos sobre el grupo "Usuarios" y tras ello pulsaremos sobre el botón "Quitar";
 
  	A continuación debemos hacer los siguiente:
-
  	* Quitar el grupo Usuarios, para no permitir el acceso a ningún usuario.
  	* Agregar el grupo Profesores, con los permisos con los permisos de "Lectura y ejecución", "Mostrar el contenido de la carpeta" y "Leer", de modo que cuando la ventana de la imagen superior presente el aspecto mostrado en la imagen inferior, pulsaremos sobre el botón "Aceptar".
 
