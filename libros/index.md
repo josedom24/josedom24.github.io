@@ -14,3 +14,7 @@ tagline: www.josedomingo.org
 
 * Python para todos [[web](http://mundogeek.net/tutorial-python/)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/Python%20para%20todos.pdf)]
 * Aprenda a pensar como un programador Python [[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/aprenda-a-pensar-como-un-programador-con-python.pdf)]
+
+#### Redes
+
+* IPv6 para todos [[web](http://www.isoc.org.ar/)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Redes/ipv6ParaTodos.pdf)]
