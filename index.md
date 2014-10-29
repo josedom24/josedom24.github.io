@@ -8,12 +8,12 @@ tagline: www.josedomingo.org
 
 ##Ejercicios y prácticas de módulos de ASIR y SMR
 
-### ASIR
+#### ASIR
 
 * [Lenguajes de marcas](/mod/lm)
 * [Servicios en red e internet](/mod/serviciosgs)
 
-### SMR
+#### SMR
 
 * [Servicios en red](/mod/serviciosgm)
 * [Aplicaciones Webs](/mod/aplweb)

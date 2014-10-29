@@ -8,20 +8,5 @@ tagline: www.josedomingo.org
 
 #### PaaS
 
-* {{site.path}}
+* Getting Started with OpenShift [[web](https://blog.openshift.com/announcing-a-new-book-getting-started-with-openshift-a-guide-for-impatient-beginners/)][[mobi](https://dl.dropboxusercontent.com/u/620873/Libros/PaaS/Getting_Started_with_OpenShift_eBook/Getting_Started_with_OpenShift.mobi)][[epub](https://dl.dropboxusercontent.com/u/620873/Libros/PaaS/Getting_Started_with_OpenShift_eBook/Getting_Started_with_OpenShift.epub)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/PaaS/Getting_Started_with_OpenShift_eBook/Getting_Started_with_OpenShift.pdf)]
 
-### ASIR
-
-* [Lenguajes de marcas](/mod/lm)
-* [Servicios en red e internet](/mod/serviciosgs)
-
-### SMR
-
-* [Servicios en red](/mod/serviciosgm)
-* [Aplicaciones Webs](/mod/aplweb)
-
-<hr/>
-
-##Libros
-
-* [Colección de libros libres](/libros)
