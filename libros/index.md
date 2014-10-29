@@ -1,12 +1,14 @@
 ---
 layout: index
 
-title: Página web josedom24 @pledin_jd
+title: Colección de libros libres josedom24 @pledin_jd
 tagline: www.josedomingo.org
 ---
-# Bienvenid@s
+## Colección de libros libres
 
-##Ejercicios y prácticas de módulos de ASIR y SMR
+#### PaaS
+
+* {{site.path}}
 
 ### ASIR
 
