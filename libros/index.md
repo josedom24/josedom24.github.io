@@ -13,3 +13,4 @@ tagline: www.josedomingo.org
 ####Programación
 
 * Python para todos [[web](http://mundogeek.net/tutorial-python/)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/Python%20para%20todos.pdf)]
+* Aprenda a pensar como un programador Python [[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/aprenda-a-pensar-como-un-programador-con-python.pdf)]
