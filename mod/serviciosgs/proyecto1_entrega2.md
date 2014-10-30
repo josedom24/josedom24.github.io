@@ -5,7 +5,8 @@ title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 #Proyecto 1: Instalación de un servidor en un centro educativo
-## Entrega 2
+
+## Entrega 2: Escenario Linux Debian
 
 Lo primero que tienes que hacer es elegir un nombre de dominio.
 
