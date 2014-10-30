@@ -9,13 +9,24 @@ tagline: CFGS ASIR
 
 Lo primero que tienes que hacer es elegir un nombre de dominio.
 
-1) Punto 1b) Instalación y configuración DNS
-
-* Una vez terminado de realizar la configuración, se debe entregar las salidas del comando nslookup y dig desde los clientes windows y linux.
-
-2) Punto 1c) Instalación y configuración del servidor Web
-
-* Busca plantillas xhtml+css como contenido para las dos páginas, modificalas un poco para que parezcan las páginas del insituto (nombre,...)
-* Autentificación de la carpeta /privado: Sólo se pueden autentificar los usuarios del sistemas que pertenezcan al grupo profesores.
+1
 
 [Volver](index)
+
+
+3) Configura en kvm el esquema de red del punto 2.
+
+* Configuración de la red virtual
+* No hace falta explicar la instalación de los sistemas operatvios
+* Configuración de red del servidor y de algún cliente
+
+4) Punto 2a: Enrutador
+
+* Explica la configuración del servidor para que haga de enrutador
+
+5) Punto 2b: Instalación y configuración del servidor DHCP. Implementa una reserva. 
+
+* Instalación del servidor dhcp
+* Configuración del servidor dhcp
+* Prueba de funcionamiento (Concesiones de direcciones)
+* Prueba de funcionamiento de la reserva
