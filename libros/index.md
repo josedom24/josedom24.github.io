@@ -14,6 +14,8 @@ tagline: www.josedomingo.org
 
 * Python para todos [[web](http://mundogeek.net/tutorial-python/)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/Python%20para%20todos.pdf)]
 * Aprenda a pensar como un programador Python [[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/aprenda-a-pensar-como-un-programador-con-python.pdf)]
+* Introducción a la programación con Python [[web](http://repositori.uji.es/xmlui/handle/10234/24305)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/ippython.pdf)]
+
 
 #### Redes
 
