@@ -26,8 +26,8 @@ tagline: CFGM SMR
 
 * [Ejercicio 8: css. Selectores, unidades de medidas y colores](ej8)
 * [Ejercicio 9: css. Modelos de cajas](ej9)
-* Ejercicio 10: css. Posicionamiento y visualización 
-* Ejercicio 11: css. Textos y enlaces
+* [Ejercicio 10: css. Posicionamiento y visualización ](ej10)
+* [Ejercicio 11: css. Textos y enlaces](ej11)
 * Ejercicio 12: css. Imágenes y listas
 * Ejercicio 13: css. Tablas y formularios
 * Ejercicio 14: css. Layout
