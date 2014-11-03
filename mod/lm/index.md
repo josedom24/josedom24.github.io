@@ -10,8 +10,9 @@ tagline: CFGS ASIR
 #### Python
 
 * [Boletín 1: Ejercicios sencillos](bol1)
-* [Resuelto boletín 1: Ejercicios alternativas](resuelto1)
+* [Resuelto boletín 1: Ejercicios sencillos](resuelto1)
 * [Boletín 2: Ejercicios alternativas](bol2)
+* [Resuelto boletín 2: Ejercicios alternativas](resuelto2)
 * [Boletín 3: Ejercicios bucles](bol3)
 * [Boletín 4: Ejercicios listas](bol4)
 
