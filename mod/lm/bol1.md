@@ -29,4 +29,4 @@ tagline: CFGS ASIR
 	Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
 
 
-[Volver](http://josedom24.github.io)
+[Volver](index)

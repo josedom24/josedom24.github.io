@@ -40,3 +40,5 @@ tagline: CFGS ASIR
 
 
 12. Escribir una función que reciba una lista de elementos e indique si se encuentran ordenados de menor a mayor o no.
+
+[Volver](index)
