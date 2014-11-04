@@ -42,3 +42,4 @@ tagline: CFGS ASIR
 
 	Modifica el programa para que compruebe si una frase es palíndroma. Ejemplo: *Yo hago yoga hoy*
 
+[Volver](index)
