@@ -16,5 +16,6 @@ tagline: CFGS ASIR
 * [Boletín 3: Ejercicios bucles](bol3)
 * [Resuelto boletín 3: Ejercicios bucles](resuelto3)
 * [Boletín 4: Ejercicios listas](bol4)
+* [Boletín 5: Ejercicios cadenas](bol5)
 
 [Volver](http://josedom24.github.io)
