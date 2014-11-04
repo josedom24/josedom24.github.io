@@ -27,7 +27,7 @@ tagline: CFGS ASIR
 
 	* Habilita el listado de ficheros en la URL  *http://tunombre.mialias.net/nas*.
 	* Crea una redirección permanente: cuando entremos en *http://tunombre.mialias.net/google* salte a www.google.es.
-	* Pedir autentificación para entrar en la URL *http://tunombre.mialias.net/prohibido*.
+	* Pedir autentificación para entrar en la URL *http://tunombre.mialias.net/prohibido*. Puedes ver este [tutorial](https://support.cdmon.com/entries/42871258-Proteger-carpetas) de CDMON.
 
 8. Vamos a seguir trabajando en el escenario que implementamos en los 5 primeros ejercicios. Vamos a instalar y configurar un analizador de logs de apache2 que nos permita generar estadísticas de acceso a nuestro servidor web. Hay muchos programas que ofrecen esta funcionalidad pero nosotros vamos a optar por *awstats*.
 
