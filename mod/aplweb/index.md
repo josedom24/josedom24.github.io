@@ -39,3 +39,4 @@ tagline: CFGM SMR
 #### Tema 3: Instalación de un servidor web y administración de aplicaciones web
 
 * [Ejercicio 15: Montar un servidor web local](ej15)
+* [Ejercicio 16: Hosting gratuito cdmon](ej16)
