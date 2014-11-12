@@ -11,7 +11,7 @@ El paquete dnsmasq permite poner en marcha un servidor DNS de una forma muy senc
 
 Queremos instalar un servidor DNS local en nuestra intranet que nos permita gestionar los nombres de las máquinas y recursos de nuestra red, vamos a instalar el servidor DNS en el mismo ordenador que tenemos instalado el servidor web. Las características del servidor DNS que queremos instalar son las siguientes:
 
-* El servidor web (IP que tenga el servidor linux) se llama *nombredelservisor*.iesgn.com
+* El servidor web (IP que tenga el servidor linux) se llama *nombredelservidor*.iesgn.com
 * Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.201 (esto es ficticio)
 * Además queremos nombrar a otros clientes.
 * Las páginas webs que hiciste en la práctica de apache (www.iesgn.org,...) tienen que ser accesibles desde los clientes.

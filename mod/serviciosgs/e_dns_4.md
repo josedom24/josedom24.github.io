@@ -27,7 +27,7 @@ Modifica la configuración del servidor DNS actual para que funcione como maestr
 6. Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?
 7. Configura un cliente para que utilice los dos servidores como servidores DNS.
 8. Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?
-9. Realiza una consulta desde desde el cliente y comprueba que servidor está respondiendo.
+9. Realiza una consulta desde el cliente y comprueba que servidor está respondiendo.
 10. Posteriormente apaga el servidor maestro y vuelve a realizar una consulta desde el cliente ¿quién responde?
 
 </div>
