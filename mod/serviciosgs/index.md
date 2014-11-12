@@ -78,10 +78,8 @@ tagline: CFGS ASIR
 ### Proyectos
 
 * [Proyecto 1:Instalación de un servidor en un centro educativo](proyecto1)
-* [Entrega 1](proyecto1_entrega1)
-* [Entrega 2](proyecto1_entrega2)
-* [Entrega 3](proyecto1_entrega3)
-* [Entrega 4](proyecto1_entrega4)
+* [Entrega 1 - Proyecto windows](proyecto1_entrega1)
+* [Entrega 2 - Proyecto Linux](proyecto1_entrega2)
 * [Proyecto 2: Implantación de un servidor de hosting](proyecto2)
 * [Proyecto 3: Instalación de un proxy en el servidor de un centro educativo](proyecto3)
 * [Proyecto 4: Configuración de un servidor de correos](proyecto4)

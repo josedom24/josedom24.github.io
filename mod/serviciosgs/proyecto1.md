@@ -64,30 +64,29 @@ Debes instalar un servidor DHCP en este ordenador. Para probarlo sin ningún pro
 
 * Rango: 192.168.1.3-192.168.1.253
 * Máscara de red: 255.255.255.0 
-* DNS: Mientras no tengas instalado un servidor DNS, puedes usar el del Windows 2008.
+* DNS: Según el que te convenga para hacer las pruebas 
 
 ###c) Servidor Web
 
-En nuestro servidor debian vamos a instalar un servidor Web apache2 que hagas las funciones del servidor web del windows 2008. Tendrá las siguientes características.
+En nuestro servidor debian vamos a instalar un servidor Web apache2 que haga las funciones del antiguo servidor web del windows 2008. Tendrá las siguientes características.
 
 1. Nuestro servidor va  a seguir teniendos dos hosts virtuales: www.example.com y informatica.example.com
 2. La página www.example.com va a ser la página principal del instituto, por lo que vamos a instlar un CMS wordpress, para ello configura un servidor LAMP.
 3. Instala el programa phpmyadmin para gestionar las bases de datos. A este aplicación web sólo se puede acceder desde la intranet.
 4. Por seguridad, en la página www.example.com, no se permite que se sigan enlaces simbólicos, no se permite negociación de contenidos, no se permite visualizar la lista de ficheros y no se permite usar ficheros .htaccess.
-5. La página informatica.example.com es la página principal del departamento de informática y en ella vamos a instalar una plataforma moodle. Dicha aplicación web estará instalada en un directorio llamado plataforma. Por lo tanto si accedemos a informatica.example.com se debererá redirigir a informatica.example.com/plataforma
-6. Para que nuestro servidor web sea más "elegante· modifica las páginas de error que ofrece el servidor, traducelas al español y pon algún logotipo. (Al menos en las página de errores más comunes 404, 403, 500, ...)
-7. Cada profesor del departamento de informática puede tener una página personal, para ello usa el módulo public_html. En esta página personal se debe poder ejecutar php y poder ser configurada usando ficheros .htaccess.
-8. Para llevar una estadistica de visitas y accesos instala la aplicación awstats en cada uno de los virtual hosts.
-9. En el directorio /srv/isos tenemos una colección de imágenes isos, queremos acceder a ella en la dirección informatica.example.com/isos. Esta dirección debe ser sólo accesible desde la intranet, si accedemos desde fuera tenemos que autentificarnos (digest) con un usuario.
-10. Configura la página wordpress para usar URL amigables, módulo rewrite. Modifica del punto 4 lo qye sea necesario para que funcione este punto.
-11. Queremos instalar un gestor de proyectos, hemos elegido el redmine. Configura el sistema para que sea accesible desde informatica.example.com/proyectos
+5. La página informatica.example.com es la página principal del departamento de informática y en ella vamos a instalar una plataforma moodle. Dicha aplicación web estará instalada en un directorio llamado plataforma. Por lo tanto si accedemos a informatica.example.com se debererá redirigir automáticamente a informatica.example.com/plataforma
+6. Cada profesor del departamento de informática puede tener una página personal, para ello usa el módulo public_html. En esta página personal se debe poder ejecutar php y poder ser configurada usando ficheros .htaccess.
+7. Para llevar una estadistica de visitas y accesos instala la aplicación webalizer en el servidor.
+8. En el directorio /srv/isos tenemos una colección de imágenes isos, queremos acceder a ella en la dirección informatica.example.com/isos. Esta dirección debe ser sólo accesible desde la intranet, si accedemos desde fuera tenemos que autentificarnos (digest) con un usuario.
+9. Configura la página wordpress para usar URL amigables, módulo rewrite. Modifica del punto 4 lo que sea necesario para que funcione este punto.
+
 
 ###d) Servidor DNS
 
 Vamos a instalar en nuestra red un servidor DNS bind9 que permita la resolución de nombres. Este servicio va a sustituir al servidor Windows 2008. El servidor DNS ofrece el servicio de resolución de nombres para los ordenadores de nuestra red local. Debes tener en cunta los siguientes puntos:
 
 * Cuando tengas funcionando el servidor DNS, tendrás que modificar el servidor DHCP para que los clientes usen el servidor DNS. 
-* Piensa el nombre que tiene el servidor. El servidor DNS debe poder resolver los siguientes nombres: nombredelservidor.example.com, www.example.com, informatica.example.com El primero es el nombre del servidor, los dos siguientes son dos páginas webs que el servidor va a servir. 
+* Piensa el nombre que tiene el servidor. El servidor DNS debe poder resolver los siguientes nombres: nombredelservidor.example.com, www.example.com, informatica.example.com. El primero es el nombre del servidor, los dos siguientes son dos páginas webs que el servidor va a servir. 
 * Debes implementar la zona inversa del servidor.
 
 Además nos indican que los profesores de informáticas les gustaría poder dar de alta nuevos nombres en el servidor DNS. Para ello vas a crear un scipt en python que nos permita añadir o borrar registros en las zonas de nuestro servidor.
@@ -115,6 +114,6 @@ Ejemplos
 
 Todos los registros creados o borrados pertenecen a las zonas example.com. Se debe modificar la zona inversa en los casos necesarios. El script debe reinciar el servidor bind9.
 
-Por último nos piden que sea posible que el servidor DNS resuleva el nombre de los clientes que reciben ip por medio del servidor DHCP, por lo que deberas contemplar la configuración de un dns dinámico.
+**[OPCIONAL]**: Por último nos piden que sea posible que el servidor DNS resuelva el nombre de los clientes que reciben ip por medio del servidor DHCP, por lo que deberas contemplar la configuración de un dns dinámico.
 
 [Volver](index)
