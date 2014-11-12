@@ -31,22 +31,19 @@ Lo primero que tienes que hacer es elegir un nombre de dominio.
 
 	* Modifica los gestores de contenidos un poco para que parezcan que son las páginas reales del instituto, pon un título, algún logotipo, cambia los temas,...
 	* Explica como has configurado los dos virtual hosts
-	* Explica la instlación de un servidor LAMP y de WordPress
+	* Explica la instlación de un servidor LAMP. (No hace falta explicar la instlación de wordpress)
 	* Explica el proceso de instalación de phpmyadmin y la configuración necesaria para que sólo sea accesible desde la red local.
 	* Explica las modificación de la configuración para conseguir lo que se pide en el punto 4.
-	* Explica la instalación de moodle
-	* Explica las modificación de la configuración para conseguir lo que se pide en el punto 6. Entrega alguna captura de pantalla donde se vean las páginas de error modificadas.
 	* Explica la instalación y configuración del módulo userdir. Presenta algún ejemplo donde se vea que podemos cambiar la configuración por medio de ficheros .htaccess.
 	* Explica los pasos necesarios para instalar awstats para cada uno de los sitios webs.
 	* Explica las modificación de la configuración para conseguir lo que se pide en el punto 9.
 	* Explica como conseguir las URL "limpias" en wordpress.
-	* Explica la instalación de redmine.
 
 5. Realizar el punto 2d) Servidor DNS, teniendo en cuenta estos puntos:
 
 	* Modificación en el servidor DHCP para que los clientes usen el nuevo DNS
 	* Una vez terminado de realizar la configuración, se debe entregar las salidas del comando nslookup y dig desde los clientes windows y linux.
-	* Se debe entregar el script gestionDNS.py con un pequeño manual de como funciona.
-	* Configura el servidor DNS dinámico para que se pueda resolver los nombres de los clientes que reciben configuración de red dinámica.
+	* Se debe entregar el repositorio github donde guardas el script gestionDNS.py con un pequeño manual de como funciona.
+	* **[OPTATIVO]]**: Configura el servidor DNS dinámico para que se pueda resolver los nombres de los clientes que reciben configuración de red dinámica.
 
 [Volver](index)
