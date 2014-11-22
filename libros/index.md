@@ -6,14 +6,32 @@ tagline: www.josedomingo.org
 ---
 ## Colección de libros libres
 
+#### Aplicaciones 
+
+* Fásciculos guadlinex: Firefox [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/2-Firefox.pdf)]
+* Fásciculos guadlinex: Evolution y Gain [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/3-Evolution_y_Gaim.pdf)]
+* Fásciculos guadlinex: Gimp e Inkscape [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/4-Gimp_e_Inkscape.pdf)]
+* Fásciculos guadlinex: Writer y Calc [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/5-Writer_y_Calc.pdf)]
+* Fásciculos guadlinex: Impress y Draw [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/6-Impress_y_Draw.pdf)]
+* Fásciculos guadlinex: Base [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/7-Base.pdf)]
 
 #### Aplicaciones web
 
 * Desarrollo de aplicaciones web (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/desarrollo%20de%20aplicaciones%20web.pdf)]
+* Introducción a XHTML (librosweb.es) [[web](http://www.librosweb.es/xhtml/index.html)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/introduccion_a_xhtml.pdf)]
+* Introducción a AJAX (librosweb.es) [[web](http://www.librosweb.es/ajax/index.html)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/introduccion_ajax.pdf)]
+* Introducción a JavaScript (librosweb.es) [[web](http://www.librosweb.es/javascript/index.html)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/introduccion_javascript.pdf)]
+* Introducción a CSS (librosweb.es) [[web](http://www.librosweb.es/css/index.html)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/introduccion_css.pdf)]
+
 
 #### Base de datos
 
 * Base de datos (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Base%20de%20Datos/basededatos.pdf)]
+
+
+#### Internet
+
+* Diccionario de Internet [[web](http://www.jorgeontalba.es/diccionario-de-internet.htm)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Internet/diccionario-de-internet-jorge-ontalba.pdf)]
 
 #### PaaS
 
@@ -39,6 +57,7 @@ tagline: www.josedomingo.org
 
 * Sistema operativo GNU/Linux básico (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/linux%20basico.pdf)]
 * Administración avanzada del sistema operativo GNU/Linux (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/linux%20avanzado.pdf)]
+* Fásciculos guadlinex: Introducción a GNU Linux [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/1-Introduccion_a_GnuLinux.pdf)]
 
 #### Servicios
 
@@ -48,17 +67,10 @@ tagline: www.josedomingo.org
 
 * Introducción al software libre (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/software%20libre.pdf)]
 * Utilidades y herramientas (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/utilidades%20y%20herramientas.pdf)]
+* Software libre para una sociedad libre [[web](http://biblioweb.sindominio.net/pensamiento/softlibre/)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/softlibre.pdf)]
 
 #### Varios
 
 * Aspectos legales (Volumen 1) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/legal1.pdf)]
 * Aspectos legales (Volumen 2) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/legal2.pdf)]
 
-
-
-
-
-
-* Redes de ordenadores (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf]()]
-* Aspectos avanzados de seguridad en redes (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf]()]
-* Aspectos avanzados de seguridad en redes (Apendices) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf]()]
