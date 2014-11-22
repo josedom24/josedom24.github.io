@@ -6,10 +6,10 @@ tagline: www.josedomingo.org
 ---
 ## Colección de libros libres
 
-* [Aplicaciones][Aplicaciones]
-* [Varios][Varios]
+* [Aplicaciones][1]
+* [Varios][2]
 
-[Aplicaciones]:#### Aplicaciones 
+[1]:#### Aplicaciones 
 
 * Fásciculos guadlinex: Firefox [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/2-Firefox.pdf)]
 * Fásciculos guadlinex: Evolution y Gain [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/3-Evolution_y_Gaim.pdf)]
@@ -81,7 +81,7 @@ tagline: www.josedomingo.org
 * Software libre para una sociedad libre [[web](http://biblioweb.sindominio.net/pensamiento/softlibre/)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/softlibre.pdf)]
 * Libro Blanco del Software Libre en España (III) [[web](http://libroblanco.com)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/III_libro_blanco_del_software_libre.pdf)]
 
-[Varios]:#### Varios
+[2]:#### Varios
 
 * Aspectos legales (Volumen 1) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/legal1.pdf)]
 * Aspectos legales (Volumen 2) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/legal2.pdf)]
