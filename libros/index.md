@@ -29,6 +29,14 @@ tagline: www.josedomingo.org
 * Base de datos (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Base%20de%20Datos/basededatos.pdf)]
 
 
+#### Educación
+
+* Tecnologia Educativa [[web](http://ordenadoresenelaula.blogspot.com.es/2009/01/ebook-sobre-tecnologia-educativa_07.html)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Educaci%C3%B3n/ebookte.pdf)]
+
+#### Gráficos y vídeos
+
+*  	Tecnologías Libres para Síntesis de Imagen Digital Tridimensional [[web](http://www.inf-cr.uclm.es/www/cglez/index.php?lang=es&sec=home)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Gr%C3%A1ficos%20y%20v%C3%ADdeos/blendiberia2006.pdf)]
+
 #### Internet
 
 * Diccionario de Internet [[web](http://www.jorgeontalba.es/diccionario-de-internet.htm)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Internet/diccionario-de-internet-jorge-ontalba.pdf)]
@@ -68,9 +76,10 @@ tagline: www.josedomingo.org
 * Introducción al software libre (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/software%20libre.pdf)]
 * Utilidades y herramientas (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/utilidades%20y%20herramientas.pdf)]
 * Software libre para una sociedad libre [[web](http://biblioweb.sindominio.net/pensamiento/softlibre/)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/softlibre.pdf)]
+* Libro Blanco del Software Libre en España (III) [[web](http://libroblanco.com)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/III_libro_blanco_del_software_libre.pdf)]
 
 #### Varios
 
 * Aspectos legales (Volumen 1) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/legal1.pdf)]
 * Aspectos legales (Volumen 2) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/legal2.pdf)]
-
+* El Manual Práctico de Supervivencia en la Administración Electrónic@ [[web](http://www.microlopez.es/)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/Manual_Supervivencia_eAdmin.pdf)]
