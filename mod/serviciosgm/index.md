@@ -46,6 +46,8 @@ tagline: CFGM SMR
 
 * [Ejercicio 1: Configura Thunderbird para recibir correo](e_mail_1)
 * [Ejercicio 2: Instalación y configuración de un servidor de correo en una red local](e_mail_2)
+* [Ejercicio 3: Configuración de correo en servidor externo](e_mail_3)
+
 
 ##### Proyectos
 * [Proyecto 1:Configuración de un servidor Windows Server](proyecto1)

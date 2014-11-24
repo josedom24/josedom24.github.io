@@ -20,7 +20,7 @@ tagline: www.josedomingo.org
 
 #### Aplicaciones web
 
-* Desarrollo de aplicaciones web (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/desarrollo%20de%20aplicaciones%20web.pdf)]
+* Desarrollo de aplicaciones web (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)])[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/desarrollo%20de%20aplicaciones%20web.pdf)]
 * Introducción a XHTML (librosweb.es) [[web](http://www.librosweb.es/xhtml/index.html)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/introduccion_a_xhtml.pdf)]
 * Introducción a AJAX (librosweb.es) [[web](http://www.librosweb.es/ajax/index.html)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/introduccion_ajax.pdf)]
 * Introducción a JavaScript (librosweb.es) [[web](http://www.librosweb.es/javascript/index.html)[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones%20Web/introduccion_javascript.pdf)]
