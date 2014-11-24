@@ -18,5 +18,6 @@ tagline: CFGS ASIR
 * [Boletín 4: Ejercicios listas](bol4)
 * [Resuelto boletín 4: Ejercicios listas](resuelto4)
 * [Boletín 5: Ejercicios cadenas](bol5)
+* [Resuelto boletín 5: Ejercicios cadenas](resuelto5)
 
 [Volver](http://josedom24.github.io)
