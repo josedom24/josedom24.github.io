@@ -6,10 +6,7 @@ tagline: www.josedomingo.org
 ---
 ## Colección de libros libres
 
-* [Aplicaciones][1]
-* [Varios][2]
-
-[1]:#### Aplicaciones 
+#### Aplicaciones 
 
 * Fásciculos guadlinex: Firefox [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/2-Firefox.pdf)]
 * Fásciculos guadlinex: Evolution y Gain [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Aplicaciones/3-Evolution_y_Gaim.pdf)]
@@ -38,7 +35,8 @@ tagline: www.josedomingo.org
 
 #### Gráficos y vídeos
 
-*  	Tecnologías Libres para Síntesis de Imagen Digital Tridimensional [[web](http://www.inf-cr.uclm.es/www/cglez/index.php?lang=es&sec=home)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Gr%C3%A1ficos%20y%20v%C3%ADdeos/blendiberia2006.pdf)]
+* Tecnologías Libres para Síntesis de Imagen Digital Tridimensional [[web](http://www.inf-cr.uclm.es/www/cglez/index.php?lang=es&sec=home)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Gr%C3%A1ficos%20y%20v%C3%ADdeos/blendiberia2006.pdf)]
+* Aprende Blender y Yafray en 24 horas [[web](http://www.inf-cr.uclm.es/www/cglez/index.php?lang=es&sec=home)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Gr%C3%A1ficos%20y%20v%C3%ADdeos/24hBlenderYafray.pdf)]
 
 #### Internet
 
@@ -69,6 +67,13 @@ tagline: www.josedomingo.org
 * Sistema operativo GNU/Linux básico (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/linux%20basico.pdf)]
 * Administración avanzada del sistema operativo GNU/Linux (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/linux%20avanzado.pdf)]
 * Fásciculos guadlinex: Introducción a GNU Linux [[web](http://www.guadalinex.org/mas-programas/descargas/documentos-de-guadalinex/fasciculos)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/1-Introduccion_a_GnuLinux.pdf)]
+* Introducción a la Administración GNU/Linux [[web](http://www.jesusda.com/docs/ebooks/#book-curso-admin-linux)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/linux-admin.pdf)]
+* Tutorial Linux [[web](http://www.jesusda.com/docs/ebooks/#book-tutoriallinux)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/ebook-tutoriallinux-6.0-0.pdf)]
+* Administración de Sistemas GNU/Linux [[web](http://www.codigolibre.org)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Sistemas%20Operativos/Administracion-GNU-Final.pdf)]
+
+#### Seguridad
+
+* Seguridad de Sistemas GNU/LINUX [[web](http://www.codigolibre.org)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Seguridad/Libro-Seguridad-GNU-Linux-Antonio-Perpinan-2011.pdf)]
 
 #### Servicios
 
@@ -81,7 +86,7 @@ tagline: www.josedomingo.org
 * Software libre para una sociedad libre [[web](http://biblioweb.sindominio.net/pensamiento/softlibre/)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/softlibre.pdf)]
 * Libro Blanco del Software Libre en España (III) [[web](http://libroblanco.com)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Software%20Libre/III_libro_blanco_del_software_libre.pdf)]
 
-[2]:#### Varios
+#### Varios
 
 * Aspectos legales (Volumen 1) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/legal1.pdf)]
 * Aspectos legales (Volumen 2) (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Varios/legal2.pdf)]
