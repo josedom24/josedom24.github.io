@@ -35,8 +35,8 @@ Lo primero que tienes que hacer es elegir un nombre de dominio.
 	* Explica el proceso de instalación de phpmyadmin y la configuración necesaria para que sólo sea accesible desde la red local.
 	* Explica las modificación de la configuración para conseguir lo que se pide en el punto 4.
 	* Explica la instalación y configuración del módulo userdir. Presenta algún ejemplo donde se vea que podemos cambiar la configuración por medio de ficheros .htaccess.
-	* Explica los pasos necesarios para instalar awstats para cada uno de los sitios webs.
-	* Explica las modificación de la configuración para conseguir lo que se pide en el punto 9.
+	* Explica los pasos necesarios para instalar webalizer para cada uno de los sitios webs.
+	* Explica las modificación de la configuración para conseguir lo que se pide en el punto 8.
 	* Explica como conseguir las URL "limpias" en wordpress.
 
 5. Realizar el punto 2d) Servidor DNS, teniendo en cuenta estos puntos:
