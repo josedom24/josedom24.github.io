@@ -53,7 +53,7 @@ tagline: CFGS ASIR
 * [Ejercicio 5: Instalación y configuración de un servidor DNS dinámico](e_dns_5)
 * [Ejercicio 6: Configuración de subdominios virtuales con bind9](e_dns_6)
 * [Ejercicio 7: Delegación de subdominios con bind9](e_dns_7)
-* [Ejercicio 8: Ejercicio completo del servidor DNS](ej8)
+* [Ejercicio 8: Ejercicio completo del servidor DNS](e_dns_8)
 
 
 #### Servidor ftp
