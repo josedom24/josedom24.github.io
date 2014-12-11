@@ -41,3 +41,4 @@ tagline: CFGM SMR
 * [Ejercicio 15: Montar un servidor web local](ej15)
 * [Ejercicio 16: Hosting gratuito cdmon](ej16)
 * [Ejercicio 17: Instalación de un servidor LAMP: Linux+Apache+PHP+MySQL](ej17)
+* [Ejercicio 18: Instalación de php-agenda](ej18)
