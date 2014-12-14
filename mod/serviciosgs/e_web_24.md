@@ -7,11 +7,11 @@ tagline: CFGS ASIR
 
 ### Ejercicio: Estudio de servidores Webs
 
-Los servidores webs que se van a estudiar en el presente proyecto son: nginx, cherokee, lighttpd, IIS.
+Los servidores webs que se van a estudiar en el presente proyecto son: nginx, cherokee, lighttpd, IIS y Apache2.4
 
 ####Objetivo del trabajo
 
-Cada grupo debe estudiar un servidor web e intentad lograr los siguientes objetivos:
+Cada grupo debe estudiar un servidor web y lograr los siguientes objetivos:
 
 * Realizar la instalación del servidor web estudiado.
 * Aprender los conceptos y realizar la configuración básica del servidor: virtual hosting, autentifícación, ejecución de scripts.
@@ -41,7 +41,7 @@ En este punto se debe hacer un estudio comparado entre el servidor estudiado y e
 * Memoria consumida por el servidor
 * Rendimiento (número de peticiones servidas) de cada servidor
 
-Se realizara el estudio sobre la página principal de un CMS Wordpress que estará instalado en ambos servidores en dos máuinas virtuales con las mismas caracteristícas. Cada grupo seleccionará las distintas pruebas de benckmark que se puedan realizar a los dos servidores para observar las diferencias.
+Se realizara el estudio sobre la página principal de un CMS Wordpress que estará instalado en ambos servidores en dos máquinas virtuales con las mismas caracteristícas. Cada grupo seleccionará las distintas pruebas de benckmark que se puedan realizar a los dos servidores para observar las diferencias.
 
 ####Normas sobre la redacción del trabajo
 
