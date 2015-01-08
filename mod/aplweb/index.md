@@ -46,3 +46,4 @@ tagline: CFGM SMR
 #### Tema 4: Sistemas gestores de contenido
 
 * [Ejercicio 19: Introducción a los sistemas gestores de contenido](ej19)
+* [Ejercicio 20: Proyecto joomla](ej20)
