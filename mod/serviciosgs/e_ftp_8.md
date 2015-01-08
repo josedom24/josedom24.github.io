@@ -18,7 +18,7 @@ Tenemos que desarrollar la página del instituto www.iesgn.org, y queremos que s
 	* El departamento de matemáticas tendrá su página en www.iesgn.org/matematicas
 	* Se creará un usuario user_matematicas, que tendrá una contraseña, para que accediendo a ftp.iesgn.org, pueda gestionar los ficheros de su página web.
 
-Determina los cambios que tienes que ir realizando para ir creando el espacio web para cada uno de los departamentos.
+	Determina los cambios que tienes que ir realizando para ir creando el espacio web para cada uno de los departamentos.
 
 3. Instala la aplicación web net2ftp en el servidor por si tenemos problemas de acceso por el puerto 20/21.
 
