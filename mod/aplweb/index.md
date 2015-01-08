@@ -47,3 +47,4 @@ tagline: CFGM SMR
 
 * [Ejercicio 19: Introducción a los sistemas gestores de contenido](ej19)
 * [Ejercicio 20: Proyecto joomla](ej20)
+* [Ejercicio 21: Ejercicio wordpress](ej21)
