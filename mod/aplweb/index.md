@@ -42,3 +42,7 @@ tagline: CFGM SMR
 * [Ejercicio 16: Hosting gratuito cdmon](ej16)
 * [Ejercicio 17: Instalación de un servidor LAMP: Linux+Apache+PHP+MySQL](ej17)
 * [Ejercicio 18: Instalación de php-agenda](ej18)
+
+#### Tema 4: Sistemas gestores de contenido
+
+* [Ejercicio 19: Introducción a los sistemas gestores de contenido](ej19)
