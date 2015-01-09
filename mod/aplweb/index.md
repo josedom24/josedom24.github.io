@@ -50,5 +50,7 @@ tagline: CFGM SMR
 * [Ejercicio 21: Ejercicio wordpress](ej21)
 * [Ejercicio 22: Ejercicio moodle](ej22)
 * [Ejercicio 23: Ejercicio opencart](ej23)
-* [Ejercicio 24: Ejercicio owncloud](ej23)
+* [Ejercicio 24: Ejercicio owncloud](ej24)
+* [Ejercicio 25: Ejercicio mediawiki](ej25)
+* [Ejercicio 26: Ejercicio phpBB](ej26)
 
