@@ -49,3 +49,6 @@ tagline: CFGM SMR
 * [Ejercicio 20: Proyecto joomla](ej20)
 * [Ejercicio 21: Ejercicio wordpress](ej21)
 * [Ejercicio 22: Ejercicio moodle](ej22)
+* [Ejercicio 23: Ejercicio opencart](ej23)
+* [Ejercicio 24: Ejercicio owncloud](ej23)
+
