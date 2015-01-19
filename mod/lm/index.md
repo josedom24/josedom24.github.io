@@ -20,4 +20,8 @@ tagline: CFGS ASIR
 * [Boletín 5: Ejercicios cadenas](bol5)
 * [Resuelto boletín 5: Ejercicios cadenas](resuelto5)
 
+#### xml
+
+* [Temperaturas municipios de Sevilla](xml1)
+
 [Volver](http://josedom24.github.io)
