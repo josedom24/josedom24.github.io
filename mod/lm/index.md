@@ -24,4 +24,8 @@ tagline: CFGS ASIR
 
 * [Temperaturas municipios de Sevilla](xml1)
 
+#### Esquemas xml
+
+* [Presentación: Introducción al lenguaje XSD (XML Schema Definition)](slide/xsd.html)
+
 [Volver](http://josedom24.github.io)
