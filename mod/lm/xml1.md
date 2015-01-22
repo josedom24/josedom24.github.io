@@ -14,7 +14,7 @@ tagline: CFGS ASIR
         http://www.aemet.es/xml/municipios/localidad_41038.xml
 
     * Si te das cuenta para acceder al pronostico de un municipio en partícular debe ir variando el código del municipio, por ejemplo el de Dos Hermanas es el 41038.
-    * Tienes a tu disposición un fichero [sevilla.xml](fich.sevilla.xml) donde tienes la información de todos los municipios con sus respectivos códigos.
+    * Tienes a tu disposición un fichero [sevilla.xml](fich/sevilla.xml) donde tienes la información de todos los municipios con sus respectivos códigos.
     * Cuando introduzcas un municipio, deberás buscarlo en ese fichero, si lo encuentras tendrás que obtener el código que te permitirá abrir el fichero xml del pronostico y buescar en él la temperatura máxima y mínima del día actual. Si el municipio no se encuentra dará un mensaje de error.
 
 [Volver](index)
