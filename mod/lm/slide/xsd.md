@@ -173,3 +173,4 @@ Para indicar el tipo de un atributo, por ejemplo:
 	Una vez definido, podemos hacer referencia a dicho grupo con la sintaxis 
 	
 		<xs:attributegroup ref=”nombre_grupo”/>
+

@@ -27,6 +27,7 @@ tagline: CFGS ASIR
 #### Esquemas xml
 
 * [Presentación: Introducción al lenguaje XSD (XML Schema Definition)](slide/xsd.html)
+* [Ejercicios - esquemas](esquemas)
 
 #### html y css
 
