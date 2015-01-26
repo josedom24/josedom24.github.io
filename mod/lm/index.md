@@ -23,6 +23,7 @@ tagline: CFGS ASIR
 #### xml
 
 * [Temperaturas municipios de Sevilla](xml1)
+* [Modificar ficheros XML](xml2)
 
 #### Esquemas xml
 
