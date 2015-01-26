@@ -17,9 +17,7 @@ La herramienta de validación desde línea de comandos que utilizaremos se llama
 ejemplo1.xml
 
 	<?xml version="1.0" encoding="utf-8"?>
-	<nota>
-  		hola
-	</nota>
+	<nota>hola</nota>
 
 ejemplo1.xsd
 
@@ -33,21 +31,56 @@ ejemplo1.xsd
 [libro1.xml](fich/libro1.xml)
 
 	<libro>
-  		<autor>Miguel de Cervantes Saavedra</autor>
-  		<titulo>El Quijote de la Mancha</titulo>
+		<autor>Miguel de Cervantes Saavedra</autor>
+		<titulo>El Quijote de la Mancha</titulo>
 	</libro>
 
 [libro1.xsd](fich/libro1.xsd)
 
 	<?xml version="1.0" encoding="utf-8"?>
 	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  		<xs:element name="libro">
-    		<xs:complexType>
-      			<xs:sequence>
-					<xs:element name="autor" type="xs:string" />
-					<xs:element name="titulo" type="xs:string" />
-      			</xs:sequence>
-    		</xs:complexType>
-  		</xs:element>
+	<xs:element name="libro">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="autor" type="xs:string" />
+				<xs:element name="titulo" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+		</xs:element>
+	</xs:schema>
+
+####Ejemplo 3: Tipos complejos II
+
+[libro2.xml](fich/libro2.xml)
+
+	<biblioteca>
+		<libro>
+			<autor>Miguel de Cervantes Saavedra</autor>
+			<titulo>El Quijote de la Mancha</titulo>
+		</libro>
+		<libro>
+			<autor>Pablo Neruda</autor>
+			<titulo>Veinte poemas de amor y una canción desesperada</titulo>
+		</libro>
+	</biblioteca>
+
+[libro2.xsd](fich/libro2.xsd)
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="biblioteca">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="libro" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="autor" />
+							<xs:element name="titulo" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	</xs:schema>
 
