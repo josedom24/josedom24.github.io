@@ -103,8 +103,7 @@ Una de los principales servicios que va a ofrecer nuestro servidor es una págin
 * Cada profesor tiene un usuario en el servidor, además existen usuarios especiales: director, jefeestudios, secretario,...
 * La página www.dominio.com/profesores, es una zona privada donde tienen accesos todos los usuarios, sin embargo a la página www.dominio.com/equipodirectivo sólo tienen accesos los usuarios del equipo directivo: director, jefeestudios, secretario,...
 * Cada uno de los profesores puede gestionar su propia página web, para ello activa el módulo mod_userdir.
-* El departamento de informática posee una plataforma moodle, que se accede en informatica.dominio.com
-* Además se ha realizado una revista online, hecha con la aplicación web Wordpress, que podemos acceder en la url revista.dominio.com
+* El departamento de informática posee una página web realizada con Drupal, que se accede en informatica.dominio.com
 
 <div class='ejercicios' markdown='1'>
 ##### **WEB**
@@ -114,7 +113,7 @@ Una de los principales servicios que va a ofrecer nuestro servidor es una págin
 4. Autentificación: Explica como se crean los usuarios y cómo se configura las distintas páginas (www.dominio.com/profesores, www.dominio.com/equipodirectivo) para configurar la autentificación.
 5. Invenstiga como activar el módulo mod_userdir, ¿para qué sirve? Pon algún ejemplo para comprobar el funcionamiento. 
 6. Explica la instalación de un servidor LAMP.
-7. Realiza una pequeña guía (no hace falta poner capturas de pantalla) de instalación de moodle y de wordpress. También tienes que explicar la configuración de los nuevos virtual hosts.
+7. Realiza una pequeña guía (no hace falta poner capturas de pantalla) de instalación de drupal. También tienes que explicar la configuración del nuevo virtual hosts.
 </div>
 
 #### Servidor DNS
