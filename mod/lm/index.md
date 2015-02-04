@@ -36,6 +36,6 @@ tagline: CFGS ASIR
 
 #### JSON
 
-* [Ejercicios JSON](json1.md)
+* [Ejercicios JSON](json1)
 
 [Volver](http://josedom24.github.io)
