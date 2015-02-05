@@ -45,6 +45,7 @@ El proyecto consiste en realizar una web sobre alguna temática que te interese.
 * Estructura de ficheros que forman el sitio web comprimido.
 * La URL de la página donde tienes alojada la página, teniendo en cuenta que debe estar guardada en un directorio llamado **proyecto**.
 * Breve documento donde se describirá la página y se indicarán el origen de las plantillas descargadas y los códigos extra que hayamos incluido en nuestra web (menús,javascript,...)
+* Se tiene que que poner un apartado donde se explique las novedades que ha traido HTML5 respecto a xhtml 1.0 y HTML 4.1
 * Capturas de pantalla donde se vea la validación de cada una de las páginas.
 
 [Volver](index)
