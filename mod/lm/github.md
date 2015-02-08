@@ -73,3 +73,5 @@ Un objetivo de la asignatura es participar en este movimiento de código abierto
 		git status
 
 
+Si te quieres hacer un experto de [Pro Git, el libro oficial de Git](http://librosweb.es/pro_git/)
+
