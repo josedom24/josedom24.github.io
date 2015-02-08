@@ -68,3 +68,8 @@ Un objetivo de la asignatura es participar en este movimiento de código abierto
 
 		git pull
 
+12. Para comprobar el estado de mi repositorio local:
+
+		git status
+
+
