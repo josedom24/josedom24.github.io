@@ -17,8 +17,8 @@ Un objetivo de la asignatura es participar en este movimiento de código abierto
 
 ### Empecemos
 
-1. Crea una cuenta en GitHub y envía un correo a pledin.jd@gmail.com con la dirección de tu página GitHub y tu nombre completo. La forma de acceder a los repositorios remotos de GitHub va a ser por SSH, por lo tanto debes copiartu clave ssh pública a GitHub, para ello:
-	* Copia el contenido de tu fichero ~/.ssh/id_rsa.pub, añade una nueva clave SSH en el apartado "SSH keys" de tu perfil en GitHub y ega el contenido de tu clave pública.
+1. Crea una cuenta en GitHub y envía un correo a pledin.jd@gmail.com con la dirección de tu página GitHub y tu nombre completo. La forma de acceder a los repositorios remotos de GitHub va a ser por SSH, por lo tanto debes copiar tu clave pública a GitHub, para ello:
+	* Copia el contenido de tu fichero ~/.ssh/id_rsa.pub, para ello: añade una nueva clave SSH en el apartado "SSH keys" de tu perfil en GitHub y pega el contenido de tu clave pública.
 	* Si no tienes ese fichero, puedes generar una nueva clave ssh pública: [http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html](http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html).
 
 2. Crea en GitHub un repositorio con el nombre **prueba** (inicializa el repositorio con un fichero README) y la descripción **Repositorio de prueba**.
@@ -35,6 +35,7 @@ Un objetivo de la asignatura es participar en este movimiento de código abierto
 		cd prueba
 		git config --global user.name "Pepito Pérez"
 		git config --global user.email pepito.perez@gmail.com
+		git commit --amend --reset-author
 
 	Comprueba que dentro del repositorio que hemos creado se encuentra el fichero README.md, en este fichero podemos poner la descripción del proyecto.
 
@@ -62,7 +63,7 @@ Un objetivo de la asignatura es participar en este movimiento de código abierto
 		git commit -am "He borrado el fichero ejemplo2"
 		git push
 
-10. Puedes clonar tu repositorio de GitHub en varios ordenadores (por ejemplo, si quieres trabajar en tu casa y en el instituto), por lo tanto antes de trabajar en un repositorio local tienes que sincronizar los posibles cambios que se hayan producido en rl repositorio remoto, para ello:
+10. Puedes clonar tu repositorio de GitHub en varios ordenadores (por ejemplo, si quieres trabajar en tu casa y en el instituto), por lo tanto antes de trabajar en un repositorio local tienes que sincronizar los posibles cambios que se hayan producido en el repositorio remoto, para ello:
 
 		git pull
 
@@ -71,5 +72,5 @@ Un objetivo de la asignatura es participar en este movimiento de código abierto
 		git status
 
 
-Si te quieres hacer un experto de [Pro Git, el libro oficial de Git](http://librosweb.es/pro_git/)
+Si te quieres hacerte un experto de [Pro Git, el libro oficial de Git](http://librosweb.es/pro_git/)
 
