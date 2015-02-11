@@ -10,15 +10,15 @@ El objetivo de esta práctica es que los usuarios locales del equipo puedan acce
 
 Para ello sigue los siguiente pasos:
 
-1) Crea dos usuarios locales: Jose y Maria. (Recuerda que para crear usuario utiliza la instrucción adduser)
+1. Crea dos usuarios locales: Jose y Maria. (Recuerda que para crear usuario utiliza la instrucción adduser)
 
-2) Instala y configura el servidor proFTPd para que los usuarios puedan acceder a sus directorios personales.
+2. Instala y configura el servidor proFTPd para que los usuarios puedan acceder a sus directorios personales.
 
-        apt-gert install proftpd
+        	apt-get install proftpd
 
-El fichero de configuración es /etc/proftpd/proftpd.conf, en este fichero  descomenta la línea **"DefaultRoot"** para que los usuario no puedan salir de su directorio. Por último reinicia el servicio.
+	El fichero de configuración es /etc/proftpd/proftpd.conf, en este fichero  descomenta la línea **"DefaultRoot"** para que los usuario no puedan salir de su directorio. Por último reinicia el servicio.
 
-3) Accede a ftp.iesgn.org, comprueba que tienes que autentificarte y comprueba el acceso con los dos usuarios. (Debes configurar el servidor DNS para que desde el cliente puedas acceder a ese nombre de máquina.
+3. Accede a ftp.iesgn.org, comprueba que tienes que autentificarte y comprueba el acceso con los dos usuarios. (Debes configurar el servidor DNS para que desde el cliente puedas acceder a ese nombre de máquina.
 
 
 <div class='ejercicios' markdown='1'>
