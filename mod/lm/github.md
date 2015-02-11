@@ -17,7 +17,10 @@ Un objetivo de la asignatura es participar en este movimiento de código abierto
 
 ### Empecemos
 
-1. Crea una cuenta en GitHub y envía un correo a pledin.jd@gmail.com con la dirección de tu página GitHub y tu nombre completo.
+1. Crea una cuenta en GitHub y envía un correo a pledin.jd@gmail.com con la dirección de tu página GitHub y tu nombre completo. La forma de acceder a los repositorios remotos de GitHub va a ser por SSH, por lo tanto debes copiartu clave ssh pública a GitHub, para ello:
+	* Copia el contenido de tu fichero ~/.ssh/id_rsa.pub, añade una nueva clave SSH en el apartado "SSH keys" de tu perfil en GitHub y ega el contenido de tu clave pública.
+	* Si no tienes ese fichero, puedes generar una nueva clave ssh pública: [http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html](http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html).
+
 2. Crea en GitHub un repositorio con el nombre **prueba** (inicializa el repositorio con un fichero README) y la descripción **Repositorio de prueba**.
 3. Instala git en tu ordenador.
 
@@ -42,33 +45,28 @@ Un objetivo de la asignatura es participar en este movimiento de código abierto
 		git commit -m "He creado el fichero ejemplo.txt"
 		git push
 
-7. Como podrás comprobar al hacer el push nos pide nuestro nombre de usuario y contraseña de GitHub para poder subir los cambios. Esto puede ser un fastidio, pero como nos estamos conectando por SSH podemos utilizar una clave ssh ṕública para acceder a nuestra cuenta GitHub, para ello:
-
-	* Copia el contenido de tu fichero ~/.ssh/id_rsa.pub, añade una nueva clave SSH en el apartado "SSH keys" de tu perfil en GitHub y ega el contenido de tu clave pública.
-	* Si no tienes ese fichero, puedes generar una nueva clave ssh pública: [http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html](http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html).
-
-8. Si modificas un fichero en tu repositorio local, no tienes que volver a añadirlo a tu repositorio (**git add**). Pero tienes que usar la opción -a al hacer el commit.
+7. Si modificas un fichero en tu repositorio local, no tienes que volver a añadirlo a tu repositorio (**git add**). Pero tienes que usar la opción -a al hacer el commit.
 
 		git commit -am "He modificado el fichero ejemplo.txt"
 		git push
 
-9. Si quieres cambiar el nombre de un fichero o directorio de tu repositorio:
+8. Si quieres cambiar el nombre de un fichero o directorio de tu repositorio:
 
 		git mv ejemplo.txt ejemplo2.txt
 		git commit -am "He cambiado el nombre del fichero"
 		git push
 
-10. Si quieres borrar un fichero de tu repositorio:
+9. Si quieres borrar un fichero de tu repositorio:
 
 		git rm ejemplo2.txt
 		git commit -am "He borrado el fichero ejemplo2"
 		git push
 
-11. Puedes clonar tu repositorio de GitHub en varios ordenadores (por ejemplo, si quieres trabajar en tu casa y en el instituto), por lo tanto antes de trabajar en un repositorio local tienes que sincronizar los posibles cambios que se hayan producido en rl repositorio remoto, para ello:
+10. Puedes clonar tu repositorio de GitHub en varios ordenadores (por ejemplo, si quieres trabajar en tu casa y en el instituto), por lo tanto antes de trabajar en un repositorio local tienes que sincronizar los posibles cambios que se hayan producido en rl repositorio remoto, para ello:
 
 		git pull
 
-12. Para comprobar el estado de mi repositorio local:
+11. Para comprobar el estado de mi repositorio local:
 
 		git status
 
