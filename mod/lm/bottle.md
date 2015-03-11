@@ -17,4 +17,4 @@ tagline: CFGS ASIR
 	
 	![calculadora](img/calculadora2.png)
 	
-	
+2. Realiza una página web que muestre la tabla de multiplicar de un número indicado en la URL.	Por ejemplo http://localhost:8080/tabla/6 muestra una página con la tabla de multiplicar del 6.
