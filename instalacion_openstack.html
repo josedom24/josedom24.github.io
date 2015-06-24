@@ -1,10 +1,10 @@
 ---
 layout: presentacion
-title: Automatización
+title: Instalación de OpenStack
 tema: white
 ---
 <section>
-  <h2>Automatización en IaaS</h2>
+  <h2>Introducción a la instlación de OpenStack</h2>
   <p>
     <a href="http://albertomolina.wordpress.com">Alberto Molina Coballes</a> y
     <a href="http://www.josedomingo.org">José Domingo Muñoz Rodríguez</a>
@@ -17,54 +17,49 @@ tema: white
 </section>
 
 <section>
-  <q style="margin-bottom: 1em;">La automatización es en informática el conjunto de métodos que
-    sirven para realizar tareas repetitivas en un ordenador</q>
-  <br />
+  <h3>Escenario de instalación</h3>
   
   <ul>
-    <li>La automatización es cada vez más habitual en entornos de
-      infraestructura clásica (máquinas físicas o virtuales)</li>
-    <li>La automatización es <strong>obligatoria</strong> en
-      entornos de IaaS donde los elementos se crean y eliminan a
-      demanda de forma muy rápida</li>
-  </ul>
-</section>
-<section>
-  <h3>¿Qué automatizar?</h3>
-  <ul>
-    <li>Aprovisionamiento de recursos</li>
-    <li>Configuración de los recursos</li>
-    <li>Respuestas ante eventos</li>
-  </ul>
-</section>
-<section>
-  <h3>Herramientas genéricas</h3>
-  <ul>
-    <li>Shell scripts</li>
-    <li>Aplicación en un lenguaje de alto nivel. APIs</li>
-    <li>Bibliotecas de despliegue: Capistrano o Fabric</li>
-    <li>Herramientas de gestión de la configuración:
+    <li>Vamos a usar vagrant para crear una máquina virtual con sistema operativo Debian Jessie, con las siguientes características:
       <ul>
-	<li>Puppet</li>
-	<li>Chef</li>
-	<li>Ansible</li>
-	<li>Salt (SaltStack)</li>
-      </ul>
-    </li>
-    <li>O mejor aún: combinando varios de ellos</li>
+        <li>Dos tarjetas de red: una interna y una externa (bridge)</li>
+        <li>2 Gb de RAM</li>
+        <li>Un disco secundario</li>
+    </ul>
   </ul>
 </section>
 <section>
-  <h3>cloud-config</h3>
+  <h3>Preliminares</h3>
   <ul>
-    <li>Configura una instancia a partir de los parámetros del
-      servidor de metadatos</li>
-    <li>Se configuran en la opción "User data"</li>
-    <li>La aplicación más utilizada es cloud-init</li>
+    <li>Actualizamos los respositorios de paquetes</li>
+    <li>Instalamos ntp</li>
+    <li>Instalamos mysql</li>
+    <li>Creamos un usuario y una base ded datos por cada uno de los componenetes de OpenStack que vamos a instlar (keystone, glance, nova, neutron, ...)</li>
+    <li>Instalamos rabbitmq</li>
   </ul>
 </section>
 <section>
-  <h3>Orquestación</h3>
+  <h3>Keystone</h3>
+  <ul>
+    <li>Instalamos los paquetes: keystone, python-keystone, python-keystoneclient</li>
+    <li>Borramos la base de datos sqlite, el catálogo lo vamos a guardar en mysql</li>
+    <li>Copiamos el fichero de configuración</li>
+    <li>Generamos las tablas en la base de datos (db_sync)</li>
+    <li>Creamos los datos de keystone (usuarios, roles, tenants, servicios, endpoints, ...). </li>
+  </ul>
+</section>
+<section>
+  <h3>Glance</h3>
+  <ul>
+    <li>Instalamos los paquetes: glance, glance-api, glance-registry, python-glanceclient</li>
+    <li>Borramos la base de datos sqlite</li>
+    <li>Copiamos el fichero de configuración (glance-api.conf, glance-registry.conf)</li>
+    <li>Generamos las tablas en la base de datos (db_sync)</li>
+    <li>Subimos una imagen CirrOs</li>
+  </ul>
+</section>
+<section>
+  <h3>Nova</h3>
   <ul>
     <li>En cloud computing se refiere a la posibilidad de gestionar de
       forma automática el aprovisionamiento, la configuración e incluso
