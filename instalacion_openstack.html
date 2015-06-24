@@ -1,0 +1,189 @@
+---
+layout: presentacion
+title: Automatización
+tema: white
+---
+<section>
+  <h2>Automatización en IaaS</h2>
+  <p>
+    <a href="http://albertomolina.wordpress.com">Alberto Molina Coballes</a> y
+    <a href="http://www.josedomingo.org">José Domingo Muñoz Rodríguez</a>
+  </p>
+  <p>
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+      <img src="../u1/img/cc_by_sa.png" width="100px" border="0"/></a>
+  </p>
+  <p><small>Theme by: <a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a></small></p>
+</section>
+
+<section>
+  <q style="margin-bottom: 1em;">La automatización es en informática el conjunto de métodos que
+    sirven para realizar tareas repetitivas en un ordenador</q>
+  <br />
+  
+  <ul>
+    <li>La automatización es cada vez más habitual en entornos de
+      infraestructura clásica (máquinas físicas o virtuales)</li>
+    <li>La automatización es <strong>obligatoria</strong> en
+      entornos de IaaS donde los elementos se crean y eliminan a
+      demanda de forma muy rápida</li>
+  </ul>
+</section>
+<section>
+  <h3>¿Qué automatizar?</h3>
+  <ul>
+    <li>Aprovisionamiento de recursos</li>
+    <li>Configuración de los recursos</li>
+    <li>Respuestas ante eventos</li>
+  </ul>
+</section>
+<section>
+  <h3>Herramientas genéricas</h3>
+  <ul>
+    <li>Shell scripts</li>
+    <li>Aplicación en un lenguaje de alto nivel. APIs</li>
+    <li>Bibliotecas de despliegue: Capistrano o Fabric</li>
+    <li>Herramientas de gestión de la configuración:
+      <ul>
+	<li>Puppet</li>
+	<li>Chef</li>
+	<li>Ansible</li>
+	<li>Salt (SaltStack)</li>
+      </ul>
+    </li>
+    <li>O mejor aún: combinando varios de ellos</li>
+  </ul>
+</section>
+<section>
+  <h3>cloud-config</h3>
+  <ul>
+    <li>Configura una instancia a partir de los parámetros del
+      servidor de metadatos</li>
+    <li>Se configuran en la opción "User data"</li>
+    <li>La aplicación más utilizada es cloud-init</li>
+  </ul>
+</section>
+<section>
+  <h3>Orquestación</h3>
+  <ul>
+    <li>En cloud computing se refiere a la posibilidad de gestionar de
+      forma automática el aprovisionamiento, la configuración e incluso
+      la respuesta a eventos</li>
+    <li>Específicamente utilizando herramientas propias</li>
+    <li>El componente de OpenStack encargado de la orquestación se
+      denomina heat</li>
+    <li>Amazon CloudFormation</li>
+    <li>OASIS Topology and Orchestration Specification for Cloud
+      Applications (TOSCA)</li>
+  </ul>
+</section>
+    
+<!--     <h2>¿Infraestructura o configuración?</h2> -->
+<!--     <ul> -->
+<!--       <li>Orquestación: Despliegue automático de una infraestructura -->
+<!--       en el cloud.</li> -->
+<!--       <li>Configuración automática: Utilizar procesos automáticos para -->
+<!--       aprovisionar, configurar y gestionar el sistema -->
+<!--       informático.</li>  -->
+      
+<!--     </ul> -->
+<!--   </section> -->
+<!--   <section> -->
+<!--     <h2>¿Cómo podemos automatizar? (I)</h2> -->
+<!--     <ul> -->
+<!--       <li>Script</li> -->
+<!--         <ul> -->
+<!--           <li>Ventajas: Se puede probar, control de versiones, es replicable, ...</li> -->
+<!--           <li>Desventajas: La replicación puede ser complicada, se puede quedar obsoleto...</li> -->
+<!--         </ul> -->
+<!--         <p>Con un script indicamos los pasos para que un sistema alcance un determinado estado. Ejemplo: lenguajes de script: bash, python, perl,...</p> -->
+<!--   </section> -->
+<!--   <section> -->
+<!--     <h2>¿Cómo podemos automatizar? (II)</h2> -->
+<!--     <ul> -->
+      
+<!--       <li>Herramientas específicas de automatización</li> -->
+<!--         <ul> -->
+<!--           <li>Temporalización: La tarea se puede programar.</li> -->
+<!--           <li>Replicabilidad: Las acciones deben funcionar el sistemas heterogéneos.</li> -->
+<!--           <li>Monitorización: Según la información obtenida del sistema se pueden ejecutar determinadas acciones.</li> -->
+<!--           <li>Ejemplos: puppet, chef, ansible, heat (openstack),... -->
+<!--         </ul> -->
+<!--         <p>Se indica el estado que queremos que tenga el sistema, y estas herramientas realizan las acciones necesarias para llegar a él.</p> -->
+<!--   </section> -->
+<!-- </section> -->
+
+
+<!--  <section> -->
+<!--  <section> -->
+<!--         <h2>Ansible. Introducción</h2> -->
+<!--          <ul> -->
+<!--      <li>Ansible es una aplicación libre de orquestación escrita en python</li> -->
+<!--      <li>La primera versión se desarrolló en febrero de 2012 (!) -->
+<!--          </ul> -->
+<!--       </section> -->
+<!--       <section> -->
+<!--         <h2>Ansible. Introducción (2)</h2> -->
+<!--         <ul> -->
+<!--      <li>Ventajas frente a otro software de automatización:</li> -->
+<!--      <ul> -->
+<!--        <li>Muy fácil instalación</li> -->
+<!--        <li>Comunidad de desarrolladores muy activa</li> -->
+<!--        <li>Muy pocas dependencias</li> -->
+<!--        <li>Ideal para entornos pequeños y homogéneos</li> -->
+<!--        <li>No es necesario configurar nada en los clientes</li> -->
+<!--        <li><a href="https://galaxy.ansible.com/">Ansible Galaxy</a></li> -->
+<!--      </ul> -->
+<!--       </ul> -->
+<!--         <p>Lo importante no es qué herramienta de gestión de la -->
+<!--         configuración utilizar. Lo importante es utilizar al menos una.</p> -->
+<!--     </section> -->
+<!--     <section> -->
+<!--       <h2>Ansible. Instalación</h2> -->
+<!--       <p>Para utilizar la última versión:</p> -->
+<!--       <pre> -->
+
+<!-- # apt-get install python-pip python-dev -->
+<!-- # pip install ansible -->
+<!--       </pre> -->
+<!--       <p><strong>Voila!</strong></p> -->
+      
+<!--     </section> -->
+<!--     <section> -->
+<!--       <h2>Ansible. Playbooks</h2> -->
+<!--       <p>Las tareas a realizar por ansible se describen en formato yaml en ficheros denominados “playbooks”, que pueden incluir una o varias jugadas, por ejemplo:</p> -->
+      
+<!--        <pre>   -->
+<!--          <code data-trim> -->
+<!-- --- -->
+<!-- - name: Apache installation -->
+<!--   hosts: all -->
+<!--   sudo: True -->
+<!--   tasks: -->
+<!--   - name: Set proper sources.list -->
+<!--     copy: > -->
+<!--       src=files/etc/apt/sources.list -->
+<!--       dest=/etc/apt/sources.list -->
+<!--       owner=root -->
+<!--       mode=644 -->
+<!--   - name: Ensure apache is installed (after updating) -->
+<!--     apt: pkg=apache2 update_cache=yes -->
+<!--          </code> -->
+<!--        </pre> -->
+<!--     </section> -->
+    
+<!--     <section> -->
+<!--       <h2>Automatizar con Ansible</h2> -->
+<!--       <p>Si tenemos varias intancias, podríamos realizar las siguientes tareas de forma automática:</p> -->
+<!--       <ul> -->
+<!--         <li>Configurar la red</li> -->
+<!--         <li>Realizar las actualizaciones de software</li> -->
+<!--         <li>Instalar los paquetes del software que se va a utilizar</li> -->
+<!--         <li>Copiar los ficheros de configuración de plantillas previamente creadas</li> -->
+<!--         <li>Levantar o parar los servicios que se determinen</li> -->
+<!--         <li>Ejecutar cualquier tarea en cada una de las máquinas virtuales</li> -->
+<!--         <li>Dejar el entorno completamente operativo</li> -->
+<!--       </ul> -->
+      
+<!-- </section> -->
+<!-- </section> -->
