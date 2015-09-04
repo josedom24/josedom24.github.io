@@ -10,6 +10,14 @@
     url: https://dit.gonzalonazareno.org/redmine
   - name: Gestiona
     url: https://dit.gonzalonazareno.org/gestiona
+- nombre: josedomingo
+  items:
+  - name: Pledin
+    url: http://www.josedomingo.org
+  -name: Plataforma
+    url: http://plataforma.josedomingo.org
+
+
 - nombre: Módulos
   items:
   - name: Lenguaje de marcas (ASIR)
@@ -20,7 +28,3 @@
     url: http://josedom24.github.io/mod/serviciosgm
   - name: Aplicaciones Webs (SMR)
     url: http://josedom24.github.io/mod/awebs
-- nombre: Enlaces
-  items:
-  - name: Pledin
-    url: http://www.josedomingo.org
