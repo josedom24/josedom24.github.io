@@ -13,6 +13,8 @@
 
 - nombre: Módulos
   items:
+  - name: Índice
+    url: /mod
   - name: Lenguaje de marcas (ASIR)
     url: http://josedom24.github.io/mod/lm
   - name: Servicios de red e internet (ASIR)
@@ -23,8 +25,6 @@
     url: http://josedom24.github.io/mod/awebs
 - nombre: Gonzalo Nazareno
   items:
-  - name: Home
-    url: http://josedom24.github.io
   - name: Portal
     url: http://informatica.gonzalonazareno.org/
   - name: Plataforma
