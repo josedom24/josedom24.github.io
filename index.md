@@ -6,7 +6,7 @@ tagline: www.josedomingo.org
 ---
 ## Bienvenid@s
 
-![yo](/img/yo1.png)
+![yo](/img/yo1.jpg)
 
 * [Ejercicios y prácticas de módulos de ASIR y SMR](/mod)
 <hr/>
