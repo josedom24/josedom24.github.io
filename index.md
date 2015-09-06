@@ -10,6 +10,6 @@ tagline: www.josedomingo.org
 
 * [Ejercicios y prácticas de módulos de ASIR y SMR](/mod)
 <hr/>
-* [Tutoriales](/tutorial)
+* [Tutoriales](/varios/tutorial.md)
 <hr/>
 * [Colección de libros libres](/libros)
