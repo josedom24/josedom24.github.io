@@ -2,7 +2,15 @@
   items:
   - name: Home
     url: http://josedom24.github.io
-  
+- nombre: Conectado 
+  items:
+  - name: Gmail
+    url: https://mail.google.com/mail/u/0/#inbox
+  - name: feedly
+    url: https://feedly.com/i/latest
+  - name: twitter
+    url: https://twitter.com/
+
 - nombre: josedomingo.org
   items:
   - name: Pledin
