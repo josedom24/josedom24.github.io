@@ -31,7 +31,7 @@ body
 ::selection { background: #000; color: #FFF; }
 ::-moz-selection { background: #000; color: #FFF; }
 
-a { color: #318f31; text-decoration: none; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear; }
+a { color: #0088cc; text-decoration: none; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear; }
 a:hover { color: #222; }
 
 
@@ -60,7 +60,7 @@ pre {
 	
 	.lightbluebg
 	{
-		background: #318f31;
+		background: #0088cc;
 	}
 	
 	/** Header **/
@@ -98,7 +98,7 @@ pre {
 				
 				.container #headercont #headerlogo h1 a:hover
 				{
-					color: ##318f31;
+					color: ##0088cc;
 				}
 				
 		.container #headercont #headerright
@@ -121,7 +121,7 @@ pre {
 			
 				.container #headercont #headerright p span
 				{
-					color: ##318f31;
+					color: ##0088cc;
 				}
 				
 				.container #headercont #headerright p.quote
