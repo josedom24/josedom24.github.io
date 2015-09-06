@@ -2,15 +2,8 @@
   items:
   - name: Home
     url: http://josedom24.github.io
-  - name: Portal
-    url: http://informatica.gonzalonazareno.org/
-  - name: Plataforma
-    url: https://dit.gonzalonazareno.org/
-  - name: Redmine
-    url: https://dit.gonzalonazareno.org/redmine
-  - name: Gestiona
-    url: https://dit.gonzalonazareno.org/gestiona
-- nombre: josedomingo
+  
+- nombre: josedomingo.org
   items:
   - name: Pledin
     url: http://www.josedomingo.org
@@ -28,3 +21,15 @@
     url: http://josedom24.github.io/mod/serviciosgm
   - name: Aplicaciones Webs (SMR)
     url: http://josedom24.github.io/mod/awebs
+- nombre: Gonzalo Nazareno
+  items:
+  - name: Home
+    url: http://josedom24.github.io
+  - name: Portal
+    url: http://informatica.gonzalonazareno.org/
+  - name: Plataforma
+    url: https://dit.gonzalonazareno.org/
+  - name: Redmine
+    url: https://dit.gonzalonazareno.org/redmine
+  - name: Gestiona
+    url: https://dit.gonzalonazareno.org/gestiona
