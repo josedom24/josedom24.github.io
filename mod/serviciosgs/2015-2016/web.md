@@ -17,13 +17,13 @@ tagline: CFGS ASIR
 
 Queremos que nuestro servidor web ofrezca dos sitios web, teniendo en cuenta lo siguiente:
 
-	1. Cada sitio web tendrá nombres distintos.
-	2. Cada sitio web compartirán la misma dirección IP y el mismo puerto (80).
+1. Cada sitio web tendrá nombres distintos.
+2. Cada sitio web compartirán la misma dirección IP y el mismo puerto (80).
 
-	Los dos sitios web tendrán las siguientes características:
+Los dos sitios web tendrán las siguientes características:
 
-	* El nombre de dominio del primero será www.iesgn.org, su directorio base será /srv/www/iesgn y contendrá una página llamada index.html, donde sólo se verá una bienvenida a la página del Instituto Gonzalo Nazareno.
-	* En el segundo sitio vamos a crear una página donde se pondrán noticias por parte de los departamento, el nombre de este sitio será www.departamentosgn.org, y su directorio base será /srv/www/departamentos. En este sitio sólo tendremos una página inicial index.html, dando la bienvenida a la página de los departamentos del instituto.
+* El nombre de dominio del primero será www.iesgn.org, su directorio base será /srv/www/iesgn y contendrá una página llamada index.html, donde sólo se verá una bienvenida a la página del Instituto Gonzalo Nazareno.
+* En el segundo sitio vamos a crear una página donde se pondrán noticias por parte de los departamento, el nombre de este sitio será www.departamentosgn.org, y su directorio base será /srv/www/departamentos. En este sitio sólo tendremos una página inicial index.html, dando la bienvenida a la página de los departamentos del instituto.
 
 <div class='ejercicios' markdown='1'>
 
