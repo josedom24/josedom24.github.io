@@ -9,7 +9,7 @@ tagline: CFGS ASIR
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (1 punto):** Instala el servidor web Apache2 en una máquina. Modifica la paǵina index.html que viene por defecto y accede a ella desde un navegador. Entrega una captura de pantalla accediendo a ella.
+* **Tarea 1 (1 punto)(Obligatorio):** Instala el servidor web Apache2 en una máquina. Modifica la paǵina index.html que viene por defecto y accede a ella desde un navegador. Entrega una captura de pantalla accediendo a ella.
 
 </div>
 
@@ -27,24 +27,21 @@ Los dos sitios web tendrán las siguientes características:
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 2 (3 punto)(Obligatorio):** Instala el servidor web Apache2 en una máquina. Modifica la paǵina index.html que viene por defecto y accede a ella desde un navegador. Entrega una captura de pantalla accediendo a ella.
+* **Tarea 2 (3 punto)(Obligatorio):** Configura la resolución estática en los clientes y muestra al profesor el acceso a cada una de las páginas.
 
 </div>
 
-
-3. Configura la resolución estática en los clientes y accede a las páginas web.
-
-4. Modifica la configuración del servidor para que la segunda página sólo sea accesible desde el puerto 8080.
-
 #### Mapeo de URL
 
-5. Cambia la configuración del sitio web www.iesgn.org para que se comporte de la siguiente forma:
+<div class='ejercicios' markdown='1'>
 
-	* Cuando se entre a la dirección www.iesgn.org se redireccionará automaticamente a www.iesgn.org/principal, donde se mostrará el mensaje de bienvenida. En el directorio **principal** no se permite ver la lista de los ficheros, no se permite que se siga los enlaces símbolicos y no se permite negociación de contenido.
-	* Si accedes a la página www.iesgn.org/principal/documentos se visualizarán los documentos que hay en /srv/doc. Por lo tanto se permitirá el listado de fichero y el seguimiento de enlaces símbolicos siempre que sean a ficheros o directorios cuyo dueño sea el usuario.
-	* En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error.
-	* Como el insitituto es bilingüe, en la URL www.iesgn.org/principal/internacional, debe existir dos mensajes de bienvenida: en inglés y en español, por lo tanto se debe permitir la negociación de contenidos. Realiza una prueba de funcionamiento, donde se demuestre que se ha accedido a la web desde un navegador con el español como idioma configurado, y que se accedido con el inglés.
+Cambia la configuración del sitio web www.iesgn.org para que se comporte de la siguiente forma:
 
+* **Tarea 3 (1 punto)(Obligatorio):** Cuando se entre a la dirección www.iesgn.org se redireccionará automaticamente a www.iesgn.org/principal, donde se mostrará el mensaje de bienvenida. En el directorio **principal** no se permite ver la lista de los ficheros, no se permite que se siga los enlaces símbolicos y no se permite negociación de contenido. Muestra al profesor el funcionamiento.
+* **Tarea 4 (1 punto)(Obligatorio):** Si accedes a la página www.iesgn.org/principal/documentos se visualizarán los documentos que hay en /srv/doc. Por lo tanto se permitirá el listado de fichero y el seguimiento de enlaces símbolicos siempre que sean a ficheros o directorios cuyo dueño sea el usuario. Muestra al profesor el funcionamiento.
+* **Tarea 5 (1 punto):** En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.
+* **Tarea 6 (1 punto):** Como el insitituto es bilingüe, en la URL www.iesgn.org/principal/internacional, debe existir dos mensajes de bienvenida: en inglés y en español, por lo tanto se debe permitir la negociación de contenidos. Realiza una prueba de funcionamiento, donde se demuestre que se ha accedido a la web desde un navegador con el español como idioma configurado, y que se accedido con el inglés. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.
+</div>
 
 ####Autentificación, Autorización, y Control de Acceso
 
