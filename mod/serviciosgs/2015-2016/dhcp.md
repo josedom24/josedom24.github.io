@@ -10,7 +10,7 @@ tagline: CFGS ASIR
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (2 puntos):** Lee el documento [Teoría: Servidor DHCP](http://dit.gonzalonazareno.org/moodle/mod/resource/view.php?id=1868) y explica el funcionamiento del servidor DHCP resumido en este [gráfico](img/dhcp.png).
+* **Tarea 1 (1 punto):** Lee el documento [Teoría: Servidor DHCP](http://dit.gonzalonazareno.org/moodle/mod/resource/view.php?id=1868) y explica el funcionamiento del servidor DHCP resumido en este [gráfico](img/dhcp.png).
 </div>
 
 #### Preparación del escenario
@@ -38,8 +38,8 @@ Instala un servidor dhcp en el ordenador "servidor" que de servicio a los ordena
 
 Vamos a comprobar que ocurre con la configuración de los clientes en determinadas circunstacias, para ello vamos a poner un tiempo de concecsión muy bajo. Muestra los resultados al profesor.
 
-* **Tarea 6 (1 punto):** Los clientes toman una configuración, y a continuación apagamos el servidor dhcp. ¿qué ocurre con el cliente windows? ¿Y con el cliente linux?
-* **Tarea 7 (1 punto)(Obligatorio):** Los clientes toman una configuración, y a continuación cambiamos la configuración del servidor dhcp (por ejemplo el rango). ¿qué ocurriría con un cliente windows? ¿Y con el cliente linux?
+* **Tarea 6 (2 punto):** Los clientes toman una configuración, y a continuación apagamos el servidor dhcp. ¿qué ocurre con el cliente windows? ¿Y con el cliente linux?
+* **Tarea 7 (2 punto)(Obligatorio):** Los clientes toman una configuración, y a continuación cambiamos la configuración del servidor dhcp (por ejemplo el rango). ¿qué ocurriría con un cliente windows? ¿Y con el cliente linux?
 
 </div>
 
