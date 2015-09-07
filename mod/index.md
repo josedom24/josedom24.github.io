@@ -1,8 +1,8 @@
 ---
 layout: index
 
-title: Página web josedom24 @pledin_jd
-tagline: www.josedomingo.org
+title: Ejercicios y prácticas de módulos de ASIR y SMR
+tagline: 
 ---
 
 ##Ejercicios y prácticas de módulos de ASIR y SMR
