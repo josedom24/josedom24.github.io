@@ -1,8 +1,8 @@
 ---
 layout: index
 
-title: Página web josedom24 @pledin_jd
-tagline: www.josedomingo.org
+title: José Domingo Muñoz	
+tagline: josedom24.github.io
 ---
 ![yo](/img/yo1.jpg)
 
