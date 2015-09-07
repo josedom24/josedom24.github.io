@@ -76,8 +76,15 @@ infodhcp.py -l: Nos muestra todas las ips que están concedidas (las reservas ta
 infodhcp.py x.x.x.x : Nos dice si esa ip está concedida y a que MAC corresponde.
 
 <div class='ejercicios' markdown='1'>
-##### Para entregar...
-1. Entrega la URL del repositorio GitHub donde tienes el programa
+
+* **Tarea 12 (2 puntos):** Entrega la URL del repositorio GitHub donde tienes el programa
+</div>
+
+#### Documentación
+
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 13 (1 punto):** Entrega la URL de la entrada de tu blog personal donde documentas las tareas que has realizado.
 </div>
 
 
