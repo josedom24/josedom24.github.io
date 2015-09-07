@@ -5,11 +5,17 @@ title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 
-### Ejercicio: Ejercicio completo del servidor Web(1) (Tiempo estimado: 12 horas)
+### Práctica: Servidor WEB
 
-1. Instala el servidor web Apache2 en una máquina. Modifica la paǵina index.html que viene por defecto y accede a ella desde un navegador.
+<div class='ejercicios' markdown='1'>
 
-2. Queremos que nuestro servidor web ofrezca dos sitios web, teniendo en cuenta lo siguiente:
+* **Tarea 1 (1 punto):** Instala el servidor web Apache2 en una máquina. Modifica la paǵina index.html que viene por defecto y accede a ella desde un navegador. Entrega una captura de pantalla accediendo a ella.
+
+</div>
+
+#### Virtual Hosting
+
+Queremos que nuestro servidor web ofrezca dos sitios web, teniendo en cuenta lo siguiente:
 
 	1. Cada sitio web tendrá nombres distintos.
 	2. Cada sitio web compartirán la misma dirección IP y el mismo puerto (80).
@@ -19,9 +25,18 @@ tagline: CFGS ASIR
 	* El nombre de dominio del primero será www.iesgn.org, su directorio base será /srv/www/iesgn y contendrá una página llamada index.html, donde sólo se verá una bienvenida a la página del Instituto Gonzalo Nazareno.
 	* En el segundo sitio vamos a crear una página donde se pondrán noticias por parte de los departamento, el nombre de este sitio será www.departamentosgn.org, y su directorio base será /srv/www/departamentos. En este sitio sólo tendremos una página inicial index.html, dando la bienvenida a la página de los departamentos del instituto.
 
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 2 (3 punto)(Obligatorio):** Instala el servidor web Apache2 en una máquina. Modifica la paǵina index.html que viene por defecto y accede a ella desde un navegador. Entrega una captura de pantalla accediendo a ella.
+
+</div>
+
+
 3. Configura la resolución estática en los clientes y accede a las páginas web.
 
 4. Modifica la configuración del servidor para que la segunda página sólo sea accesible desde el puerto 8080.
+
+#### Mapeo de URL
 
 5. Cambia la configuración del sitio web www.iesgn.org para que se comporte de la siguiente forma:
 
