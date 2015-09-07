@@ -7,13 +7,18 @@ tagline: CFGS ASIR
 
 ### Prácticas
 
-* Servidor DHCP
-* Servidor Web
-* Servidor DNS
-* Configuración de un servidor Windows Server
-* Configuración de un servidor GNU/Linux
+#### 1ª Evaluación
+
+* [Servidor DHCP (20 puntos)](dhcp)
+* Servidor Web (25 puntos)
+* Servidor DNS (25 puntos)
+* Configuración de un servidor Windows Server (15 puntos)
+* Configuración de un servidor GNU/Linux (30 puntos)
+* Estudio de distintos servidores webs (20 puntos)
+
+#### 2ª Evaluación
+
 * Estudio de rendimiento de servidores webs
-* Estudio de distintos servidores webs
 * Servidor FTP
 * Servidor proxy
 * Balanceador de carga
