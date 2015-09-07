@@ -10,7 +10,7 @@ tagline: CFGS ASIR
 #### 1ª Evaluación
 
 * [Servidor DHCP (20 puntos)](dhcp)
-* Servidor Web (25 puntos)
+* [Servidor Web (25 puntos)](web)
 * Servidor DNS (25 puntos)
 * Configuración de un servidor Windows Server (15 puntos)
 * Configuración de un servidor GNU/Linux (30 puntos)
