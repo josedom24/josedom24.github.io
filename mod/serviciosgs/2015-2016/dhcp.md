@@ -17,7 +17,7 @@ tagline: CFGS ASIR
 
 Crea un escenario usando Vagrant que defina las siguientes máquinas:
 
-* Servidor: Tiene dos tarjetas de red: una pública y una privadas que se conectan a la red local.
+* Servidor: Tiene dos tarjetas de red: una pública y una privada que se conectan a la red local.
 * nodo_lan1: Un cliente conectado a la red local.
 
 #### Servidor dhcp
@@ -27,10 +27,9 @@ Instala un servidor dhcp en el ordenador "servidor" que de servicio a los ordena
 <div class='ejercicios' markdown='1'>
 
 * **Tarea 2 (1 punto)(Obligatorio):** Entrega el fichero Vagrantfile que define el escenario.
-2. Explica las modificaciones que has hecho en los distintos ficheros de configuración del servidor.
-3. Explica la configuración que has hecho en el cliente para que tome la configuración de forma automática y muestra la salida del comando ifconfig.
-4. Configura el servidor para que funcione como router y haga NAT de esta forma los clientes tendrán internet.
-5. Realizar una captura, desde el cliente usando **tcpdump**, de los cuatro paquetes que corresponden a una concesión: DISCOVER, OFFER, REQUEST, ACK.
+* **Tarea 3 (3 puntos)(Obligatorio):** Muestra al profesor el servidor DHCP funcionando. Muestra el fichero de configuración del servidor, la lista de conseciones, la modificación en la configuración que has hecho en el cliente para que tome la configuración de forma automática y muestra la salida del comando ifconfig.
+* **Tarea 4 (2 puntos):** Muestra al profesor el servidor funcionando como router y NAT, de esta forma los clientes tendrán internet.
+* Tarea 5 (1 punto):** Realizar una captura, desde el cliente usando **tcpdump**, de los cuatro paquetes que corresponden a una concesión: DISCOVER, OFFER, REQUEST, ACK.
 </div>
 
 #### Funcionamiento del dhcp
