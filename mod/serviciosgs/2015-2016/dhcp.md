@@ -6,7 +6,7 @@ tagline: CFGS ASIR
 ---
 ### Práctica: Servidor DHCP 
 
-#### (13 tareas-20 puntos)(4 tareas obligatorias - 8 puntos)
+#### (13 tareas - 20 puntos)(4 tareas obligatorias - 8 puntos)
 
 #### Teoría
 
