@@ -6,7 +6,7 @@ tagline: CFGS ASIR
 ---
 ### Práctica: Servidor DHCP (20 puntos)
 
-#### Teoria
+#### Teoría
 
 <div class='ejercicios' markdown='1'>
 
