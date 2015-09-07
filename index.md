@@ -12,6 +12,8 @@ tagline: www.josedomingo.org
 <hr/>
 * [Tutoriales](/varios/tutorial)
 <hr/>
+* [Internet, web, ...](/varios/web)
+<hr/>
 * [Cajón desastre...](varios/cajon)
 <hr/>
 * [Colección de libros libres](/libros)
