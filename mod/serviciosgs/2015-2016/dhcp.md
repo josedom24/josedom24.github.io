@@ -36,7 +36,7 @@ Instala un servidor dhcp en el ordenador "servidor" que de servicio a los ordena
 
 <div class='ejercicios' markdown='1'>
 
-Vamos a comprobar que ocurre con la configuración de los clientes en determinadas circunstacias, para ello vamos a poner un tiempo de concecsión muy bajo.
+Vamos a comprobar que ocurre con la configuración de los clientes en determinadas circunstacias, para ello vamos a poner un tiempo de concecsión muy bajo. Muestra los resultados al profesor.
 
 * **Tarea 6 (1 punto):** Los clientes toman una configuración, y a continuación apagamos el servidor dhcp. ¿qué ocurre con el cliente windows? ¿Y con el cliente linux?
 * **Tarea 7 (1 punto)(Obligatorio):** Los clientes toman una configuración, y a continuación cambiamos la configuración del servidor dhcp (por ejemplo el rango). ¿qué ocurriría con un cliente windows? ¿Y con el cliente linux?
@@ -48,8 +48,8 @@ Vamos a comprobar que ocurre con la configuración de los clientes en determinad
 Crea una reserva para el que el cliente tome siempre la dirección 192.168.100.100.
 
 <div class='ejercicios' markdown='1'>
-##### Ejercicios 
-1. Indica las modificaciones realizadas en los ficheros de configuración y entrega una comprobación de que el cliente ha tomado esa dirección.
+
+* **Tarea 8 (2 puntos)(Obligatorio):** Indica las modificaciones realizadas en los ficheros de configuración y muestra al profesor una comprobación de que el cliente ha tomado esa dirección.
 </div>
 
 #### Uso de varios ámbitos
@@ -62,10 +62,10 @@ Modifica el escenario Vagrant para añadir una nueva red local y un nuevo nodo:
 Configura el servidor dhcp en el ordenador "servidor" para que de servicio a los ordenadores de la nueva red local, teniendo en cuante que el tiempo de concesión sea 24 horas y que la red local tiene el direccionamiento 192.168.200.0/24.
 
 <div class='ejercicios' markdown='1'>
-##### Ejercicios 
-1. Entrega el nuevo fichero Vagrantfile que define el escenario.
-2. Explica las modificaciones que has hecho en los distintos ficheros de configuración.
-3. Explica la configuración que has hecho en el segundo cliente para que tome la configuración de forma automática y muestra la salida del comando ifconfig.
+
+* **Tarea 9 (1 puntos)**: Entrega el nuevo fichero Vagrantfile que define el escenario.
+* **Tarea 10 (1 puntos)**: Explica las modificaciones que has hecho en los distintos ficheros de configuración. Entrega las comprobaciones necesarias de que los dos ámbitos están funcionando.
+* **Tarea 11 (1 puntos)**: realiza las modificaciones necesarias para que los cliente de la segunda red local tengan acceso a internet. Entrega las comprobaciones necesarias.
 </div>
 
 #### Script
