@@ -10,7 +10,7 @@ tagline: CFGS ASIR
 
 <div class='ejercicios' markdown='1'>
 
-* *Tarea 1 (2 puntos):* Lee el documento [Teoría: Servidor DHCP](http://dit.gonzalonazareno.org/moodle/mod/resource/view.php?id=1868) y explica el funcionamiento del servidor DHCP resumido en este [gráfico](img/dhcp.png).
+* **Tarea 1 (2 puntos):** Lee el documento [Teoría: Servidor DHCP](http://dit.gonzalonazareno.org/moodle/mod/resource/view.php?id=1868) y explica el funcionamiento del servidor DHCP resumido en este [gráfico](img/dhcp.png).
 </div>
 
 #### Preparación del escenario
@@ -25,8 +25,8 @@ Crea un escenario usando Vagrant que defina las siguientes máquinas:
 Instala un servidor dhcp en el ordenador "servidor" que de servicio a los ordenadores de red local, teniendo en cuanta que el tiempo de concesión sea 12 horas y que la red local tiene el direccionamiento 192.168.100.0/24.
 
 <div class='ejercicios' markdown='1'>
-##### Ejercicios 
-1. Entrega el fichero Vagrantfile que define el escenario.
+
+* **Tarea 2 (1 punto)(Obligatorio):** Entrega el fichero Vagrantfile que define el escenario.
 2. Explica las modificaciones que has hecho en los distintos ficheros de configuración del servidor.
 3. Explica la configuración que has hecho en el cliente para que tome la configuración de forma automática y muestra la salida del comando ifconfig.
 4. Configura el servidor para que funcione como router y haga NAT de esta forma los clientes tendrán internet.
