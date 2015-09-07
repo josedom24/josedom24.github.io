@@ -6,7 +6,7 @@ tagline: CFGS ASIR
 ---
 ### Práctica: Servidor DHCP 
 
-#### (13 tareas - 20 puntos)(4 tareas obligatorias - 8 puntos)
+#### (12 tareas - 20 puntos)(4 tareas obligatorias - 8 puntos)
 
 #### Teoría
 
@@ -67,7 +67,7 @@ Configura el servidor dhcp en el ordenador "servidor" para que de servicio a los
 
 * **Tarea 9 (1 puntos)**: Entrega el nuevo fichero Vagrantfile que define el escenario.
 * **Tarea 10 (1 puntos)**: Explica las modificaciones que has hecho en los distintos ficheros de configuración. Entrega las comprobaciones necesarias de que los dos ámbitos están funcionando.
-* **Tarea 11 (1 puntos)**: realiza las modificaciones necesarias para que los cliente de la segunda red local tengan acceso a internet. Entrega las comprobaciones necesarias.
+* **Tarea 11 (1 puntos)**: Realiza las modificaciones necesarias para que los cliente de la segunda red local tengan acceso a internet. Entrega las comprobaciones necesarias.
 </div>
 
 #### Script
@@ -79,15 +79,7 @@ infodhcp.py x.x.x.x : Nos dice si esa ip está concedida y a que MAC corresponde
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 12 (2 puntos):** Entrega la URL del repositorio GitHub donde tienes el programa
+* **Tarea 12 (3 puntos):** Entrega la URL del repositorio GitHub donde tienes el programa
 </div>
-
-#### Documentación
-
-<div class='ejercicios' markdown='1'>
-
-* **Tarea 13 (1 punto):** Entrega la URL de la entrada de tu blog personal donde has documentado las tareas que has realizado.
-</div>
-
 
 [Volver](index)

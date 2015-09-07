@@ -33,9 +33,10 @@ Los dos sitios web tendrán las siguientes características:
 
 #### Mapeo de URL
 
+Cambia la configuración del sitio web www.iesgn.org para que se comporte de la siguiente forma:
+
 <div class='ejercicios' markdown='1'>
 
-Cambia la configuración del sitio web www.iesgn.org para que se comporte de la siguiente forma:
 
 * **Tarea 3 (1 punto)(Obligatorio):** Cuando se entre a la dirección www.iesgn.org se redireccionará automaticamente a www.iesgn.org/principal, donde se mostrará el mensaje de bienvenida. En el directorio **principal** no se permite ver la lista de los ficheros, no se permite que se siga los enlaces símbolicos y no se permite negociación de contenido. Muestra al profesor el funcionamiento.
 * **Tarea 4 (1 punto)(Obligatorio):** Si accedes a la página www.iesgn.org/principal/documentos se visualizarán los documentos que hay en /srv/doc. Por lo tanto se permitirá el listado de fichero y el seguimiento de enlaces símbolicos siempre que sean a ficheros o directorios cuyo dueño sea el usuario. Muestra al profesor el funcionamiento.
@@ -43,41 +44,45 @@ Cambia la configuración del sitio web www.iesgn.org para que se comporte de la 
 * **Tarea 6 (1 punto):** Como el insitituto es bilingüe, en la URL www.iesgn.org/principal/internacional, debe existir dos mensajes de bienvenida: en inglés y en español, por lo tanto se debe permitir la negociación de contenidos. Realiza una prueba de funcionamiento, donde se demuestre que se ha accedido a la web desde un navegador con el español como idioma configurado, y que se accedido con el inglés. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.
 </div>
 
+#### Estadísticas web
+
+Vamos a instalar y configurar un analizador de logs de apache2 que nos permita generar estadísticas de acceso a nuestro servidor web (ejemplo [estadísticas de dit.gonzalonazareno.org](http://dit.gonzalonazareno.org/cgi-bin/awstats.pl).
+
+* La URL de la estadística sera *www.masterlan.com/estadistica*.
+* El acceso a la estadística desde la red local está permitido, si hace desde fuera, por ejemplo desde el host, se requiere autentificación tipo digest (realizar este punto por medio de un fichero .htaccess)
+* Modifica el cron de awstats para que se genere las estadísticas cada 2 minutos.
+
+<div class='ejercicios' markdown='1'>
+* **Tarea 7 (2 puntos):** Realiza la instalación de awstats y muestra al profesor el funcionamiento del mismo teniendo en cuenta los requerimientos señalados.
+</div>
+
 ####Autentificación, Autorización, y Control de Acceso
 
-1. Crea un escenario en Vagrant que tenga un servidor con una red publica, y una privada, un cliente conectada a la red privada. Crea un host virtual que se acceda con el nombre *www.masterlan.com*. A la URL *www.masterlan.com/intranet* sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL *www.masterlan.com/internet*, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.
+<div class='ejercicios' markdown='1'>
+* **Tarea 8 (1 punto)(Obligatorio):** Crea un escenario en Vagrant que tenga un servidor con una red publica, y una privada, un cliente conectada a la red privada. Crea un host virtual que se acceda con el nombre *www.masterlan.com*. A la URL *www.masterlan.com/intranet* sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL *www.masterlan.com/internet*, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local. Muestra los reultados al profesor.
+* **Tarea 9 (1 punto):** Autentificación básica. Limita el acceso a la URL *www.masterlan.com/secreto*. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo se manda la contraseña entre el cliente y el servidor?. Entrega una breve explicación del ejercicio.
+* **Tarea 10 (1 punto)(Obligatorio):** Cómo hemos visto la autentificación básica no es segura, modifica la autentificación para que sea del tipo *digest*, y sólo sea accesible a los usuarios pertenecientes al grupo *directivos*. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo funciona esta autentificación? Muestra el funcionamiento al profesor y entrega una breve explicación del ejercicio.
+* **Tarea 11 (1 punto):** Vamos a combianar el control de acceso (tarea 8) y la autentificación (tareas 9 y 10), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL *www.masterlan.com/secreto* se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
+* **Tarea 12 (2 punto):** Utilizando el módulo **libapache2-mod-auth-mysql** y siguiendo algún tutorial que busques en internet, por ejemplo [este](http://blog.unlugarenelmundo.es/2010/03/18/autenticacion-en-apache-y-ii-digest-y-con-mysql/),configura un sitio virtual cuyo acceso sea autentificado mediante usuarios guardados en un tabla MySql. Nota: las contraseñas de los usuarios se deben guardar encriptadas. Docuementa la tarea.
 
-2. Autentificación básica. Limita el acceso a la URL *www.masterlan.com/secreto*. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo se manda la contraseña entre el cliente y el servidor?
+</div>
 
-3. Cómo hemos visto la autentificación básica no es segura, modifica la autentificación para que sea del tipo *digest*, y sólo sea accesible a los usuarios pertenecientes al grupo *directivos*. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo funciona esta autentificación?
+####Configuración con .htaccess
+Date de alta en CDMON y contrata una *Plataforma de prueba*. Con ello tenemos a nuestra disposición un hosting comercial con todas sus funcionalidades, incluso con un servidor DNS que nos da acceso al hosting, en mi caso con la URL *http://jdmr.com.mialias.net*. ¿Si necesitamos configurar el servidor web que han configurado los administradores de CDMON que podemos hacer? Explica la directiva **AllowOverride** de apache2. Utilizando archivos .htaccess, y siguiendo esta [guía de CDMON](https://support.cdmon.com/entries/24118027-Informaci%C3%B3n-y-usos-del-fichero-htaccess) realiza las siguientes configuraciones:
 
-4. Vamos a combianar el control de acceso (punto 1) y la autentificación (punto 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL *www.masterlan.com/secreto* se hace forma directa desde la intranet, desde la red pública te pide la autentificación.
+<div class='ejercicios' markdown='1'>
+* **Tarea 13 (1 punto)(Obligatorio):** Habilita el listado de ficheros en la URL  *http://tunombre.mialias.net/nas*.
+* **Tarea 14 (1 punto):** Crea una redirección permanente: cuando entremos en *http://tunombre.mialias.net/google* salte a www.google.es.
+* **Tarea 15 (1 punto):** Pedir autentificación para entrar en la URL *http://tunombre.mialias.net/prohibido*. Puedes ver este [tutorial](https://support.cdmon.com/entries/42871258-Proteger-carpetas) de CDMON.
 
-5. *(Optativo)*: Utilizando el módulo **libapache2-mod-auth-mysql** y siguiendo algún tutorial que busques en internet, por ejemplo [este](http://blog.unlugarenelmundo.es/2010/03/18/autenticacion-en-apache-y-ii-digest-y-con-mysql/),configura un sitio virtual cuyo acceso sea autentificado mediante usuarios guardados en un tabla MySql. Nota: las contraseñas de los usuarios se deben guardar encriptadas.
-
-####Logs del servidor y configuración con .htaccess
-
-6. Date de alta en CDMON y contrata una *Plataforma de prueba*. Con ello tenemos a nuestra disposición un hosting comercial con todas sus funcionalidades, incluso con un servidor DNS que nos da acceso al hosting, en mi caso con la URL *http://jdmr.com.mialias.net*. ¿Si necesitamos configurar el servidor web que han configurado los administradores de CDMON que podemos hacer? Explica la directiva **AllowOverride** de apache2.
-
-7. Utilizando archivos .htaccess, y siguiendo esta [guía de CDMON](https://support.cdmon.com/entries/24118027-Informaci%C3%B3n-y-usos-del-fichero-htaccess) realiza las siguientes configuraciones:
-
-	* Habilita el listado de ficheros en la URL  *http://tunombre.mialias.net/nas*.
-	* Crea una redirección permanente: cuando entremos en *http://tunombre.mialias.net/google* salte a www.google.es.
-	* Pedir autentificación para entrar en la URL *http://tunombre.mialias.net/prohibido*. Puedes ver este [tutorial](https://support.cdmon.com/entries/42871258-Proteger-carpetas) de CDMON.
-
-8. Vamos a seguir trabajando en el escenario que implementamos en los 5 primeros ejercicios. Vamos a instalar y configurar un analizador de logs de apache2 que nos permita generar estadísticas de acceso a nuestro servidor web (ejemplo [estadísticas de dit.gonzalonazareno.org](http://dit.gonzalonazareno.org/cgi-bin/awstats.pl
-
-	* La URL de la estadística sera *www.masterlan.com/estadistica*.
-	* El acceso a la estadística desde la red local está permitido, si hace desde fuera, por ejemplo desde el host, se requiere autentificación tipo digest (realizar este punto por medio de un fichero .htaccess)
-	* Modifica el cron de awstats para que se genere las estadísticas cada 2 minutos.
+</div>
 
 ####Módulos
 
-9. Módulo *userdir*: Activa y configura el módulo *userdir*, que permite que cada usuario del sistema tenga la posibilidad de tener un directorio (por defecto se llama public_html) donde alojar su página web. Publica una página de un usuario, y accede a la misma.
-
-10. *(Optativo)*: Instalación de un servidor WebDAV que sea accesible desde la URL *www.masterlan.com/webdav*.
-
-11. Vamos a volver a nuestro hosting en CDMON, vamos a crear una carpeta php donde vamos a tener un fichero index.php con el siguiente contenido:
+<div class='ejercicios' markdown='1'>
+* **Tarea 16 (2 puntos)(Obligatorio):** Módulo *userdir*: Activa y configura el módulo *userdir*, que permite que cada usuario del sistema tenga la posibilidad de tener un directorio (por defecto se llama public_html) donde alojar su página web. Publica una página de un usuario, y accede a la misma.
+* **Tarea 17 (2 puntos):** Instalación de un servidor WebDAV que sea accesible desde la URL *www.masterlan.com/webdav*.
+* **Tarea 18 (2 puntos):** Vamos a volver a nuestro hosting en CDMON, vamos a crear una carpeta php donde vamos a tener un fichero index.php con el siguiente contenido:
 
 		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 		<html xmlns="http://www.w3.org/1999/xhtml">
