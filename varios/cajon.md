@@ -5,9 +5,9 @@ title: Página web josedom24 @pledin_jd
 tagline: www.josedomingo.org
 ---
 
-## Cajón desastre.
+## Cajón desastre
 
-De todo un poco
+De todo un poco...
 
 #### Kodi
 
