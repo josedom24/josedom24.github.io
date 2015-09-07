@@ -4,13 +4,13 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
-### Práctica: Servidor DHCP
+### Práctica: Servidor DHCP (20 puntos)
 
 #### Teoria
 
 <div class='ejercicios' markdown='1'>
-##### Tarea 1 (2 puntos) 
-* Lee el documento [Teoría: Servidor DHCP](http://dit.gonzalonazareno.org/moodle/mod/resource/view.php?id=1868) y explica el funcionamiento del servidor DHCP resumido en este [gráfico](img/dhcp.png).
+
+* *Tarea 1 (2 puntos):* Lee el documento [Teoría: Servidor DHCP](http://dit.gonzalonazareno.org/moodle/mod/resource/view.php?id=1868) y explica el funcionamiento del servidor DHCP resumido en este [gráfico](img/dhcp.png).
 </div>
 
 #### Preparación del escenario
