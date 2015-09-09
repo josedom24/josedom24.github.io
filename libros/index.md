@@ -1,7 +1,7 @@
 ---
 layout: index
 
-title: Colección de libros libres josedom24 @pledin_jd
+title: Colección de libros libres
 tagline: www.josedomingo.org
 ---
 ## Colección de libros libres
