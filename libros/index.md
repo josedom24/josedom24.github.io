@@ -55,6 +55,7 @@ tagline: www.josedomingo.org
 * Introducción al desarrollo del software (UOC) [[web](http://openaccess.uoc.edu/webapps/o2/handle/10609/33?locale=es)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/desarrollo.pdf)]
 * Programación con Scratch. Cuaderno de trabajo para estudiantes [[web](http://www.eduteka.org/modulos/9/334/)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/AlgoritmosProgramacionCuaderno1.pdf)]
 * Algoritmos y programación en la educación escolar [[web](http://www.eduteka.org/modulos/9/298/)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/AlgoritmosProgramacion.pdf)]
+* Inventa tus propios juegos de computadora con Python [[web](http://inventwithpython.com/es/)][[pdf](https://dl.dropboxusercontent.com/u/620873/Libros/Programaci%C3%B3n/InventarConPython_3a_es.pdf)]
 
 
 #### Redes
