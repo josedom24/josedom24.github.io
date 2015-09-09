@@ -92,8 +92,9 @@ pre {
 				{
 					font-family: "Orienta", Arial, Helvetica, sans-serif;
 					color: #FFF;
-					font-size: 35px;
+					font-size: 28px;
 					letter-spacing: -2px;
+					line-height: 30px;
 				}
 				
 				.container #headercont #headerlogo h1 a:hover
