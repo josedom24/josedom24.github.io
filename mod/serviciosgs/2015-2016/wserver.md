@@ -15,8 +15,8 @@ Debes configurar en un entorno virtual usando KVM el siguiente esquema de red:
 Como podemos ver, vamos a tener tres máquinas: un servidor Windows Server y dos clientes: uno Linux y otro Windows.
 
 <div class='ejercicios' markdown='1'>
-* **Tarea 1 (1 punto):**  Configuración de la red virtual en KVM. Indica el nombre que le has puesto al ordenador servidor. Y por último, indica la configuración de red del servidor y de algún cliente.
-* **Tarea 2 (1 punto):**  Explica la configuración del servidor para que funcione como router y nat.
+* **Tarea 1 (2 puntos):**  Configuración de la red virtual en KVM. Indica el nombre que le has puesto al ordenador servidor. Y por último, indica la configuración de red del servidor y de algún cliente.
+* **Tarea 2 (2 puntos):**  Explica la configuración del servidor para que funcione como router y nat.
 </div>
 
 #### Servidor DHCP
@@ -29,7 +29,7 @@ Los ordenadores clientes de nuestra LAN obtienen su configuración de red ofreci
 * DNS: Según el que te convenga para hacer las pruebas 
 
 <div class='ejercicios' markdown='1'>
-* **Tarea 3 (1 punto):**  Muestra al profesor el servidor DHCP funcionando. Muestra el fichero de configuración del servidor, la lista de concesiones, la modificación en la configuración que has hecho en el cliente para que tome la configuración de forma automática y muestra la salida del comando ifconfig.
+* **Tarea 3 (3 puntos):**  Muestra al profesor el servidor DHCP funcionando. Muestra el fichero de configuración del servidor, la lista de concesiones, la modificación en la configuración que has hecho en el cliente para que tome la configuración de forma automática y muestra la salida del comando ifconfig.
 </div>
 
 Crea una reserva para el que uno de los clientes tome siempre una dirección fija.
@@ -49,8 +49,8 @@ Lo primero que tienes que hacer es determinar un nombre de dominio que va a ser 
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 5 (2 puntos):** Realiza la instalación y configuración del servidor DNS con las características anteriomente señaladas. Indica el cambio que hay que hacer en el servidor dhcp para que el sistema funcione de manera adecuada.. Muestra el resultado al profesor.
-* **Tarea 6 (4 puntos):** Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:
+* **Tarea 5 (3 puntos):** Realiza la instalación y configuración del servidor DNS con las características anteriomente señaladas. Indica el cambio que hay que hacer en el servidor dhcp para que el sistema funcione de manera adecuada.. Muestra el resultado al profesor.
+* **Tarea 6 (3 puntos):** Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:
 	* Dirección de www.example.com
 	* El servidor DNS con autoridad sobre la zona del dominio 
 	* La dirección IP de www.josedomingo.org
@@ -62,14 +62,13 @@ Lo primero que tienes que hacer es determinar un nombre de dominio que va a ser 
 El servidor tiene instalado un servidor Web IIS, que sirve dos virtual host con páginas web estáticas.
 
 * www.example.com: Página principal del centro.
-* informatica.example.com: Página del departamento de informatica
+* informatica.example.com: Página del departamento de informática
 * La página www.example.com, posee un directorio /privado, que para acceder a el es necesario autentificarse.
 
-Deficiencias que nos encontramos con este esquema
+<div class='ejercicios' markdown='1'>
 
-1. El servidor es un ordenador más de nuestra LAN, por lo que el cortafuegos que podemos configurar se debería implantar en el router.
-2. Igualmente el dispositivo que hace NAT es el router, que puede ser insuficientes para muchos ordenadores. 
-3. No se controla de ninguna manera la navegación de los clientes. 
-4. El servidor web actualmente instalado solo ofrece página html estáticas. 
-5. Algunos servicios que faltan: web dinámica, servicio de ftp, servicio de correos, proxy,...
+* **Tarea 7 (3 puntos):** Configura el servidor web para servir las dos páginas. Busca plantillas html+css como contenido para las dos páginas, modificandolas un poco para que parezcan más reales. Muestra las páginas al profesor.
+* **Tarea 8 (2 puntos):** Autentificación de la carpeta /privado: Sólo se pueden autentificar los usuarios del sistemas que pertenezcan al grupo profesores. Muestra el funcionamiento al profesor.
 
+</div>
+[Volver](index)
