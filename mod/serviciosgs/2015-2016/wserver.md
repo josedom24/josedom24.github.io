@@ -38,15 +38,26 @@ Crea una reserva para el que uno de los clientes tome siempre una dirección fij
 
 * **Tarea 4 (2 puntos):** Indica las modificaciones realizadas en el servidor y muestra al profesor una comprobación de que el cliente ha tomado esa dirección.
 </div>
+
 #### Servidor DNS
 
-Lo primero que tienes que hacer es determinar el nombre de dominio (puede ser el nombre del insitituo, inventatelo) que va a ser utilizado en nuestro sistema. (En esta documentación voy a utilizar el nombre example.com). El servidor DNS ofrece el servicio de resolución de nombres para los ordenadores de nuestra red local. Debes tener en cunta los siguientes puntos:
+Lo primero que tienes que hacer es determinar un nombre de dominio que va a ser utilizado en nuestro sistema. (En esta documentación voy a utilizar el nombre example.com). El servidor DNS ofrece el servicio de resolución de nombres para los ordenadores de nuestra red local. Debes tener en cunta los siguientes puntos:
 
-* Cuando tengas funcionando el servidor DNS, tendrás que modificar el servidor DHCP para que los clientes usen el servidor DNS. 
+* Cuando tengas funcionando el servidor DNS, tendrás que modificar el servidor DHCP para que los clientes usen el nuevo servidor DNS. 
 * Piensa el nombre que tiene el servidor. El servidor DNS debe poder resolver los siguientes nombres: nombredelservidor.example.com, www.example.com, informatica.example.com El primero es el nombre del servidor, los dos siguientes son dos páginas webs que el servidor va a servir. 
 * Debes implementar la zona inversa del servidor.
 
-###c) Servidor WEB
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 5 (2 puntos):** Realiza la instalación y configuración del servidor DNS con las características anteriomente señaladas. Indica el cambio que hay que hacer en el servidor dhcp para que el sistema funcione de manera adecuada.. Muestra el resultado al profesor.
+* **Tarea 6 (4 puntos):** Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:
+	* Dirección de www.example.com
+	* El servidor DNS con autoridad sobre la zona del dominio 
+	* La dirección IP de www.josedomingo.org
+	* Una resolución inversa
+</div>
+
+#### Servidor WEB
 
 El servidor tiene instalado un servidor Web IIS, que sirve dos virtual host con páginas web estáticas.
 
