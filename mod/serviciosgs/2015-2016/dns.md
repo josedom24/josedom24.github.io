@@ -52,32 +52,37 @@ El servidor DNS actual funciona como **DNS maestro**. Vamos a instalar un nuevo 
 
 <div class='ejercicios' markdown='1'>
 
-
-
+* **Tarea 4 (3 puntos):** Realiza la instalación del servidor DNS esclavo. Documenta los siguientes apartados:
+	* Entrega la configuración de las zonas del maestro y del esclavo.
+	* Comprueba si las zonas definidas en el maestro tienen algún error con el comando adecuado.
+	* Comprueba si la configuración de named.conf tiene algún error con el comando adecuado.
+	* Reinicia los servidores y comprueba en los logs si hay algún error. **No olvides incrementar el número de serie en el registro SOA si has modificado la zona en el maestro**.
+	* Muestra la salida del log donde se demuestra que se ha realizado la transferencia de zona.
+* **Tarea 5 (3 puntos):** Docuemnta los siguientes apartados:
+	* Configura un cliente para que utilice los dos servidores como servidores DNS.
+	* Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?
+	* Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?
+* **Tarea 6 (2 puntos):** Muestra al profesor el funcionamiento del DNS esclavo:
+	* Realiza una consulta desde el cliente y comprueba que servidor está respondiendo.
+	* Posteriormente apaga el servidor maestro y vuelve a realizar una consulta desde el cliente ¿quién responde?
 </div>
-* Entrega la configuración de las zonas del maestro y del esclavo.
-* Comprueba si las zonas definidas en el maestro tienen algún error con el comando adecuado.
-* Comprueba si la configuración de named.conf tiene algún error con el comando adecuado.
-* Reinicia los servidores y comprueba en los logs si hay algún error. **No olvides incrementar el número de serie en el registro SOA si has modificado la zona en el maestro**.
-* Muestra la salida del log donde se demuestra que se ha realizado la transferencia de zona.
-* Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?
-* Configura un cliente para que utilice los dos servidores como servidores DNS.
-* Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?
-* Realiza una consulta desde el cliente y comprueba que servidor está respondiendo.
-* Posteriormente apaga el servidor maestro y vuelve a realizar una consulta desde el cliente ¿quién responde?
 
-4. Tenemos un servidor DNS que gestiona la zona correspondiente al nombre de dominio *iesgn.org*, en esta ocasión queremos delegar el subdominio *informatica.iesgn.org* para que lo gestione otro servidor DNS. Por lo tanto tenemos un escenario con dos servidores DNS:
+
+####Delegación de dominios
+
+Tenemos un servidor DNS que gestiona la zona correspondiente al nombre de dominio *iesgn.org*, en esta ocasión queremos delegar el subdominio *informatica.iesgn.org* para que lo gestione otro servidor DNS. Por lo tanto tenemos un escenario con dos servidores DNS:
 
 * *pandora.iesgn.org*, es servidor DNS autorizado para la zona **iesgn.org**.
-* *ns.informatica.iesgn.org*, es el servidor DNS para la zona **informatica.iesgn.org** y, está instlado en otra máquina.
+* *ns.informatica.iesgn.org*, es el servidor DNS para la zona **informatica.iesgn.org** y, está instalado en otra máquina.
 
-	Los nombres que vamos a tener en ese subdominio son los siguientes:
+Los nombres que vamos a tener en ese subdominio son los siguientes:
 
-	* **www.informatica.iesgn.org** corresponde a un sitio web que está alojado en el servidor web del departamento de informática.
-	* Vamos a suponer que tenemos un servidor ftp que se llame **ftp.informatica.iesgn.org** y que está en la misma máquina.
-	*  Vamos a suponer que tenemos un servidor para recibir los correos que se llame **correo.informatica.iesgn.org**.
+* **www.informatica.iesgn.org** corresponde a un sitio web que está alojado en el servidor web del departamento de informática.
+* Vamos a suponer que tenemos un servidor ftp que se llame **ftp.informatica.iesgn.org** y que está en la misma máquina.
+*  Vamos a suponer que tenemos un servidor para recibir los correos que se llame **correo.informatica.iesgn.org**.
 
-	Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:	
+
+Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:	
 
 	* Dirección de www.informatica.iesgn.org, ftp.informatica.iesgn.org
 	* El servidor DNS que tiene configurado la zona del dominio informatica.iesgn.org. ¿Es el mismo que el servidor DNS con autoridad para la zona iesgn.org?
