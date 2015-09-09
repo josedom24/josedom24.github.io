@@ -4,11 +4,9 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
-### Ejercicio: Ejercicio completo del servidor DNS (Tiempo estimado: 12 horas)
-
 ### Práctica: Servidor DNS
 
-#### (12 tareas - 20 puntos)(4 tareas obligatorias - 8 puntos)
+#### (8 tareas - 25 puntos)(3 tareas obligatorias - 10 puntos)
 
 ####Escenario
 
