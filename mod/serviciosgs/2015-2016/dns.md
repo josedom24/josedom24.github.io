@@ -79,11 +79,16 @@ Los nombres que vamos a tener en ese subdominio son los siguientes:
 
 * **www.informatica.iesgn.org** corresponde a un sitio web que está alojado en el servidor web del departamento de informática.
 * Vamos a suponer que tenemos un servidor ftp que se llame **ftp.informatica.iesgn.org** y que está en la misma máquina.
-*  Vamos a suponer que tenemos un servidor para recibir los correos que se llame **correo.informatica.iesgn.org**.
+* Vamos a suponer que tenemos un servidor para recibir los correos que se llame **correo.informatica.iesgn.org**.
 
-
-Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:	
+<div class='ejercicios' markdown='1'>
+* **Tarea 7 (4 puntos):** Realiza la instalación y configuración del nuevo servidor dns con las características anteriomente señaladas. Muestra el resultado al profesor.
+* **Tarea 8 (3 puntos):** Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:	
 
 	* Dirección de www.informatica.iesgn.org, ftp.informatica.iesgn.org
 	* El servidor DNS que tiene configurado la zona del dominio informatica.iesgn.org. ¿Es el mismo que el servidor DNS con autoridad para la zona iesgn.org?
 	* El servidor de correo configurado para informatica.iesgn.org
+</div>
+
+[Volver](index)
+
