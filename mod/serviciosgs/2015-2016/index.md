@@ -12,7 +12,7 @@ tagline: CFGS ASIR
 * [Servidor DHCP (20 puntos)](dhcp)
 * [Servidor Web (25 puntos)](web)
 * [Servidor DNS (25 puntos)](dns)
-* Configuración de un servidor Windows Server (15 puntos)
+* [Configuración de un servidor Windows Server (20 puntos)](wserver)
 * Configuración de un servidor GNU/Linux (30 puntos)
 * Estudio de distintos servidores webs (20 puntos)
 
