@@ -22,7 +22,7 @@ Instala el servidor dns **dnsmasq** en *pandora.iesgn.org* y configúralo para q
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 ( punto):** Modifica los clientes para que utilicen el nuevo servidor dns. Realiza una consulta a www.iesgn.org, y a www.josedomingo.org. Realiza una prueba de funcionamiento para comprobar que el servidor dnsmasq funciona como cache dns. Lee el documento [Teoría: Servidor DHCP](http://dit.gonzalonazareno. Documenta la tarea en redmine.
+* **Tarea 1 (2 punto)(Obligatorio):** Modifica los clientes para que utilicen el nuevo servidor dns. Realiza una consulta a www.iesgn.org, y a www.josedomingo.org. Realiza una prueba de funcionamiento para comprobar que el servidor dnsmasq funciona como cache dns. Documenta la tarea en redmine.
 </div>
 
 ####Servidor bind9 
@@ -37,8 +37,8 @@ Desinstala el servidor **dnsmasq** del ejercicio anterior e instala un servidor 
 * Se tienen que configurar la zona de resolución inversa.
 
 <div class='ejercicios' markdown='1'>
-* **Tarea 2 ( punto)(Obligatorio):** Realiza la instalación y configuración del servidor bind9 con las características anteriomente señaladas. Muestra el resultado al profesor.
-* **Tarea 3 ( punto):** Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:
+* **Tarea 2 (4 puntos)(Obligatorio):** Realiza la instalación y configuración del servidor bind9 con las características anteriomente señaladas. Muestra el resultado al profesor.
+* **Tarea 3 (4 puntos)(Obligatorio):** Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:
 	* Dirección de *pandora.iesgn.org*, www.iesgn.org, ftp.iesgn.org
 	* El servidor DNS con autoridad sobre la zona del dominio iesgn.org
 	* El servidor de correo configurado para iesgn.org
@@ -50,6 +50,11 @@ Desinstala el servidor **dnsmasq** del ejercicio anterior e instala un servidor 
 
 El servidor DNS actual funciona como **DNS maestro**. Vamos a instalar un nuevo servidor DNS que va a estar configurado como **DNS esclavo** del anterior, donde se van a ir copiando periódicamente las zonas del DNS maestro. Suponemos que el nombre del servidor DNS esclavo se va llamar *afrodita.iesgn.org*.
 
+<div class='ejercicios' markdown='1'>
+
+
+
+</div>
 * Entrega la configuración de las zonas del maestro y del esclavo.
 * Comprueba si las zonas definidas en el maestro tienen algún error con el comando adecuado.
 * Comprueba si la configuración de named.conf tiene algún error con el comando adecuado.
