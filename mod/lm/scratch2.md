@@ -18,4 +18,5 @@ tagline: CFGS ASIR
 4. Haz que el gato ande indefenidamente de izquierda a derecha. Cambia el disfraz para simular que está andadnod. Haz que rebote en las pareces y gire al sentido contrario.
 5. El gato te debe pedir un número, y decirte la tabla de multiplicar de ese número.
 6. Uso de un acumulador. El gato calcula una potencia. Te pide la base y el exponente y te da el resultado de la potencia.
- 
+
+[Volver](index)
