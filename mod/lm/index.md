@@ -7,6 +7,10 @@ tagline: CFGS ASIR
 
 ### Ejercicios
 
+#### Scratch
+
+* [Ejercicio 1 Scratch](scratch1.md)
+
 #### Python
 
 * [Boletín 1: Ejercicios sencillos](bol1)
