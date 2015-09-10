@@ -27,5 +27,6 @@ tagline: CFGS ASIR
 7. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
 
 
+[Volver](index)
 
 
