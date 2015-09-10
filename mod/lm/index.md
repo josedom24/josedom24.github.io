@@ -11,6 +11,7 @@ tagline: CFGS ASIR
 
 * [Ejercicio 1 Scratch](scratch1)
 * [Ejercicio 2 Scratch](scratch2)
+* [Ejercicio 3 Scratch](scratch3)
 
 #### Python
 
