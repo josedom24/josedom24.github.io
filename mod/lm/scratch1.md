@@ -22,9 +22,9 @@ tagline: CFGS ASIR
 
 #### Variables
 
-5. Pedir un nombre por teclado, y hacer que el gato diga "Hola Nombre".
-6. Calcular el perímetro y área de un rectángulo dada su base y su altura.
-7. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
+1. Pedir un nombre por teclado, y hacer que el gato diga "Hola Nombre".
+2. Calcular el perímetro y área de un rectángulo dada su base y su altura.
+3. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
 
 
 [Volver](index)
