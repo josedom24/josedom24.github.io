@@ -1,7 +1,7 @@
 ---
 layout: index
 
-title: Página web josedom24 @pledin_jd
+title: Tutoriales
 tagline: www.josedomingo.org
 ---
 
@@ -13,3 +13,9 @@ tagline: www.josedomingo.org
 * Los tutoriales de [DigitalOcean](https://www.digitalocean.com/community/tutorials) son bastante interesantes.
 <hr/>
 * Hojas de referencias:[Cheat sheet](http://www.cheat-sheets.org/)
+<hr/>
+
+###Docker
+
+* [Cómo desplegar contenedores en Docker](https://platzi.com/blog/desplegar-contenedores-docker/)
+* [Podcast: entndiendo docker relacionado con despliegue de aplicaciones](https://soundcloud.com/programania/programania-podcast-1)
