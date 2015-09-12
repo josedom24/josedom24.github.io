@@ -14,6 +14,8 @@ tagline: josedom24.github.io
 <hr/>
 * [Internet, web, ...](/varios/web)
 <hr/>
+* [Enlaces, páginas completas interesantes...](/varios/enlaces)
+<hr/>
 * [Cajón desastre...](varios/cajon)
 <hr/>
 * [Colección de libros libres](/libros)
