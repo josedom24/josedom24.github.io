@@ -7,7 +7,7 @@ tagline: www.josedomingo.org
 
 ### Cursos
 
-* [Infraestructura virtual](http://jj.github.io/IV/) en [GitHub](https://github.com/JJ/IV).
+* [Infraestructura virtual](http://jj.github.io/IV/	) en [GitHub](https://github.com/JJ/IV).
 
 ### Tutoriales
 

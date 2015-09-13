@@ -10,7 +10,7 @@ tagline: josedom24.github.io
 
 * [Ejercicios y prácticas de módulos de ASIR y SMR](/mod)
 <hr/>
-* [Tutoriales](/varios/tutorial)
+* [Tutoriales, cursos,...](/varios/tutorial)
 <hr/>
 * [Internet, web, ...](/varios/web)
 <hr/>
