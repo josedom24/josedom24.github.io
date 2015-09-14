@@ -276,8 +276,19 @@ trabajo es modificar los programas.</li>
 	<h3>Despliegue como proceso automático</h3>
 	<p>Desplegar el código en producción o pruebas, y quizás también en desarrollo, es algo que debe hacerse pulsando un botón (ejecutando un script). Hay que evitar los procesos manuales, estos conllevan tiempo y son propensos a errores por mucho que esos procesos se hayan repetido.</p>
 	<ul>
-		<li>Ant, maven, para java</li>
-		<li>Phing: para php</li>
-		<li>Fabric, para python</li>
+		<li>Script
+		<li>Herramientas específicas:Ant, maven, para java, Phing: para php, Fabric, para python</li>
+		<li>Sincronizar una rama del sistema de control de versiones entre servidores</li>
 	</ul>
+</section>
+<section>
+	<h3>Integración continúa</h3>
+	<p>La integración continua requiere que cada vez que alguien haga un commit se construya la aplicación entera y se que se ejecuten una serie de tests automatizados. Es un cambio de paradigma. Las pruebas y el despliegue se automatizan.</p>
+	<p>¿Qué necesitamos?</p>
+	<ul>
+		<li>Un sistema de control de versiones en el que se deposite todo lo relativo al proyecto.</li>
+		<li>Un sistema automatizado de build para la aplicación y ejecutar los tests.</li>
+		<li>La aceptación de los miembros del equipo, puesto que la integración continua es una práctica y no una herramienta.</li>
+	</ul>
+	<p>Jenking (Java)</p>
 </section>
