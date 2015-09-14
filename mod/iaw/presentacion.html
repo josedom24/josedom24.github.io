@@ -194,7 +194,8 @@ trabajo es modificar los programas.</li>
 </section>
 <section>
 	<h3>Infraestructura como código: Automátización de la configuración</h3>
-	<small>Aunque actualmente se automatiza todas las partes posible del ciclo de desarrollo de software, no se hace lo mismo con la administración de sistemas. El concepto de infraestructura como código se refiere a intentar gestionar la infraestructura como si de un desarrollo software se tratase. <strong>Ventajas:</strong></small>
+	<small>Aunque actualmente se automatiza todas las partes posible del ciclo de desarrollo de software, no se hace lo mismo con la administración de sistemas. El concepto de infraestructura como código se refiere a intentar gestionar la infraestructura como si de un desarrollo software se tratase. </small>
+	<p><strong>Ventajas:</strong></p>
 	<ul>
 		<li>Control de las versiones de las configuraciones</li>
 		<li>Automatización de los procesos de instalación y configuración</li>
@@ -203,7 +204,7 @@ trabajo es modificar los programas.</li>
 	<p>Herramientas: Puppet, chef, ansible, ...</p>
 </section>
 
-<section data-background="#A9D0F5">
+<sectiondata-background="#A9D0F5">
 <section>
 	<h3>Entornos de producción, pruebas y desarrollo comparables.</h3>
 	<small>Si vamos a usar herramientas de automatización, es importante la elección del entorno de producción.</small>
@@ -223,3 +224,32 @@ trabajo es modificar los programas.</li>
 	</ul>
 </section>
 <section>
+	<h3>Entornos de producción, pruebas y desarrollo comparables.</h3>
+	<p>Elección del entorno de producción</p>
+	<ul>
+		<li>Tradicional</li>
+		<ul>
+			<li>Servidor dedicado: Servidor físico o virtual. Al que tenemos acceso y control total. Características de hardware fijas.</li>
+			<li>Hosting compartido: Servidor físico o virtual compartido entre varios usuarios. No se suele tener acceso a realizar instalaciones específicas. Características hardware fijas.</li>
+		</ul>
+		<li>Moderno</li>
+		<ul>
+			<li>Cloud Computing: IaaS: Infraestructura como servicio en la nube. Se proporciona principalmente capacidad de cómputo, redes y diversos modos de almacenamiento. Elasticidad y pago por uso. AWS, Azure, GCE, OpenStack</li>
+			<li>Cloud Computing: PaaS: Plataforma de desarrollo web en la nube. Se proporciona toda la plataforma de desarrollo y despliegue de una aplicación al desarrollador. Elasticidad y pago por uso. Openshift, Azure, Heroku, Google App Engine, ...
+			<li>Contenedores: Virtualización ligera. Parecidas a MV, pero mucho más ligeras y transportables.</li>
+		</ul>
+		
+	</ul>
+</section>
+<section>
+	<h3>Entornos de producción, pruebas y desarrollo comparables.</h3>
+	<p>Vagrant es una herramienta que gestiona máquinas virtuales (VM). Con un fichero de configuración (VagranFile), puede levantar y provisionar una infraestructura de MV en poco tiempo.</p>
+	<ul>
+		<li>Muy adecuada para configurar entornos de prueba.</li>
+		<li>La replica de escenarios complejos es muy sencilla, por lo que varias personas pueden trabajar en escenarios iguales.</li>
+		<li>Permite que los desarrolladores se involucren más en Sistemas de forma que tengan un conocimiento de cómo se configuran los servidores.</li>
+		<li>Elimina la frase de "Funciona en mi local", puesto que las MV que levanta Vagrant son iguales (o al menos están configuradas igual) que los servidores de producción.</li>
+		
+	</ul>
+</section>
+</section>
