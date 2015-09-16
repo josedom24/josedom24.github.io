@@ -56,7 +56,7 @@ Los distintos contenidos de nuestras páginas serán definidos en ficheros Markd
 
 #### Mi experiencia
 
-Si las cosas que aprendéis las escribís es probable que no se olviden y se entiendan mejor, por lo tanto tenéis más información en el [artículo](http://www.josedomingo.org/pledin/2013/09/publicar-una-pagina-web-en-github-pages/) que escribí cuando aprendí hacerlo.
+Si las cosas que aprendéis las escribís es probable que no se olviden y se entiendan mejor, por lo tanto tenéis más información en el [artículo](http://www.josedomingo.org/pledin/2013/09/publicar-una-pagina-web-en-github-pages/) que escribí cuando aprendí a hacerlo.
 
 <div class='ejercicios' markdown='1'>
 
