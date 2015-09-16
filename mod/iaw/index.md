@@ -11,6 +11,11 @@ tagline: CFGS ASIR
 
 * [Presentación del módulo](presentacion)
 
+
+# Prácticas
+
+[1. Implantación de una aplicación web estática en Github Pages](estatica)
+
 #### Unidades
 
 * [Unidad 1: Introducción a las aplicaciones web](introduccion)
