@@ -33,7 +33,7 @@ Desventajas de las páginas estáticas:
 
 #### Github Pages
 
-[Github Pages](https://pages.github.com/) es un servicio que te ofrece Github para publicar de una manera muy sencilla páginas web. Disponemos de la opción de generar de forma automática las páginas utilizando una herramienta gráfica, o la creación y modificación de páginas web usando la línea de comandos con el comando git.
+[Github Pages](https://pages.github.com/) es un servicio que te ofrece Github para publicar de una manera muy sencilla páginas web. Disponemos de la opción de generar de forma automática las páginas utilizando una herramienta gráfica, o la creación y modificación de páginas web usando la línea de comandos con el comando [git](http://rogerdudler.github.io/git-guide/index.es.html).
 
 ##### Cómo podemos construir nuestras páginas web
 
@@ -54,4 +54,14 @@ Por lo tanto una vez que tengo definidas mis plantillas, lo único que tengo que
 
 Los distintos contenidos de nuestras páginas serán definidos en ficheros Markdown con extensión md. La [sintaxis de este lenguaje de marcas](https://guides.github.com/features/mastering-markdown/) es muy sencilla y fácilmente convertible a html. Para practicar las distintas opciones puedes usar este [editor online](http://www.ctrlshift.net/project/markdowneditor/).
 
+#### Mi experiencia
 
+Si las cosas que aprendéis las escribís es probable que no se olviden y se entiendan mejor, por lo tanto tenéis más información en el [artículo](http://www.josedomingo.org/pledin/2013/09/publicar-una-pagina-web-en-github-pages/) que escribí cuando aprendí hacerlo.
+
+<div class='ejercicios' markdown='1'>
+
+Crea un sitio web usando la herramienta github pages, está página te servirá durante el curso para documentar las distintas prácticas que vamos a realizar en el módulo. Tienes que tener en cuenta:
+	* Puedes crear una página de usuario, del tipo http://**nombre_de_usuario**.github.io o una página de repositorio, en este caso la url sería http://*nombredeusuaio*.github.io/*nombrederepositorio*
+	* Puedes crear una página utilizando el generador automático de plantillas, o subiendo directamente una plantilla propia.
+	* Tiene que tener al menos dos páginas: la principal (index.md) y una página que hablé de tí (about.md), y una imagen.
+</div>
