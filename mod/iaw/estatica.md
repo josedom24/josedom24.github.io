@@ -63,5 +63,5 @@ Si las cosas que aprendéis las escribís es probable que no se olviden y se ent
 Crea un sitio web usando la herramienta github pages, está página te servirá durante el curso para documentar las distintas prácticas que vamos a realizar en el módulo. Tienes que tener en cuenta:
 * Puedes crear una página de usuario, del tipo http://**nombre_de_usuario**.github.io o una página de repositorio, en este caso la url sería http://*nombredeusuaio*.github.io/*nombrederepositorio*
 * Puedes crear una página utilizando el generador automático de plantillas, o subiendo directamente una plantilla propia.
-* Tiene que tener al menos dos páginas: la principal (index.md) y una página que hablé de tí (about.md), y una imagen.
+* Tiene que tener al menos dos páginas: la principal (index.md) y una página que hablé de tií (about.md), y una imagen.
 </div>
