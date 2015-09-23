@@ -9,10 +9,9 @@ tagline: CFGS ASIR
 
 <div class='nota' markdown='1'>
 
-* *Entorno de desarrollo/pruebas*: Máquina local virtual (vagrant)
-* *Entrono de producción*: Hosting compartido
-* *Método de despliegue*: Tradicional con FTP/SSH
-
+* **Entorno de desarrollo/pruebas**: Máquina local virtual (vagrant)
+* **Entrono de producción**: Hosting compartido
+* **Método de despliegue**: Tradicional con FTP/SSH
 </div>
 
 <div class='ejercicios' markdown='1'>
