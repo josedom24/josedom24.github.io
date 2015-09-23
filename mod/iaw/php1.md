@@ -7,6 +7,13 @@ tagline: CFGS ASIR
 
 ### Despliegue de una aplicación web desarrollada en PHP en hosting compartido
 
+<div class='nota'>
+* *Entorno de desarrollo/pruebas*: Máquina local virtual (vagrant)
+* *Entrono de producción*: Hosting compartido
+* *Método de despliegue*: Tradicional con FTP/SSH
+
+</div>
+
 <div class='ejercicios' markdown='1'>
 Antes de empezar con el despliegue de la aplicación web, actualiza esta tarea comentando qué CMS has elegido. Comenta en la tarea redmine los pasos relevantes que vas realizando.
 </div>
