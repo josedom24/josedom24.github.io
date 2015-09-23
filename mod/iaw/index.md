@@ -22,7 +22,7 @@ tagline: CFGS ASIR
 #### Unidades
 
 * Unidad 1: Introducción a las aplicaciones web
-* Unidad 2: Entornos virtuales de desarrollo: vagrant
+* Unidad 2: Entornos de trabajos: vagrant, hosting, openstack
 * Unidad 3: Despliegue de aplicaciones web en php
 * Unidad 4: Despliegue de aplicaciones web en java
 * Unidad 5: Desarrollo y despliegue de aplicaciones web en python
