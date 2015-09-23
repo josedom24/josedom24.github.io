@@ -19,10 +19,10 @@ tagline: CFGS ASIR
 </div>
 
 <div class='ejercicios' markdown='1'>
-Comenta en la tarea redmine los pasos relevantes que vas realizando.
+Antes de empezar con el despliegue de la aplicación web, actualiza esta tarea comentando qué CMS has elegido. Comenta en la tarea redmine los pasos relevantes que vas realizando.
 </div>
 
-Esta tarea consiste en desplegar un CMS de tecnología PHP (el mismo CMS que utilizaste en la práctica anterior) en un infraestructura dedicada, formada por dos servidores dedicados (que serán dos instancias en el cloud): un servidor va a tener instalado el servidor web y el otro el servidor de base de datos. Como hemos indicado que es conveniente no hacer el despliegue directamente en el entorno de producción, configura dos máuinas virtuales (vagrant) lo más parecido al entrono de producción que vamos a tener. Realiza los siguientes pasos:
+Esta tarea consiste en desplegar un CMS de tecnología PHP en un infraestructura dedicada, formada por dos servidores dedicados (que serán dos instancias en el cloud): un servidor va a tener instalado el servidor web y el otro el servidor de base de datos. Como hemos indicado que es conveniente no hacer el despliegue directamente en el entorno de producción, configura dos máuinas virtuales (vagrant) lo más parecido al entrono de producción que vamos a tener. Realiza los siguientes pasos:
 
 * Construye con vagrant el entorno de desarrollo/pruebas
 * Configura el entorno de desarrollo/pruebas usando la receta ansible que puedes encontrar en el siguiente repositorio de GitHub (modifícala para adaptarla a tu entorno)
