@@ -11,6 +11,7 @@ tagline: CFGS ASIR
 
 * **Entorno de desarrollo/pruebas**: Máquina local virtual (vagrant)
 * **Entrono de producción**: Hosting compartido
+* **Configuración del entorno**: Manual
 * **Método de despliegue**: Tradicional con FTP/SSH
 </div>
 
@@ -37,5 +38,7 @@ En este momento, muestra al profesor la aplicación funcionando en local.
 * Verifica el buen funcionamiento de la aplicación en el entorno de hosting compartido
 
 <div class='ejercicios' markdown='1'>
-Muestra al profesor la aplicación funcionando en producción.
+
+* Muestra al profesor la aplicación funcionando en producción.
+* Realiza algún cambio en el CMS en el entorno de desarrollo/prueba, y despliega de nuevo al entorno de producción.
 </div>
