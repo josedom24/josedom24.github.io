@@ -14,8 +14,8 @@ tagline: CFGS ASIR
 
 # Prácticas
 
-[1. Implantación de una aplicación web estática en Github Pages](estatica)
-[2. Despliegue de una aplicación web desarrollada en PHP en hosting compartido](php1)
+1. [Implantación de una aplicación web estática en Github Pages](estatica)
+2. [Despliegue de una aplicación web desarrollada en PHP en hosting compartido](php1)
 
 3. Despliegue de una aplicación web desarrollada en PHP en IaaS
 	* Tener dos servidores: web y bd
