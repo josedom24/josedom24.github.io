@@ -8,6 +8,7 @@ tagline: CFGS ASIR
 ### Despliegue de una aplicación web desarrollada en PHP en hosting compartido
 
 <div class='nota'>
+
 * *Entorno de desarrollo/pruebas*: Máquina local virtual (vagrant)
 * *Entrono de producción*: Hosting compartido
 * *Método de despliegue*: Tradicional con FTP/SSH
