@@ -17,10 +17,6 @@ tagline: CFGS ASIR
 1. [Implantación de una aplicación web estática en Github Pages](estatica)
 2. [Despliegue de una aplicación web desarrollada en PHP en hosting compartido](php1)
 3. [Despliegue de una aplicación web desarrollada en PHP en un servidor dedicado (IaaS)](php2)
-	* Tener dos servidores: web y bd
-	* Posible automatización de los entornos de pruebas y producción
-	* Investigar formas de despliegue sin el uso del ftp, y la migración de las bases de datos
-	* Despliegue automático: fabric
 4. Despliegue de una aplicación web desarrollada en PHP en PaaS
 
 #### Unidades
