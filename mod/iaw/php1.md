@@ -8,7 +8,7 @@ tagline: CFGS ASIR
 ### Despliegue de una aplicación web desarrollada en PHP en hosting compartido
 
 <div class='ejercicios' markdown='1'>
-Antes de empezar con el despliegue de la aplicación web, actualiza esta tarea comentando qué CMS has elegido.
+Antes de empezar con el despliegue de la aplicación web, actualiza esta tarea comentando qué CMS has elegido. Comenta en la tarea redmine los pasos relevantes que vas realizando.
 </div>
 
 Esta tarea consiste en desplegar un CMS de tecnología PHP en un hosting compartido, pero es conveniente no hacer el despliegue directamente en el entorno de producción sino que se seguirá el siguiente procedimiento:
@@ -30,5 +30,5 @@ En este momento, muestra al profesor la aplicación funcionando en local.
 * Verifica el buen funcionamiento de la aplicación en el entorno de hosting compartido
 
 <div class='ejercicios' markdown='1'>
-Comenta en la tarea los pasos relevantes
+Muestra al profesor la aplicación funcionando en producción.
 </div>
