@@ -48,14 +48,14 @@ Cambia la configuración del sitio web www.iesgn.org para que se comporte de la 
 
 #### Estadísticas web
 
-Vamos a instalar y configurar un analizador de logs de apache2 que nos permita generar estadísticas de acceso a nuestro servidor web (ejemplo [estadísticas de dit.gonzalonazareno.org](http://dit.gonzalonazareno.org/cgi-bin/awstats.pl).
+Vamos a instalar y configurar un analizador de logs de apache2 (webalizer) que nos permita generar estadísticas de acceso a nuestro servidor.
 
 * La URL de la estadística sera *www.masterlan.com/estadistica*.
 * El acceso a la estadística desde la red local está permitido, si hace desde fuera, por ejemplo desde el host, se requiere autentificación tipo digest (realizar este punto por medio de un fichero .htaccess)
-* Modifica el cron de awstats para que se genere las estadísticas cada 2 minutos.
+
 
 <div class='ejercicios' markdown='1'>
-* **Tarea 7 (2 puntos):** Realiza la instalación de awstats y muestra al profesor el funcionamiento del mismo teniendo en cuenta los requerimientos señalados.
+* **Tarea 7 (2 puntos):** Realiza la instalación de webalizer y muestra al profesor el funcionamiento del mismo teniendo en cuenta los requerimientos señalados.
 </div>
 
 ####Autentificación, Autorización, y Control de Acceso
