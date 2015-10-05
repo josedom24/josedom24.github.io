@@ -43,5 +43,6 @@ El servidor DNS se va a instalar en el servidor 2. Y en un primer momento se con
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (1 puntos):** Comprueba que los servidores tienen bien configurado el nuevo nombre de dominio de forma adecuada después de volver a renovar la concesión del servidor DHCP.
+* **Tarea 1 (1 puntos):** Comprueba que los servidores tienen configurados el nuevo nombre de dominio de forma adecuada después de volver a renovar la concesión del servidor DHCP.
 
+[Volver](index)
