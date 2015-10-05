@@ -31,7 +31,9 @@ Los ordenadores clientes de nuestra LAN obtienen su configuración de red ofreci
 * DNS: Según el que te convenga para hacer las pruebas 
 
 Crea una reserva para el que uno de los clientes tome siempre una dirección fija.
+
 <div class='ejercicios' markdown='1'>
+
 * **Tarea 3 (3 puntos):**  Muestra al profesor el servidor DHCP funcionando. Muestra el fichero de configuración del servidor, la lista de concesiones, la modificación en la configuración que has hecho en el cliente para que tome la configuración de forma automática y muestra la salida del comando ifconfig.
 * **Tarea 4 (2 puntos):** Indica las modificaciones realizadas en el servidor y muestra al profesor una comprobación de que el cliente ha tomado esa dirección.
 </div>
