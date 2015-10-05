@@ -18,3 +18,8 @@ Kodi (antes conocido como "Xbox Media Center" o XBMC) es un centro multimedia de
 * [www.pluginsxbmc.com](http://www.pluginsxbmc.com/)
 * [blog.tvalacarta.info](http://blog.tvalacarta.info/)
 * [superrepo.org](https://superrepo.org/)
+
+<hr/>
+#### slimbook
+
+Portátiles compatibles con Linux: [https://slimbook.es](https://slimbook.es)
