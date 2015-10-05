@@ -16,7 +16,14 @@ tagline: CFGS ASIR
 	* Script (bash/python)
 	* Sincronizar una rama de un repositorio git
 	* Despliegue con herramienta específica: fabric
+	* Control de versión de la base de datos: Flyway,  Liquidbase, dbv.php
 </div>
+<div class='nota' markdown='1'>
+
+Lectura recomendada: [¿Cómo mantengo bajo control las muchas bases de datos que hay en los entornos de desarrollo, pruebas, producción…?])(http://www.javiergarzas.com/2014/07/migracion-bases-de-datos.html)
+
+</div>
+
 
 <div class='ejercicios' markdown='1'>
 Antes de empezar con el despliegue de la aplicación web, actualiza esta tarea comentando qué CMS has elegido. Comenta en la tarea redmine los pasos relevantes que vas realizando.
