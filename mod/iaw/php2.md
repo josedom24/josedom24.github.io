@@ -12,7 +12,7 @@ tagline: CFGS ASIR
 * **Entorno de desarrollo/pruebas**: Máquina local virtual (vagrant)
 * **Entrono de producción**: Servidores dedicados, en nuestros instancias en OpenStack
 * **Configuración del entorno**: Automático, usando ansible
-* **Método de despliegue**: Vams a intentar automatizar el despliegue para ello podemos usar:
+* **Método de despliegue**: Vamos a intentar automatizar el despliegue para ello podemos usar:
 	* Script (bash/python)
 	* Sincronizar una rama de un repositorio git
 	* Despliegue con herramienta específica: fabric
