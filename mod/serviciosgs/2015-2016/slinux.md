@@ -7,6 +7,8 @@ tagline: CFGS ASIR
 
 ### Práctica: Configuración de un servidor GNU/Linux
 
+#### (12 tareas - 20 puntos)(6 tareas obligatorias - 7 puntos)
+
 <div class='notas' markdown='1'>
 
 ###Objetivo
@@ -77,7 +79,7 @@ Todos los registros creados o borrados pertenecen a las zonas **tu_nombre**.*gon
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 3 (3 puntos)(Obligatorio):**Entrega el repositorio github donde has desarrollado el script y realiza un ejemplo al profesor.
+* **Tarea 3 (3 puntos):**Entrega el repositorio github donde has desarrollado el script y realiza un ejemplo al profesor.
 
 </div>
 
@@ -89,11 +91,11 @@ En nuestro servidor1 vamos a instalar un servidor Web apache2 con las siguientes
 
 * **Tarea 4 (1 punto)(Obligatorio):** Nuestro servidor va  a tener dos hosts virtuales: www.**tu_nombre**.*gonzalonazareno.org* y informatica.**tu_nombre**.*gonzalonazareno.org*. Explica los pasos fundamentales para realizar los dos virtual hosts.
 * **Tarea 5 (1 punto):** Comenta los cambios en el servidor DNS para de dar de alta los dos nuevos nombres.
-* **Tarea 6 (1 punto):** La página www.**tu_nombre**.*gonzalonazareno.org* va a ser la página principal, busca una plantilla html, modifícala un poco y desplegala en el primer virtual host. Muestrasela al profesor.
-* **Tarea 7 (1 punto):** Por seguridad, en la página www.**tu_nombre**.*gonzalonazareno.org*, no se permite que se sigan enlaces simbólicos, no se permite negociación de contenidos, no se permite visualizar la lista de ficheros y no se permite usar ficheros .htaccess. Entrega la modificaciones en la configuración necesarias.
-* **Tarea 8 (1 punto):** La página informatica.**tu_nombre**.*gonzalonazareno.org* es una página relacionada con el mundo de la informática, busca una plantilla html, modifícala un poco y desplegala en el primer virtual host. La página se guardará en  un directorio llamado plataforma. Por lo tanto si accedemos a informatica.example.com se debererá redirigir automáticamente a informatica.example.com/plataforma. Muestra el resultado al profesor.
+* **Tarea 6 (1 punto)(Obligatorio):** La página www.**tu_nombre**.*gonzalonazareno.org* va a ser la página principal, busca una plantilla html, modifícala un poco y desplegala en el primer virtual host. Muestrasela al profesor.
+* **Tarea 7 (1 punto)(obligatorio):** Por seguridad, en la página www.**tu_nombre**.*gonzalonazareno.org*, no se permite que se sigan enlaces simbólicos, no se permite negociación de contenidos, no se permite visualizar la lista de ficheros y no se permite usar ficheros .htaccess. Entrega la modificaciones en la configuración necesarias.
+* **Tarea 8 (1 punto)(Obligatorio):** La página informatica.**tu_nombre**.*gonzalonazareno.org* es una página relacionada con el mundo de la informática, busca una plantilla html, modifícala un poco y desplegala en el primer virtual host. La página se guardará en  un directorio llamado plataforma. Por lo tanto si accedemos a informatica.example.com se debererá redirigir automáticamente a informatica.example.com/plataforma. Muestra el resultado al profesor.
 * **Tarea 9 (3 puntos):** Para llevar una estadistica de visitas y accesos instala la aplicación awstats en el servidor. Configura el cron para que la estadistíca se vaya actualizando. Debes realizar dos estadísticas, una para cada host virtual.
-* **Tarea 10 (2 puntos):**En el directorio /srv/isos tenemos una colección de imágenes isos, queremos acceder a ella en la dirección informatica.**tu_nombre**.*gonzalonazareno.org*/isos. Esta dirección debe ser sólo accesible desde la intranet, si accedemos desde fuera tenemos que autentificarnos (digest) con un usuario.
+* **Tarea 10 (3 puntos):**En el directorio /srv/isos tenemos una colección de imágenes isos, queremos acceder a ella en la dirección informatica.**tu_nombre**.*gonzalonazareno.org*/isos. Esta dirección debe ser sólo accesible desde la intranet, si accedemos desde fuera tenemos que autentificarnos (digest) con un usuario.
 
 </div>
 
@@ -103,7 +105,7 @@ En nuestro servidor2 vamos a instalar un servidor de base de datos mysql.
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 11 (1 punto)(Obliagatorio):** Configura el servidor para que sea accesible por los equipos de la red local. Muestra al profesor una conexión a la base de datos desde el servidor1.
+* **Tarea 11 (1 punto)(Obligatorio):** Configura el servidor para que sea accesible por los equipos de la red local. Muestra al profesor una conexión a la base de datos desde el servidor1.
 * **Tarea 12 (2 puntos):** Instala en el servidor1 la aplicación phpmyadmin que nos permite gestionar las bases de datos de nuestro servidor. Esta aplicación sólo será accesible desde la URL www.**tu_nombre**.*gonzalonazareno.org*/basededatos. Muestra el acceso al profesor.
 
 [Volver](index)
