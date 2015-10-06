@@ -43,6 +43,30 @@ El servidor DNS se va a instalar en el servidor 2. Y en un primer momento se con
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (1 puntos):** Comprueba que los servidores tienen configurados el nuevo nombre de dominio de forma adecuada después de volver a renovar la concesión del servidor DHCP.
+* **Tarea 1 (1 puntos):** Comprueba que los servidores tienen configurados el nuevo nombre de dominio de forma adecuada después de volver a renovar la concesión del servidor DHCP. Documenta el contenido del fichero en el que se puede comprobar este punto.
+* **Tarea 2 (2 puntos)(Obligatorio):** Entrega el resultado de las siguientes consultas :
+	* El servidor DNS con autoridad sobre la zona del dominio **tu_nombre**.*gonzalonazareno.org*
+	* La dirección IP de los tres servidores
+	* Un resolución inversa
+</div>
+
+### Servidor Web
+
+En nuestro servidor1 vamos a instalar un servidor Web apache2 con las siguientes características.
+
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 3 (1 punto)(Obligatorio):** Nuestro servidor va  a tener dos hosts virtuales: www.**tu_nombre**.*gonzalonazareno.org* y informatica.**tu_nombre**.*gonzalonazareno.org*. Explica los pasos fundamentales para realizar los dos virtual hosts.
+* **Tarea 4 (1 punto):** Comenta los cambios en el servidor DNS para de dar de alta los dos nuevos nombres.
+* **Tarea 5 (1 punto):** La página www.**tu_nombre**.*gonzalonazareno.org* va a ser la página principal, busca una plantilla html, modifícala un poco y desplegala en el primer virtual host. Muestrasela al profesor.
+* **Tarea 6 (1 punto):** Por seguridad, en la página www.**tu_nombre**.*gonzalonazareno.org*, no se permite que se sigan enlaces simbólicos, no se permite negociación de contenidos, no se permite visualizar la lista de ficheros y no se permite usar ficheros .htaccess. Entrega la modificaciones en la configuración necesarias.
+
+
+
+5. La página informatica.example.com es la página principal del departamento de informática y en ella vamos a instalar una plataforma moodle. Dicha aplicación web estará instalada en un directorio llamado plataforma. Por lo tanto si accedemos a informatica.example.com se debererá redirigir automáticamente a informatica.example.com/plataforma
+6. Cada profesor del departamento de informática puede tener una página personal, para ello usa el módulo public_html. En esta página personal se debe poder ejecutar php y poder ser configurada usando ficheros .htaccess.
+7. Para llevar una estadistica de visitas y accesos instala la aplicación webalizer en el servidor.
+8. En el directorio /srv/isos tenemos una colección de imágenes isos, queremos acceder a ella en la dirección informatica.example.com/isos. Esta dirección debe ser sólo accesible desde la intranet, si accedemos desde fuera tenemos que autentificarnos (digest) con un usuario.
+9. Configura la página wordpress para usar URL amigables, módulo rewrite. Modifica del punto 4 lo que sea necesario para que funcione este punto.
 
 [Volver](index)
