@@ -13,7 +13,7 @@ tagline: CFGS ASIR
 * [Servidor Web (25 puntos)](web)
 * [Servidor DNS (25 puntos)](dns)
 * [Configuración de un servidor Windows Server (20 puntos)](wserver)
-* [Configuración de un servidor GNU/Linux (30 puntos)](slinux)
+* [Configuración de un servidor GNU/Linux (20 puntos)](slinux)
 * Estudio de distintos servidores webs (20 puntos)
 
 #### 2ª Evaluación
