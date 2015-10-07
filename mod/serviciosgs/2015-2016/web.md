@@ -122,6 +122,8 @@ Date de alta en CDMON y contrata una *Plataforma de prueba*. Con ello tenemos a 
 		</body>
 		</html>
 
-	Configura mediante un fichero .htaccess http://www.masterlan.com/php/*moneda/cantidad*, donde moneda indica el nombre de la moneda a la que queremos convertir (Dolar,Libra,Yen) y cantidad indica los euros que queremos convertir.
+	Prueba la página utilizando parámetros en la URL (parámetros GET), por ejemplo: http://*nombre_página*/php/index.php?monto=100&pais=Libra
+
+	Configura mediante un fichero .htaccess, la posibilidad de acceder a la URL http://*nombre_página*/php/*moneda/cantidad*, donde moneda indica el nombre de la moneda a la que queremos convertir (Dolar,Libra,Yen) y cantidad indica los euros que queremos convertir.
 
 	[Volver](index)
