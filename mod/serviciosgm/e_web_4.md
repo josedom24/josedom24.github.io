@@ -33,8 +33,8 @@ En la página de la práctica anterior *www.iesgn.com*, vamos a crear una zona p
 
 	A continuación debemos hacer los siguiente:
  	
- 	* Quitar el grupo Usuarios, para no permitir el acceso a ningún usuario.
- 	* Agregar el grupo Profesores, con los permisos con los permisos de "Lectura y ejecución", "Mostrar el contenido de la carpeta" y "Leer", de modo que cuando la ventana de la imagen superior presente el aspecto mostrado en la imagen inferior, pulsaremos sobre el botón "Aceptar".
+	* Quitar el grupo Usuarios, para no permitir el acceso a ningún usuario.
+	* Agregar el grupo Profesores, con los permisos con los permisos de "Lectura y ejecución", "Mostrar el contenido de la carpeta" y "Leer", de modo que cuando la ventana de la imagen superior presente el aspecto mostrado en la imagen inferior, pulsaremos sobre el botón "Aceptar".
 
 4. Desde el cliente prueba a acceder a la página *www.iesgn.com/profesores* y prueba a acceder con un usuario perteneciente al grupo "profesores" y otro que no pertenezca.
 
