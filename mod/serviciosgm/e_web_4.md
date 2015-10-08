@@ -15,7 +15,7 @@ En la página de la práctica anterior *www.iesgn.com*, vamos a crear una zona p
 
 1. En el directorio base de www.iesgn.com (c:/inetpub/ies) vamos a crear una carpeta llamada **"profesores"**, que será la carpeta que vamos a controlar su acceso por medio de la autentificación.
 
-> Dentro de esta carpeta crea un archivo index.html con un mensaje de bienvenida a la zona privada de los profesores.
+	Dentro de esta carpeta crea un archivo index.html con un mensaje de bienvenida a la zona privada de los profesores.
 
 2. Vamos a crear una serie de usuario y un grupo llamado "Profesores", par ello:
 
