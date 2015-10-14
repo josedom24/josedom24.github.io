@@ -13,6 +13,6 @@ tagline: CFGM SMR
 
 3. Accede a la configuración de tu router y redirecciona todo las peticiones al puerto 80 a la ip privada de tu servidor windows 2008.
 
-	En nuestro caso sólo queremos que esté accesible en principio el servidor web, por lo que deberemos configurar el router para que las peticiones que lleguen con destino el puerto 80/tcp se pasen a avatar.
+	En nuestro caso sólo queremos que esté accesible en principio el servidor web, por lo que deberemos configurar el router para que las peticiones que lleguen con destino el puerto 80/tcp se pasen a tu servidor web.
 
 [Volver](index)
