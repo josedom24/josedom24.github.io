@@ -7,7 +7,7 @@ tagline: CFGM SMR
 ### Ejercicio: Acceso a un sitio web desde internet
 
 
-1. Siguiendo la guía anterior "Gestión de DNS externo", crea un nombre de dominio (por ejemplo *tunombre.dyndns-web.com*) apuntando a la dirección IP pública de tu router.
+1. Siguiendo algún manual de dyndns o no-ip, por ejemplo: [dyndns](http://www.adslzone.net/tutorial-12.12.html), crea un nombre de dominio (por ejemplo *tunombre.dyndns-web.com*) apuntando a la dirección IP pública de tu router.
 
 2. Crea en el IIS un sitio web que se llame igual con una pequeña página index.html dando la bienvenida.
 
