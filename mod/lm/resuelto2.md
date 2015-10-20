@@ -98,9 +98,9 @@ cero.
 
 	Ejemplo:
 	
-	*Introduzca número del dado: 5*
+	* Introduzca número del dado: 5*
 
-	*En la cara opuesta está el "dos".*
+	* En la cara opuesta está el "dos".*
 
 		dado=int(raw_input("Número del dado:"))		
 
