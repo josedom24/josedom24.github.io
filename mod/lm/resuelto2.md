@@ -98,9 +98,8 @@ cero.
 
 	Ejemplo:
 	
-	* Introduzca número del dado: 5*
-
-	* En la cara opuesta está el "dos".*
+	*Introduzca número del dado: 5*
+	*En la cara opuesta está el "dos".*
 
 		dado=int(raw_input("Número del dado:"))		
 
@@ -125,6 +124,8 @@ cero.
 	* Si sólo dos lados del triángulo son iguales entonces es isósceles.
 	* Si los 3 lados son iguales entonces es equilátero.
 	* Si no se cumple ninguna de las condiciones anteriores, es escaleno.
+
+Solución:
 
 		lado1=float(raw_input("A:"))
 		lado2=float(raw_input("B:"))
