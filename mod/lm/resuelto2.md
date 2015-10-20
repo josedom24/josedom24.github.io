@@ -125,7 +125,8 @@ cero.
 	* Si los 3 lados son iguales entonces es equilátero.
 	* Si no se cumple ninguna de las condiciones anteriores, es escaleno.
 
-Solución:
+
+	Solución:
 
 		lado1=float(raw_input("A:"))
 		lado2=float(raw_input("B:"))
