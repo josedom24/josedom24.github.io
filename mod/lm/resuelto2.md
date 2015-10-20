@@ -128,8 +128,7 @@ cero.
 
 		lado1=float(raw_input("A:"))
 		lado2=float(raw_input("B:"))
-		lado3=float(raw_input("C:"))		
-		
+		lado3=float(raw_input("C:"))				
 
 		if lado1**2==(lado2**2+lado3**2):
 			print "Rectangulo"
