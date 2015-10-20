@@ -91,8 +91,8 @@ tagline: CFGS ASIR
 7. Algoritmo que muestre la tabla de multiplicar de los números 1,2,3,4 y 5.
 
 		for num1 in xrange(1,6):
-		for num2 in xrange(1,11):
-			print "%d*%d=%d"%(num1,num2,num1*num2)
+			for num2 in xrange(1,11):
+				print "%d*%d=%d"%(num1,num2,num1*num2)
 
 8. Escribe un programa que lea una lista de diez números y determine cuántos
 son positivos, y cuántos son negativos.
