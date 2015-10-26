@@ -21,7 +21,7 @@ Ejecuta el comando nslookup en tu cliente y entrega un documento donde copies y 
 
 4) ¿Qué tipo de registro es el que resuelve las siguientes direcciones: 
          
-        es.wikipedia.org, informatica.gonzalonazareno.org. 
+        www.josedomingo.org, informatica.gonzalonazareno.org. 
 
 Indica el nombre canónico de las máquinas a las que corresponden.
 
