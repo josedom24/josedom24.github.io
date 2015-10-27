@@ -59,7 +59,7 @@ El servidor DNS se va a instalar en el servidor 2. Y en un primer momento se con
 
 * El servidor DNS se llama *servidor2.**tu_nombre**.gonzalonazareno.org* y va a ser el servidor con autoridad para la zona **tu_nombre**.*gonzalonazareno.org*.
 * El servidor debe resolver el nombre de los tres servidores.
-* Se debe configurar la zona de resolución inversa.
+* Se debe configurar las zonas de resolución inversa.
 
 <div class='notas' markdown='1'>
 
@@ -75,7 +75,7 @@ El servidor DNS se va a instalar en el servidor 2. Y en un primer momento se con
 * **Tarea 2 (2 puntos)(Obligatorio):** Entrega el resultado de las siguientes consultas :
 	* El servidor DNS con autoridad sobre la zona del dominio **tu_nombre**.*gonzalonazareno.org*
 	* La dirección IP de los tres servidores
-	* Un resolución inversa
+	* Un resolución inversa de IP fija, y otra resolución inversa de IP flotante.
 </div>
 
 Nos gustaría poder dar de alta nuevos nombres en el servidor DNS. Para ello vas a crear un scipt en python que nos permita añadir o borrar registros en las zonas de nuestro servidor.
