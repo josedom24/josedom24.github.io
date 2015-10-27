@@ -18,6 +18,7 @@ tagline: CFGS ASIR
 2. [Despliegue de una aplicación web desarrollada en PHP en hosting compartido](php1)
 3. [Despliegue de una aplicación web desarrollada en PHP en un servidor dedicado (IaaS)](php2)
 4. [Despliegue de una aplicación web desarrollada en PHP en PaaS](php3)
+5. [Despliegue de una aplicación web desarrollada en JAVA en un entorno de pruebas](java1)
 
 #### Unidades
 
