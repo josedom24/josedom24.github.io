@@ -112,6 +112,8 @@ En nuestro servidor1 vamos a instalar un servidor de base de datos mysql.
 * **Tarea 11 (1 punto)(Obligatorio):** Configura el servidor para que sea accesible por los equipos de la red local. Muestra al profesor una conexión a la base de datos desde el servidor3.
 * **Tarea 12 (2 puntos):** Instala en el servidor3 la aplicación phpmyadmin que nos permite gestionar las bases de datos de nuestro servidor. Esta aplicación sólo será accesible desde la URL www.**tu_nombre**.*gonzalonazareno.org*/basededatos. Muestra el acceso al profesor.
 
+</div>
+
 <div class='notas' markdown='1'>
 
 Ejemplo de nombres, suponiendo que mi nombre de dominio va a ser josedom.gonzalonazareno.org
