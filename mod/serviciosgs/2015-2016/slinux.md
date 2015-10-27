@@ -21,6 +21,28 @@ El objetivo de esta práctica es montar una infraestrucuta de servicios que se m
 
 </div>
 
+
+<div class='notas' markdown='1'>
+
+Ejemplo de nombres, suponiendo que mi nombre de dominio va a ser josedom.gonzalonazareno.org
+
+Los nombres de los equipos van a ser:
+
+		silvestre.josedom.gonzalonazareno.org
+		piolin.josedom.gonzalonazareno.org
+		taz.josedom.gonzalonazareno.org
+
+* El servidor DNS va a estar instalado en piolin.josedom.gonzalonazareno.org
+* El servidor web va a estar instalado en taz.josedom.gonzalonazareno.org, y vamos a tener dos páginas webs:
+		
+		www.josedom.gonzalonazareno.org
+		informatica.josedom.gonzalonazareno.org
+
+* El servidor de base de datos va a estar instalado en silvestre.josedom.gonzalonazareno.org
+
+</div>
+
+
 ### Servidor DNS
 
 Vamos a instalar un sevidor dns que nos permita gestionar la resolución directa e inversa de nuestros nombres. Cada alumno va a poseer un servidor dns con autoridad sobre un subdominio de nuestro dominio principal *gonzalonazareno.org*, que se llamará **tu_nombre**.*gonzalonazareno.org*.
@@ -114,24 +136,6 @@ En nuestro servidor1 vamos a instalar un servidor de base de datos mysql.
 
 </div>
 
-<div class='notas' markdown='1'>
 
-Ejemplo de nombres, suponiendo que mi nombre de dominio va a ser josedom.gonzalonazareno.org
-
-Los nombres de los equipos van a ser:
-
-		silvestre.josedom.gonzalonazareno.org
-		piolin.josedom.gonzalonazareno.org
-		taz.josedom.gonzalonazareno.org
-
-* El servidor DNS va a estar instalado en piolin.josedom.gonzalonazareno.org
-* El servidor web va a estar instalado en taz.josedom.gonzalonazareno.org, y vamos a tener dos páginas webs:
-		
-		www.josedom.gonzalonazareno.org
-		informatica.josedom.gonzalonazareno.org
-
-* El servidor de base de datos va a estar instalado en silvestre.josedom.gonzalonazareno.org
-
-</div>
 
 [Volver](index)
