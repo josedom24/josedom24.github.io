@@ -15,6 +15,10 @@ tagline: CFGS ASIR
 
 El objetivo de esta práctica es montar una infraestrucuta de servicios que se mantenga en el tiempo y que nos sirva para montar servicios y aplicaciones en los distintos módulos durante el curso. Esta práctica la tenéis que realizar en la infraestructura de máquinas que hemos creado en el cloud para todas los módulos. En cualquier momento del curso los servicios que instalemos en esta práctica deben estar funcionando de manera adecuada.
 
+* Servidor1: Silvestre (Ubuntu)
+* Servidor2: Piolín (Debian)
+* Servidor3: Taz (CentOs)
+
 </div>
 
 ### Servidor DNS
@@ -85,7 +89,7 @@ Todos los registros creados o borrados pertenecen a las zonas **tu_nombre**.*gon
 
 ### Servidor Web
 
-En nuestro servidor1 vamos a instalar un servidor Web apache2 con las siguientes características.
+En nuestro servidor3 vamos a instalar un servidor Web apache2 con las siguientes características.
 
 <div class='ejercicios' markdown='1'>
 
@@ -101,11 +105,31 @@ En nuestro servidor1 vamos a instalar un servidor Web apache2 con las siguientes
 
 ### Servidor de Base de Datos
 
-En nuestro servidor2 vamos a instalar un servidor de base de datos mysql.
+En nuestro servidor1 vamos a instalar un servidor de base de datos mysql.
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 11 (1 punto)(Obligatorio):** Configura el servidor para que sea accesible por los equipos de la red local. Muestra al profesor una conexión a la base de datos desde el servidor1.
-* **Tarea 12 (2 puntos):** Instala en el servidor1 la aplicación phpmyadmin que nos permite gestionar las bases de datos de nuestro servidor. Esta aplicación sólo será accesible desde la URL www.**tu_nombre**.*gonzalonazareno.org*/basededatos. Muestra el acceso al profesor.
+* **Tarea 11 (1 punto)(Obligatorio):** Configura el servidor para que sea accesible por los equipos de la red local. Muestra al profesor una conexión a la base de datos desde el servidor3.
+* **Tarea 12 (2 puntos):** Instala en el servidor3 la aplicación phpmyadmin que nos permite gestionar las bases de datos de nuestro servidor. Esta aplicación sólo será accesible desde la URL www.**tu_nombre**.*gonzalonazareno.org*/basededatos. Muestra el acceso al profesor.
+
+<div class='notas' markdown='1'>
+
+Ejemplo de nombres, suponiendo que mi nombre de dominio va a ser josedom.gonzalonazareno.org
+
+Los nombres de los equipos van a ser:
+
+		silvestre.josedom.gonzalonazareno.org
+		piolin.josedom.gonzalonazareno.org
+		taz.josedom.gonzalonazareno.org
+
+* El servidor DNS va a estar instalado en piolin.josedom.gonzalonazareno.org
+* El servidor web va a estar instalado en taz.josedom.gonzalonazareno.org, y vamos a tener dos páginas webs:
+		
+		www.josedom.gonzalonazareno.org
+		informatica.josedom.gonzalonazareno.org
+
+* El servidor de base de datos va a estar instalado en silvestre.josedom.gonzalonazareno.org
+
+</div>
 
 [Volver](index)
