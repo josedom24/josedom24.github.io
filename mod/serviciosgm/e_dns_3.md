@@ -20,12 +20,12 @@ Queremos instalar un servidor DNS local en nuestra intranet que nos permita gest
 2. Vamos a crear una zona de resolución inversa: 1.168.192.in-addr.arpa
 3. Vamos a tener los siguientes FQHN:
 
-	* El servidor DNS (192.168.1.1) se llama pandora.iesgn.com
-	* asterix.iesgn.com (192.168.1.2, pon la configuración de red estática).
-    * obelix.iesgn.com (192,.168.1.3, pon la configuración de red estática).
-    * panoramix.iesgn.com (192.168.1.202) (esto es ficticio)
-    * amerix.iesgn.com (192.168.1.203) (esto es ficticio)
-    * cuadrix.iesgn.com (192.168.1.204) (esto es ficticio)
+	* El servidor DNS (192.168.1.1) se llama joker.iesgn.com
+	* batman.iesgn.com (192.168.1.2, pon la configuración de red estática).
+    * robin.iesgn.com (192,.168.1.3, pon la configuración de red estática).
+    * cat.iesgn.com (192.168.1.202) (esto es ficticio)
+    * pinguino.iesgn.com (192.168.1.203) (esto es ficticio)
+    * doscaras.iesgn.com (192.168.1.204) (esto es ficticio)
 	* Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.com y que está en 192.168.1.205 (esto es ficticio)
 	* Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.com y que está en 192.168.1.202 (esto es ficticio)
 	* www.iesgn.com esta alojado en el IIS del servidor.
@@ -40,7 +40,7 @@ Queremos instalar un servidor DNS local en nuestra intranet que nos permita gest
 
 3. Comprueba el funcionamiento utilizando los comandos nslookup / dig desde los clientes preguntando por los siguientes:
 
-	* Dirección de pandora.iesgn.com, www.iesgn.com, ftp.iesgn.com, panoramix.iesgn.com
+	* Dirección de joker.iesgn.com, www.iesgn.com, ftp.iesgn.com, batman.iesgn.com
 	* El servidor DNS que tiene configurado la zona del dominio iesgn.com
 	* El servidor de correo configurado para iesgn.com
 	* La dirección IP de www.josedomingo.org
