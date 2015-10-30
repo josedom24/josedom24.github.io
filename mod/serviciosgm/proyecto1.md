@@ -91,6 +91,7 @@ Configura el servidor DNS de manera adecuada, y modifica el servidor DHCP para m
 * Dirección ip de www.masterlan.com
 * Servidor de correo que obtiene los correos enviados a masterlan.com 
 * Nombre de la dirección 10.0.0.1
+* Dirección IP de www.josedomingo.org
 </div>
 
 [Volver](index)
