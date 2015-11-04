@@ -12,7 +12,7 @@ El objetivo de esta práctica es que los usuarios locales del equipo puedan tene
 
 Para ello sigue los siguiente pasos:
 
-1) Crea un nuevo sitio FTP con la opción de aislamiento de usuario indicada *"Directorio físico de nombre d eusuario"*, de lectura y escritura. En un primer momento no permita los accesos anónimos. El directorio paricular será c:/usuarios.
+1) Crea un nuevo sitio FTP con la opción de aislamiento de usuario indicada *"Directorio físico de nombre de usuario"*, de lectura y escritura. En un primer momento no permita los accesos anónimos. El directorio paricular será c:/usuarios.
 
 2) Crea dos usuarios locales: Jose y Maria.
 
@@ -25,7 +25,7 @@ Coloca dentro de ellos algunos ficheros para comprobar su funcionamiento.
 
 4) Accede a ftp.iesgn.com, comprueba que tienes que autentificarte y comprueba el acceso con los dos usuarios.
 
-5) Para que puedan acceder usuarios anónimos debemos habiliatar la autentificación anónima y en la rEglas de autorización debemos añadir la opción de usuarios anónimos. Los usarios anónimos accederan a una carpeta llamada: c:/usuarios/LocalUser/Public
+5) Para que puedan acceder usuarios anónimos debemos habiliatar la autentificación anónima y en las Reglas de autorización debemos añadir la opción de usuarios anónimos. Los usarios anónimos accederan a una carpeta llamada: c:/usuarios/LocalUser/Public
 
 
 [Volver](index)
