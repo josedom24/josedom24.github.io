@@ -30,7 +30,7 @@ El manual que debes realizar tendrá al menos los siguientes apartados:
 2. Instalación del servidor web
 3. Configuración básica del servidor web
 4. Configurando Virtual Hosting
-4. Auntentificación y Control de Acceso
+5. Auntentificación y Control de Acceso
 6. Ejecución de scripts PHP 
 7. Conclusiones
 8. Bibliografía, páginas webs de referencia,...
