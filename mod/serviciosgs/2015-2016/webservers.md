@@ -37,6 +37,10 @@ El manual que debes realizar tendrá al menos los siguientes apartados:
 
 Si se ve oportuno el índice puede cambiar, pero los contenidos anteriores deben aparecer. Se valorará positivamente la ampliación de contenidos.
 
+<div class='ejercicios' markdown='1'>
+
+</div>
+
 ####Ampliación del trabajo (2ª Evaluación)
 
 Hay que añadir al documento el apartado **Estudio comparativo con el servidor web Apache 2**.
@@ -53,6 +57,10 @@ Se realizara el estudio sobre la página principal de un CMS Wordpress que estar
 Se realizará una presentación en público de la práctica realizada. Se valorarán los siguientes puntos:
 
 * 
+
+<div class='ejercicios' markdown='1'>
+
+</div>
 
 ####Normas sobre la redacción del trabajo
 
