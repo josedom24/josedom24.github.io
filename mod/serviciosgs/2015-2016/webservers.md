@@ -7,7 +7,7 @@ tagline: CFGS ASIR
 
 ### Práctica: Estudio de servidores Webs
 
-#### 1ª Evaluación (6 tareas - 10 puntos)
+#### 1ª Evaluación (5 tareas - 10 puntos)
 
 #### 2ª Evaluación (2 tareas - 10 puntos)
 
@@ -39,6 +39,14 @@ Si se ve oportuno el índice puede cambiar, pero los contenidos anteriores deben
 
 <div class='ejercicios' markdown='1'>
 
+Se evalaurá los siguientes apartados:
+
+* **Tarea 1 (2 puntos):** La estética del documento (teniendo en cuenta las normas de presentación) y los puntos de introducción, instalación, conclusiones y bibliografías.
+* **Tarea 2 (1 puntos):** El punto **Instalación del servidor web**.
+* **Tarea 3 (2 puntos):** El punto **Configurando Virtual Hosting**.
+* **Tarea 4 (2 puntos):** El punto **Auntentificación y Control de Acceso**.
+* **Tarea 5 (3 puntos):** Ejecución de scripts PHP **.
+
 </div>
 
 ####Ampliación del trabajo (2ª Evaluación)
@@ -56,10 +64,10 @@ Se realizara el estudio sobre la página principal de un CMS Wordpress que estar
 
 Se realizará una presentación en público de la práctica realizada. Se valorarán los siguientes puntos:
 
-* 
-
 <div class='ejercicios' markdown='1'>
 
+* **Tarea 5 (5 puntos):** El punto **Estudio comparativo con el servidor web Apache 2**, se valorará también las conclusiones desprendida del estudio.
+* **Tarea 6 (5 puntos):** Presentación en clase, recursos utilizados, presentación de los conceptos, puesta en práctica,...
 </div>
 
 ####Normas sobre la redacción del trabajo
