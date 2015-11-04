@@ -45,7 +45,7 @@ Se evalaurá los siguientes apartados:
 * **Tarea 2 (1 puntos):** El punto **Instalación del servidor web**.
 * **Tarea 3 (2 puntos):** El punto **Configurando Virtual Hosting**.
 * **Tarea 4 (2 puntos):** El punto **Auntentificación y Control de Acceso**.
-* **Tarea 5 (3 puntos):** Ejecución de scripts PHP **.
+* **Tarea 5 (3 puntos):** El punto **Ejecución de scripts PHP**.
 
 </div>
 
