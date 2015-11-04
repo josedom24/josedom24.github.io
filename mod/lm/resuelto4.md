@@ -31,28 +31,28 @@ tagline: CFGS ASIR
 
 3. Dada una lista de números enteros (guarda la lista en una variable) y un entero *k*, escribir un programa que:
 
--Cree tres listas listas, una con los menores, otra con los mayores y otra con los iguales a *k*.<br/>
--Crea otra lista lista con aquellos que son múltiplos de *k*.
+	* Cree tres listas listas, una con los menores, otra con los mayores y otra con los iguales a *k*.
+	* Crea otra lista lista con aquellos que son múltiplos de *k*.
 
-		lista=[2,4,6,1,3,4,5,7,8]
-		k=4
-		lmenor=[]
-		ligual=[]
-		lmayor=[]
-		lmultiplo=[]
-		for num in lista:
-			if num<k:
-				lmenor.append(num)
-			if num>k:
-				lmayor.append(num)
-			if num==k:
-				ligual.append(num)
-			if num%k==0:
-				lmultiplo.append(num)
-		print lmayor
-		print lmenor
-		print ligual
-		print lmultiplo
+			lista=[2,4,6,1,3,4,5,7,8]
+			k=4
+			lmenor=[]
+			ligual=[]
+			lmayor=[]
+			lmultiplo=[]
+			for num in lista:
+				if num<k:
+					lmenor.append(num)
+				if num>k:
+					lmayor.append(num)
+				if num==k:
+					ligual.append(num)
+				if num%k==0:
+					lmultiplo.append(num)
+			print lmayor
+			print lmenor
+			print ligual
+			print lmultiplo
 
 4. Realizar un programa que, dada una lista, devuelva una nueva lista cuyo contenido sea igual a la original pero invertida. Así, dada la lista ['Di', 'buen', 'día', 'a', 'papa'], deberá devolver ['papa', 'a', 'día', 'buen', 'Di'].
 
