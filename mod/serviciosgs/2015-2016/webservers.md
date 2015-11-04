@@ -66,8 +66,8 @@ Se realizará una presentación en público de la práctica realizada. Se valora
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 5 (5 puntos):** El punto **Estudio comparativo con el servidor web Apache 2**, se valorará también las conclusiones desprendida del estudio.
-* **Tarea 6 (5 puntos):** Presentación en clase, recursos utilizados, presentación de los conceptos, puesta en práctica,...
+* **Tarea 6 (5 puntos):** El punto **Estudio comparativo con el servidor web Apache 2**, se valorará también las conclusiones desprendida del estudio.
+* **Tarea 7 (5 puntos):** Presentación en clase, recursos utilizados, presentación de los conceptos, puesta en práctica,...
 </div>
 
 ####Normas sobre la redacción del trabajo
