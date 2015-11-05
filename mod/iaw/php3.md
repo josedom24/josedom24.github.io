@@ -42,4 +42,5 @@ En este momento, muestra al profesor la aplicación funcionando en local.
 
 * Muestra al profesor la aplicación funcionando en producción.
 * Realiza algún cambio en el CMS en el entorno de desarrollo/prueba, y despliega de nuevo al entorno de producción.
+* Se valorará postivamente el uso del cliente rhc para la gestión de openshift
 </div>
