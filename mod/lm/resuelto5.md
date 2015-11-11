@@ -44,6 +44,17 @@ tagline: CFGS ASIR
 
 5. Crear un programa que lea por teclado una cadena y un carácter, e inserte el caracter cada 3 dígitos en la cadena. Ej. 2552552550 y . debería devolver 255.255.255.0
 
+		cad=raw_input("Número:")
+		car=raw_input("Caracter:")
+		cont=0
+		cad2=""
+		for c in cad:
+		    if cont!=0 and cont%3==0:
+		        cad2=cad2+car
+		    cad2=cad2+c
+		    cont=cont+1
+		print cad2
+
 6.  Escribir una función que reciba una cadena que contiene un número entero y devuelva una cadena con el número y las separaciones de miles. Por ejemplo, si recibe 1234567890, debe devolver 1.234.567.890.
 
 		num=int(raw_input("Número:"))
@@ -63,41 +74,41 @@ tagline: CFGS ASIR
 	* Dicha cadena con la primera letra de cada palabra en mayúsculas. Por ejemplo, si recibe república argentina debe devolver República Argentina.
 	* Las palabras que comiencen con la letra A. Por ejemplo, si recibe Antes de ayer debe devolver Antes ayer.
 
-		cad=raw_input("Cadena:")		
+			cad=raw_input("Cadena:")			
 
-		# La primera letra de cada palabra. Por ejemplo, si recibe Universal Serial Bus debe devolver USB.
-		lista=cad.split(" ")
-		for palabra in lista:
-			print palabra[0],
-		print ""
-		# Dicha cadena con la primera letra de cada palabra en mayúsculas. Por ejemplo, si recibe república argentina debe devolver República Argentina.
-		for palabra in lista:
-			print palabra.capitalize(),
-		print ""		
+			# La primera letra de cada palabra. Por ejemplo, si recibe Universal Serial Bus debe devolver USB.
+			lista=cad.split(" ")
+			for palabra in lista:
+				print palabra[0],
+			print ""
+			# Dicha cadena con la primera letra de cada palabra en mayúsculas. Por ejemplo, si recibe república argentina debe devolver República Argentina.
+			for palabra in lista:
+				print palabra.capitalize(),
+			print ""			
 
-		# Las palabras que comiencen con la letra A. Por ejemplo, si recibe Antes de ayer debe devolver Antes ayer.
-		for palabra in lista:
-			if palabra.startswith("a") or palabra.startswith("A"):
-				print palabra,
+			# Las palabras que comiencen con la letra A. Por ejemplo, si recibe Antes de ayer debe devolver Antes ayer.
+			for palabra in lista:
+				if palabra.startswith("a") or palabra.startswith("A"):
+					print palabra,
 
 8.  Escribir funciones que dadas dos cadenas de caracteres:
 
     * Indique si la segunda cadena es una subcadena de la primera. Por ejemplo, cadena es una subcadena de subcadena.
     * Devuelva la que sea anterior en orden alfábetico. Por ejemplo, si recibe kde y gnome debe devolver gnome.
 
-    	cad1=raw_input("Cadena 1:")
-	    cad2=raw_input("Cadena 2:")	
-	
+    		cad1=raw_input("Cadena 1:")
+		    cad2=raw_input("Cadena 2:")	
+			
 
-	    if cad1.find(cad2)>-1:
-	    	print "cad2 es subcadena de cad1"
-	    else:
-	    	print "cad2 no es subcadena de cad1"	
+		    if cad1.find(cad2)>-1:
+		    	print "cad2 es subcadena de cad1"
+		    else:
+		    	print "cad2 no es subcadena de cad1"		
 
-	    if cad1<cad2:
-	    	print cad1
-	    else:
-	    	print cad2
+		    if cad1<cad2:
+		    	print cad1
+		    else:
+		    	print cad2
 
 9. Escribir una función que reciba una cadena de unos y ceros (es decir, un número en representación binaria) y devuelva el valor decimal correspondiente.
 
