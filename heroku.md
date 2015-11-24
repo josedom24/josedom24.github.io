@@ -16,3 +16,8 @@ Cada dyno ejecuta distintos procesos, por ejemplo ejecuta los servidores web y l
 
 ### Escabilidad
 
+Si, por ejemplo, tenemos muchas peticiones a nuestra aplicación podemos hacer un escalado horizontal, es decir, podemos crear más dynos que respondan las peticiones. La carga de peticiones se balanceará entre los dynos existentes. Además podemos hacer una escalabilidad vertical, en este caso lo que hacemos es cambiar las caracteristicas hardware de nuetro dyno, por ejemplo aumtentar la cantidad de RAM.
+
+Las caracter´isticas de escabilidad no están activades en el plan gratuito de heroku.
+
+###
