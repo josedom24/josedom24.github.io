@@ -35,3 +35,5 @@ Para ampliar la funcionalidad de nuestra aplicación podemos añadir a nuestro d
 
 El objetivo de la siguiente práctica es instalar en local Drupal 8 usando una base de datos postgreSQL, y posteriormente hacer el despliegue a heroku. Vamos a realizar una configuración que nos permita ejecutar el CMS en local y en heroku. Vamos a realizar la instalación del CMS en el directorio git que clonemos de heroku, por lo tanto tendrá que coincidir con el DocumentRoot de nuestro servidor web local.
 
+
+
