@@ -34,3 +34,8 @@ Cada dyno posee un sistema de archivo cuya principal característica es que es e
 
 ### Direccionamiento IP
 
+Cuando tenemos varios dynos, cada uno de eelos puede estar ejecutandose en máquinas diferentes. El acceso a nuestra aplicación siempre se hace desde un balanceador de carga ([routers](https://devcenter.heroku.com/articles/http-routing)). Esto significa que los dynos no tienen una ip estática, y el acceso a ellos siempre se hace a la dirección IP que tiene el balanceador. Cuando se reincia un dyno se puede ejecutar en otra máuina, y por lo tanto puede cambiar de dirección IP.
+
+### Interfaces de red
+
+Cada dyno tiene una interfaz de red con un direccionamiento privado /30, en el rango 172.16.0.0/12
