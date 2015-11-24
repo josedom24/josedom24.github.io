@@ -26,7 +26,7 @@ Esta tarea consiste en desplegar un CMS de tecnología PHP en PaaS (OpenShift), 
 * Crea un gear de tipo PHP
 * Añade el cartridge MySQL
 * Clona el repositorio de OpenShift en la máquina virtual
-* Configura el servidor web y crea un virtualhost cuyo documentRoot sea el repositorio git
+* Configura el servidor web para que el documentRoot sea el repositorio git
 * Crea una BBDD local para la aplicación web
 * Descarga e instala en local la aplicación web
 * Configura la aplicación para que funcione en la máquina virtual y en openshift
