@@ -18,6 +18,19 @@ Cada dyno ejecuta distintos procesos, por ejemplo ejecuta los servidores web y l
 
 Si, por ejemplo, tenemos muchas peticiones a nuestra aplicación podemos hacer un escalado horizontal, es decir, podemos crear más dynos que respondan las peticiones. La carga de peticiones se balanceará entre los dynos existentes. Además podemos hacer una escalabilidad vertical, en este caso lo que hacemos es cambiar las caracteristicas hardware de nuetro dyno, por ejemplo aumtentar la cantidad de RAM.
 
-Las caracter´isticas de escabilidad no están activades en el plan gratuito de heroku.
+Las características de escabilidad no están activades en el plan gratuito de heroku.
 
-###
+### Redundancia
+
+En el momento en que podemos tener varios dynos detrás de una balanceado de carga, nuestra aplicación es redundante. Es decir, si algún dyno tiene un problema, lo demás responderían las peticiones.
+
+### Aislamiento y seguridad
+
+Cada uno de los dynos está aislado de los demás. Esto nos ofrece seguridad frente a la ejecución de procesos en otros dynos, además también nos ofrece protección para que ningún dyno consuma todos los recursos de la máquina. 
+
+### Sistema de archivo efímero
+
+Cada dyno posee un sistema de archivo cuya principal característica es que es efímero. Es decir los datos de nuestra aplicación (por ejemplo ficheros subidos) no son accesibles desde otros dynos, y si reiniciamos el dyno estos datos se pierden. Es muy recomendable tener los datos de la aplicación en un sistema externo, por ejemplo un almacen de objetos, como Amanzon S3 o OpenStack Swift.
+
+### Direccionamiento IP
+
