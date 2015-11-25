@@ -7,9 +7,8 @@ tagline: CFGS ASIR
 
 ### Práctica: Estudio de servidores Webs
 
-#### 1ª Evaluación (5 tareas - 10 puntos)
+#### (7 tareas - 20 puntos)
 
-#### 2ª Evaluación (2 tareas - 10 puntos)
 
 Los servidores webs que se van a estudiar en el presente proyecto son: nginx, cherokee, lighttpd, IIS.
 
@@ -60,7 +59,7 @@ En este punto se debe hacer un estudio comparado entre el servidor estudiado y e
 
 Se realizara el estudio sobre la página principal de un CMS Wordpress que estará instalado en ambos servidores en dos máquinas virtuales con las mismas caracteristícas. Cada grupo seleccionará las distintas pruebas de benckmark que se puedan realizar a los dos servidores para observar las diferencias.
 
-####Presentación del trabajo (2ª Evaluación)
+####Presentación del trabajo 
 
 Se realizará una presentación en público de la práctica realizada. Se valorarán los siguientes puntos:
 
