@@ -21,7 +21,7 @@ Cada grupo debe estudiar un servidor web y lograr los siguientes objetivos:
 * Elaborar un manual que explique la experiencia realizada.
 * Realizar una comparación de consumo de memoria y rendimiento entre el servidor web estudiado y el servidor Apache 2.
 
-####Estructura del trabajo (1ª Evaluación)
+####Estructura del trabajo 
 
 El manual que debes realizar tendrá al menos los siguientes apartados:
 
