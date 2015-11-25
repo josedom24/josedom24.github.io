@@ -31,10 +31,18 @@ El manual que debes realizar tendrá al menos los siguientes apartados:
 4. Configurando Virtual Hosting
 5. Auntentificación y Control de Acceso
 6. Ejecución de scripts PHP 
-7. Conclusiones
-8. Bibliografía, páginas webs de referencia,...
+7. Estudio comparativo con el servidor web Apache 2
+8. Conclusiones
+9. Bibliografía, páginas webs de referencia,...
 
 Si se ve oportuno el índice puede cambiar, pero los contenidos anteriores deben aparecer. Se valorará positivamente la ampliación de contenidos.
+
+En el apartado **Estudio comparativo con el servidor web Apache 2**, se debe hacer un estudio comparado entre el servidor estudiado y el servidor Apache 2. Se realizarán las siguientes medidas:
+
+* Memoria consumida por el servidor
+* Rendimiento (número de peticiones servidas) de cada servidor
+
+Se realizara el estudio sobre la página principal de un CMS Wordpress que estará instalado en ambos servidores en dos máquinas virtuales con las mismas caracteristícas. Cada grupo seleccionará las distintas pruebas de benckmark que se puedan realizar a los dos servidores para observar las diferencias.
 
 <div class='ejercicios' markdown='1'>
 
@@ -45,19 +53,9 @@ Se evalaurá los siguientes apartados:
 * **Tarea 3 (2 puntos):** El punto **Configurando Virtual Hosting**.
 * **Tarea 4 (2 puntos):** El punto **Auntentificación y Control de Acceso**.
 * **Tarea 5 (3 puntos):** El punto **Ejecución de scripts PHP**.
+* **Tarea 6 (5 puntos):** El punto **Estudio comparativo con el servidor web Apache 2**, se valorará también las conclusiones desprendida del estudio.
 
 </div>
-
-####Ampliación del trabajo (2ª Evaluación)
-
-Hay que añadir al documento el apartado **Estudio comparativo con el servidor web Apache 2**.
-
-En este punto se debe hacer un estudio comparado entre el servidor estudiado y el servidor Apache 2. Se realizarán las siguientes medidas:
-
-* Memoria consumida por el servidor
-* Rendimiento (número de peticiones servidas) de cada servidor
-
-Se realizara el estudio sobre la página principal de un CMS Wordpress que estará instalado en ambos servidores en dos máquinas virtuales con las mismas caracteristícas. Cada grupo seleccionará las distintas pruebas de benckmark que se puedan realizar a los dos servidores para observar las diferencias.
 
 ####Presentación del trabajo 
 
@@ -65,7 +63,7 @@ Se realizará una presentación en público de la práctica realizada. Se valora
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 6 (5 puntos):** El punto **Estudio comparativo con el servidor web Apache 2**, se valorará también las conclusiones desprendida del estudio.
+
 * **Tarea 7 (5 puntos):** Presentación en clase, recursos utilizados, presentación de los conceptos, puesta en práctica,...
 </div>
 
