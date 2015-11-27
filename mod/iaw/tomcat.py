@@ -19,3 +19,9 @@ for puerto,puerto_sh in puertos:
 	os.system("tomcat7-instance-create -p %i -c %i %s" % (puerto,puerto_sh,DIR+"tomcat-"+str(cont)))
 	cont=cont+1
 
+for u in xrange(0,USUARIOS):
+	os.system("useradd -d %s -m -s /bin/bash %s"%(DIR+"tomcat-"+str(u+1),"tomcat-"+str(u+1))
+	os.system("chown %s:%s %s"%("tomcat-"+str(u+1),"tomcat-"+str(u+1),DIR+"tomcat-"+str(u+1)))		
+	os.system("echo %s:asdasd | chpasswd" %(tomcat-"+str(u+1))
+
+		
