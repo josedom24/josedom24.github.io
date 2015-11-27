@@ -23,10 +23,10 @@ for u in xrange(0,USUARIOS):
 cont=1
 for puerto,puerto_sh in puertos:
 	os.system("tomcat7-instance-create -p %i -c %i %s" % (puerto,puerto_sh,DIR2+"tomcat-"+str(cont)))
-	os.system("chown %s:%s %s"%("tomcat-"+str(u+1),"tomcat-"+str(u+1),DIR2+"tomcat-"+str(u+1)))			
+	os.system("chown %s:%s %s"%("tomcat-"+str(cont),"tomcat-"+str(cont),DIR2+"tomcat-"+str(cont)))			
 	os.system("cd %s"%(DIR+"tomcat-"+str(cont)))
 	os.system("ln -s %s tomcat"%(DIR2+"tomcat-"+str(cont)))
-	os.system("chown -h %s:%s tomcat"%("tomcat-"+str(u+1),"tomcat-"+str(u+1)))	
+	os.system("chown -h %s:%s tomcat"%("tomcat-"+str(cont),"tomcat-"+str(cont)))	
 	cont=cont+1
 
 
