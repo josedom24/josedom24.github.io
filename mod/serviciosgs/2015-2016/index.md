@@ -18,7 +18,7 @@ tagline: CFGS ASIR
 
 #### 2ª Evaluación
 
-* [Estudio de rendimiento de servidores webs](rendimiento)
+* [Estudio de rendimiento de servidores webs (30 puntos)](rendimiento)
 * [Estudio de distintos servidores webs (20 puntos)](webservers)
 * Servidor FTP
 * Hosting

@@ -7,7 +7,7 @@ tagline: CFGS ASIR
 
 ### Práctica: Mediciones de rendimiento de Apache2 sirviendo páginas dinámicas
 
-#### (7 tareas - 20 puntos)
+#### (9 tareas - 30 puntos)(6 tareas obligatorias - 12 puntos)
 
 Vamos a comparar el uso de memoria y el rendimiento de Apache2 sirviendo páginas dinámicas programadas con PHP. Para ello vamos a instalar un wordpress un servidor y vamos a realizar las siguientes pruebas:
 
@@ -39,4 +39,17 @@ Genera una documentación que al menos tenga los siguientes puntos:
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (2 puntos):
+Antés de empezar a escribir la documentación, documenta en redmine y enseña al profesor las siguientes tareas:
+
+* **Tarea 1 (2 punto)(Obligatorio):**Documenta la instalación del módulo php de apache2. Muestra wordpress funcionando con el módulo php de apache2. Realiza una comprobación de que, efectivamente, se está usando el módulo php.
+* **Tarea 2 (2 puntos)(Obligatorio):**Documenta la instalación y configuración del acelerador apc. Entrega una comprobación de que el acelerador está funcionando.
+* **Tarea 3 (2 puntos)(Obligatorio):**Documenta la instlación y configuración de varnish. Entrega una comprobación de que varnish está funcionando.
+* **Tarea 4 (2 puntos)(Obligatorio):**Documenta la instlación y configuración de FPM-PHP con el módulo de multiprocesamiento event (desinstla el aceleradot apc y vanish). Muestra wordpress funcionando con FPM-PHP. Realiza una comprobación de que, efectivamente, se está usando FPM-PHP.
+* **Tarea 5 (2 puntos)(Obligatorio):**Entrega y muestra una comprobación de que el acelerador está funcionando con la nueva configuración.
+* **Tarea 6 (2 puntos)(Obligatorio):**Entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración.
+
+Ahora puedes realizar el trabajo y generar la documentación en pdf requerida, teniendo en cuenta los siguientes puntos:
+
+* **Tarea 7 (4 puntos): Introducción del trabajo. Explica los objetivos de la práctica. Explica los módulos de multiprocesamiento.
+* **Tarea 8 (6 puntos): Generación de las gráficas.
+* **Tarea 9 (8 puntos): Conclusiones.
