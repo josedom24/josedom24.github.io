@@ -206,7 +206,7 @@ Con systemd tenemos otra manera de ver los logs, si al iniciar un servicio nos d
 
 22) Ejecuta la instrucción adecuada para ver el error que se ha producido.
 
-23) Arregla el fichero de configuración y vuelve a inciatr el servicio.
+23) Arregla el fichero de configuración y vuelve a inciar el servicio.
 
 </div>
 
