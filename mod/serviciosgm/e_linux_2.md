@@ -186,7 +186,7 @@ Recargar servicio (si lo permite):
 
 ###Logs de procesos
 
-Los logs de los procesos se guardan en el directorio */var/log/*, por ejemplo el fichero *syslog* es el principal, y en él podemos encontrar mensajes de distintos procesos (por ejemplo el servidor dhcp). Algunos servicios tienen su propio fichero de log, por ejemlo */var/log/apache2/error.log*.
+Los logs de los procesos se guardan en el directorio */var/log/*, por ejemplo el fichero *syslog* es el principal, y en él podemos encontrar mensa      jes de distintos procesos (por ejemplo el servidor dhcp). Algunos servicios tienen su propio fichero de log, por ejemlo */var/log/apache2/error.log*.
 
 Normalmente para ver la últimas líneas del fichero de log, utilizamos el siguiente comando:
 
