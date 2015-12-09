@@ -38,6 +38,10 @@ Veamos algunos conceptos antes de contestar:
 
 La herramienta apt-get descarga de los repositorios los paquetes necesarios y utilizando dpkg los instala y configura. Una vez concluida la instalación el servicio ntp estará funcionando.
 
+<div class='notas' markdown='1'>
+Antes de realizar el siguiente ejercicio, desinstala el servidor ssh.
+</div>
+
 <div class='ejercicios' markdown='1'>
 ##### **Ejercicios**
 1) Instala ahora otro servidor que vamos a utilizar durante el curso: el SSH, que nos permite la conexión remota de forma segura a nuestro ordenador.
