@@ -52,4 +52,4 @@ Ahora puedes realizar el trabajo y generar la documentación en pdf requerida, t
 
 * **Tarea 7 (4 puntos)**: Introducción del trabajo. Explica los objetivos de la práctica. Explica los módulos de multiprocesamiento.
 * **Tarea 8 (6 puntos)**: Generación de las gráficas.
-* **Tarea 9 (8 puntos)**: Conclusiones.
+* **Tarea 9 (8 puntos)**: Conclusiones. Explica razonadamente a las concluiones que has llegado.
