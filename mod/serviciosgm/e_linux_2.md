@@ -166,7 +166,23 @@ Del mismo modo puedes ver el nombre del proceso mirando la lista de procesos con
 
 </div>
 
+###Systemd
 
+Iniciar servicio:
+
+# systemctl start firewalld.service
+
+Parar servicio:
+
+# systemctl stop firewalld.service
+
+Reiniciar servicio:
+
+# systemctl restart firewalld.service
+
+Recargar servicio (si lo permite):
+
+# systemctl reload firewalld.service
 
 [Volver](index)
 

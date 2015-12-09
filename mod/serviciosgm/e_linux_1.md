@@ -38,7 +38,7 @@ Veamos algunos conceptos antes de contestar:
 
 La herramienta apt-get descarga de los repositorios los paquetes necesarios y utilizando dpkg los instala y configura. Una vez concluida la instalación el servicio ntp estará funcionando.
 
-<div class='notas' markdown='1'>
+<div class='nota' markdown='1'>
 Antes de realizar el siguiente ejercicio, desinstala el servidor ssh.
 </div>
 
