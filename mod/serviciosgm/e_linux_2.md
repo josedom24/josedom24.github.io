@@ -170,19 +170,45 @@ Del mismo modo puedes ver el nombre del proceso mirando la lista de procesos con
 
 Iniciar servicio:
 
-# systemctl start firewalld.service
+        systemctl start *servicio*
 
 Parar servicio:
 
-# systemctl stop firewalld.service
+        systemctl stop *servicio*
 
 Reiniciar servicio:
 
-# systemctl restart firewalld.service
+        systemctl restart *servicio*
 
 Recargar servicio (si lo permite):
 
-# systemctl reload firewalld.service
+        systemctl reload *servicio*
+
+###Logs de procesos
+
+Los logs de los procesos se guardan en el directorio */var/log/*, por ejemplo el fichero *syslog* es el principal, y en él podemos encontrar mensajes de distintos procesos (por ejemplo el servidor dhcp). Algunos servicios tienen su propio fichero de log, por ejemlo */var/log/apache2/error.log*.
+
+Normalmente para ver la últimas líneas del fichero de log, utilizamos el siguiente comando:
+
+        tailf /var/log/syslog
+
+Con systemd tenemos otra manera de ver los logs, si al iniciar un servicio nos da un error, podemos ver los mensajes del log con la instrucción:
+
+        journalctl -xn
+
+
+<div class='ejercicios' markdown='1'>
+##### **Ejercicios**
+
+20) Para el servicio ssh, con systemd.
+
+21) Modifica el fichero de configuración del servidor */etc/ssh/sshd_config*, borra alguna leta para que se produzca un error al inciar el servicio. Inicia el servidor con systemd y comprueba que hay un error.
+
+22) Ejecuta la instrucción adecuada para ver el error que se ha producido.
+
+23) Arregla el fichero de configuración y vuelve a inciatr el servicio.
+
+</div>
 
 [Volver](index)
 
