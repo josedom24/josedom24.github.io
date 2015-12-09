@@ -50,6 +50,6 @@ Antés de empezar a escribir la documentación, documenta en redmine y enseña a
 
 Ahora puedes realizar el trabajo y generar la documentación en pdf requerida, teniendo en cuenta los siguientes puntos:
 
-* **Tarea 7 (4 puntos): Introducción del trabajo. Explica los objetivos de la práctica. Explica los módulos de multiprocesamiento.
-* **Tarea 8 (6 puntos): Generación de las gráficas.
-* **Tarea 9 (8 puntos): Conclusiones.
+* **Tarea 7 (4 puntos)**: Introducción del trabajo. Explica los objetivos de la práctica. Explica los módulos de multiprocesamiento.
+* **Tarea 8 (6 puntos)**: Generación de las gráficas.
+* **Tarea 9 (8 puntos)**: Conclusiones.
