@@ -9,9 +9,11 @@ tagline: CFGS ASIR
 
 Puedes encontrar más información en los sigientes enlaces: [Enlace 1](http://www.maestrosdelweb.com/editorial/entendiendo-los-modos-multiproceso-de-apache/) y [Enlace 2](http://yoadminsis.blogspot.com/2011/03/instalacion-y-primeros-conceptos-mpm-de.html)
 
-Identifica en el fichero */etc/apache2/apache2.cong* las siguientes directivas de configuración e indica para que sirven:
+Identifica en los ficheros de configuración de los módulos de multiprocesamiento las siguientes directivas de configuración e indica para que sirven:
 
-Directivas de control de [prefork](http://httpd.apache.org/docs/2.0/mod/prefork.html)
+En /etc/apache2/mods-availables/mpm_prefork.conf:
+
+Directivas de control de [prefork](http://httpd.apache.org/docs/2.4/mod/prefork.html)
 
         StartServers          5
         MinSpareServers       5
@@ -19,8 +21,9 @@ Directivas de control de [prefork](http://httpd.apache.org/docs/2.0/mod/prefork.
         MaxClients          150
         MaxRequestsPerChild   0
 
+En /etc/apache2/mods-availables/mpm_worker.conf:
 
-Directivas de control de [worker](http://httpd.apache.org/docs/2.0/mod/worker.html)
+Directivas de control de [worker](http://httpd.apache.org/docs/2.4/mod/worker.html)
 
         StartServers          2
         MinSpareThreads      25
@@ -29,6 +32,18 @@ Directivas de control de [worker](http://httpd.apache.org/docs/2.0/mod/worker.ht
         ThreadsPerChild      25
         MaxClients          150
         MaxRequestsPerChild   0
+
+En /etc/apache2/mods-availables/mpm_event.conf:
+
+Directivas de control de [event](http://httpd.apache.org/docs/2.4/mod/event.html)
+
+        StartServers              2
+        MinSpareThreads          25
+        MaxSpareThreads          75
+        ThreadLimit              64
+        ThreadsPerChild          25
+        MaxRequestWorkers       150
+        MaxConnectionsPerChild    0
 
 
 [Volver](index)
