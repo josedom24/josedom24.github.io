@@ -37,6 +37,7 @@ tagline: CFGS ASIR
 * [Ejercicio 19: Creación de un servidor WebDAV](e_web_19)
 * [Ejercicio 20: Módulo rewrite](e_web_20)
 * [Ejercicio 21: Módulos de Multiprocesamiento (MPMs)](e_web_21)
+* [Ejercicio: Ejecución de scripts php](e_php)
 * [Ejercicio 22: Mediciones de rendimiento de Apache2 sirviendo páginas estáticas](e_web_22)
 * [Ejercicio 23: Mediciones de rendimiento de Apache2 sirviendo páginas dinámicas](e_web_23)
 * [Ejercicio 24: Estudio de servidores webs](e_web_24)
