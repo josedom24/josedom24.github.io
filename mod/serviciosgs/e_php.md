@@ -18,7 +18,7 @@ La ejecución del código php se hace por un proceso independiente del servidor 
 * FastCGI es un protocolo para interconectar programas interactivos con un servidor web. FastCGI es una variación de la ya conocida [Common Gateway Interface](http://es.wikipedia.org/wiki/Common_Gateway_Interface) (CGI ó Interfaz Común de Entrada). El principal objetivo de FastCGI es reducir la carga asociada con el hecho de interconectar el servidor web y los programas Common Gateway Interface, permitiéndole a un servidor atender más peticiones a la vez.
 * FPM ([FastCGI Process Manager](http://php.net/manual/es/install.fpm.php)) es una implementación alternativa al PHP FastCGI con algunas características adicionales (la mayoría) útiles para sitios web con mucho tráfico. 
 
-[Apache 2.4 with php5-fpm](https://www.digitalocean.com/community/questions/apache-2-4-with-php5-fpm)
+* [Apache 2.4 with php5-fpm](https://www.digitalocean.com/community/questions/apache-2-4-with-php5-fpm)
 
 ####Aceleradores PHP
 
@@ -32,7 +32,8 @@ Además tenemos otro módulo instalado en PHP 5.5, el módulo apcu, que permite 
 
 [Memcached](http://memcached.org/) es un sistema distribuido de propósito general y que es muy usado en la actualidad por múltiples sitios web. Memcached es empleado para el almacenamiento en caché de datos u objetos en la memoria RAM, reduciendo así las necesidades de acceso a un origen de datos externo (como una base de datos o una API).
 
-[Manual de instalación de memcached](http://www.pontikis.net/blog/install-memcached-php-debian)
+* [Manual de instalación de memcached](http://www.pontikis.net/blog/install-memcached-php-debian)
+* [Como utilizar Memcached con WordPress](https://raiolanetworks.es/blog/como-utilizar-memcached-con-wordpress/)
 
 ####Varnish
 
