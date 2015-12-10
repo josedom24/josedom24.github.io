@@ -18,6 +18,8 @@ La ejecución del código php se hace por un proceso independiente del servidor 
 * FastCGI es un protocolo para interconectar programas interactivos con un servidor web. FastCGI es una variación de la ya conocida [Common Gateway Interface](http://es.wikipedia.org/wiki/Common_Gateway_Interface) (CGI ó Interfaz Común de Entrada). El principal objetivo de FastCGI es reducir la carga asociada con el hecho de interconectar el servidor web y los programas Common Gateway Interface, permitiéndole a un servidor atender más peticiones a la vez.
 * FPM ([FastCGI Process Manager](http://php.net/manual/es/install.fpm.php)) es una implementación alternativa al PHP FastCGI con algunas características adicionales (la mayoría) útiles para sitios web con mucho tráfico. 
 
+[Apache 2.4 with php5-fpm](https://www.digitalocean.com/community/questions/apache-2-4-with-php5-fpm)
+
 ####Aceleradores PHP
 
 El objetivo principal de un acelerador PHP es guardar los scripts php ya compilando, obteniendo un mayor rendimiento en la respuesta del servidor. El acelerador se puede usar usando el módulo php de apache o usando fastcgi. Más información sobre [aceleradores PHP](http://www.maestrosdelweb.com/aceleradores-de-php/).
