@@ -3,11 +3,11 @@
 
 import os
 
-USUARIOS=12
+USUARIOS=2
 PS_INI=8006
 P_INI=8081
 DIR="/home/"
-DIR2="/opt/"
+DIR2="/opt/tomcat/"
 puertos=[]
 for u in xrange(0,USUARIOS):
 	puertos.append((P_INI,PS_INI))
@@ -23,11 +23,10 @@ for u in xrange(0,USUARIOS):
 
 cont=1
 for puerto,puerto_sh in puertos:
-	os.system("tomcat7-instance-create -p %i -c %i %s" % (puerto,puerto_sh,DIR2+"tomcat-"+str(cont)))
+	os.system("tomcat7-instance-create -p %i -c %i -w %s %s" % (puerto,puerto_sh,"SHUTDOWN"+str(cont),DIR2+"tomcat-"+str(cont)))
 	os.system("chown %s:%s %s"%("tomcat-"+str(cont),"tomcat-"+str(cont),DIR2+"tomcat-"+str(cont)))			
 	os.system("ln -s %s %s/tomcat"%(DIR2+"tomcat-"+str(cont),DIR+"tomcat-"+str(cont)))
 	os.system("chown -h %s:%s %s/tomcat"%("tomcat-"+str(cont),"tomcat-"+str(cont),DIR+"tomcat-"+str(cont)))	
 	os.system("chown -R %s:%s %s/tomcat/*"%("tomcat-"+str(cont),"tomcat-"+str(cont),DIR+"tomcat-"+str(cont)))	
 	cont=cont+1
-
 
