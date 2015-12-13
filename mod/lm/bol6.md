@@ -7,7 +7,7 @@ tagline: CFGS ASIR
 
 ### Boletín 6: Ejercicios diccionarios, ficheros, ...
 
-1. Realiza el ejercicio 3 y 4 del [boletín 3](http://dit.gonzalonazareno.org/moodle/pluginfile.php/3306/mod_resource/content/1/ejercicios_python3.pdf). Nota: No hace falta hacer la última solución "de fuerza bruta", pero si estas aburrido puedes intentarlo.
+1. Realiza el ejercicio 3 y 4 del [boletín 3](http://dit.gonzalonazareno.org/moodle/pluginfile.php/3306/mod_resource/content/1/ejercicios_python3.pdf). Nota: No hace falta hacer la última solución "de fuerza bruta", pero si estas aburrido puedes intentarlo. Puedes encontrar ficheros con contraseñas más usadas en este [repositorio de github](https://github.com/danielmiessler/SecLists/tree/master/Passwords).
 
 2. Utilizando el fichero [notas.csv](notas.csv), realiza un programa en python que lea los datos de ese fichero y construya la siguiente estructura: 
 
