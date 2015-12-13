@@ -33,6 +33,14 @@ tagline: CFGS ASIR
 
     [http://www.openstreetmap.org/#map=19/37.27058/-5.91958](http://www.openstreetmap.org/#map=19/37.27058/-5.91958) para ver con un zoom de nivel 19 la ubicación con latitud 37.27058 y longitud -5.91958
 
+4. Modifica el programa anterior para que ahora se pida por teclado la ciudad y el estado que se quiere localizar en OpenStreetMap. El programa te pide una ciudad, si existe te devuelve la URL.
 
+5. [Web scraping](https://es.wikipedia.org/wiki/Web_scraping) es una técnica utilizada mediante programas de software para extraer información de sitios web. Por ejemplo, con el siguiente código podemos leer el HTML de una página web.
+
+        import urllib2
+        response = urllib2.urlopen('http://openweathermap.org/city/2518794')
+        lineas=response.readlines()
+
+En el ejemplo anterior, la página nos da información meteorológica de Dos Hermanas. Haz un programa que te muestre la temperatura, presión y humedad actual de Dos Hermanas.
 
 [Volver](index)
