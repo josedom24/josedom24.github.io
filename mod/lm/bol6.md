@@ -27,7 +27,7 @@ Crea un programa que te de muestre un menú y puedas elegir una de estas opcione
     * Cuenta el número de códigos postales de cada estado
     * Obtén la URL del mapa de OpenStreetMap de la ciudad de "Akaska" en el estado de Dakota del Sur (SD). Nota: Las coordenadas que aparecen en el fichero zips.json vienen en formato [longitud,latitud] y la url genérica que utiliza OpenStreetMap es:
 
-        http://www.openstreetmap.org/#map=zoom/latitud/longitud
+            http://www.openstreetmap.org/#map=zoom/latitud/longitud
 
     Por ejemplo:
 
