@@ -14,7 +14,8 @@ tagline: CFGS ASIR
         alumnos = [ {"nombre":"Daniel", "apellidos":"Fustero López", "curso": "1A","notas":{"FH":3,"LM":4,"ISO":5,"FOL":6,"PAR":7,"SGBG":6}},
                     {"nombre":"Rafaela", ... },...]
 
-    Crea un programa que te de muestre un menú y puedas elegir una de estas opciones:
+Crea un programa que te de muestre un menú y puedas elegir una de estas opciones:
+    
     * Muestra el listado de los alumnos con la nota media que han sacado. Utiliza una función para realizar el cálculo de la nota media.
     * Pide un curso y una asignatura y muestre una lista de los alumnos de ese curso con las notas en esa asignatura.
     * Pide un curso y muestre el porcentaje de aprobados por cada asignatura.
