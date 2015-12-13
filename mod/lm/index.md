@@ -25,6 +25,7 @@ tagline: CFGS ASIR
 * [Resuelto boletín 4: Ejercicios listas](resuelto4)
 * [Boletín 5: Ejercicios cadenas](bol5)
 * [Resuelto boletín 5: Ejercicios cadenas](resuelto5)
+* [Boletín 6 (Navidad): Ejercicios diccionarios, ficheros,...](bol6)
 
 #### xml
 
