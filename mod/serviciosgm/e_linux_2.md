@@ -85,7 +85,7 @@ Es el script **/etc/init.d/rc** el que procesa todos los archivos K y S de los d
 
 6) Comprueba los ficheros de ejecución del nivel de ejecución que se ejecuta por defecto en Debian.
 
-7) Con la instrucción telinit podemos ejecutar otrps niveles de ejecución. Entra en el nivel monousuario. Entra en el nivel de reinicio. Entra en el nivel de parada del sistema.
+7) Con la instrucción telinit podemos ejecutar otros niveles de ejecución. Entra en el nivel monousuario. Entra en el nivel de reinicio. Entra en el nivel de parada del sistema.
 </div>
 
 De modo esquemático podemos ver:
@@ -202,7 +202,7 @@ Con systemd tenemos otra manera de ver los logs, si al iniciar un servicio nos d
 
 20) Para el servicio ssh, con systemd.
 
-21) Modifica el fichero de configuración del servidor */etc/ssh/sshd_config*, borra alguna leta para que se produzca un error al inciar el servicio. Inicia el servidor con systemd y comprueba que hay un error.
+21) Modifica el fichero de configuración del servidor */etc/ssh/sshd_config*, borra alguna letra para que se produzca un error al inciar el servicio. Inicia el servidor con systemd y comprueba que hay un error.
 
 22) Ejecuta la instrucción adecuada para ver el error que se ha producido.
 
