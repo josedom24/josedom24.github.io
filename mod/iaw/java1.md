@@ -23,7 +23,7 @@ Esta tarea consiste en desplegar una aplicación web Java en una máquina virtua
 * Crea una instancia de vagrant/cloud basado en debian o ubuntu
 * Instala JRE 7
 * Instala Tomcat
-* Instala PostgreSQL
+* Instala el conector de base de datos
 * Elige una aplicación web, instálala en el entorno anterior y configúrala.
 
 
