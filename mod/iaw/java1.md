@@ -29,6 +29,9 @@ Esta tarea consiste en desplegar una aplicación web Java en una máquina virtua
 
 <div class='ejercicios' markdown='1'>
 
+* Se valorará la lección original de un CMS.
+* Conectar apache2 con tomcat7 para hacer las peticiones al puerto 80.
 * Muestra al profesor la aplicación funcionando en producción.
+
 
 </div>
