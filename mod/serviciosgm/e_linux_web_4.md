@@ -102,10 +102,10 @@ Vamos a instalar un CMS muy simple llamado "CMS made simple", para ello sigue es
 
 5. Crea una base de datos vacía, y un usuario en la base de datos con los privilegios sobre la base de datos creada,  para ello vamos a hacer los siguiente:
 
-                mysql -u root -p 
-                mysql> create database cms;
-                mysql>create user user_cms;
-                mysql>GRANT ALL ON cms.* TO user_cms IDENTIFIED BY 'asdasd';
+        mysql -u root -p 
+        mysql> create database cms;
+        mysql>create user user_cms;
+        mysql>GRANT ALL ON cms.* TO user_cms IDENTIFIED BY 'asdasd';
 
 
 6. Vamos a instalar el idioma español, para ello [bájate este fichero](http://s3.amazonaws.com/cmsms/downloads/12788/cmsmadesimple-1.12.1-langpack-es_ES.tar.gz), descomprímelo y copia su contenido dentro de /var/www/iesgn/portal
