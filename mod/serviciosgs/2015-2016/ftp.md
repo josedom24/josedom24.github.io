@@ -17,7 +17,7 @@ Tenemos que desarrollar la página del instituto www.iesgn.org, y queremos que s
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (2 puntos)(Obligatorio):** Configura apache2 y el servidor ftp de forma anónimo para obtener el resultado pedido. Entrega la configuración de ambos servidores y muestra al profesor el funcionamiento. 
+	* **Tarea 1 (2 puntos)(Obligatorio):** Configura apache2 y el servidor ftp de forma anónimo para obtener el resultado pedido. Entrega la configuración de ambos servidores y muestra al profesor el funcionamiento. 
 </div>
 
 
@@ -30,18 +30,18 @@ Tenemos que desarrollar la página del instituto www.iesgn.org, y queremos que s
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 2 (3 puntos)(Obligatorio):** Entrega una pequeña guía que explique las acciones que hay que realizar para crear la página web de un determinado departamento. Muestra al profesor el funcionamiento para la asignatura de "informática".
+	* **Tarea 2 (3 puntos)(Obligatorio):** Entrega una pequeña guía que explique las acciones que hay que realizar para crear la página web de un determinado departamento. Muestra al profesor el funcionamiento para la asignatura de "informática".
 
 </div>
 
 3. Escribe un pequeño script *crear_pagina_web*, que recibe como parámetro el nombre del departamento y realiza los pasos para crear la página web de departamento y que un usuario accediendo por ftp pueda gestionarla.
 
-* **Tarea 3 (3 puntos):** Entrega la url del repositorio github, y haz una prueba al profesor.
+	* **Tarea 3 (3 puntos):** Entrega la url del repositorio github, y haz una prueba al profesor.
 
 4. Instala la aplicación web net2ftp en el servidor por si tenemos problemas de acceso por el puerto 20/21.
 
-* **Tarea 4 (3 puntos):** Muestra al profesor al acceso a la aplicación web net2ftp.
+	* **Tarea 4 (3 puntos):** Muestra al profesor al acceso a la aplicación web net2ftp.
 
 5. El uso de usuarios reales del sistema para el acceso FTP puede tener varias desventajas (gestión, seguridad,...). Modifica la configuración del sistema para que se usen usuarios virtuales para el acceso por FTP, cuya información este guardad en una tabla mysql o en un directorio ldap.
 
-* **Tarea 5 (4 puntos):** Entrega los pasos más relevantes para realizar esta tarea. Y muestra al profesor su funcionamiento.
+	* **Tarea 5 (4 puntos):** Entrega los pasos más relevantes para realizar esta tarea. Y muestra al profesor su funcionamiento.
