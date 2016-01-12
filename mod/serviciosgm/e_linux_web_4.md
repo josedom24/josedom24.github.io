@@ -100,17 +100,10 @@ Vamos a instalar un CMS muy simple llamado "CMS made simple", para ello sigue es
         touch config.php
         chmod 666 config.php
 
-5. Crea una base de datos vacía, para ello vamos a hacer los siguiente:
+5. Crea una base de datos vacía, y un usuario en la base de datos con los privilegios sobre la base de datos creada,  para ello vamos a hacer los siguiente:
 
                 mysql -u root -p 
-
-        (Ponemos la contraseña del root de mysql)
-
                 mysql> create database cms;
-                mysql> quit;
-
-        Creamos un usuario en la base de datos con los privilegios sobre la base de datos creada.
-
                 mysql>create user user_cms;
                 mysql>GRANT ALL ON cms.* TO user_cms IDENTIFIED BY 'asdasd';
 
