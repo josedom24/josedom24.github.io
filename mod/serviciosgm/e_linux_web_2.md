@@ -13,9 +13,9 @@ El objetivo de esta práctica es la puesta en marcha de dos sitios web utilizand
 
 Queremos construir en nuestro servidor web apache dos sitios web con las siguientes características:
 
-* El nombre de dominio del primero será **www.iesgn.org**, su directorio base será */var/www/htmliesgn* y contendrá una página llamada index.html, donde sólo se verá una bienvenida a la página del insituto Gonzalo Nazareno.
+* El nombre de dominio del primero será **www.iesgn.org**, su directorio base será */var/www/iesgn* y contendrá una página llamada index.html, donde sólo se verá una bienvenida a la página del insituto Gonzalo Nazareno.
 
-* En el segundo sitio vamos a crear una página donde se pondrán noticias por parte de los departamento, el nombre de este sitio será **www.departamentosgn.org**, y su directorio base será */var/www/html/departamentos*. En este sitio sólo tendremos una página inicial index.html, dando la bienvenida a la página de los departamentos del instituto.
+* En el segundo sitio vamos a crear una página donde se pondrán noticias por parte de los departamento, el nombre de este sitio será **www.departamentosgn.org**, y su directorio base será */var/www/departamentos*. En este sitio sólo tendremos una página inicial index.html, dando la bienvenida a la página de los departamentos del instituto.
 
 Para conseguir estos dos sitios virtuales debes seguir los siguientes pasos:
 
@@ -40,11 +40,29 @@ Para conseguir estos dos sitios virtuales debes seguir los siguientes pasos:
 
     La creación de los elaces simbólicos se puede hacer con la instrucción *a2ensite nombre_fichero_configuracion*, para deshabilitar el sitio tenemos que borrar el enlace simbólico o usar la instrucción *a2dissite nombre_fichero_configuracion*.
 
-4. Crea los directorios y los ficheros index.html necesarios en /var/www y reiniciamos el servicio:
+4. Crea los directorios y los ficheros index.html necesarios y reiniciamos el servicio:
 
         systemctl reload apache2
 
 5. Para terminar lo único que tendremos que hacer es cambiar el fichero hosts en los clientes y poner dos nuevas líneas donde se haga la conversión entre los dos nombre de dominio y la dirección IP del servidor.
+
+####Cambiar el *DocumentRoot*
+
+En los VirtualHost que hemos creado el *DocumentRoot* han sido subdirectorios de */var/www*. Para que esto funcione de forma adecuada en el fichero de configuración del servidor web (apache2.conf) podemos encontrar las siguientes líneas:
+
+        <Directory /var/www/>
+          Options Indexes FollowSymLinks
+          AllowOverride None
+          Require all granted
+        </Directory>
+
+Si queremos cambiar de directorios y por ejemplo guardar los VirtualHost en el directorio /srv/www, tendremos que cambiar las líneas anteriores y poner los siguiente:
+
+        <Directory /srv/www/>
+          Options Indexes FollowSymLinks
+          AllowOverride None
+          Require all granted
+        </Directory>
 
 
 <div class='ejercicios' markdown='1'>
