@@ -16,7 +16,7 @@ Queremos construir en nuestro servidor web apache dos sitios web con las siguien
 1. El nombre de dominio del primero será **www.iesgn.org**, su directorio base será */var/www/htmliesgn* y contendrá una página llamada index.html, donde sólo se verá una bienvenida a la página del insituto Gonzalo Nazareno.
 2. En el segundo sitio vamos a crear una página donde se pondrán noticias por parte de los departamento, el nombre de este sitio será **www.departamentosgn.org**, y su directorio base será */var/www/html/departamentos*. En este sitio sólo tendremos una página inicial index.html, dando la bienvenida a la página de los departamentos del instituto.
 
-Para conseguir estos dos sitios virtuales debes seguir los siguientes pasos:
+  Para conseguir estos dos sitios virtuales debes seguir los siguientes pasos:
 
 1. Los ficheros de configuración de los sitios webs se encuentran en el directorio */etc/apache2/sites-available*, por defecto hay dos ficheros, uno se llama default que es la configuración del sitio web por defecto. Necesitamos tener dos ficheros para realizar la configuración de los dos sitios virtuales, para ello vamos a copiar el fichero default:
 
