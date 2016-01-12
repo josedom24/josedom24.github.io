@@ -14,7 +14,7 @@ En el directorio de trabajo de **www.iesgn.org** (*/var/www/iesgn*) vamos a crea
 
 Para ello hay que seguir los siguientes pasos:
 
-1) En el fichero de configuración de la página www.iesgn.org, /etc/apache2/sites-available/iesgn crea las siguientes líneas:
+1. En el fichero de configuración de la página www.iesgn.org, /etc/apache2/sites-available/iesgn crea las siguientes líneas:
 
         <Directory /var/www/iesgn/profesores/>
         AuthType basic
@@ -23,15 +23,15 @@ Para ello hay que seguir los siguientes pasos:
         Require user pepe
         </Directory>
 
-Esto quiere decir que para acceder al directorio /var/www/iesgn/profesores/ se necesita autentificación. 
+	Esto quiere decir que para acceder al directorio /var/www/iesgn/profesores/ se necesita autentificación. 
 
-* El **AuthName** es el mensaje que se va a presentar al usuario
-* El fichero /etc/apache2/password contiene la contraseña.
-* El usuario permitido se llama pepe. Si ponemos *require valid-user* estaremos indicando que todos los usuario que definamos serán válidos.
+		* El **AuthName** es el mensaje que se va a presentar al usuario
+		* El fichero */etc/apache2/password* contiene la contraseña.
+		* El usuario permitido se llama pepe. Si ponemos *require valid-user* estaremos indicando que todos los usuario que definamos serán válidos.
 
-Reiniciamos el servidor apache.
+	Reiniciamos el servidor apache.
 
-2) Tenemos que crear el fichero de contraseña para los usuarios que tienen permiso. Para ello:
+2. Tenemos que crear el fichero de contraseña para los usuarios que tienen permiso. Para ello:
 
         cd /etc/apache2
         htpasswd -c password pepe
@@ -43,15 +43,15 @@ Esta instrucción pide la contraseña para el usuario pepe y la guarda en el fic
 
 Vamos a trabajar con los sitios webs de la práctica anterior, debes realizar los siguientes pasos:
 
-1) Crea tres usuarios: director, profesor, alumno.
+1. Crea tres usuarios: director, profesor, alumno.
 
-2) La página www.iesgn.org se puede acceder libremente.
+2. La página www.iesgn.org se puede acceder libremente.
 
-3) La página www.iesgn.org/privado (donde hay una página que da la bienvenida a la zona privada), necesita autentificación y los tres usuarios pueden acceder.
+3. La página www.iesgn.org/privado (donde hay una página que da la bienvenida a la zona privada), necesita autentificación y los tres usuarios pueden acceder.
 
-4) La página www.departamentosgn.org necesita autentificación y sólo puede acceder el directo y el profesor.
+4. La página www.departamentosgn.org necesita autentificación y sólo puede acceder el directo y el profesor.
 
-5) La página www.departamentosgn.org/equipodirectivo, necesita autentificación y sólo el director puede entrar.
+5. La página www.departamentosgn.org/equipodirectivo, necesita autentificación y sólo el director puede entrar.
 
 </div>
 
