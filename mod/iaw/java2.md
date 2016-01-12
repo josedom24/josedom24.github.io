@@ -18,7 +18,7 @@ tagline: CFGS ASIR
 Antes de empezar con el despliegue de la aplicación web, actualiza esta tarea comentando qué CMS has elegido. Comenta en la tarea redmine los pasos relevantes que vas realizando.
 </div>
 
-Esta tarea consiste en desplegar una aplicación web Java en una instancia de openstack, que ha sido configurado como hosting compartido de java/tomcat. Cada alumno puede acceder con un usuario a dicha máuina y tiene toda la infraestructura necesaria para desplegar su aplicación.
+Esta tarea consiste en desplegar una aplicación web Java en una instancia de openstack, que ha sido configurado como hosting compartido de java/tomcat. Cada alumno puede acceder con un usuario a dicha máquina y tiene toda la infraestructura necesaria para desplegar su aplicación.
 
 *  Elige una aplicación web, instálala en el entorno anterior y configúrala.
 * Si necesitas alguna aplicación o instala algún paquete debe pedirselo al administrador del hosting.
