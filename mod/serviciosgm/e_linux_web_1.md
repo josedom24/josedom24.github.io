@@ -14,7 +14,7 @@ Vamos a instalar un servidor web Apache en nuestro servidor Debian. A continuaci
 
 Para instalar el servidor debemos ejecutar como root el siguiente comando:
 
-        apt-get install apache2
+    apt-get install apache2
 
 Además del paquete apache2 se instalaran otros paquetes.
 
