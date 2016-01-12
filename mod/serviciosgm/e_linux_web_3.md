@@ -25,9 +25,9 @@ Para ello hay que seguir los siguientes pasos:
 
 	Esto quiere decir que para acceder al directorio /var/www/iesgn/profesores/ se necesita autentificación. 
 
-		* El **AuthName** es el mensaje que se va a presentar al usuario
-		* El fichero */etc/apache2/password* contiene la contraseña.
-		* El usuario permitido se llama pepe. Si ponemos *require valid-user* estaremos indicando que todos los usuario que definamos serán válidos.
+	* El **AuthName** es el mensaje que se va a presentar al usuario
+	* El fichero */etc/apache2/password* contiene la contraseña.
+	* El usuario permitido se llama pepe. Si ponemos *require valid-user* estaremos indicando que todos los usuario que definamos serán válidos.
 
 	Reiniciamos el servidor apache.
 
