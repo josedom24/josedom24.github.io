@@ -24,20 +24,20 @@ Queremos construir en nuestro servidor web apache dos sitios web con las siguien
         cp 000-default.conf iesgn.conf
         cp 000-default.conf departamentos.conf
 
-  De esta manera tendremos un fichero llamado *iesgn.conf* para realizar la configuración del sitio web www.iesgn.org, y otro llamado *departamentos.conf* para el sitio web www.departamentosgn.org.
+    De esta manera tendremos un fichero llamado *iesgn.conf* para realizar la configuración del sitio web www.iesgn.org, y otro llamado *departamentos.conf* para el sitio web www.departamentosgn.org.
 
 2. Modificamos el fichero *iesgn.conf, donde vamos a añadir la siguiente línea:
 
         ServerName www.iesgn.org
 
-  Realiza los cambios similares al fichero *departamentos.conf*.
+    Realiza los cambios similares al fichero *departamentos.conf*.
 
 3. No es suficiente crear los ficheros de configuración de cada sitio web, es necesario crear un enlace simbólico a estos ficheros dentro del directorio */etc/apache2/sites-enabled*, para ello:
 
         a2ensite iesgn
         a2ensite departamentos
 
-  La creación de los elaces simbólicos se puede hacer con la instrucción *a2ensite nombre_fichero_configuracion*, para deshabilitar el sitio tenemos que borrar el enlace simbólico o usar la instrucción *a2dissite nombre_fichero_configuracion*.
+    La creación de los elaces simbólicos se puede hacer con la instrucción *a2ensite nombre_fichero_configuracion*, para deshabilitar el sitio tenemos que borrar el enlace simbólico o usar la instrucción *a2dissite nombre_fichero_configuracion*.
 
 4. Crea los directorios y los ficheros index.html necesarios en /var/www y reiniciamos el servicio:
 
