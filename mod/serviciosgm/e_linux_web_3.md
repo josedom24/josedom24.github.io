@@ -44,13 +44,9 @@ Esta instrucción pide la contraseña para el usuario pepe y la guarda en el fic
 Vamos a trabajar con los sitios webs de la práctica anterior, debes realizar los siguientes pasos:
 
 1. Crea tres usuarios: director, profesor, alumno.
-
 2. La página www.iesgn.org se puede acceder libremente.
-
 3. La página www.iesgn.org/privado (donde hay una página que da la bienvenida a la zona privada), necesita autentificación y los tres usuarios pueden acceder.
-
 4. La página www.departamentosgn.org necesita autentificación y sólo puede acceder el directo y el profesor.
-
 5. La página www.departamentosgn.org/equipodirectivo, necesita autentificación y sólo el director puede entrar.
 
 </div>
