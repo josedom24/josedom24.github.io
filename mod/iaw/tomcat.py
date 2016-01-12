@@ -3,7 +3,7 @@
 
 import os
 
-USUARIOS=2
+USUARIOS=12
 PS_INI=8006
 P_INI=8081
 DIR="/home/"
@@ -29,4 +29,5 @@ for puerto,puerto_sh in puertos:
 	os.system("chown -h %s:%s %s/tomcat"%("tomcat-"+str(cont),"tomcat-"+str(cont),DIR+"tomcat-"+str(cont)))	
 	os.system("chown -R %s:%s %s/tomcat/*"%("tomcat-"+str(cont),"tomcat-"+str(cont),DIR+"tomcat-"+str(cont)))	
 	cont=cont+1
+
 
