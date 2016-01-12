@@ -14,7 +14,7 @@ Vamos a instalar un servidor web Apache en nuestro servidor Debian. A continuaci
 
 Para instalar el servidor debemos ejecutar como root el siguiente comando:
 
-    apt-get install apache2
+    	apt-get install apache2
 
 Además del paquete apache2 se instalaran otros paquetes.
 
@@ -22,11 +22,11 @@ El fichero de configuración principal del sercidor es */etc/apache2/apache2.con
 
 Después de cualquier cambio en la configuración debemos volver a iniciar el servicio:
 
-    systemctl restart apache2
+    	systemctl restart apache2
 
 Si da algún error ejecutamos la siguiente instrucción para ver los errores:
 
-	journalctl -xn
+		journalctl -xn
 
 
 <div class='ejercicios' markdown='1'>
@@ -49,8 +49,8 @@ En primer lugar, como estamos trabajando en una intranet podemos escoger cualqui
 
 Para poder hacer la resolución local de nombres tenemos que modificar el siguiente fichero de cada clente:
 
-* Si estamos en Windows el fichero se encuentra en C:\Windows\System32\drivers\etc\hosts
-* Si estamos en Linux el fichero es /etc/hosts
+* Si estamos en Windows el fichero se encuentra en *C:\Windows\System32\drivers\etc\hosts*
+* Si estamos en Linux el fichero es */etc/hosts*
 
 En este fichero tenemos que poner la dirección IP y el nombre al que corresponde en la misma línea.
 
