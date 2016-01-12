@@ -61,15 +61,15 @@ Crea los siguientes scripts:
 
 </div>
 
-##MEJORA 1: Configuración de estadísticas Webs (optativa)
+##Configuración de estadísticas Webs
 
 Configura el sistema para que todos los usuarios puedan acceder a las estadísticas de su alojamiento web usando el programa awstats. Tendremos que tener en cuanta que el acceso a esta información no será público, para acceder a ella el usuario se tendrá que autentificar con el nombre de usuario y la contraseña que se han generado para la gestión ftp.
 
-##MEJORA 2: Utilización de cuotas (optativa)
+##Utilización de cuotas
 
 Modificar la configuración de proftpd, para que cada usuario tenga un espacio limitado de 100 Mb.
 
-##MEJORA 3: Usuarios virtuales con LDAP (optativa)
+## Usuarios virtuales con LDAP
 Modifica toda la configuración para que los suarios virtuales que estamos usando se guarden en un servidor LDAP.
 
 
