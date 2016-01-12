@@ -20,7 +20,7 @@ tagline: CFGS ASIR
 
 * [Estudio de rendimiento de servidores webs (30 puntos)](rendimiento)
 * [Estudio de distintos servidores webs (20 puntos)](webservers)
-* [Gestionar un hosting por ftp]()
+* [Gestionar un hosting por ftp (15 puntos)](ftp)
 * Hosting
 * Servidor proxy
 * Balanceador de carga
