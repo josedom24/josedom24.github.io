@@ -36,7 +36,7 @@ Para ello hay que seguir los siguientes pasos:
         cd /etc/apache2
         htpasswd -c password pepe
 
-Esta instrucción pide la contraseña para el usuario pepe y la guarda en el fichero password, la opción -c crea el fichero.
+	Esta instrucción pide la contraseña para el usuario pepe y la guarda en el fichero password, la opción -c crea el fichero.
 
 <div class='ejercicios' markdown='1'>
 ##### **Ejercicios**
