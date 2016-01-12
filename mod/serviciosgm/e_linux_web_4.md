@@ -24,9 +24,45 @@ Ahora vamos a instalar los paquetes necesarios para tener un entorno LAMP.
 
 #### MySQL
 
-        apt-get install mysql-common mysql-client mysql-server
+        apt-get install mysql-server
 
 Durante la instalación del servicio se nos pedirá la contraseña del usuario root del servidor mysql.
+
+* Para acceder al servidor mysql:
+
+        mysql -u root -p
+
+* Muestra las bases de datos:
+        
+        mysql>show databases; 
+
+* Usamos la base de datos indicadas:
+
+        mysql>use nombre_base_datos; 
+
+* Muestra las tablas de esa base de datos:
+
+        mysql>show tables; 
+
+* Muestra los campos de la tabla indicada:
+
+        mysql>desc nombre_tabla; 
+
+* Muestra los registras de la tabla indicada:
+
+        mysql>select * from nombre_tabla; 
+
+* Crea una base de datos con el nombre indicado:
+
+        mysql>create database nombre_base_datos;
+
+* Crea un usuario con el nombre indicado:
+
+        mysql>create user usuario; 
+ 
+* Da permiso a usuario con la contraseña indicada, para que maneje la base de datos indicada:
+
+        mysql>GRANT ALL ON nombre_base_datos.* TO usuario IDENTIFIED BY 'contraseña_usuario'; 
 
 #### PHP5
 
@@ -40,17 +76,17 @@ Para probar el funcionamiento de Apache y PHP es habitual crear un documento ind
         </body>
         </html>
 
-Accede desde el navegador del cliente a http://www.iesgn.org/index.php
+Accede desde el navegador del cliente a *http://www.iesgn.org/index.php*
 
 ### Instalación de un CMS simple:
 
 Vamos a instalar un CMS muy simple llamado "CMS made simple", para ello sigue estos pasos:
 
-1) [Bájate el fichero](http://informatica.gonzalonazareno.org/plataforma/file.php/31/cmsmadesimple-1.9.2-base.tar.gz), descomprímelo y guárdalo en una carpeta llamada portal dentro de /var/www/iesgn/portal (por lo tanto tendremos que acceder a www.iesgn.org/portal)
+1. [Bájate la última versión de la aplicación web](http://s3.amazonaws.com/cmsms/downloads/12966/cmsms-2.1.1-install.zip), descomprímelo y guárdalo en una carpeta llamada portal dentro de */var/www/iesgn/portal* (por lo tanto tendremos que acceder a *www.iesgn.org/portal*)
 
-2) Para realizar la instalación accede a http://www.iesgn.org/portal/install/
+2. Para realizar la instalación accede a *http://www.iesgn.org/portal/install/*.
 
-3) Para que funcione correctamente tenemos que cambiar los permisos a los siguientes directorios:
+3. Para que funcione correctamente tenemos que cambiar los permisos a los siguientes directorios:
 
         cd /var/www/iesgn/portal
         chmod 777 tmp/templates_c; \
@@ -59,42 +95,48 @@ Vamos a instalar un CMS muy simple llamado "CMS made simple", para ello sigue es
         chmod 777 uploads/images
         chmod 777 modules
 
-4) Crear el archivo config.php, para eso teclea
+4. Crear el archivo config.php, para eso teclea:
 
         touch config.php
         chmod 666 config.php
 
-5) Crea una base de datos vacía, para ello vamos a hacer los siguiente:
+5. Crea una base de datos vacía, para ello vamos a hacer los siguiente:
 
-        mysql -u root -p 
+                mysql -u root -p 
 
-(Ponemos la contraseña del root de mysql)
+        (Ponemos la contraseña del root de mysql)
 
-        mysql> create database cms;
-        mysql> quit;
+                mysql> create database cms;
+                mysql> quit;
 
-6) Vamos a instalar el idioma español, para ello [bájate este fichero](http://informatica.gonzalonazareno.org/plataforma/file.php/31/cmsmadesimple-1.9.2-langpack-es_ES.tar.gz), descomprímelo y copia su contenido dentro de /var/www/iesgn/portal
+        Creamos un usuario en la base de datos con los privilegios sobre la base de datos creada.
 
-7) Antes de continuar vamos a instalar una librería gráfica necesaria para el funcionamiento de la páginas:
+                mysql>create user user_cms;
+                mysql>GRANT ALL ON cms.* TO user_cms IDENTIFIED BY 'asdasd';
+
+
+6. Vamos a instalar el idioma español, para ello [bájate este fichero](http://s3.amazonaws.com/cmsms/downloads/12788/cmsmadesimple-1.12.1-langpack-es_ES.tar.gz), descomprímelo y copia su contenido dentro de /var/www/iesgn/portal
+
+7. Antes de continuar vamos a instalar una librería gráfica necesaria para el funcionamiento de la páginas:
 
         apt-get install php5-gd
         /etc/init.d/apache2 restart
 
-8) Una vez realizado todos los cambios, actualiza la página y si todo está bien, podrás escoger el idioma de la página, escoge ES_es.
+8. Una vez realizado todos los cambios, actualiza la página y si todo está bien, podrás escoger el idioma de la página, escoge ES_es.
 
-9) Ahora tenemos 7 pasos para la instalación, en el primero le damos a continuar.
+9. Ahora tenemos 7 pasos para la instalación, en el primero le damos a continuar.
 
-10) El siguiente paso hace las comprobaciones del sistema, si todo es correcto podemos continuar.
+10. El siguiente paso hace las comprobaciones del sistema, si todo es correcto podemos continuar.
 
-11) En el paso 3, nos pide los permiso de creación de fichero, le damos a continuar.
+11. En el paso 3, nos pide los permiso de creación de fichero, le damos a continuar.
 
-12) En el siguiente paso nos pide los datos del administrador de la página.
+12. En el siguiente paso nos pide los datos del administrador de la página.
 
-13) En al siguiente pantalla, ponemos el nombre de la página y los datos del usuario (root) y la contraseña de mysql.
+13. En al siguiente pantalla, ponemos el nombre de la página y los datos del usuario (user_cms) y la contraseña que tiene (asdasd).
 
-14) En el siguiente paso le damos a continuar y en el siguiente le damos al botón "Ir al panel administrativo".
+14. En el siguiente paso le damos a continuar y en el siguiente le damos al botón "Ir al panel administrativo".
 
-15) Para acceder a la página entramos en www.iesgn.org/portal, para acceder a la zona administrativa: www.iesgn.org/portal/admin/index.php
+15. Para acceder a la página entramos en www.iesgn.org/portal, para acceder a la zona administrativa: www.iesgn.org/portal/admin/index.php
 
 <div class='ejercicios' markdown='1'>
 ##### **Ejercicios**
