@@ -18,31 +18,27 @@ Para instalar el servidor debemos ejecutar como root el siguiente comando:
 
 Además del paquete apache2 se instalaran otros paquetes.
 
-#### Configuración del servidor web
-
-En Debian los ficheros de configuración de apache están en /etc/apache2, siendo apache2.conf el fichero principal. El primer problema que nos encontramos lo observamos al reiniciar el servicio con la siguiente instrucción:
-
-        /etc/init.d/apache2 restart
-        apache2: Could not determine the ’servers fully qualified domain name , using 127.0.1.1 for ServerName
-
-Es decir, Apache2 no es capaz de determinar cual es el nombre de completo del equipo. Para solucionar esto tenemos definir el FQDN del equipo o utilizar la directiva ServerName en el fichero /etc/apache2/apache2.conf con el FQDN que vayamos a utilizar.
+El fichero de configuración principal del sercidor es */etc/apache2/apache2.conf* y la configuración del sitio por defecto (default) está en el fichero */etc/apache2/sites-available/000-default.conf*
 
 Después de cualquier cambio en la configuración debemos volver a iniciar el servicio:
 
-        /etc/init.d/apache2 restart
+    systemctl restart apache2
 
+Si da algún error ejecutamos la siguiente instrucción para ver los errores:
+
+	journalctl -xn
 
 
 <div class='ejercicios' markdown='1'>
 ##### **Ejercicios**
 
-1) Crea dentro del directorio /var/www un fichero llamado entrada.html en el que pongaís un mensaje de bienvenida.
+1. Crea dentro del directorio /var/www/html un fichero llamado entrada.html en el que pongaís un mensaje de bienvenida.
 
-Accede desde los clientes, poniendo en un navegador la siguiente URL: *http://direccion_ip_servidor/entrada.html*
+	Accede desde los clientes, poniendo en un navegador la siguiente URL: *http://direccion_ip_servidor/entrada.html*
 
-2) A continuación vamos a publicar una página más completa en nuestro servidor, para ello bajate este [fichero .zip](files/web.zip), descomprimelo, copialo dentro de del directorio local del servidor web y accede desde el servidor y desde el cliente a la nueva pagína.
+2. A continuación vamos a publicar una página más completa en nuestro servidor, para ello bajate este [fichero .zip](files/web.zip), descomprimelo, copialo dentro de del directorio local del servidor web y accede desde el servidor y desde el cliente a la nueva pagína.
 
-En este caso, desde el cliente hay que poner la URL http://direccion_ip_servidor, ya que existe un fichero index.html.
+	En este caso, desde el cliente hay que poner la URL http://direccion_ip_servidor, ya que existe un fichero index.html.
 </div>
 
 #### Resolución local de nombres
