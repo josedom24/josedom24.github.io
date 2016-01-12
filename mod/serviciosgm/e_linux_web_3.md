@@ -17,10 +17,10 @@ Para ello hay que seguir los siguientes pasos:
 1. En el fichero de configuración de la página www.iesgn.org, /etc/apache2/sites-available/iesgn crea las siguientes líneas:
 
         <Directory /var/www/iesgn/profesores/>
-        AuthType basic
-        AuthName "Página privada salo para profesores"
-        AuthUserFile /etc/apache2/password
-        Require user pepe
+        	AuthType basic
+        	AuthName "Página privada salo para profesores"
+        	AuthUserFile /etc/apache2/password
+        	Require user pepe
         </Directory>
 
 	Esto quiere decir que para acceder al directorio /var/www/iesgn/profesores/ se necesita autentificación. 
