@@ -51,7 +51,7 @@ Tenemos que desarrollar la página del instituto www.iesgn.org, y queremos que s
 
 </div>
 
-* El uso de usuarios reales del sistema para el acceso FTP puede tener varias desventajas (gestión, seguridad,...). Modifica la configuración del sistema para que se usen usuarios virtuales para el acceso por FTP, cuya información este guardad en una tabla mysql o en un directorio ldap.
+* El uso de usuarios reales del sistema para el acceso FTP puede tener varias desventajas (gestión, seguridad,...). Modifica la configuración del sistema para que se usen usuarios virtuales para el acceso por FTP, cuya información este guardada en una tabla mysql o en un directorio ldap.
 
 <div class='ejercicios' markdown='1'>
 
