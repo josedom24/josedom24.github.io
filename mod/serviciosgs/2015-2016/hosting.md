@@ -67,7 +67,7 @@ Configura el sistema para que todos los usuarios puedan acceder a las estadísti
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 5 (2 puntos): Crea un sistema de estadística con awstats que sea accesible desde la URL: *stats.nombrededominio.com*. Muestraselá al profesor.
+* **Tarea 5 (2 puntos)**: Crea un sistema de estadística con awstats que sea accesible desde la URL: *stats.nombrededominio.com*. Muestraselá al profesor.
 
 </div>
 
@@ -75,24 +75,34 @@ Configura el sistema para que todos los usuarios puedan acceder a las estadísti
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 6 (2 puntos): Investiga la forma de limitar el espacio que los usuarios tienen a su disposición, por ejemplo que cada usuario tenga un espacio limitado de 100 Mb.
+* **Tarea 6 (2 puntos)**: Investiga la forma de limitar el espacio que los usuarios tienen a su disposición, por ejemplo que cada usuario tenga un espacio limitado de 100 Mb.
 
 </div>
 
 ## Usuarios virtuales con LDAP
 
-* **Tarea 7 (3 puntos): Modifica toda la configuración para que los suarios virtuales que estamos usando se guarden en un servidor LDAP.
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 7 (3 puntos)**: Modifica toda la configuración para que los suarios virtuales que estamos usando se guarden en un servidor LDAP.
+
+</div>
 
 ## Aplicación web para la gestión del hosting
 
-* **Tarea 8 (4 puntos): Crea una palicación web (con cualquier tecnología, por ejemplo bottle o django) que permita gestionar el hosting: dar de alta nuevas cuentas, borrarlas, modificar contraseñas, ...
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 8 (4 puntos)**: Crea una palicación web (con cualquier tecnología, por ejemplo bottle o django) que permita gestionar el hosting: dar de alta nuevas cuentas, borrarlas, modificar contraseñas, ...
+
+</div>
 
 ## Creación de subdominios
 
 Queremos añadir a nuestro hosting para que podamos dar de alta a nuevos subdominios. Por ejemplo podemos crear el subdominio *web.nombrededominio.com* que será otra página web del usuario.
 
-* **Tarea 9 (4 puntos): Crea un script que nos permita gestionar subdominios en nuestro hosting.
+<div class='ejercicios' markdown='1'>
 
+* **Tarea 9 (4 puntos)**: Crea un script que nos permita gestionar subdominios en nuestro hosting.
 
+</div>
       
 [Volver](index)
