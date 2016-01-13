@@ -6,6 +6,9 @@ tagline: CFGS ASIR
 ---
 # Implantación de un servidor de hosting
 
+#### (9 tareas - 35 puntos)(3 tareas obligatorias - 10 puntos)
+
+
 El objetivo de la práctica es montar un servidor que ofrezca un servicio de de hospedaje de páginas web con las siguientes características:
 
 * Podemos dar de alta a un usuario y al nombre de dominio (por ejemplo nombrededominio.com) por el que va estar referido su espacio.
@@ -16,7 +19,7 @@ El objetivo de la práctica es montar un servidor que ofrezca un servicio de de 
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (4 puntos):** Contesta las siguientes preguntas:
+* **Tarea 1 (4 puntos)(Obligatorio):** Contesta las siguientes preguntas:
 
 1. ¿Qué servidores necesitas instalar en la máquina donde vamos a implantar el hosting?
 Cuando damos de alta una nueva cuenta en nuestro hosting hay que indicar un usuario y un nombre de dominio. ¿Qué acciones hay que hacer en el servidor con el usuario? ¿Qué acciones hay que hacer con el nombre de dominio?
@@ -40,9 +43,9 @@ Cuando se da de alta un nuevo usuario con un nombre de dominio, habr´a que tene
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 2 (3 puntos):** Escribe una guía donde se vean los comandos y las modficaciones de configuración que hay que hacer en los servidores, para conseguir cada uno de los puntos anteriormente descritos.
+* **Tarea 2 (3 puntos)(Obligatorio):** Escribe una guía donde se vean los comandos y las modficaciones de configuración que hay que hacer en los servidores, para conseguir cada uno de los puntos anteriormente descritos.
 
-* **Tarea 3 (3 puntos):** Escribe una guía donde se vean los comandos y las modficaciones de configuración que hay que hacer para dar de baja a un usuario y el nombre de dominio asociado.
+* **Tarea 3 (3 puntos)(Obligatorio):** Escribe una guía donde se vean los comandos y las modficaciones de configuración que hay que hacer para dar de baja a un usuario y el nombre de dominio asociado.
 
 
 </div>
