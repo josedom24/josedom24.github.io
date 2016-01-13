@@ -16,7 +16,7 @@ El objetivo de la práctica es montar un servidor que ofrezca un servicio de de 
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 ( puntos):** Contesta las siguientes preguntas:
+* **Tarea 1 (4 puntos):** Contesta las siguientes preguntas:
 
 1. ¿Qué servidores necesitas instalar en la máquina donde vamos a implantar el hosting?
 Cuando damos de alta una nueva cuenta en nuestro hosting hay que indicar un usuario y un nombre de dominio. ¿Qué acciones hay que hacer en el servidor con el usuario? ¿Qué acciones hay que hacer con el nombre de dominio?
@@ -65,13 +65,33 @@ Crea los siguientes scripts:
 
 Configura el sistema para que todos los usuarios puedan acceder a las estadísticas de su alojamiento web usando el programa awstats. Tendremos que tener en cuanta que el acceso a esta información no será público, para acceder a ella el usuario se tendrá que autentificar con el nombre de usuario y la contraseña que se han generado para la gestión ftp.
 
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 5 (2 puntos): Crea un sistema de estadística con awstats que sea accesible desde la URL: *stats.nombrededominio.com*. Muestraselá al profesor.
+
+</div>
+
 ##Utilización de cuotas
 
-Modificar la configuración de proftpd, para que cada usuario tenga un espacio limitado de 100 Mb.
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 6 (2 puntos): Investiga la forma de limitar el espacio que los usuarios tienen a su disposición, por ejemplo que cada usuario tenga un espacio limitado de 100 Mb.
+
+</div>
 
 ## Usuarios virtuales con LDAP
-Modifica toda la configuración para que los suarios virtuales que estamos usando se guarden en un servidor LDAP.
 
+* **Tarea 7 (3 puntos): Modifica toda la configuración para que los suarios virtuales que estamos usando se guarden en un servidor LDAP.
+
+## Aplicación web para la gestión del hosting
+
+* **Tarea 8 (4 puntos): Crea una palicación web (con cualquier tecnología, por ejemplo bottle o django) que permita gestionar el hosting: dar de alta nuevas cuentas, borrarlas, modificar contraseñas, ...
+
+## Creación de subdominios
+
+Queremos añadir a nuestro hosting para que podamos dar de alta a nuevos subdominios. Por ejemplo podemos crear el subdominio *web.nombrededominio.com* que será otra página web del usuario.
+
+* **Tarea 9 (4 puntos): Crea un script que nos permita gestionar subdominios en nuestro hosting.
 
 
       
