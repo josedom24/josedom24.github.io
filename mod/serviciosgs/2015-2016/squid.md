@@ -22,12 +22,12 @@ Nos piden la configuración de un proxy/cache/filtro en nuestra infraestrucutra.
 
 * Para los profesores y alumnos:
 	* No se pueden bajar ficheros que se puedan instalar (exe,msi,rar,zip,bin,iso).
-  	* No tienen acceso a internet los fines de semana.
+	* No tienen acceso a internet los fines de semana.
 
 * Para los alumnos:
   	
-  	* No pueden ver contenido multimedia.
-  	* Sólo tienen conexión de 8:00 h. a 14:00 h.
+	* No pueden ver contenido multimedia.
+	* Sólo tienen conexión de 8:00 h. a 14:00 h.
 
 7. El control de las páginas permitidas se hará mediante listas negras usando squid.
 8. Vamos a realizar un script en python/bash que funcione de la siguiente manera:
