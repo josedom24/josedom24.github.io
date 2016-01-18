@@ -68,7 +68,7 @@ Durante la instalación del servicio se nos pedirá la contraseña del usuario r
 
         apt-get install php5 libapache2-mod-php5 php5-mysql
 
-Para probar el funcionamiento de Apache y PHP es habitual crear un documento index.php en el directorio /var/www/iesgn con el siguiente contenido:
+Para probar el funcionamiento de Apache y PHP es habitual crear un documento index.php en el directorio /var/www/html con el siguiente contenido:
 
         <html>
         <body>
@@ -82,13 +82,13 @@ Accede desde el navegador del cliente a *http://www.iesgn.org/index.php*
 
 Vamos a instalar un CMS muy simple llamado "CMS made simple", para ello sigue estos pasos:
 
-1. [Bájate la versión de la aplicación web:](http://informatica.gonzalonazareno.org/plataforma/file.php/31/cmsmadesimple-1.9.2-base.tar.gz), descomprímelo y guárdalo en una carpeta llamada portal dentro de */var/www/iesgn/portal* (por lo tanto tendremos que acceder a *www.iesgn.org/portal*)
+1. [Bájate la versión de la aplicación web:](http://informatica.gonzalonazareno.org/plataforma/file.php/31/cmsmadesimple-1.9.2-base.tar.gz), descomprímelo y guárdalo en una carpeta llamada portal dentro de */var/www/html/portal* (por lo tanto tendremos que acceder a *www.iesgn.org/portal*)
 
 2. Para realizar la instalación accede a *http://www.iesgn.org/portal/install/*.
 
 3. Para que funcione correctamente tenemos que cambiar los permisos a los siguientes directorios:
 
-        cd /var/www/iesgn/portal
+        cd /var/www/html/portal
         chmod 777 tmp/templates_c; \
         chmod 777 tmp/cache; \
         chmod 777 uploads; \
@@ -108,7 +108,7 @@ Vamos a instalar un CMS muy simple llamado "CMS made simple", para ello sigue es
         mysql>GRANT ALL ON cms.* TO user_cms IDENTIFIED BY 'asdasd';
 
 
-6. Vamos a instalar el idioma español, para ello [bájate este fichero](http://s3.amazonaws.com/cmsms/downloads/12788/cmsmadesimple-1.12.1-langpack-es_ES.tar.gz), descomprímelo y copia su contenido dentro de /var/www/iesgn/portal
+6. Vamos a instalar el idioma español, para ello [bájate este fichero](http://s3.amazonaws.com/cmsms/downloads/12788/cmsmadesimple-1.12.1-langpack-es_ES.tar.gz), descomprímelo y copia su contenido dentro de /var/www/html/portal
 
 7. Antes de continuar vamos a instalar una librería gráfica necesaria para el funcionamiento de la páginas:
 
