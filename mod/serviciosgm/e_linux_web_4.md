@@ -82,7 +82,7 @@ Accede desde el navegador del cliente a *http://www.iesgn.org/index.php*
 
 Vamos a instalar un CMS muy simple llamado "CMS made simple", para ello sigue estos pasos:
 
-1. [Bájate la última versión de la aplicación web](http://s3.amazonaws.com/cmsms/downloads/12966/cmsms-2.1.1-install.zip), descomprímelo y guárdalo en una carpeta llamada portal dentro de */var/www/iesgn/portal* (por lo tanto tendremos que acceder a *www.iesgn.org/portal*)
+1. [Bájate la versión de la aplicación web:](http://informatica.gonzalonazareno.org/plataforma/file.php/31/cmsmadesimple-1.9.2-base.tar.gz), descomprímelo y guárdalo en una carpeta llamada portal dentro de */var/www/iesgn/portal* (por lo tanto tendremos que acceder a *www.iesgn.org/portal*)
 
 2. Para realizar la instalación accede a *http://www.iesgn.org/portal/install/*.
 
