@@ -25,7 +25,7 @@ Esta tarea consiste en desplegar una aplicación web Python/Django, siguiendo lo
 * Configura un servidor web en local y realiza la configuración necesaria para que sirva la aplicación web.
 
 <div class='ejercicios' markdown='1'>
-En este momento, muestra al profesor la aplicación funcionando en local. **(3 puntos)**
+En este momento, muestra al profesor la aplicación funcionando en local. 
 </div>
 
 * Realiza el despliegue de la aplicación a OpenShift.
