@@ -26,6 +26,7 @@ tagline: CFGS ASIR
 1. [Despliegue de una aplicación web desarrollada en JAVA en un entorno de pruebas](java1)
 2. [Despliegue de una aplicación web desarrollada en JAVA en un hosting compartido](java2)
 3. [Desarrollo de una aplicación con el framework django](django)
+4. [ Despliegue de una aplicación python/django](python)
 
 #### Unidades
 
