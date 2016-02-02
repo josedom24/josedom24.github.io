@@ -23,19 +23,23 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 
 #### En clase
 
-1. Vamos a realizar un sistema de correo para el dominio tudominio.gonzalonazareno.org, cuyo servidor DNS lo administras en la máquina piolin. Tienes que comunicar el nombre de dominio al profesor para configurar el servidor de correos del departamento.
-2. Instala postfix en la máquina piolín y comprueba que recibe correo directamente desde un equipo de Internet (hotmail, gmail, etc.)
-3. Configura tu servidor de correos para que use a babuino como relay.
+* Vamos a realizar un sistema de correo para el dominio tudominio.gonzalonazareno.org, cuyo servidor DNS lo administras en la máquina piolin. Tienes que comunicar el nombre de dominio al profesor para configurar el servidor de correos del departamento.
+* Instala postfix en la máquina piolín y comprueba que recibe correo directamente desde un equipo de Internet (hotmail, gmail, etc.)
+* Configura tu servidor de correos para que use a babuino como relay.
 
 <div class='ejercicios' markdown='1'>
 
+* **Tarea 3 (1 puntos)(Obligatorio):** Documenta en redmine una prueba de funcionamiento, donde envíes un correo desde el exterior(gmail, hotmail,...) a tu servidor local.
+* **Tarea 4 (1 puntos)(Obligatorio):** Docuementa en redmine una prueba de funcionamiento, donde envíes desde tu servidor local al exterior.
+</div>
 
-4. Prueba a enviar desde tu equipo un correo electrónico a correo@josedomingo.org, explica qué ocurre.
-5. Prueba a enviar desde tu equipo un correo electrónico a hotmail y comprueba que ocurre.
-6. Instala y configura un servidor dovecot POP e IMAP en tu equipo
-7. Configura adecuadamente un cliente de correo (evolution, outlook, thunderbird, ...) para que reciba el correo a través de POP o IMAP. El cliente debe estar configurado en una máquina cliente. Instala un servidor DNS en el servidor para que se puedan resolver los nombres de los servidores.
-8. Instala y configura correctamente un sistema de filtrado de virus y spam utilizando amavis, clamav y spamassasin
-9. Instala un webmail (roundcube) para gestionar el correo del equipo mediante una interfaz web.
+
+* Instala y configura un servidor dovecot POP e IMAP en tu equipo
+* Configura adecuadamente un cliente de correo (evolution, outlook, thunderbird, ...) para que reciba el correo a través de POP o IMAP. El cliente debe estar configurado en una máquina cliente. Nombra en tu servidor DNS al servidor smtp, pop e imap.
+
+
+* Instala y configura correctamente un sistema de filtrado de virus y spam utilizando amavis, clamav y spamassasin
+* Instala un webmail (roundcube) para gestionar el correo del equipo mediante una interfaz web.
 
 
 ####En casa
