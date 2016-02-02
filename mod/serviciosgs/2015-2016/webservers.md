@@ -12,7 +12,7 @@ tagline: CFGS ASIR
 
 Los servidores webs que se van a estudiar en el presente proyecto son: nginx, cherokee, lighttpd, IIS.
 
-####Objetivo del trabajo
+#### Objetivo del trabajo
 
 Cada grupo debe estudiar un servidor web y lograr los siguientes objetivos:
 
