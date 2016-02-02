@@ -50,7 +50,7 @@ La principal característica de Jekylls es la generación de html estático a pa
 
 Por lo tanto una vez que tengo definidas mis plantillas, lo único que tengo que hacer es centrarme en  el contenido escribiendo los diferentes de ficheros de contenido.
 
-#####Usando Markdown para escribir el contenido de nuestras páginas
+##### Usando Markdown para escribir el contenido de nuestras páginas
 
 Los distintos contenidos de nuestras páginas serán definidos en ficheros Markdown con extensión md. La [sintaxis de este lenguaje de marcas](https://guides.github.com/features/mastering-markdown/) es muy sencilla y fácilmente convertible a html. Para practicar las distintas opciones puedes usar este [editor online](http://www.ctrlshift.net/project/markdowneditor/).
 
