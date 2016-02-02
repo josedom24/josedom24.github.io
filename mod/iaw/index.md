@@ -14,14 +14,14 @@ tagline: CFGS ASIR
 
 # Prácticas
 
-##1ª Evaluación
+## 1ª Evaluación
 
 1. [Implantación de una aplicación web estática en Github Pages](estatica)
 2. [Despliegue de una aplicación web desarrollada en PHP en hosting compartido](php1)
 3. [Despliegue de una aplicación web desarrollada en PHP en un servidor dedicado (IaaS)](php2)
 4. [Despliegue de una aplicación web desarrollada en PHP en PaaS](php3)
 
-##2ª Evaluación
+## 2ª Evaluación
 
 1. [Despliegue de una aplicación web desarrollada en JAVA en un entorno de pruebas](java1)
 2. [Despliegue de una aplicación web desarrollada en JAVA en un hosting compartido](java2)

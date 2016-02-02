@@ -21,7 +21,7 @@ Cada grupo debe estudiar un servidor web y lograr los siguientes objetivos:
 * Elaborar un manual que explique la experiencia realizada.
 * Realizar una comparación de consumo de memoria y rendimiento entre el servidor web estudiado y el servidor Apache 2.
 
-####Estructura del trabajo 
+#### Estructura del trabajo 
 
 El manual que debes realizar tendrá al menos los siguientes apartados:
 
@@ -57,7 +57,7 @@ Se evalaurá los siguientes apartados:
 
 </div>
 
-####Presentación del trabajo 
+#### Presentación del trabajo 
 
 Se realizará una presentación en público de la práctica realizada. Se valorarán los siguientes puntos:
 
@@ -67,7 +67,7 @@ Se realizará una presentación en público de la práctica realizada. Se valora
 * **Tarea 7 (5 puntos):** Presentación en clase, recursos utilizados, presentación de los conceptos, puesta en práctica,...
 </div>
 
-####Normas sobre la redacción del trabajo
+#### Normas sobre la redacción del trabajo
 
 El trabajo se realizará siguiendo los siguientes puntos:
 

@@ -5,7 +5,7 @@ title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 
-##Servidor proxy/cache squid
+## Servidor proxy/cache squid
 
 #### (10 tareas - 25 puntos)(5 tareas obligatorias - 9 puntos)
 

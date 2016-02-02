@@ -8,13 +8,13 @@ tagline: CFGS ASIR
 
 #### (8 tareas - 25 puntos)(3 tareas obligatorias - 10 puntos)
 
-####Escenario
+#### Escenario
 
 1. En nuestra red local tenemos un [servidor Web](web) que sirve dos páginas web: *www.iesgn.org*, *departamentos.iesgn.org*
 2. Vamos a instalar en nuestra red local un servidor DNS (lo puedes instalar en el mismo equipo que tiene el servidor web)
 3. Voy a suponer en este documento que el nombre del servidor DNS va a ser *pandora.iesgn.org*
 
-####Servidor DNSmasq
+#### Servidor DNSmasq
 
 Instala el servidor dns **dnsmasq** en *pandora.iesgn.org* y configúralo para que los clientes puedan conocer los nombres necesarios.
 
@@ -23,7 +23,7 @@ Instala el servidor dns **dnsmasq** en *pandora.iesgn.org* y configúralo para q
 * **Tarea 1 (2 punto)(Obligatorio):** Modifica los clientes para que utilicen el nuevo servidor dns. Realiza una consulta a www.iesgn.org, y a www.josedomingo.org. Realiza una prueba de funcionamiento para comprobar que el servidor dnsmasq funciona como cache dns. Documenta la tarea en redmine.
 </div>
 
-####Servidor bind9 
+#### Servidor bind9 
 
 Desinstala el servidor **dnsmasq** del ejercicio anterior e instala un servidor dns **bind9**.  Las características del servidor DNS que queremos instalar son las siguientes:
 
@@ -44,7 +44,7 @@ Desinstala el servidor **dnsmasq** del ejercicio anterior e instala un servidor 
 	* Un resolución inversa
 </div>
 
-####Servidor DNS esclavo
+#### Servidor DNS esclavo
 
 El servidor DNS actual funciona como **DNS maestro**. Vamos a instalar un nuevo servidor DNS que va a estar configurado como **DNS esclavo** del anterior, donde se van a ir copiando periódicamente las zonas del DNS maestro. Suponemos que el nombre del servidor DNS esclavo se va llamar *afrodita.iesgn.org*.
 
@@ -66,7 +66,7 @@ El servidor DNS actual funciona como **DNS maestro**. Vamos a instalar un nuevo 
 </div>
 
 
-####Delegación de dominios
+#### Delegación de dominios
 
 Tenemos un servidor DNS que gestiona la zona correspondiente al nombre de dominio *iesgn.org*, en esta ocasión queremos delegar el subdominio *informatica.iesgn.org* para que lo gestione otro servidor DNS. Por lo tanto tenemos un escenario con dos servidores DNS:
 

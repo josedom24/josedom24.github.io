@@ -28,7 +28,7 @@ Cuando damos de alta una nueva cuenta en nuestro hosting hay que indicar un usua
 4. ¿Cuantos nombres habrá que dar de alta en la zona de resolución directa de nombrededominio.com?
 </div>
 
-##Especificaciones técnicas mínimas
+## Especificaciones técnicas mínimas
 
 * El sistema utilizará usuarios virtuales cuya información estará guardad en una base de datos mysql.
 * El administrador debe decidir la estructura para guardar los directorios personales de los usuarios.
@@ -50,7 +50,7 @@ Cuando se da de alta un nuevo usuario con un nombre de dominio, habr´a que tene
 
 </div>
 
-##Creación de un script
+## Creación de un script
 
 Crea los siguientes scripts:
 
@@ -64,7 +64,7 @@ Crea los siguientes scripts:
 
 </div>
 
-##Configuración de estadísticas Webs
+## Configuración de estadísticas Webs
 
 Configura el sistema para que todos los usuarios puedan acceder a las estadísticas de su alojamiento web usando el programa awstats. Tendremos que tener en cuanta que el acceso a esta información no será público, para acceder a ella el usuario se tendrá que autentificar con el nombre de usuario y la contraseña que se han generado para la gestión ftp.
 
@@ -74,7 +74,7 @@ Configura el sistema para que todos los usuarios puedan acceder a las estadísti
 
 </div>
 
-##Utilización de cuotas
+## Utilización de cuotas
 
 <div class='ejercicios' markdown='1'>
 
