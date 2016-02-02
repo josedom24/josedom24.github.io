@@ -7,7 +7,7 @@ tagline: CFGS ASIR
 
 ### Ejercicio: Ejercicio completo del servidor Web(2) (Tiempo estimado: 18 horas)
 
-####Autentificación, Autorización, y Control de Acceso
+#### Autentificación, Autorización, y Control de Acceso
 
 1. Crea un escenario en Vagrant que tenga un servidor con una red publica, y una privada, un cliente conectada a la red privada. Crea un host virtual que se acceda con el nombre *www.masterlan.com*. A la URL *www.masterlan.com/intranet* sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL *www.masterlan.com/internet*, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.
 
@@ -19,7 +19,7 @@ tagline: CFGS ASIR
 
 5. *(Optativo)*: Utilizando el módulo **libapache2-mod-auth-mysql** y siguiendo algún tutorial que busques en internet, por ejemplo [este](http://blog.unlugarenelmundo.es/2010/03/18/autenticacion-en-apache-y-ii-digest-y-con-mysql/),configura un sitio virtual cuyo acceso sea autentificado mediante usuarios guardados en un tabla MySql. Nota: las contraseñas de los usuarios se deben guardar encriptadas.
 
-####Logs del servidor y configuración con .htaccess
+#### Logs del servidor y configuración con .htaccess
 
 6. Date de alta en CDMON y contrata una *Plataforma de prueba*. Con ello tenemos a nuestra disposición un hosting comercial con todas sus funcionalidades, incluso con un servidor DNS que nos da acceso al hosting, en mi caso con la URL *http://jdmr.com.mialias.net*. ¿Si necesitamos configurar el servidor web que han configurado los administradores de CDMON que podemos hacer? Explica la directiva **AllowOverride** de apache2.
 
@@ -35,7 +35,7 @@ tagline: CFGS ASIR
 	* El acceso a la estadística desde la red local está permitido, si hace desde fuera, por ejemplo desde el host, se requiere autentificación tipo digest (realizar este punto por medio de un fichero .htaccess)
 	* Modifica el cron de awstats para que se genere las estadísticas cada 2 minutos.
 
-####Módulos
+#### Módulos
 
 9. Módulo *userdir*: Activa y configura el módulo *userdir*, que permite que cada usuario del sistema tenga la posibilidad de tener un directorio (por defecto se llama public_html) donde alojar su página web. Publica una página de un usuario, y accede a la misma.
 

@@ -9,7 +9,7 @@ tagline: CFGS ASIR
 
 Los servidores webs que se van a estudiar en el presente proyecto son: nginx, cherokee, lighttpd, IIS y Apache2.4
 
-####Objetivo del trabajo
+#### Objetivo del trabajo
 
 Cada grupo debe estudiar un servidor web y lograr los siguientes objetivos:
 
@@ -18,7 +18,7 @@ Cada grupo debe estudiar un servidor web y lograr los siguientes objetivos:
 * Elaborar un manual que explique la experiencia realizada.
 * Realizar una comparación de consumo de memoria y rendimiento entre el servidor web estudiado y el servidor Apache 2.
 
-####Estructura del trabajo
+#### Estructura del trabajo
 
 El manual que debes realizar tendrá al menos los siguientes apartados:
 
@@ -34,7 +34,7 @@ El manual que debes realizar tendrá al menos los siguientes apartados:
 
 Si se ve oportuno el índice puede cambiar, pero los contenidos anteriores deben aparecer. Se valorará positivamente la ampliación de contenidos.
 
-####Explicación del punto 7. Estudio comparativo con el servidor web Apache 2
+#### Explicación del punto 7. Estudio comparativo con el servidor web Apache 2
 
 En este punto se debe hacer un estudio comparado entre el servidor estudiado y el servidor Apache 2. Se realizarán las siguientes medidas:
 
@@ -43,7 +43,7 @@ En este punto se debe hacer un estudio comparado entre el servidor estudiado y e
 
 Se realizara el estudio sobre la página principal de un CMS Wordpress que estará instalado en ambos servidores en dos máquinas virtuales con las mismas caracteristícas. Cada grupo seleccionará las distintas pruebas de benckmark que se puedan realizar a los dos servidores para observar las diferencias.
 
-####Normas sobre la redacción del trabajo
+#### Normas sobre la redacción del trabajo
 
 El trabajo se realizará siguiendo los siguientes puntos:
 

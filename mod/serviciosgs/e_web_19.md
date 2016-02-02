@@ -8,7 +8,7 @@ tagline: CFGS ASIR
 
 **WebDAV** ("*Edición y versionado distribuidos sobre la web*") es un protocolo para hacer que la www sea un medio legible y editable. Este protocolo proporciona funcionalidades para crear, cambiar y mover documentos en un servidor remoto (típicamente un servidor web). Esto se utiliza sobre todo para permitir la edición de los documentos que sirve un servidor web, pero puede también aplicarse a sistemas de almacenamiento generales basados en web, que pueden ser accedidos desde cualquier lugar. La mayoría de los sistemas operativos modernos proporcionan soporte para WebDAV, haciendo que los ficheros de un servidor WebDAV aparezcan como almacenados en un directorio local.
 
-####Configuración de un servidor WebDAV
+#### Configuración de un servidor WebDAV
 
 Para crear un directorio en nuestro servidor Web que pueda ser accesible por medio de un cliente WebDAV debemos activar los módulos **dav** y **dav_fs**.
 

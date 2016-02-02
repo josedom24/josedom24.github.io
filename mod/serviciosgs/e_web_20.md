@@ -19,7 +19,7 @@ Es mucho mejor escribirlas como:
 
 **www.dominio.com/pueblos/torrelodones.php**
 
-####Ejemplo 1: Reescribir URL
+#### Ejemplo 1: Reescribir URL
 
 Si tenemos el siguiente fichero php ([descargar](http://informatica.gonzalonazareno.org/plataforma/file.php/40/php.txt)) llamado operacion.php, podríamos usarlo de la siguiente manera:
 
@@ -36,7 +36,7 @@ Para ello activamos el mod_rewite, y escribimos un .htaccess de la siguiente man
         RewriteRule ^operacion.html$ operacion.php 
 
 
-####Ejemplo 2: Cambiar la extensión de los ficheros
+#### Ejemplo 2: Cambiar la extensión de los ficheros
 
 Si queremos usar la extensión do en vez de html podríamos usar este .htaccess
 
@@ -67,7 +67,7 @@ Crea un .htaccess con el siguiente contenido:
         RewriteBase /
         RewriteRule ^([a-z]+)/([0-9]+)/([0-9]+)$ operacion.php?op=$1&op1=$2&op2=$3
 
-####Ejemplo 4: Acortar URL
+#### Ejemplo 4: Acortar URL
 
 Supongamos que dentro de nuestro DocumentRoot tenemos una carpeta búsqueda con un fichero buscar.php ([descargar](http://informatica.gonzalonazareno.org/plataforma/file.php/40/buscar.txt)). Este fichero me permite obtener la página de búsqueda de google con el parámetro dado, de esta forma:
 
@@ -85,7 +85,7 @@ De esta forma accederíamos por medio de la URL:
 
         http://localhost/buscar/hola.html
 
-####Ejemplo 5: Uso del RewriteCond
+#### Ejemplo 5: Uso del RewriteCond
 
 La directiva RewriteCond nos permite especificar una condición que si se cumple se ejecuta la directiva RewriteRule posterior. Se pueden poner varias condiciones con RewriteCond, en este caso cuando se cumplen todas se ejecuta la directiva RewriteRule posterior.
 
@@ -135,7 +135,7 @@ En el anterior ejemplo el primer RewriteCond permite la solicitud directa pero n
 
 **Ejercicio:** Realiza un .htaccess para evitar el hot-linking. Puedes usar esta esta [imagen](http://informatica.gonzalonazareno.org/plataforma/file.php/40/hotlink.gif) para realizar el ejercicio.
 
-####Ejemplo 6: URL amigables con WordPress
+#### Ejemplo 6: URL amigables con WordPress
 
 Ejercicio: Instala wordpress en tu servidor con el módulo rewrite desactivado, comprueba que las URL no son amigables. Activa el módulo y a continuación configura el blog para que tenga URL amigables (Settings->Permalink).
 

@@ -7,11 +7,11 @@ tagline: CFGS ASIR
 
 ### Ejecución de scripts php
 
-####Módulo php de Apache2
+#### Módulo php de Apache2
 
 Módulo de apache: libapache2-mod-php5. No es compatible con event.
 
-####CGI
+#### CGI
 
 La ejecución del código php se hace por un proceso independiente del servidor web. Hay distintas alternativas: CGI, Fastcgi, PHP-FPM,..., puedes ver las diferencias en este [enlace](http://serverfault.com/questions/645755/differences-and-dis-advanages-between-fast-cgi-cgi-mod-php-suphp-php-fpm).
 
@@ -20,7 +20,7 @@ La ejecución del código php se hace por un proceso independiente del servidor 
 
 * [Apache 2.4 with php5-fpm](https://www.digitalocean.com/community/questions/apache-2-4-with-php5-fpm)
 
-####Aceleradores PHP
+#### Aceleradores PHP
 
 El objetivo principal de un acelerador PHP es guardar los scripts php ya compilando, obteniendo un mayor rendimiento en la respuesta del servidor. El acelerador se puede usar usando el módulo php de apache o usando fastcgi. Más información sobre [aceleradores PHP](http://www.maestrosdelweb.com/aceleradores-de-php/).
 
@@ -28,14 +28,14 @@ En la última versión de php (PHP 5.5) ya tenemos una cache de código instalad
 
 Además tenemos otro módulo instalado en PHP 5.5, el módulo apcu, que permite a PHP guardar cierta información en memoria, por lo que también podemos acelerar el proceso de interpretación de código. Para más información sobre estos dos módulos de php puedes leer el artículo: [PHP 5.5 with Opcache and APCu](http://jessesnet.com/development-notes/2014/php-55-opcache-apcu/)
 
-####Memcached
+#### Memcached
 
 [Memcached](http://memcached.org/) es un sistema distribuido de propósito general y que es muy usado en la actualidad por múltiples sitios web. Memcached es empleado para el almacenamiento en caché de datos u objetos en la memoria RAM, reduciendo así las necesidades de acceso a un origen de datos externo (como una base de datos o una API).
 
 * [Manual de instalación de memcached](http://www.pontikis.net/blog/install-memcached-php-debian)
 * [Como utilizar Memcached con WordPress](https://raiolanetworks.es/blog/como-utilizar-memcached-con-wordpress/)
 
-####Varnish
+#### Varnish
 
 Varnish es un acelerador HTTP que funciona como un proxy inverso. Se sitúa por delante del servidor web, cacheando la respuesta de dicho servidor web en memoria. La próxima vez que un visitante visite la misma URL, la página será servida desde Varnish en lugar de desde el servidor web, ahorrando recursos en el backend y permitiendo más conexiones simultáneas.
 

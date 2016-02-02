@@ -6,13 +6,13 @@ tagline: CFGS ASIR
 ---
 ### Ejercicio: Ejercicio completo del servidor DNS (Tiempo estimado: 12 horas)
 
-####Escenario
+#### Escenario
 
 1. En nuestra red local tenemos un servidor Web que sirve dos páginas web: *www.iesgn.org*, *departamento.iesgn.org*
 2. Vamos a instalar en nuestra red local un servidor DNS (lo puedes instalar en el mismo equipo que tiene el servidor web)
 3. Voy a suponer en este documento que el nombre del servidor DNS va a ser *pandora.iesgn.org*
 
-####Ejercicios
+#### Ejercicios
 
 1. Instala el servidor dns **dnsmasq** en *pandora.iesgn.org* y configúralo para que los clientes puedan conocer los nombres necesarios.
 

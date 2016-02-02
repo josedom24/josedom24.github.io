@@ -5,20 +5,20 @@ title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 
-#Proyecto 4: Configuración de un servidor de correos
+# Proyecto 4: Configuración de un servidor de correos
 
 Esta tarea consiste en instalar y configurar un servidor de correo similar al de cualquier organización capaz de enviar y recibir directamente correo, almacenar los usuarios en LDAP, filtrar el correo en busca de virus o spam y servirlo a sus usuarios a través de los protocolos POP, IMAP y configurar un Webmail.
 
-###Objetivos
+### Objetivos
 
 1. Instalar y configurar un servidor postfix en un equipo con dirección IP pública dinámica
 2. Aprender a configurar todos los componentes de un servidor de correos completo
 3. Depurar el funcionamiento de un servicio
 4. Documentar adecuadamente todo el proceso
 
-###Pasos a realizar
+### Pasos a realizar
 
-####En casa
+#### En casa
 
 1. Configura adecuadamente el router de casa para que el puerto 25/tcp de tu equipo sea accesible desde Internet (eso se denomina DNAT o port forwarding)
 2. Date de alta en un servidor DNS dinámico como dyndns.org, no-ip.com, etc. o usa el nombre de dominio propio.
@@ -28,7 +28,7 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 6. Prueba a enviar desde tu equipo un correo electrónico a hotmail y comprueba que rebota los mensajes (mira en /var/log/mail.log), ya que no acepta correos de direcciones IP dinámicas.
 7. Configura postfix para que envíe el correo electrónico a través de gmail como se indica en la documentación. Cuando funcione envía un correo a josedom24@gmail.com
 
-####En clase
+#### En clase
 
 1. Vamos a realizar un sistema de correo para el dominio tudominio.gonzalonazareno.org, cuyo servidor DNS lo administras en la máquina cronos. Tienes que comunicar el nombre de dominio al profesor para configurar el servidor de correos del departamento.
 2. Instala postfix en una máquina y comprueba que recibe correo directamente desde un equipo de Internet (hotmail, gmail, etc.)
@@ -40,7 +40,7 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 8. Instala y configura correctamente un sistema de filtrado de virus y spam utilizando amavis, clamav y spamassasin
 9. Instala un webmail (roundcube) para gestionar el correo del equipo mediante una interfaz web.
 
-#####Parte optativa
+##### Parte optativa
 
 1. Instala openLDAP  configurando la base DNS de manera adecuada.
 2. Instala un esquema adecuado para usuarios de postfix en LDAP
@@ -52,7 +52,7 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 * El buzón de cada usuario está en formato Maildir 
 * El atributo userPassword es un hash SSHA del uid del usuario
 
-####Ficheros a entregar
+#### Ficheros a entregar
 
 Sube en la tarea correspondiente un fichero comprimido en formato tgz que incluya:
 1. Una memoria completa de la tarea en formato pdf donde se describan con detalle todos los pasos dados y las pruebas de funcionamiento realizadas, incluyendo capturas de pantalla y registros de funcionamiento.

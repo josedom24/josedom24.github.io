@@ -4,7 +4,7 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
-#Proyecto 2: Implantación de un servidor de hosting
+# Proyecto 2: Implantación de un servidor de hosting
 
 El objetivo de la práctica es montar un servidor que ofrezca un servicio de de hospedaje de páginas web con las siguientes características:
 
@@ -14,7 +14,7 @@ El objetivo de la práctica es montar un servidor que ofrezca un servicio de de 
 * Para gestionar los ficheros hospedados en nuestro espacio utilizaremos un servidor FTP ftp.nombrededominio.com.
 * Para gestionar las tablas de mysql accederemos al programa phpmyadmin en la dirección mysql.nombrededominio.com.
 
-##Especificaciones técnicas mínimas
+## Especificaciones técnicas mínimas
 
 * El sistema utilizará usuarios virtuales cuya información estará guardad en una base de datos mysql.
 * El administrador debe decidir la estructura para guardar los directorios personales de los usuarios.
@@ -32,18 +32,18 @@ El objetivo de la práctica es montar un servidor que ofrezca un servicio de de 
 
 
 
-##MEJORA 1: Configuración de estadísticas Webs (optativa)
+## MEJORA 1: Configuración de estadísticas Webs (optativa)
 
 Configura el sistema para que todos los usuarios puedan acceder a las estadísticas de su alojamiento web usando el programa awstats. Tendremos que tener en cuanta que el acceso a esta información no será público, para acceder a ella el usuario se tendrá que autentificar con el nombre de usuario y la contraseña que se han generado para la gestión ftp.
 
-##MEJORA 2: Utilización de cuotas (optativa)
+## MEJORA 2: Utilización de cuotas (optativa)
 
 Modificar la configuración de proftpd, para que cada usuario tenga un espacio limitado de 100 Mb.
 
-##MEJORA 3: Usuarios virtuales con LDAP (optativa)
+## MEJORA 3: Usuarios virtuales con LDAP (optativa)
 Modifica toda la configuración para que los suarios virtuales que estamos usando se guarden en un servidor LDAP.
 
-###Estructura de la memoria a entregar
+### Estructura de la memoria a entregar
 El manual que debes realizar tendrá al menos los siguientes apartados:
 
 1. Objetivos del trabajo y explicación de lo realizado

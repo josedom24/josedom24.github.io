@@ -4,7 +4,7 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
-#Proyecto 1: Instalación de un servidor en un centro educativo
+# royecto 1: Instalación de un servidor en un centro educativo
 
 ## Entrega 1: Escenario Windows Server 2008
 

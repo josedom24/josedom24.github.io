@@ -4,7 +4,7 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
-#Proyecto 1: Instalación de un servidor en un centro educativo
+# Proyecto 1: Instalación de un servidor en un centro educativo
 
 ## Entrega 2: Escenario Linux Debian
 

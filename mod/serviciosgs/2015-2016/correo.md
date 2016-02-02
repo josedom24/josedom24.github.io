@@ -5,18 +5,38 @@ title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
 
-#Proyecto 4: Configuración de un servidor de correos
+### Práctica: Servidor de correos
 
-Esta tarea consiste en instalar y configurar un servidor de correo similar al de cualquier organización capaz de enviar y recibir directamente correo, almacenar los usuarios en LDAP, filtrar el correo en busca de virus o spam y servirlo a sus usuarios a través de los protocolos POP, IMAP y configurar un Webmail.
+#### (12 tareas - 20 puntos)(4 tareas obligatorias - 8 puntos)
 
-###Objetivos
+Esta tarea consiste en instalar y configurar un servidor de correo similar al de cualquier organización, capaz de enviar y recibir directamente correo, almacenar los usuarios en LDAP, filtrar el correo en busca de virus o spam y servirlo a sus usuarios a través de los protocolos POP, IMAP y configurar un Webmail.
+
+### Objetivos
 
 1. Instalar y configurar un servidor postfix en un equipo con dirección IP pública dinámica
 2. Aprender a configurar todos los componentes de un servidor de correos completo
 3. Depurar el funcionamiento de un servicio
 4. Documentar adecuadamente todo el proceso
 
-###Pasos a realizar
+### Pasos a realizar
+
+
+#### En clase
+
+1. Vamos a realizar un sistema de correo para el dominio tudominio.gonzalonazareno.org, cuyo servidor DNS lo administras en la máquina piolin. Tienes que comunicar el nombre de dominio al profesor para configurar el servidor de correos del departamento.
+2. Instala postfix en la máquina piolín y comprueba que recibe correo directamente desde un equipo de Internet (hotmail, gmail, etc.)
+3. Configura tu servidor de correos para que use a babuino como relay.
+
+<div class='ejercicios' markdown='1'>
+
+
+4. Prueba a enviar desde tu equipo un correo electrónico a correo@josedomingo.org, explica qué ocurre.
+5. Prueba a enviar desde tu equipo un correo electrónico a hotmail y comprueba que ocurre.
+6. Instala y configura un servidor dovecot POP e IMAP en tu equipo
+7. Configura adecuadamente un cliente de correo (evolution, outlook, thunderbird, ...) para que reciba el correo a través de POP o IMAP. El cliente debe estar configurado en una máquina cliente. Instala un servidor DNS en el servidor para que se puedan resolver los nombres de los servidores.
+8. Instala y configura correctamente un sistema de filtrado de virus y spam utilizando amavis, clamav y spamassasin
+9. Instala un webmail (roundcube) para gestionar el correo del equipo mediante una interfaz web.
+
 
 ####En casa
 
@@ -27,18 +47,6 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 5. Prueba a enviar desde tu equipo un correo electrónico a correo@josedomingo.org, que no lo rechazará aunque venga de una dirección IP dinámica.
 6. Prueba a enviar desde tu equipo un correo electrónico a hotmail y comprueba que rebota los mensajes (mira en /var/log/mail.log), ya que no acepta correos de direcciones IP dinámicas.
 7. Configura postfix para que envíe el correo electrónico a través de gmail como se indica en la documentación. Cuando funcione envía un correo a josedom24@gmail.com
-
-####En clase
-
-1. Vamos a realizar un sistema de correo para el dominio tudominio.gonzalonazareno.org, cuyo servidor DNS lo administras en la máquina cronos. Tienes que comunicar el nombre de dominio al profesor para configurar el servidor de correos del departamento.
-2. Instala postfix en una máquina y comprueba que recibe correo directamente desde un equipo de Internet (hotmail, gmail, etc.)
-3. Configura tu servidor de correos para que use a babuino como relay.
-4. Prueba a enviar desde tu equipo un correo electrónico a correo@josedomingo.org, explica qué ocurre.
-5. Prueba a enviar desde tu equipo un correo electrónico a hotmail y comprueba que ocurre.
-6. Instala y configura un servidor dovecot POP e IMAP en tu equipo
-7. Configura adecuadamente un cliente de correo (evolution, outlook, thunderbird, ...) para que reciba el correo a través de POP o IMAP. El cliente debe estar configurado en una máquina cliente. Instala un servidor DNS en el servidor para que se puedan resolver los nombres de los servidores.
-8. Instala y configura correctamente un sistema de filtrado de virus y spam utilizando amavis, clamav y spamassasin
-9. Instala un webmail (roundcube) para gestionar el correo del equipo mediante una interfaz web.
 
 #####Parte optativa
 

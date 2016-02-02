@@ -8,7 +8,7 @@ tagline: CFGS ASIR
 
 Crea diferentes ACL para obtener los siguientes resultados:
 
-####Reglas de acceso basadas en direcciones IP
+#### Reglas de acceso basadas en direcciones IP
 
 1) Sólo permitir el acceso a squid desde la 10.0.0.2.
 
@@ -20,7 +20,7 @@ Crea diferentes ACL para obtener los siguientes resultados:
 
 5) Permitir el acceso a la red 10.0.0.0, excluyendo al rango 10.0.0.10-10.0.0.20
 
-####Reglas de acceso basadas en puertos, dominios, URLs y tipos MIME
+#### Reglas de acceso basadas en puertos, dominios, URLs y tipos MIME
 
 6) Comprueba el acl que viene en el fichero de configuración donde se indican los puertos permitidos.
 
@@ -51,7 +51,7 @@ Crea diferentes ACL para obtener los siguientes resultados:
 
 15) Evita la visualización de los contenidos flash
 
-####Otras reglas de acceso
+#### Otras reglas de acceso
 
 16) Evita que se pueda navegar con el navgador Internet Explorer
 

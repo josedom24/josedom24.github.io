@@ -4,7 +4,7 @@ layout: index
 title: Servicios de Red e Internet
 tagline: CFGS ASIR
 ---
-#Proyecto 1: Instalación de un servidor en un centro educativo
+# Proyecto 1: Instalación de un servidor en un centro educativo
 Nos han contratado para instalar y configurar un servidor que de servicio a un centro educativo. En la actualidad poseen un servidor ofreciendo algunos servicios, pero es necesario hacer una migración para poder ofrecer más servicios.
 
 ##1. Esquema de red actual
@@ -13,7 +13,7 @@ Como podemos ver en el esquema de red, en la actualidad dentro de nuetra red loc
 
 ![Esquema de red](img/Diagrama1.png)
 
-###a) Servidor DHCP
+### a) Servidor DHCP
 
 Los ordenadores clientes de nuestra LAN obtienen su configuración de red ofrecidas por dicho servidor, que tiene las siguientes características:
 
@@ -22,7 +22,7 @@ Los ordenadores clientes de nuestra LAN obtienen su configuración de red ofreci
 * Puerta de enlace: La ip del router
 * DNS: Según el que te convenga para hacer las pruebas 
 
-###b) Servidor DNS
+### b) Servidor DNS
 
 Lo primero que tienes que hacer es determinar el nombre de dominio (puede ser el nombre del insitituo, inventatelo) que va a ser utilizado en nuestro sistema. (En esta documentación voy a utilizar el nombre example.com). El servidor DNS ofrece el servicio de resolución de nombres para los ordenadores de nuestra red local. Debes tener en cunta los siguientes puntos:
 
@@ -30,7 +30,7 @@ Lo primero que tienes que hacer es determinar el nombre de dominio (puede ser el
 * Piensa el nombre que tiene el servidor. El servidor DNS debe poder resolver los siguientes nombres: nombredelservidor.example.com, www.example.com, informatica.example.com El primero es el nombre del servidor, los dos siguientes son dos páginas webs que el servidor va a servir. 
 * Debes implementar la zona inversa del servidor.
 
-###c) Servidor WEB
+### c) Servidor WEB
 
 El servidor tiene instalado un servidor Web IIS, que sirve dos virtual host con páginas web estáticas.
 
@@ -46,7 +46,7 @@ Deficiencias que nos encontramos con este esquema
 4. El servidor web actualmente instalado solo ofrece página html estáticas. 
 5. Algunos servicios que faltan: web dinámica, servicio de ftp, servicio de correos, proxy,...
 
-##2. Especificación del nuevo esquema de red
+## 2. Especificación del nuevo esquema de red
 
 El centro educativo ha comprado un servidor, en el que se va instalar una distribución Debian Wheezy, y que se va a instalar siguiendo este esquema de red:
 
@@ -54,11 +54,11 @@ El centro educativo ha comprado un servidor, en el que se va instalar una distri
 
 Aunque vamos a mantener el servidor Windows 2008 dentro de nuestra red local, vamos a sustituyendo los distintos servicios que ofrece. Se mantiene por que suponemos que ofrece un servicio de directorio activo que no vamos a sustituir.
 
-###a) Enrutador
+### a) Enrutador
 
 Como se observa en el esquema nuestro ordenador va a tener dos tarjetas de red, por lo tanto va a ser el responsable de gestionar la comunicación que entra y sale de nuestra red local. En una segunda fase de nuestra implantación (esto se estudiará en la asignatura de seguridad) se implantará un cortafuego en este equipo. Lo que tenemos que configurar este equipo para que enrute y haga la función de NAT.
 
-###b) Servidor DHCP
+### b) Servidor DHCP
 
 Debes instalar un servidor DHCP en este ordenador. Para probarlo sin ningún problema debes parar el servidor DHCP del Windows 2008. Debe tener las siguientes características:
 
@@ -66,7 +66,7 @@ Debes instalar un servidor DHCP en este ordenador. Para probarlo sin ningún pro
 * Máscara de red: 255.255.255.0 
 * DNS: Según el que te convenga para hacer las pruebas 
 
-###c) Servidor Web
+### c) Servidor Web
 
 En nuestro servidor debian vamos a instalar un servidor Web apache2 que haga las funciones del antiguo servidor web del windows 2008. Tendrá las siguientes características.
 
@@ -81,7 +81,7 @@ En nuestro servidor debian vamos a instalar un servidor Web apache2 que haga las
 9. Configura la página wordpress para usar URL amigables, módulo rewrite. Modifica del punto 4 lo que sea necesario para que funcione este punto.
 
 
-###d) Servidor DNS
+### d) Servidor DNS
 
 Vamos a instalar en nuestra red un servidor DNS bind9 que permita la resolución de nombres. Este servicio va a sustituir al servidor Windows 2008. El servidor DNS ofrece el servicio de resolución de nombres para los ordenadores de nuestra red local. Debes tener en cunta los siguientes puntos:
 
