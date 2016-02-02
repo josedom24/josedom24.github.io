@@ -22,7 +22,7 @@ tagline: CFGM SMR
 * [Ejercicio 6: xhtml. Formularios](ej6)
 * [Ejercicio 7: xhtml. Trabajo final](ej7)
 
-#####css
+##### css
 
 * [Ejercicio 8: css. Selectores, unidades de medidas y colores](ej8)
 * [Ejercicio 9: css. Modelos de cajas](ej9)
@@ -32,7 +32,7 @@ tagline: CFGM SMR
 * [Ejercicio 13: css. Tablas, formularios y Layout](ej13)
 * [Ejercicio 14: css. Trabajo final](ej14)
 
-#####Proyecto xhtml y css
+##### Proyecto xhtml y css
 
 * [Proyecto xhtml y css](proyecto1)
 

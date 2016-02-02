@@ -6,7 +6,7 @@ tagline: CFGM SMR
 ---
 ### Ejercicio: Instalación de paquetes
 
-####Instalar paquetes
+#### Instalar paquetes
 
 Vamos a instalar un servicio de ejemplo, utilizando la herramienta apt-get. El servicio que vamos a instalar es ntp, que nos permite la sincronización del reloj del sistema.
 
@@ -145,7 +145,7 @@ Te da la lista de dependencias del paquete indicado.
 
 </div>
 
-####Aptitude
+#### Aptitude
 
 Siguiendo algún manual de Aptitude realiza las siguientes tareas:
 

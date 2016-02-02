@@ -7,7 +7,7 @@ tagline: CFGM SMR
 
 ### Ejercicio 8: css. Selectores, unidades de medidas y colores.
 
-####Resumen
+#### Resumen
 
 * **Selector**: indica el elemento o elementos HTML a los que se aplica la regla CSS. Para más [información](http://librosweb.es/css/capitulo_2/selectores_basicos.html).
 

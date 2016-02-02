@@ -12,7 +12,7 @@ La herramienta de validación desde línea de comandos que utilizaremos se llama
 
 	xmllint fichero.xml --schema fichero.xsd
 
-####Ejemplo 1: Tipos simples
+#### Ejemplo 1: Tipos simples
 
 ejemplo1.xml
 
@@ -26,7 +26,7 @@ ejemplo1.xsd
 		<xs:element name="nota" type="xs:string"/>
 	</xs:schema>
 
-####Ejemplo 2: Tipos complejos
+#### Ejemplo 2: Tipos complejos
 
 [libro1.xml](fich/libro1.xml)
 
@@ -49,7 +49,7 @@ ejemplo1.xsd
 		</xs:element>
 	</xs:schema>
 
-####Ejemplo 3: Tipos complejos II
+#### Ejemplo 3: Tipos complejos II
 
 [libro2.xml](fich/libro2.xml)
 
@@ -84,7 +84,7 @@ ejemplo1.xsd
 	</xs:element>
 	</xs:schema>
 
-####Ejemplo 4: Restricciones
+#### Ejemplo 4: Restricciones
 
 [libro3.xml](fich/libro3.xml)
 
@@ -130,7 +130,7 @@ ejemplo1.xsd
 	</xs:element>
 	</xs:schema>
 
-####Ejemplo 5: Restricciones II
+#### Ejemplo 5: Restricciones II
 
 [libro4.xml](fich/libro4.xml)
 
@@ -198,7 +198,7 @@ ejemplo1.xsd
 	</xs:element>
 	</xs:schema>
 
-####Ejemplo 6: Atributos
+#### Ejemplo 6: Atributos
 
 [libro5.xml](fich/libro5.xml)
 

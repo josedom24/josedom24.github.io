@@ -19,7 +19,7 @@ Los niveles de ejecución ( Run Levels ) definen diferentes estados de funcionam
         6 Parada y arranque
         7-9 No se usan
 
-####Secuencia de arranque
+#### Secuencia de arranque
 **1) Debian arranca ejecutando el programa init. El archivo de configuración de init es /etc/inittab.**
 
 La entrada initdefault determina el nivel de ejecución inicial del sistema.
@@ -166,7 +166,7 @@ Del mismo modo puedes ver el nombre del proceso mirando la lista de procesos con
 
 </div>
 
-###Systemd
+### Systemd
 
 Iniciar servicio:
 
@@ -184,7 +184,7 @@ Recargar servicio (si lo permite):
 
         systemctl reload *servicio*
 
-###Logs de procesos
+### Logs de procesos
 
 Los logs de los procesos se guardan en el directorio */var/log/*, por ejemplo el fichero *syslog* es el principal, y en él podemos encontrar mensa      jes de distintos procesos (por ejemplo el servidor dhcp). Algunos servicios tienen su propio fichero de log, por ejemlo */var/log/apache2/error.log*.
 

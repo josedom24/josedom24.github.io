@@ -7,7 +7,7 @@ tagline: CFGM SMR
 
 ### Ejercicio 9: css. Modelos de cajas.
 
-####Resumen
+#### Resumen
 
 ![ej9](img/ej9_1.gif)
 
@@ -29,7 +29,7 @@ Las partes que componen cada caja y su orden de visualización desde el punto de
 	3. Estilo: border-top-style, border-right-style, border-bottom-style, border-left-style, border-style
 	4. Fondos: background-color, background-image, background-repeat, background-position
 
-####Ejercicios
+#### Ejercicios
 
 1. A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesarias para añadir los siguientes márgenes y rellenos:
 

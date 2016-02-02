@@ -69,7 +69,7 @@ Con estas instrucciones puedes desconectar (ifdown) y conectar (ifup) la interfa
         ifdown eth0
 
 
-####Configurando los nombres de la máquina y la resolución DNS
+#### Configurando los nombres de la máquina y la resolución DNS
 **/etc/nsswitch.conf**
 
 En este fichero se especifican los métodos de resolución de nombres del equipo, por ejemplo existe una línea:

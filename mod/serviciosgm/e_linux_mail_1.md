@@ -6,7 +6,7 @@ tagline: CFGM SMR
 ---
 ### Ejercicio: Instalación del servidor de correo postfix
 
-####Instalación de Postfix
+#### Instalación de Postfix
 
 Vamos a instalar el servidor de correo postfix, con la siguiente instrucción:
 
@@ -27,7 +27,7 @@ Si modificamos algún parámetro de postfix habrá que hacer que el demonio que 
 
         service postfix reload
 
-####Pruebas de funcionamiento
+#### Pruebas de funcionamiento
 Para comprobar que un servidor de correo está funcionando correctamente hay que hacer pruebas de envío y recepción de correo, tanto el envío como la recepción de correo quedará registrada en el fichero /var/log/mail.log, por lo que conviene abrirlo de forma continua en una terminal:
 
         tail -f /var/log/mail.log
