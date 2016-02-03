@@ -58,13 +58,13 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 * Date de alta en un servidor DNS dinámico como dyndns.org, no-ip.com, etc. o usa el nombre de dominio propio.
 * Configura el DNS de tu proveedor para que la máquina a la que apunta el registro MX corresponda a tu IP pública. Si vas a utilizar un servicio gratuito como dyndns.org, no-ip.com, simplemente debes configurarlo para que apunte a tu ip.
 * Instala postfix en tu máquina y comprueba que recibe correo directamente desde un equipo de Internet (hotmail, gmail, etc.)
-* Prueba a enviar desde tu equipo un correo electrónico a josed.munoz.edu@juntadeandalucia.es , que no lo rechazará aunque venga de una dirección IP dinámica.
+* Prueba a enviar desde tu equipo un correo electrónico a josedom24@openmailbox.org , que no lo rechazará aunque venga de una dirección IP dinámica.
 * Prueba a enviar desde tu equipo un correo electrónico a hotmail/gmail y comprueba que rebota los mensajes (mira en /var/log/mail.log), ya que no acepta correos de direcciones IP dinámicas.
 * Configura postfix para que envíe el correo electrónico a través de gmail como se indica en la documentación. Cuando funcione envía un correo a josedom24@gmail.com
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 8 (2 puntos):** Envía el correo a josed.munoz.edu@juntadeandalucia.es
+* **Tarea 8 (2 puntos):** Envía el correo a josedom24@openmailbox.org
 * **Tarea 9 (3 puntos):** Responde al correo qu yo te voy a mandar desde esa dirección.
 * **Tarea 10 (4 puntos):** ¿Te rebota el correo enviado al exterior por qué estas usando ip dínamica? Independientemente de la respuesta, muestra el log donde se vea el envío de ese correo y documenta la configuración del relay con gmail. Finalmente envía un correo a josedom24@gmail.com.
 
