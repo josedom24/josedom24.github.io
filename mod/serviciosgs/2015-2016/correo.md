@@ -29,20 +29,30 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 3 (1 puntos)(Obligatorio):** Documenta en redmine una prueba de funcionamiento, donde envíes un correo desde el exterior(gmail, hotmail,...) a tu servidor local.
-* **Tarea 4 (1 puntos)(Obligatorio):** Docuementa en redmine una prueba de funcionamiento, donde envíes desde tu servidor local al exterior.
+* **Tarea 1 (1 puntos)(Obligatorio):** Docuementa en redmine una prueba de funcionamiento, donde envíes desde tu servidor local al exterior. Muestra el log donde se vea el envío.
+* **Tarea 2 (1 puntos)(Obligatorio):** Documenta en redmine una prueba de funcionamiento, donde envíes un correo desde el exterior(gmail, hotmail,...) a tu servidor local. Muestra el log donde se vea el envío.
 </div>
-
 
 * Instala y configura un servidor dovecot POP e IMAP en tu equipo
 * Configura adecuadamente un cliente de correo (evolution, outlook, thunderbird, ...) para que reciba el correo a través de POP o IMAP. El cliente debe estar configurado en una máquina cliente. Nombra en tu servidor DNS al servidor smtp, pop e imap.
 
+<div class='ejercicios' markdown='1'>
+* **Tarea 3 (2 puntos)(Obligatorio):** Docuementa en redmine una prueba de funcionamiento, donde envíes desde tu cliente de correos al exterior. ¿Cómo se llama el servidor para enviar el correo? (Muestra la configuración).
+* **Tarea 4 (2 puntos)(Obligatorio):** Documenta en redmine una prueba de funcionamiento, donde recibas un correo desde el exterior(gmail, hotmail,...) y lo leas en tu cliente de correo. Utiliza el protocolo POP.  ¿Cómo se llama el servidor para enviar el correo? (Muestra la configuración). Muestra una prueba de funcionamiento de cómo funciona el protocolo POP.
+* **Tarea 5 (2 puntos)(Obligatorio):** Documenta en redmine una prueba de funcionamiento, donde recibas un correo desde el exterior(gmail, hotmail,...) y lo leas en tu cliente de correo. Utiliza el protocolo IMAP.  ¿Cómo se llama el servidor para enviar el correo? (Muestra la configuración). Muestra una prueba de funcionamiento de cómo funciona el protocolo IMAP.
+</div>
 
-* Instala y configura correctamente un sistema de filtrado de virus y spam utilizando amavis, clamav y spamassasin
 * Instala un webmail (roundcube) para gestionar el correo del equipo mediante una interfaz web.
+* Instala y configura correctamente un sistema de filtrado de virus y spam utilizando amavis, clamav y spamassasin
 
+<div class='ejercicios' markdown='1'>
 
-####En casa
+* **Tarea 6 (3 puntos):** Muestra al profesor el envío y recepción de correos utilizando el webmail.
+* **Tarea 7 (5 puntos):** Muestra al profesor el funcionamiento del sistema de filtrado de virus y spam.
+
+</div>
+
+#### En casa
 
 1. Configura adecuadamente el router de casa para que el puerto 25/tcp de tu equipo sea accesible desde Internet (eso se denomina DNAT o port forwarding)
 2. Date de alta en un servidor DNS dinámico como dyndns.org, no-ip.com, etc. o usa el nombre de dominio propio.
