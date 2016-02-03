@@ -66,7 +66,7 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 
 * **Tarea 8 (2 puntos):** Envía el correo a josed.munoz.edu@juntadeandalucia.es
 * **Tarea 9 (3 puntos):** Responde al correo qu yo te voy a mandar desde esa dirección.
-* **Tarea 10 (4 puntos):** ¿Te rebota el correo enviado al exterior por qué estas usando ip dínamica? Independientemente de la respuesta, muestra el log donde se vea el envío de ese correo y documenta la configuración del relay con gmail. finalmente envía un correo a josedom24@gmail.com.
+* **Tarea 10 (4 puntos):** ¿Te rebota el correo enviado al exterior por qué estas usando ip dínamica? Independientemente de la respuesta, muestra el log donde se vea el envío de ese correo y documenta la configuración del relay con gmail. Finalmente envía un correo a josedom24@gmail.com.
 
 </div>
 
