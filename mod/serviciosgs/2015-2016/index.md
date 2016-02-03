@@ -22,9 +22,10 @@ tagline: CFGS ASIR
 * [Estudio de distintos servidores webs (20 puntos)](webservers)
 * [Gestionar un hosting por ftp (15 puntos)](ftp)
 * [Implantación de un servidor de hosting (35 puntos)](hosting)
+* [Servidor de correos (30 puntos)](correos)
 * Servidor proxy/cache squid
 * Balanceador de carga
-* Servidor de correos
+
 
 #### Resultados
 
