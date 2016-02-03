@@ -7,7 +7,7 @@ tagline: CFGS ASIR
 
 ### Práctica: Servidor de correos
 
-#### (12 tareas - 20 puntos)(4 tareas obligatorias - 8 puntos)
+#### (11 tareas - 30 puntos)(5 tareas obligatorias - 8 puntos)
 
 Esta tarea consiste en instalar y configurar un servidor de correo similar al de cualquier organización, capaz de enviar y recibir directamente correo, almacenar los usuarios en LDAP, filtrar el correo en busca de virus o spam y servirlo a sus usuarios a través de los protocolos POP, IMAP y configurar un Webmail.
 
@@ -54,32 +54,36 @@ Esta tarea consiste en instalar y configurar un servidor de correo similar al de
 
 #### En casa
 
-1. Configura adecuadamente el router de casa para que el puerto 25/tcp de tu equipo sea accesible desde Internet (eso se denomina DNAT o port forwarding)
-2. Date de alta en un servidor DNS dinámico como dyndns.org, no-ip.com, etc. o usa el nombre de dominio propio.
-3. Configura el DNS de tu proveedor para que la máquina a la que apunta el registro MX corresponda a tu IP pública. Si vas a utilizar un servicio gratuito como dyndns.org, no-ip.com, simplemente debes configurarlo para que apunte a tu ip.
-4. Instala postfix en tu máquina y comprueba que recibe correo directamente desde un equipo de Internet (hotmail, gmail, etc.)
-5. Prueba a enviar desde tu equipo un correo electrónico a correo@josedomingo.org, que no lo rechazará aunque venga de una dirección IP dinámica.
-6. Prueba a enviar desde tu equipo un correo electrónico a hotmail y comprueba que rebota los mensajes (mira en /var/log/mail.log), ya que no acepta correos de direcciones IP dinámicas.
-7. Configura postfix para que envíe el correo electrónico a través de gmail como se indica en la documentación. Cuando funcione envía un correo a josedom24@gmail.com
+* Configura adecuadamente el router de casa para que el puerto 25/tcp de tu equipo sea accesible desde Internet (eso se denomina DNAT o port forwarding)
+* Date de alta en un servidor DNS dinámico como dyndns.org, no-ip.com, etc. o usa el nombre de dominio propio.
+* Configura el DNS de tu proveedor para que la máquina a la que apunta el registro MX corresponda a tu IP pública. Si vas a utilizar un servicio gratuito como dyndns.org, no-ip.com, simplemente debes configurarlo para que apunte a tu ip.
+* Instala postfix en tu máquina y comprueba que recibe correo directamente desde un equipo de Internet (hotmail, gmail, etc.)
+* Prueba a enviar desde tu equipo un correo electrónico a josed.munoz.edu@juntadeandalucia.es , que no lo rechazará aunque venga de una dirección IP dinámica.
+* Prueba a enviar desde tu equipo un correo electrónico a hotmail/gmail y comprueba que rebota los mensajes (mira en /var/log/mail.log), ya que no acepta correos de direcciones IP dinámicas.
+* Configura postfix para que envíe el correo electrónico a través de gmail como se indica en la documentación. Cuando funcione envía un correo a josedom24@gmail.com
 
-#####Parte optativa
+<div class='ejercicios' markdown='1'>
 
-1. Instala openLDAP  configurando la base DNS de manera adecuada.
-2. Instala un esquema adecuado para usuarios de postfix en LDAP
-3.  Crea un script que reciba un nombre de usuario y añade un nuevo registro al LDAP:
+* **Tarea 8 (2 puntos):** Envía el correo a josed.munoz.edu@juntadeandalucia.es
+* **Tarea 9 (3 puntos):** Responde al correo qu yo te voy a mandar desde esa dirección.
+* **Tarea 10 (4 puntos):** ¿Te rebota el correo enviado al exterior por qué estas usando ip dínamica? Independientemente de la respuesta, muestra el log donde se vea el envío de ese correo y documenta la configuración del relay con gmail. finalmente envía un correo a josedom24@gmail.com.
 
-* El dn debes ajustarlo a la base a la de tu directorio
-* Cada entrada incluye un objectClass y atributos adecuados para postfix 
-* El atributo mail es del tipo usuario@dominio
-* El buzón de cada usuario está en formato Maildir 
-* El atributo userPassword es un hash SSHA del uid del usuario
+</div>
 
-####Ficheros a entregar
+* En el servidor de clase, configura postfix para que use usuarios virtuales guardados en un servidor ldap.
+	* Instala un esquema adecuado para usuarios de postfix en LDAP
+	* Crea un script que reciba un nombre de usuario y añade un nuevo registro al LDAP:
 
-Sube en la tarea correspondiente un fichero comprimido en formato tgz que incluya:
-1. Una memoria completa de la tarea en formato pdf donde se describan con detalle todos los pasos dados y las pruebas de funcionamiento realizadas, incluyendo capturas de pantalla y registros de funcionamiento.
-2. Los ficheros de configuración más relevantes
-3. Las líneas adecuadas de los ficheros de registros implicados 
+	1. El dn debes ajustarlo a la base a la de tu directorio
+	2. Cada entrada incluye un objectClass y atributos adecuados para postfix 
+	3. El atributo mail es del tipo usuario@dominio
+	4. El buzón de cada usuario está en formato Maildir 
+	5. El atributo userPassword es un hash SSHA del uid del usuario
 
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 11 (5 puntos):** Documenta en redmine la configuración realizada. Y realiza una prueba de funcionamiento al profesor.
+
+</div>
       
 [Volver](index)
