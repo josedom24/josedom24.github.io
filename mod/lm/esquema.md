@@ -12,6 +12,8 @@ La herramienta de validación desde línea de comandos que utilizaremos se llama
 
 	xmllint fichero.xml --schema fichero.xsd
 
+Tambien podemos utilizar un programa gráfico que se llama xsddiagram.
+
 #### Ejemplo 1: Tipos simples
 
 ejemplo1.xml
