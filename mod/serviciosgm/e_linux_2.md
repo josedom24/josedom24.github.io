@@ -115,7 +115,7 @@ De modo esquemático podemos ver:
 
 </div>
 
-###Arranque y parada de lo servicios
+### Arranque y parada de lo servicios
 
 Una vez que se han cargado los servicios que se encuentran en el directorio /etc/rc2.d, podemos comprobar que los demonios correspondientes a cada servicio se están ejecutando con la instrucción:
 
@@ -139,7 +139,7 @@ También se puede utilizar el comando **service**, de esta forma para reiniciar 
 </div>
 
 
-###Envío de señales a los procesos
+### Envío de señales a los procesos
 
 Es posible el envío de distintas señales a los procesos. La más usada es matar un proceso, si por ejemplo se queda inactivo. Para ello utilizamos la siguiente instrucción:
 
