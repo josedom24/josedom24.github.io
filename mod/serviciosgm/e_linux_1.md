@@ -47,7 +47,7 @@ Antes de realizar el siguiente ejercicio, desinstala el servidor ssh.
 1) Instala ahora otro servidor que vamos a utilizar durante el curso: el SSH, que nos permite la conexión remota de forma segura a nuestro ordenador.
 </div>
 
-####Desinstalar paquetes:
+#### Desinstalar paquetes:
 
 La opción de apt-get que debemos usar para desisntalar nuestro paquete es la siguiente:
 
@@ -68,7 +68,7 @@ Esta opción no elimina los ficheros de configuración del servicio, para hacerl
 4) Vuelve a instalar el servidor SSH, ya que lo vamos a utilizar durante el curso. ¿Por qué a partir de la segunda instalación el proceso es más rápido?
 </div>
 
-####Actualizando los paquetes de nuestro sistema
+#### Actualizando los paquetes de nuestro sistema
 
         apt-get update
 
@@ -93,7 +93,7 @@ Cuando usamos APT para instalar paquetes hace dos tareas por separado: en un pri
 5) Escribe la instrucción qie permite actualizar la lista de paquetes disponibles para instalar.
 </div>
 
-####Descarga de los paquetes para su instalación
+#### Descarga de los paquetes para su instalación
 
 Todos los paquetes descargados por APT se almacenan en un directorio, para posteriormente poder instalarlo con dpkg. El directorio donde podemos encontrar los paquetes bajados es:
 
@@ -114,7 +114,7 @@ Para borrar esta cache de paquetes podemos usar la opción siguiente de APT:
 
 </div>
 
-####Buscando paquetes en los repositorios: apt-cache
+#### Buscando paquetes en los repositorios: apt-cache
 
 Con la siguiente instrucciones podemos buscar paquetes en los repositorios:
 
