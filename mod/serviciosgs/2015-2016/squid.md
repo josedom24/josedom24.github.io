@@ -1,4 +1,4 @@
-x---
+---
 layout: index
 
 title: Servicios de Red e Internet
