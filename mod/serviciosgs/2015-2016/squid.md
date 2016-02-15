@@ -7,7 +7,7 @@ tagline: CFGS ASIR
 
 ## Servidor proxy/cache squid
 
-#### (10 tareas - 20 puntos)(5 tareas obligatorias - 9 puntos)
+#### (8 tareas - 20 puntos)(4 tareas obligatorias - 7 puntos)
 
 Queremos instalar un servidor proxy/cache en nuestro servidor taz. Con ello vamos a poder controlar las páginas web a las que accedamos, además de acelerar nuestra navegación.
 
@@ -42,7 +42,7 @@ Nos piden la configuración de un proxy/cache/filtro en nuestra infraestrucutra.
 * **Tarea 2 (2 puntos)(Obligatorio)**: Muestra al profesor: Accede como alumno. Intenta bajar un fichero multimedia.
 * **Tarea 3 (2 puntos)(Obligatorio)**: Muestra al profesor: Cambia la hora del servidor a las 15:00 de la tarde y comprueba que no hay conexión.
 * **Tarea 4 (2 puntos)(Obligatorio)**: Muestra al profesor: Accede como profesor e intenta bajar un fichero zip.
-* **Tarea 5 (2 puntos)(Obligatorio)**: Muestra al profesor: Cambia la fecha del servidor e indica un fin de semana y comprueba que no hay conexión.
+* **Tarea 5 (2 puntos)**: Muestra al profesor: Cambia la fecha del servidor e indica un fin de semana y comprueba que no hay conexión.
 * **Tarea 6 (3 puntos)**: Muestra al profesor: Filtra el dominio youtube.com en la lista negra y prueba que realmente no se puede acceder.
 * **Tarea 7 (4 puntos)**: Documenta la instalación de sarg, y muestra al profesor las estadísticas de accceso al proxy con sarg.
 * **Tarea 8 (4 puntos)**: Documenta la configuración de Dansguardian, muestra al profesor el funcionamiento.
