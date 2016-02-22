@@ -130,11 +130,8 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 #### Configurar y evaluar balanceo de carga con dos servidores Apache
 
 1. Deshabilitar la redirección del puerto 80 de la máquina balanceador concatenaciones el siguiente comando iptables (HAproxy se encargará de retransmitir ese tráfico sin necesidad de redireccionar los puertos)
-
 2. Arrancar los servidores Apache de apache1 [10.10.10.11] y apache2 [10.10.10.22]
-
 3. Instalar HAproxy en balanceador
-
 4. Configurar HAproxy en balanceador (de momento sin soporte de sesiones persistentes)
 
 		balanceador:~# cd /etc/haproxy
@@ -167,16 +164,15 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 	Define (en la sección listen) un "proxy inverso" de nombre granja_cda que:
 
-		* trabajará en modo http (la otra alternativa es el modo tcp, pero no analiza las peticiones/respuestas HTTP, sólo retransmite paquetes TCP)
-		* atendiendo peticiones en el puerto 80 del balanceador
-		* con balanceo round-robin
-		* que repartirá las peticiones entre dos servidores reales (de nombres uno y dos) en el puerto 80 de las direcciones 10.10.10.11 y 10.10.10.22
-		* adicionalmente, habilita la consola Web de estadísticas, accesible con las credenciales cda:cda
+	* trabajará en modo http (la otra alternativa es el modo tcp, pero no analiza las peticiones/respuestas HTTP, sólo retransmite paquetes TCP)
+	* atendiendo peticiones en el puerto 80 del balanceador
+	* con balanceo round-robin
+	* que repartirá las peticiones entre dos servidores reales (de nombres uno y dos) en el puerto 80 de las direcciones 10.10.10.11 y 10.10.10.22
+	* adicionalmente, habilita la consola Web de estadísticas, accesible con las credenciales cda:cda
 
 	Más detalles en [Opciones de configuración HAPproxy 1.5](http://cbonte.github.io/haproxy-dconv/configuration-1.5.html)
 
 5. Iniciar HAproxy en balanceador: Antes de hacerlo es necesario habilitar en /etc/default/haproxy el arranque de HAproxy desde los scripts de inicio, estableciendo la variable ENABLED=1
-
 6. Desde la máquina cliente abrir en un navegador web la URL http://172.22.x.x y recargar varias veces para comprobar como cambia el servidor real que responde las peticiones.
 
 	Nota: Si no se ha deshabilitado la opción KeepAlive de Apache, es necesario esperar 5 segundos entre las recargas para que se agote el tiempo de espera para cerrar completamente la conexión HTTP y que pase a ser atendida por otro servidor. 
@@ -187,19 +183,11 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 </div>
 
-    Desde la máquina cliente [193.147.87.33] repetir las pruebas de carga con ab
-
-    Pruebas a realizar:
-
-    cliente:~# ab -n 2000 -c 10 http://193.147.87.47/index.html
-    cliente:~# ab -n 2000 -c 50 http://193.147.87.47/index.html
-
-    cliente:~# ab -n 250 -c 10 http://193.147.87.47/sleep.php
-    cliente:~# ab -n 250 -c 30 http://193.147.87.47/sleep.php
+7. Desde la máquina cliente repetir las pruebas de carga con ab:
 
     Los resultados deberían de ser mejores que con la prueba anterior con un servidor Apache único (al menos en el caso del script sleep.php)
 
-    Desde la máquina cliente [193.147.87.33] abrir en un navegador web la URL http://193.147.87.47/haproxy?stats para inspeccionar las estadísticas del balanceador HAProxy (pedirá un usuario y un password, ambos cda)
+8. Desde la máquina cliente [193.147.87.33] abrir en un navegador web la URL http://193.147.87.47/haproxy?stats para inspeccionar las estadísticas del balanceador HAProxy (pedirá un usuario y un password, ambos cda)
 
     Desde uno de los servidores (apache1 ó apache2), verificar los logs del servidor Apache
 
