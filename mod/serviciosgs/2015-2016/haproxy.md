@@ -9,7 +9,7 @@ tagline: CFGS ASIR
 
 En primer lugar, construye con KVM con vagrant la siguiente infraestructura:
 
-![haproxy](haproxy.jpg)
+<a href="haproxy.jpg"><img src="haproxy" width="30%"/></a>
 
 Ajustar la configuración de las dos máquinas del cluster de balanceo (apache1 y apache2)
 
