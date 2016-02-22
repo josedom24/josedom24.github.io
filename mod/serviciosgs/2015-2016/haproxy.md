@@ -102,14 +102,14 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 3. Lanzar las pruebas de carga iniciales sobre balanceador usando el herramienta Apache Benchmark
 
-    * Prueba 1: Contenido estático
+	Prueba 1: Contenido estático
 
 		cliente:~# ab -n 2000 -c 10 http://172.22.x.x/index.html
 		cliente:~# ab -n 2000 -c 50 http://172.22.x.x/index.html
 
     Envía 2000 peticiones HTTP sobre la URI ''estática'', manteniendo, respectivamente, 10 y 50 conexiones concurrentes. 
 
-   	* Prueba 2: Scripts PHP
+	Prueba 2: Scripts PHP
 
     Se usará un script PHP (sleep.php) que introduce un retardo mediante un bucle "activo" de 2000000 iteraciones que busca forzar el uso de CPU con cálculos de hashes SHA1 y concatenaciones de cadenas.
 
@@ -121,6 +121,6 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (1 punto)(Obligatorio)**:
+* **Tarea 1 (1 punto)(Obligatorio)**: 
 
 </div>
