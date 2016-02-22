@@ -28,6 +28,7 @@ tagline: CFGS ASIR
 3. [Desarrollo de una aplicación con el framework django](django)
 4. [ Despliegue de una aplicación python/django](python)
 5. [Despliegue de una aplicación Ruby/RoR](ruby)
+6. [Implantación de aplicaciones con docker](docker)
 
 #### Unidades
 
