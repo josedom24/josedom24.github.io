@@ -241,29 +241,29 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
     	Contenido a incluir: (añadidos marcados con <- aquí)
 
 		global
-            daemon
-            maxconn 256
-            user    haproxy
-            group   haproxy
-            log     127.0.0.1       local0
-            log     127.0.0.1       local1  notice
+			daemon
+			maxconn 256
+			user    haproxy
+			group   haproxy
+			log     127.0.0.1       local0
+			log     127.0.0.1       local1  notice		
 
-    	defaults
-            mode    http
-            log     global
-            timeout connect 10000ms
-            timeout client  50000ms
-            timeout server  50000ms
+		defaults
+			mode    http
+			log     global
+			timeout connect 10000ms
+			timeout client  50000ms
+			timeout server  50000ms		
 
-    	listen granja_cda 
-            bind 172.22.x.x:80 #aquí pon la dirección ip del balanceador
-            mode http
-            stats enable
-            stats auth  cda:cda
-            balance roundrobin
-            cookie PHPSESSID prefix                               # <- aquí
-            server uno 10.10.10.11:80 cookie EL_UNO maxconn 128   # <- aquí
-            server dos 10.10.10.22:80 cookie EL_DOS maxconn 128   # <- aquí
+		listen granja_cda 
+		    bind 172.22.x.x:80 #aquí pon la dirección ip del balanceador
+		    mode http
+		    stats enable
+		    stats auth  cda:cda
+		    balance roundrobin
+		    cookie PHPSESSID prefix                               # <- aquí
+		    server uno 10.10.10.11:80 cookie EL_UNO maxconn 128   # <- aquí
+		    server dos 10.10.10.22:80 cookie EL_DOS maxconn 128   # <- aquí
 
     El parámetro cookie especifica el nombre de la cookie que se usa como identificador único de la sesión del cliente (en el caso de aplicaciones web PHP se suele utilizar por defecto el nombre PHPSESSID). Para cada "servidor real" se especifica una etiqueta identificativa exclusiva mediante el parámetro cookie. Con esa información HAproxy reescribirá las cabeceras HTTP de peticiones y respuestas para seguir la pista de las sesiones establecidas en cada "servidor real" usando el nombre de cookie especificado (PHPSESSID)
         
