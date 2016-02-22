@@ -92,13 +92,13 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 	                            --in-interface eth0 --protocol tcp --dport 80 \
 	                            -j DNAT --to-destination 10.10.10.11
 
-Nota: la regla iptables establece una redirección del puerto 80 de la máquina balanceador al mismo puerto de la máquina apache1 para el tráfico procedente de la red externa (interfaz de entrada eth0).
+	Nota: la regla iptables establece una redirección del puerto 80 de la máquina balanceador al mismo puerto de la máquina apache1 para el tráfico procedente de la red externa (interfaz de entrada eth0).
 
 2. Arrancar en apache1 [10.10.10.11] el servidor web Apache
 
 		apache1:~# /etc/init.d/apache2 start
 
-Nota: Desde la máquina cliente se puede abrir en un navegador web la URL http://172.22.x.x para comprobar que el servidor está arrancado y que la redirección del puerto 80 está funcionando.
+	Nota: Desde la máquina cliente se puede abrir en un navegador web la URL http://172.22.x.x para comprobar que el servidor está arrancado y que la redirección del puerto 80 está funcionando.
 
 3. Lanzar las pruebas de carga iniciales sobre balanceador usando el herramienta Apache Benchmark
 
@@ -116,7 +116,7 @@ Nota: Desde la máquina cliente se puede abrir en un navegador web la URL http:/
 		cliente:~# ab -n 250 -c 10 http://172.22.x.x/sleep.php
 		cliente:~# ab -n 250 -c 30 http://172.22.x.x/sleep.php
 
-Envía 250 peticiones HTTP sobre la URI "dinámica", manteniendo, respectivamente, 10 y 30 conexiones concurrentes. (aprox 5-7 minutos)
+	Envía 250 peticiones HTTP sobre la URI "dinámica", manteniendo, respectivamente, 10 y 30 conexiones concurrentes. (aprox 5-7 minutos)
 
 
 <div class='ejercicios' markdown='1'>
