@@ -7,6 +7,8 @@ tagline: CFGS ASIR
 
 ### Balanceo de carga en servidores Apache con HAproxy
 
+#### (9 tareas - 20 puntos)(4 tareas obligatorias - 9 puntos)
+
 En primer lugar, construye con KVM con vagrant la siguiente infraestructura:
 
 [![haproxy](haproxy2.jpg)](haproxy.jpg)
@@ -25,7 +27,7 @@ Ajustar la configuración de las dos máquinas del cluster de balanceo (apache1 
 		KeepAlive Off
 		...
 
-    Nota: este ajuste no es estrictemente necesario (y sería desaconsejable en un entorno de producción real), pero facilita las pruebas manaueles dado que permite detectar inmediatamente el ''cambio'' de destino resultado del balanceo de carga manteniendo la opción por defecto, en las pruebas manuales desde el navegador sería necesario esperar 5 segundos (el time out de keep alive) antes de recargar la página y ver el efecto del reparto de carga
+    Nota: este ajuste no es estrictamente necesario (y sería desaconsejable en un entorno de producción real), pero facilita las pruebas manuales dado que permite detectar inmediatamente el "cambio" de destino resultado del balanceo de carga manteniendo la opción por defecto, en las pruebas manuales desde el navegador sería necesario esperar 5 segundos (el time out de keep alive) antes de recargar la página y ver el efecto del reparto de carga
 
 2. Editar los archivos del sitio web para incluir una indicación del servidor real que está sirviendo una petición, de modo que sea posible ''diferenciarlos'' en las pruebas manuales con el navegador 
 		
@@ -293,7 +295,7 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 2. Siguiendo la documentación ofrecida, configura un balanceador de carga en openstack.
 
 <div class='ejercicios' markdown='1'>	
-* **Tarea 7 (2 puntos)**: Muestra al profesor y documenta el proceso de creación del balanceador de carga para comprobar el funcionamiento cuando accedemos a las páginas html.
+* **Tarea 7 (2 puntos)(Obligatorio)**: Muestra al profesor y documenta el proceso de creación del balanceador de carga para comprobar el funcionamiento cuando accedemos a las páginas html.
 * **Tarea 8 (3 puntos)**: Configura de manera adecuada el balanceador de carga para que tenga en cuenta la persistencia de sesiones. Muestra al profesor su funcionamiento accediendo al fichero sesion.php y documenta los cambios que has configurado.
 * **Tarea 9 (3 puntos)**: Crea otra instancia con un servidor mysql, e instala en los servidores web un CMS wordpress que accedan a la misma base de datos. Comprueba que el balanceado se produce de manera adecuada
 </div>
