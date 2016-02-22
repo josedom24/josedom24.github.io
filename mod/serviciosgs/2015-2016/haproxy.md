@@ -87,12 +87,40 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 1. Habilitar en **balanceador** la redirección de puertos para que sea accesible el servidor Apache de la máquina apache1 [10.10.10.11] empleando el siguiente comando iptables
 
-	    balanceador:~# echo 1 > /proc/sys/net/ipv4/ip_forward
-	    balanceador:~# iptables -t nat -A PREROUTING \
+		balanceador:~# echo 1 > /proc/sys/net/ipv4/ip_forward
+		balanceador:~# iptables -t nat -A PREROUTING \
 	                            --in-interface eth0 --protocol tcp --dport 80 \
 	                            -j DNAT --to-destination 10.10.10.11
 
 Nota: la regla iptables establece una redirección del puerto 80 de la máquina balanceador al mismo puerto de la máquina apache1 para el tráfico procedente de la red externa (interfaz de entrada eth0).
 
+2. Arrancar en apache1 [10.10.10.11] el servidor web Apache
+
+		apache1:~# /etc/init.d/apache2 start
+
+Nota: Desde la máquina cliente se puede abrir en un navegador web la URL http://172.22.x.x para comprobar que el servidor está arrancado y que la redirección del puerto 80 está funcionando.
+
+3. Lanzar las pruebas de carga iniciales sobre balanceador usando el herramienta Apache Benchmark
+
+    * Prueba 1: Contenido estático
+
+		cliente:~# ab -n 2000 -c 10 http://172.22.x.x/index.html
+		cliente:~# ab -n 2000 -c 50 http://172.22.x.x/index.html
+
+    Envía 2000 peticiones HTTP sobre la URI ''estática'', manteniendo, respectivamente, 10 y 50 conexiones concurrentes. 
+
+   	* Prueba 2: Scripts PHP
+
+    Se usará un script PHP (sleep.php) que introduce un retardo mediante un bucle "activo" de 2000000 iteraciones que busca forzar el uso de CPU con cálculos de hashes SHA1 y concatenaciones de cadenas.
+
+		cliente:~# ab -n 250 -c 10 http://172.22.x.x/sleep.php
+		cliente:~# ab -n 250 -c 30 http://172.22.x.x/sleep.php
+
+Envía 250 peticiones HTTP sobre la URI "dinámica", manteniendo, respectivamente, 10 y 30 conexiones concurrentes. (aprox 5-7 minutos)
 
 
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 1 (1 punto)(Obligatorio)**:
+
+</div>
