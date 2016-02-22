@@ -238,7 +238,7 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 		balanceador:~# nano /etc/haproxy/haproxy.cfg
 
-    	Contenido a incluir: (añadidos marcados con <- aqui)
+    	Contenido a incluir: (añadidos marcados con <- aquí)
 
 		global
             daemon
@@ -261,9 +261,9 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
             stats enable
             stats auth  cda:cda
             balance roundrobin
-            cookie PHPSESSID prefix                               # <- aqui
-            server uno 10.10.10.11:80 cookie EL_UNO maxconn 128   # <- aqui
-            server dos 10.10.10.22:80 cookie EL_DOS maxconn 128   # <- aqui
+            cookie PHPSESSID prefix                               # <- aquí
+            server uno 10.10.10.11:80 cookie EL_UNO maxconn 128   # <- aquí
+            server dos 10.10.10.22:80 cookie EL_DOS maxconn 128   # <- aquí
 
     El parámetro cookie especifica el nombre de la cookie que se usa como identificador único de la sesión del cliente (en el caso de aplicaciones web PHP se suele utilizar por defecto el nombre PHPSESSID). Para cada "servidor real" se especifica una etiqueta identificativa exclusiva mediante el parámetro cookie. Con esa información HAproxy reescribirá las cabeceras HTTP de peticiones y respuestas para seguir la pista de las sesiones establecidas en cada "servidor real" usando el nombre de cookie especificado (PHPSESSID)
         
@@ -287,10 +287,14 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 	</div>
 
+#### Configurar lbass en openstack
 
-    
+1. Crea dos instancias en el cloud que sean servidor web y crea en cada una de ella un fichero index.html y sesion.php similares a los de la tarea enterior.
+2. Siguiendo la documentación ofrecida, configura un balanceador de carga en openstack.
 
-
-
-
-http://ccia.ei.uvigo.es/docencia/CDA/1516/practicas/ejercicio-haproxy/
+<div class='ejercicios' markdown='1'>	
+* **Tarea 7 (2 puntos)**: Muestra al profesor y documenta el proceso de creación del balanceador de carga para comprobar el funcionamiento cuando accedemos a las páginas html.
+* **Tarea 8 (3 puntos)**: Configura de manera adecuada el balanceador de carga para que tenga en cuenta la persistencia de sesiones. Muestra al profesor su funcionamiento accediendo al fichero sesion.php y documenta los cambios que has configurado.
+* **Tarea 9 (3 puntos)**: Crea otra instancia con un servidor mysql, e instala en los servidores web un CMS wordpress que accedan a la misma base de datos. Comprueba que el balanceado se produce de manera adecuada
+</div>
+   
