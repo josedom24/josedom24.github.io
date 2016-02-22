@@ -9,4 +9,4 @@ tagline: CFGS ASIR
 
 1. En primer lugar, construye con KVM con vagrant la siguiente infraestructura:
 
-![haproxy](haproxy.png)
+![haproxy](haproxy.jpg)
