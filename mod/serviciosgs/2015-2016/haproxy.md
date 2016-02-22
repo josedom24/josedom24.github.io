@@ -31,31 +31,26 @@ Ajustar la configuración de las dos máquinas del cluster de balanceo (apache1 
 		
 	En apache1
 
-       	    apache1:~# nano /var/www/html/index.html
-            ...
-            ...
-       	       <h1> Servidor por APACHE_UNO </h1>
-            ...
-
-       	    apache1:~# nano /var/www/html/sesion.php	
-       	    ...
-            ...
-       	       <h1> Servidor por la máquina APACHE_UNO </h1>
-            ...
+		apache1:~# nano /var/www/html/index.html
+		...
+		<h1> Servidor por APACHE_UNO </h1>
+		...
+		apache1:~# nano /var/www/html/sesion.php	
+		...
+		<h1> Servidor por la máquina APACHE_UNO </h1>
+		...
 
     En apache2	
 
-       	    apache2:~# nano /var/www/html/index.html
-            ...
-            ...
-       	       <h1> Servidor por APACHE_DOS </h1>
-            ...
+		apache2:~# nano /var/www/html/index.html
+		...
+		<h1> Servidor por APACHE_DOS </h1>
+		...		
 
-            apache2:~# nano /var/www/html/sesion.php	
-            ...
-            ...
-               <h1> Servidor por la máquina APACHE_DOS </h1>
-            ...
+		apache2:~# nano /var/www/html/sesion.php	
+		...
+		<h1> Servidor por la máquina APACHE_DOS </h1>
+		...
 
     Nota: este ajuste es simplemente una herramienta de depuración en una "granja" de servidores real este comportamiento no tendría sentido, dado que, obviamente, todos los nodos servirían el mismo contenido/aplicaciones
 
@@ -63,24 +58,21 @@ Ajustar la configuración de las dos máquinas del cluster de balanceo (apache1 
     
 	    apache1~:# nano /var/www/html/sleep.php
 
-       
-          <html>
-          <title> Retardos de x segundos </title>
-          <body>
-          <h1> Prueba con retardo de x segundos </h1>
-          <p> hora de inicio: <?php echo date('h:i:s'); ?> </p>
-
-          <?php  
-          for ($i=0; $i < 2000000; $i++) {    
-              $str1 = sha1(rand()*rand());  
-              $str2 = sha1(rand()*rand());  
-              $str3 = sha1($str1+$str2);    
-          }
-          ?>
-
-          <p> hora de fin: <?php echo date('h:i:s'); ?> </p>
-          </body>
-          </html>
+		<html>      
+			<title> Retardos de x segundos </title>
+		<body>
+			<h1> Prueba con retardo de x segundos </h1>
+			<p> hora de inicio: <?php echo date('h:i:s'); ?> </p>
+			<?php  
+			for ($i=0; $i < 2000000; $i++) {    
+				$str1 = sha1(rand()*rand());  
+				$str2 = sha1(rand()*rand());  
+				$str3 = sha1($str1+$str2);    
+			}
+			?>
+			<p> hora de fin: <?php echo date('h:i:s'); ?> </p>
+		</body>
+		</html>
 
     Comprobación
 
