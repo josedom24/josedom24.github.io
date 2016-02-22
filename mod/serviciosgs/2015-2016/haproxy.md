@@ -15,12 +15,12 @@ Ajustar la configuración de las dos máquinas del cluster de balanceo (apache1 
 
 1. Deshabilitar la opción KeepAlive en el fichero de configuración /etc/apache2/apache2.conf para realizar la evaluación del rendimiento sin la opción de reutilización de conexiones.
 
-		apache1:~# nano /etc/apache2/apache2.conf  
+		apache1:~# nano /etc/apache2/apache2.conf
 		...
 		KeepAlive Off
 		...		
 
-		apache2:~# nano /etc/apache2/apache2.conf  
+		apache2:~# nano /etc/apache2/apache2.conf
 		...
 		KeepAlive Off
 		...
@@ -58,16 +58,16 @@ Ajustar la configuración de las dos máquinas del cluster de balanceo (apache1 
     
 	    apache1~:# nano /var/www/html/sleep.php
 
-		<html>      
+		<html>
 			<title> Retardos de x segundos </title>
 		<body>
 			<h1> Prueba con retardo de x segundos </h1>
 			<p> hora de inicio: <?php echo date('h:i:s'); ?> </p>
-			<?php  
-			for ($i=0; $i < 2000000; $i++) {    
-				$str1 = sha1(rand()*rand());  
-				$str2 = sha1(rand()*rand());  
-				$str3 = sha1($str1+$str2);    
+			<?php
+			for ($i=0; $i < 2000000; $i++) { 
+				$str1 = sha1(rand()*rand());
+				$str2 = sha1(rand()*rand());
+				$str3 = sha1($str1+$str2);
 			}
 			?>
 			<p> hora de fin: <?php echo date('h:i:s'); ?> </p>
@@ -123,7 +123,7 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (3 puntos)(Obligatorio)**: Ejecuta varias veces los comandos ab con cada una de las pruebas y calcula la media de los resultados obtenidos (Requests per second (número peticiones por segundo) ó Time per request (tiempo en milisegundos para procesar cada petición)) para cda una de las cargas.
+* **Tarea 1 (3 puntos)(Obligatorio)**: Ejecuta varias veces los comandos ab con cada una de las pruebas y calcula la media de los resultados obtenidos (Requests per second (número peticiones por segundo) ó Time per request (tiempo en milisegundos para procesar cada petición)) para cada una de las cargas.
 
 </div>
 
@@ -179,7 +179,7 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 2 (1 puntos)(Obligatorio)**: Muestra al profesor y entrega capturas de pantalla que el balancedaro está funcionando.
+* **Tarea 2 (1 puntos)(Obligatorio)**: Muestra al profesor y entrega capturas de pantalla que el balanceador está funcionando.
 
 </div>
 
@@ -187,9 +187,22 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
     Los resultados deberían de ser mejores que con la prueba anterior con un servidor Apache único (al menos en el caso del script sleep.php)
 
-8. Desde la máquina cliente [193.147.87.33] abrir en un navegador web la URL http://193.147.87.47/haproxy?stats para inspeccionar las estadísticas del balanceador HAProxy (pedirá un usuario y un password, ambos cda)
+<div class='ejercicios' markdown='1'>
 
-    Desde uno de los servidores (apache1 ó apache2), verificar los logs del servidor Apache
+* **Tarea 3 (3 puntos)(Obligatorio)**: Ejecuta varias veces los comandos ab con cada una de las pruebas y calcula la media de los resultados obtenidos (Requests per second (número peticiones por segundo) ó Time per request (tiempo en milisegundos para procesar cada petición)) para cada una de las cargas. ¿Son mejores que con un solo servidor web?
+
+</div>
+
+
+8. Desde la máquina cliente  abrir en un navegador web la URL http://172.22.x.x/haproxy?stats para inspeccionar las estadísticas del balanceador HAProxy (pedirá un usuario y un password, ambos cda)
+
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 4 (1 punto)**: Entrega una captura de pantalla donde se vea la página web de estadísticas de haproxy.
+
+</div>
+
+9. Desde uno de los servidores (apache1 ó apache2), verificar los logs del servidor Apache
 
     apacheN:~# tail /var/log/apache2/error.log
     apacheN:~# tail /var/log/apache2/access.log
