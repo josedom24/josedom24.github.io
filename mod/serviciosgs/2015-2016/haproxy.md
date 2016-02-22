@@ -36,9 +36,28 @@ Ajustar la configuración de las dos máquinas del cluster de balanceo (apache1 
 		<h1> Servidor por APACHE_UNO </h1>
 		...
 		apache1:~# nano /var/www/html/sesion.php	
-		...
-		<h1> Servidor por la máquina APACHE_UNO </h1>
-		...
+		
+
+		<?php
+		header('Content-Type: text/plain');
+		session_start();
+		if(!isset($_SESSION['visit']))
+		{
+		        echo "This is the first time you're visiting this server";
+		        $_SESSION['visit'] = 0;
+		}
+		else
+		        echo "Your number of visits: ".$_SESSION['visit'];		
+
+		$_SESSION['visit']++;		
+
+		echo "\nServer IP: ".$_SERVER['SERVER_ADDR'];
+		echo "\nClient IP: ".$_SERVER['REMOTE_ADDR'];
+		echo "\nX-Forwarded-for: ".$_SERVER['HTTP_X_FORWARDED_FOR']."\n";
+		print_r($_COOKIE);
+		?>
+
+
 
     En apache2	
 
@@ -47,10 +66,8 @@ Ajustar la configuración de las dos máquinas del cluster de balanceo (apache1 
 		<h1> Servidor por APACHE_DOS </h1>
 		...		
 
-		apache2:~# nano /var/www/html/sesion.php	
-		...
-		<h1> Servidor por la máquina APACHE_DOS </h1>
-		...
+	Y el sesion.php con el mismo contenido.
+		
 
     Nota: este ajuste es simplemente una herramienta de depuración en una "granja" de servidores real este comportamiento no tendría sentido, dado que, obviamente, todos los nodos servirían el mismo contenido/aplicaciones
 
@@ -204,8 +221,8 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 9. Desde uno de los servidores (apache1 ó apache2), verificar los logs del servidor Apache
 
-    apacheN:~# tail /var/log/apache2/error.log
-    apacheN:~# tail /var/log/apache2/access.log
+		apacheN:~# tail /var/log/apache2/error.log
+		apacheN:~# tail /var/log/apache2/access.log
 
 
 	<div class='ejercicios' markdown='1'>	
@@ -214,19 +231,16 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 	</div>
 
-2.4 Tarea 3: configurar la persistencia de conexiones Web (sticky sessions)
+#### Configurar la persistencia de conexiones Web (sticky sessions)
 
-    Detener HAproxy en la máquina balanceador [193.147.87.47]
+1. Detener HAproxy en la máquina balanceador 
+2. Añadir las opciones de persistencia de conexiones HTTP (sticky cookies) al fichero de configuración
 
-          balanceador:/etc/haproxy/# /etc/init.d/haproxy stop
+		balanceador:~# nano /etc/haproxy/haproxy.cfg
 
-    Añadir las opciones de persistencia de conexiones HTTP (sticky cookies) al fichero de configuración
+    	Contenido a incluir: (añadidos marcados con <- aqui)
 
-        balanceador:~# nano /etc/haproxy/haproxy.cfg
-
-    Contenido a incluir: (añadidos marcados con <- aqui)
-
-    global
+		global
             daemon
             maxconn 256
             user    haproxy
@@ -234,15 +248,15 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
             log     127.0.0.1       local0
             log     127.0.0.1       local1  notice
 
-    defaults
+    	defaults
             mode    http
             log     global
             timeout connect 10000ms
             timeout client  50000ms
             timeout server  50000ms
 
-    listen granja_cda 
-            bind 193.147.87.47:80
+    	listen granja_cda 
+            bind 172.22.x.x:80 #aquí pon la dirección ip del balanceador
             mode http
             stats enable
             stats auth  cda:cda
@@ -251,33 +265,27 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
             server uno 10.10.10.11:80 cookie EL_UNO maxconn 128   # <- aqui
             server dos 10.10.10.22:80 cookie EL_DOS maxconn 128   # <- aqui
 
-    El parámetro cookie especifica el nombre de la cookie que se usa como identificador único de la sesión del cliente (en el caso de aplicaciones web PHP se suele utilizar por defecto el nombre PHPSESSID)
+    El parámetro cookie especifica el nombre de la cookie que se usa como identificador único de la sesión del cliente (en el caso de aplicaciones web PHP se suele utilizar por defecto el nombre PHPSESSID). Para cada "servidor real" se especifica una etiqueta identificativa exclusiva mediante el parámetro cookie. Con esa información HAproxy reescribirá las cabeceras HTTP de peticiones y respuestas para seguir la pista de las sesiones establecidas en cada "servidor real" usando el nombre de cookie especificado (PHPSESSID)
+        
+    * conexión cliente -> balanceador HAproxy : cookie original + etiqueta de servidor
+    * conexión balanceador HAproxy -> servidor : cookie original
 
-    Para cada ''servidor real'' se especifica una etiqueta identificativa exclusiva mediante el parámetro cookie
+3. Iniciar HAproxy en la máquina balanceador 
+4. En la máquina cliente, arrancar el sniffer de red whireshark y ponerlo en escucha sobre el interfaz eth0 (fijar como filtro la cadena http para que solo muestre las peticiones y respuestas HTTP).
+5. En la máquina cliente:
+        
+    * desde el navegador web acceder varias veces a la URL http://172.22.x.x/sesion.php (comprobar el incremento del contador [variable de sesión])
+    * acceder la misma URL desde el navegador en modo texto lynx (o desde una pestaña de ''incógnito'' de Iceweasel para forzar la creación de una nueva sesión)
 
-    Con esa información HAproxy reescribirá las cabeceras HTTP de peticiones y respuestas para seguir la pista de las sesiones establecidas en cada ''servidor real'' usando el nombre de cookie especificado (PHPSESSID)
-        conexión cliente -> balanceador HAproxy : cookie original + etiqueta de servidor
-        conexión balanceador HAproxy -> servidor : cookie original
+		cliente:~# lynx -accept-all-cookies  http://172.22.x.x/sesion.php
 
-    Iniciar HAproxy en la máquina balanceador [193.147.87.47]
+6. Detener la captura de tráfico en wireshark y comprobar las peticiones/respuestas HTTP capturadas
 
-          balanceador:/etc/haproxy/# /etc/init.d/haproxy start
+	<div class='ejercicios' markdown='1'>	
 
-    En la máquina cliente [193.147.87.33], arrancar el sniffer de red whireshark y ponerlo en escucha sobre el interfaz eth0 (fijar como filtro la cadena http para que solo muestre las peticiones y respuestas HTTP)
+	* **Tarea 6 (3 puntos)**:Verificar la estructura y valores de las cookies PHPSESSID intercambiadas. En la primera respuesta HTTP (inicio de sesión), se establece su valor con un parámetro HTTP SetCookie en la cabecera de la respuesta. Las sucesivas peticiones del cliente incluyen el valor de esa cookie (parámetro HTTP Cookie en la cabecera de las peticiones)
 
-          cliente:~# wireshark &
-
-    En la máquina cliente [193.147.87.33]
-        desde el navegador web acceder varias veces a la URL http://193.147.87.47/sesion.php (comprobar el incremento del contador [variable de sesión])
-        acceder la misma URL desde el navegador en modo texto lynx (o desde una pestaña de ''incógnito'' de Iceweasel para forzar la creación de una nueva sesión)
-
-              cliente:~# lynx -accept-all-cookies  http://193.147.87.47/sesion.php
-
-    Detener la captura de tráfico en wireshark y comprobar las peticiones/respuestas HTTP capturadas
-
-    Verificar la estructura y valores de las cookies PHPSESSID intercambiadas
-        En la primera respuesta HTTP (inicio de sesión), se establece su valor con un parámetro HTTP SetCookie en la cabecera de la respuesta
-        Las sucesivas peticiones del cliente incluyen el valor de esa cookie (parámetro HTTP Cookie en la cabecera de las peticiones)
+	</div>
 
 
     
