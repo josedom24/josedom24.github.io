@@ -29,6 +29,7 @@ tagline: CFGS ASIR
 4. [ Despliegue de una aplicación python/django](python)
 5. [Despliegue de una aplicación Ruby/RoR](ruby)
 6. [Implantación de aplicaciones con docker](docker)
+7. [Despliegue de una aplicación node.js](nodejs)
 
 #### Unidades
 
