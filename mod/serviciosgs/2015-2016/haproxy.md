@@ -106,6 +106,7 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 		cliente:~# ab -n 2000 -c 10 http://172.22.x.x/index.html
 		cliente:~# ab -n 2000 -c 50 http://172.22.x.x/index.html
+		cliente:~# ab -n 2000 -c 100 http://172.22.x.x/index.html
 
     Envía 2000 peticiones HTTP sobre la URI ''estática'', manteniendo, respectivamente, 10 y 50 conexiones concurrentes. 
 
@@ -115,12 +116,167 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 		cliente:~# ab -n 250 -c 10 http://172.22.x.x/sleep.php
 		cliente:~# ab -n 250 -c 30 http://172.22.x.x/sleep.php
+		cliente:~# ab -n 250 -c 50 http://172.22.x.x/sleep.php
 
 	Envía 250 peticiones HTTP sobre la URI "dinámica", manteniendo, respectivamente, 10 y 30 conexiones concurrentes. (aprox 5-7 minutos)
 
 
 <div class='ejercicios' markdown='1'>
 
-* **Tarea 1 (1 punto)(Obligatorio)**: 
+* **Tarea 1 (3 puntos)(Obligatorio)**: Ejecuta varias veces los comandos ab con cada una de las pruebas y calcula la media de los resultados obtenidos (Requests per second (número peticiones por segundo) ó Time per request (tiempo en milisegundos para procesar cada petición)) para cda una de las cargas.
 
 </div>
+
+#### Configurar y evaluar balanceo de carga con dos servidores Apache
+
+1. Deshabilitar la redirección del puerto 80 de la máquina balanceador concatenaciones el siguiente comando iptables (HAproxy se encargará de retransmitir ese tráfico sin necesidad de redireccionar los puertos)
+
+2. Arrancar los servidores Apache de apache1 [10.10.10.11] y apache2 [10.10.10.22]
+
+3. Instalar HAproxy en balanceador
+
+4. Configurar HAproxy en balanceador (de momento sin soporte de sesiones persistentes)
+
+		balanceador:~# cd /etc/haproxy
+	    balanceador:/etc/haproxy/# mv haproxy.cfg haproxy.cfg.original
+	    balanceador:/etc/haproxy/# nano haproxy.cfg	
+
+	    global
+	        daemon
+	        maxconn 256
+	        user    haproxy
+	        group   haproxy
+	        log     127.0.0.1       local0
+	        log     127.0.0.1       local1  notice	
+
+		defaults
+	        mode    http
+	        log     global
+	        timeout connect 5000ms
+	        timeout client  50000ms
+	        timeout server  50000ms	
+
+		listen granja_cda 
+	        bind 193.147.87.47:80
+	        mode http
+	        stats enable
+	        stats auth  cda:cda
+	        balance roundrobin
+	        server uno 10.10.10.11:80 maxconn 128
+	        server dos 10.10.10.22:80 maxconn 128
+
+	Define (en la sección listen) un "proxy inverso" de nombre granja_cda que:
+
+		* trabajará en modo http (la otra alternativa es el modo tcp, pero no analiza las peticiones/respuestas HTTP, sólo retransmite paquetes TCP)
+		* atendiendo peticiones en el puerto 80 del balanceador
+		* con balanceo round-robin
+		* que repartirá las peticiones entre dos servidores reales (de nombres uno y dos) en el puerto 80 de las direcciones 10.10.10.11 y 10.10.10.22
+		* adicionalmente, habilita la consola Web de estadísticas, accesible con las credenciales cda:cda
+
+	Más detalles en [Opciones de configuración HAPproxy 1.5](http://cbonte.github.io/haproxy-dconv/configuration-1.5.html)
+
+5. Iniciar HAproxy en balanceador: Antes de hacerlo es necesario habilitar en /etc/default/haproxy el arranque de HAproxy desde los scripts de inicio, estableciendo la variable ENABLED=1
+
+6. Desde la máquina cliente abrir en un navegador web la URL http://172.22.x.x y recargar varias veces para comprobar como cambia el servidor real que responde las peticiones.
+
+	Nota: Si no se ha deshabilitado la opción KeepAlive de Apache, es necesario esperar 5 segundos entre las recargas para que se agote el tiempo de espera para cerrar completamente la conexión HTTP y que pase a ser atendida por otro servidor. 
+
+<div class='ejercicios' markdown='1'>
+
+* **Tarea 2 (1 puntos)(Obligatorio)**: Muestra al profesor y entrega capturas de pantalla que el balancedaro está funcionando.
+
+</div>
+
+    Desde la máquina cliente [193.147.87.33] repetir las pruebas de carga con ab
+
+    Pruebas a realizar:
+
+    cliente:~# ab -n 2000 -c 10 http://193.147.87.47/index.html
+    cliente:~# ab -n 2000 -c 50 http://193.147.87.47/index.html
+
+    cliente:~# ab -n 250 -c 10 http://193.147.87.47/sleep.php
+    cliente:~# ab -n 250 -c 30 http://193.147.87.47/sleep.php
+
+    Los resultados deberían de ser mejores que con la prueba anterior con un servidor Apache único (al menos en el caso del script sleep.php)
+
+    Desde la máquina cliente [193.147.87.33] abrir en un navegador web la URL http://193.147.87.47/haproxy?stats para inspeccionar las estadísticas del balanceador HAProxy (pedirá un usuario y un password, ambos cda)
+
+    Desde uno de los servidores (apache1 ó apache2), verificar los logs del servidor Apache
+
+    apacheN:~# tail /var/log/apache2/error.log
+    apacheN:~# tail /var/log/apache2/access.log
+
+    En todos los casos debería figurar como única dirección IP cliente la IP interna de la máquina balanceador [10.10.10.1]. ¿Por qué?
+
+2.4 Tarea 3: configurar la persistencia de conexiones Web (sticky sessions)
+
+    Detener HAproxy en la máquina balanceador [193.147.87.47]
+
+          balanceador:/etc/haproxy/# /etc/init.d/haproxy stop
+
+    Añadir las opciones de persistencia de conexiones HTTP (sticky cookies) al fichero de configuración
+
+        balanceador:~# nano /etc/haproxy/haproxy.cfg
+
+    Contenido a incluir: (añadidos marcados con <- aqui)
+
+    global
+            daemon
+            maxconn 256
+            user    haproxy
+            group   haproxy
+            log     127.0.0.1       local0
+            log     127.0.0.1       local1  notice
+
+    defaults
+            mode    http
+            log     global
+            timeout connect 10000ms
+            timeout client  50000ms
+            timeout server  50000ms
+
+    listen granja_cda 
+            bind 193.147.87.47:80
+            mode http
+            stats enable
+            stats auth  cda:cda
+            balance roundrobin
+            cookie PHPSESSID prefix                               # <- aqui
+            server uno 10.10.10.11:80 cookie EL_UNO maxconn 128   # <- aqui
+            server dos 10.10.10.22:80 cookie EL_DOS maxconn 128   # <- aqui
+
+    El parámetro cookie especifica el nombre de la cookie que se usa como identificador único de la sesión del cliente (en el caso de aplicaciones web PHP se suele utilizar por defecto el nombre PHPSESSID)
+
+    Para cada ''servidor real'' se especifica una etiqueta identificativa exclusiva mediante el parámetro cookie
+
+    Con esa información HAproxy reescribirá las cabeceras HTTP de peticiones y respuestas para seguir la pista de las sesiones establecidas en cada ''servidor real'' usando el nombre de cookie especificado (PHPSESSID)
+        conexión cliente -> balanceador HAproxy : cookie original + etiqueta de servidor
+        conexión balanceador HAproxy -> servidor : cookie original
+
+    Iniciar HAproxy en la máquina balanceador [193.147.87.47]
+
+          balanceador:/etc/haproxy/# /etc/init.d/haproxy start
+
+    En la máquina cliente [193.147.87.33], arrancar el sniffer de red whireshark y ponerlo en escucha sobre el interfaz eth0 (fijar como filtro la cadena http para que solo muestre las peticiones y respuestas HTTP)
+
+          cliente:~# wireshark &
+
+    En la máquina cliente [193.147.87.33]
+        desde el navegador web acceder varias veces a la URL http://193.147.87.47/sesion.php (comprobar el incremento del contador [variable de sesión])
+        acceder la misma URL desde el navegador en modo texto lynx (o desde una pestaña de ''incógnito'' de Iceweasel para forzar la creación de una nueva sesión)
+
+              cliente:~# lynx -accept-all-cookies  http://193.147.87.47/sesion.php
+
+    Detener la captura de tráfico en wireshark y comprobar las peticiones/respuestas HTTP capturadas
+
+    Verificar la estructura y valores de las cookies PHPSESSID intercambiadas
+        En la primera respuesta HTTP (inicio de sesión), se establece su valor con un parámetro HTTP SetCookie en la cabecera de la respuesta
+        Las sucesivas peticiones del cliente incluyen el valor de esa cookie (parámetro HTTP Cookie en la cabecera de las peticiones)
+
+
+    
+
+
+
+
+http://ccia.ei.uvigo.es/docencia/CDA/1516/practicas/ejercicio-haproxy/
