@@ -177,37 +177,42 @@ Se realizarán varias pruebas de carga sobre el servidor Apache ubicado en la m�
 
 	Nota: Si no se ha deshabilitado la opción KeepAlive de Apache, es necesario esperar 5 segundos entre las recargas para que se agote el tiempo de espera para cerrar completamente la conexión HTTP y que pase a ser atendida por otro servidor. 
 
-<div class='ejercicios' markdown='1'>
+	<div class='ejercicios' markdown='1'>	
 
-* **Tarea 2 (1 puntos)(Obligatorio)**: Muestra al profesor y entrega capturas de pantalla que el balanceador está funcionando.
+	* **Tarea 2 (1 puntos)(Obligatorio)**: Muestra al profesor y entrega capturas de pantalla que el balanceador está funcionando.	
 
-</div>
+	</div>
 
 7. Desde la máquina cliente repetir las pruebas de carga con ab:
 
     Los resultados deberían de ser mejores que con la prueba anterior con un servidor Apache único (al menos en el caso del script sleep.php)
 
-<div class='ejercicios' markdown='1'>
+	<div class='ejercicios' markdown='1'>	
 
-* **Tarea 3 (3 puntos)(Obligatorio)**: Ejecuta varias veces los comandos ab con cada una de las pruebas y calcula la media de los resultados obtenidos (Requests per second (número peticiones por segundo) ó Time per request (tiempo en milisegundos para procesar cada petición)) para cada una de las cargas. ¿Son mejores que con un solo servidor web?
+	* **Tarea 3 (3 puntos)(Obligatorio)**: Ejecuta varias veces los comandos ab con cada una de las pruebas y calcula la media de los resultados obtenidos (Requests per second (número peticiones por segundo) ó Time per request (tiempo en milisegundos para procesar cada petición)) para cada una de las cargas. ¿Son mejores que con un solo servidor web?	
 
-</div>
+	</div>
 
 
 8. Desde la máquina cliente  abrir en un navegador web la URL http://172.22.x.x/haproxy?stats para inspeccionar las estadísticas del balanceador HAProxy (pedirá un usuario y un password, ambos cda)
 
-<div class='ejercicios' markdown='1'>
+	<div class='ejercicios' markdown='1'>	
 
-* **Tarea 4 (1 punto)**: Entrega una captura de pantalla donde se vea la página web de estadísticas de haproxy.
+	* **Tarea 4 (1 punto)**: Entrega una captura de pantalla donde se vea la página web de estadísticas de haproxy.	
 
-</div>
+	</div>
 
 9. Desde uno de los servidores (apache1 ó apache2), verificar los logs del servidor Apache
 
     apacheN:~# tail /var/log/apache2/error.log
     apacheN:~# tail /var/log/apache2/access.log
 
-    En todos los casos debería figurar como única dirección IP cliente la IP interna de la máquina balanceador [10.10.10.1]. ¿Por qué?
+
+	<div class='ejercicios' markdown='1'>	
+    
+    * **Tarea 5 (1 punto)**: En todos los casos debería figurar como única dirección IP cliente la IP interna de la máquina balanceador [10.10.10.1]. ¿Por qué?
+
+	</div>
 
 2.4 Tarea 3: configurar la persistencia de conexiones Web (sticky sessions)
 
