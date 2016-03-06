@@ -1,8 +1,8 @@
 ---
 layout: index
 
-title: Aplicaciones web
-tagline: CFGM SMR
+title: Lenguajes de marcas
+tagline: CFGS ASIR
 ---
 
 ### Proyecto xhtml y css
@@ -17,6 +17,7 @@ El proyecto consiste en realizar una web sobre alguna temática que te interese.
 	Descarga la que te guste y estudia el código, tanto el HTML como el CSS. Se valorará de forma positiva el uso de hojas de etilos **adaptables** para que se visualice de manera optima en dispositivos móviles.
 3. Modifica el HTML y el CSS de la plantilla para que se adapte a lo que necesitas. Puedes incluir los elementos que desees, para ello puedes utilizar código ya creado que puedas encontrar en Internet. Por ejemplo, en la siguiente página encontrarás distintos menús:
 [http://www.araudi.net/ejemplos/menus_desplegables_CSS.html](http://www.araudi.net/ejemplos/menus_desplegables_CSS.html). Si quieres puedes incluir javascript, en esta página puedes encontrar algunos ejemplos: [http://www.htmlpoint.com/jscript/index.html](http://www.htmlpoint.com/jscript/index.html).
+4. Una vez concluida la página web, debes darte de alta en un servicio de hosting gratuito y subir la página a dicho hosting. 
 
 #### Características que debe tener el sitio web realizado
 
@@ -37,15 +38,15 @@ El proyecto consiste en realizar una web sobre alguna temática que te interese.
 7. Debe existir alguna lista ordenada y no ordenada.
 8. Se deben incluir imágenes.
 9. Debe existir al menos una tabla.
-10. Debe existir un formulario que envíe los datos *http://dit.gonzalonazareno.org/~josedom/aweb/resultado.php*.
+10. Debe existir un formulario que envíe los datos *http://www.gonzalonazareno.org/josedom/resultado.php*.
 11. Todas las páginas deben tener un favicon.
 
 #### Documentación a entregar
 
 * Estructura de ficheros que forman el sitio web comprimido.
 * La URL de la página donde tienes alojada la página, teniendo en cuenta que debe estar guardada en un directorio llamado **proyecto**.
-* Breve documento donde se describirá la página y se indicarán el origen de las plantillas descargadas y los códigos extra que hayamos incluido en nuestra web (menús,javascript,...)
+* Breve documento donde se describirá la página y se indicarán el origen de las plantillas descargadas y los códigos extra que hayamos incluido en nuestra web (menús,javascript,...). En este proyecto tambíen se debe explicar el proceso que hemos seguido para subir la página al hosting gratuito.
 * Se tiene que que poner un apartado donde se explique las novedades que ha traido HTML5 respecto a xhtml 1.0 y HTML 4.1
-* Capturas de pantalla donde se vea la validación de cada una de las páginas.
+* Capturas de pantalla donde se vea la validación de cada una de las páginas (tiene que parecer la URL de la página).
 
 [Volver](index)
