@@ -5,7 +5,7 @@ title: Lenguajes de marcas
 tagline: CFGS ASIR
 ---
 
-### Proyecto xhtml y css
+### Proyecto html y css
 
 El proyecto consiste en realizar una web sobre alguna temática que te interese.
 
