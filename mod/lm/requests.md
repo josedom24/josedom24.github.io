@@ -20,4 +20,4 @@ Realiza programas en python que utilizando la librería requests, realicen las s
 	Guardamos la key en un fichero de configuración (por ejemplo que llamamos key.cfg) que nunca subimos a github (el nombre de este fichero se guarda en un fichero .gitignore). En nuestro programa podemos utilizar un código de esta forma:
 
 		with open("key.cfg", "r") as archivo: 
-    		key = archivo.read() 
+			key = archivo.read() 
