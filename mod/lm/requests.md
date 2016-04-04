@@ -30,7 +30,12 @@ Realiza programas en python que utilizando la librería requests, realicen las s
 
 	Y desde el programa python:
 
-	import os
-	...
-	key=os.environ['key']
-	
+		import os
+		...
+		key=os.environ['key']
+
+3. Realiza el ejercicio 2, pero utilizando la respuesta JSON.
+
+4. Programa que pida el nombre de un proyecto del redmine de nuestro ciclo y que muestre las 5 últimas tareas abiertas del proyecto indicado. Si no existe el proyecto da un error.
+
+5. Crear un programa que utilizando la API de openwheathermap pida el nombre de una ciudad por teclado y muestre su temperatura actual.
