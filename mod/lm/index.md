@@ -45,6 +45,10 @@ tagline: CFGS ASIR
 
 * [Ejercicios JSON](json1)
 
+#### Servicios web
+
+* [Ejercicios librería requests](requests)
+
 #### Proyectos
 
 * [Git y GitHub](github)
