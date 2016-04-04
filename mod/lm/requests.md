@@ -38,4 +38,12 @@ Realiza programas en python que utilizando la librería requests, realicen las s
 
 4. Programa que pida el nombre de un proyecto del redmine de nuestro ciclo y que muestre las 5 últimas tareas abiertas del proyecto indicado. Si no existe el proyecto da un error.
 
-5. Crear un programa que utilizando la API de openwheathermap pida el nombre de una ciudad por teclado y muestre su temperatura actual.
+5. Crear un programa que utilizando la API de openwheathermap pida el nombre de una ciudad por teclado y muestre su temperatura actual.	
+
+6. Programa que utilizando la [API de loterías del El País](http://servicios.elpais.com/sorteos/loteria-navidad/api/), pida un número por teclado e informe del premio que tuvo en en el sorteo de lotería de navidad.
+
+7. Programa que cree un proyecto, llamado "test project" en el redmine de nuestro ciclo.
+
+8. Programa que borre el proyecto creado en el ejercicio anterior.
+
+[Soluciones: https://github.com/josedom24/requests_python](https://github.com/josedom24/requests_python)
