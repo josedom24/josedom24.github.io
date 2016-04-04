@@ -21,3 +21,16 @@ Realiza programas en python que utilizando la librería requests, realicen las s
 
 		with open("key.cfg", "r") as archivo: 
 			key = archivo.read() 
+
+	* **Usar variables de entorno**:
+
+	Guardamos la key en una variable de entorno del sistema operativo y la leemos en el programa. Para crear la clave:
+
+		export key="466f4055fe2f206676793d544b06ddee64b45432"
+
+	Y desde el programa python:
+
+	import os
+	...
+	key=os.environ['key']
+	
