@@ -7,6 +7,8 @@ tagline: CFGS ASIR
 
 ### Proyectos de otros años
 
+### 2013-2014
+
 #### Francisco Javier Barrera
 
 Mi proyecto consistió en usar la api de series.ly y hacer una web de series y películas con una interfaz más simple usando bottle.
@@ -57,3 +59,61 @@ Twowtter es una aplicación Python que se conecta a la API del videojuego World 
 
 * Github: [https://github.com/EvaristoGZ/tuitgenerator](https://github.com/EvaristoGZ/tuitgenerator)
 * Web: [http://tuitgenerator.evaristogz.com/](http://tuitgenerator.evaristogz.com/)
+
+### 2014-2015
+
+#### Jesús Bueno
+
+Buscador de información sobre las gemas de Ruby, con información de las dependencias que necesita, y un historial de versiones de la gema seleccionada.
+
+* Github: [http://github.com/jesusba/treasuregems](http://github.com/jesusba/treasuregems)
+* Web: [http://treasuregems-jesusba.rhcloud.com/](http://treasuregems-jesusba.rhcloud.com/)
+
+#### Antonio Luis Luna
+
+SoundSayer pretende ser un servicio web que sugiera listas de reproducción de
+música a sus usuarios de manera personalizada.
+
+* Github: [https://github.com/antonioluna/soundsayer](https://github.com/antonioluna/soundsayer)
+
+#### José García
+
+Utilizando la api de google maps, mediante la api de codificación geográfica saca la localización de un lugar que es introducido mediante un formulario, esta localización es utilizada por la api de google places para sacar la localización de varios lugares (en el que se especifica si son restaurantes museos,...) y es enviada a la api de javascript para mostrarlas con una marca en un en un mapa incrustado en la página.
+
+* Github: [https://github.com/josegr92/mapssearch](https://github.com/josegr92/mapssearch)
+* Web: [http://mapssearch-jgr92.rhcloud.com/](http://mapssearch-jgr92.rhcloud.com/)
+
+#### Francisco Jarana
+
+Con esta aplicación voy a mostrar información acerca de la meteorología de una zona determinada que podrá ser indicada mediante nombre de la ciudad, dirección IP o latitud y longitud.
+
+* Github: [https://github.com/FranciscoJaranaCamacho/proyectofinal](https://github.com/FranciscoJaranaCamacho/proyectofinal)
+* Web: [http://proyectofinal-franciscojarana.rhcloud.com](http://proyectofinal-franciscojarana.rhcloud.com)
+
+#### Diego Martín
+
+ El servicio web recibirá un username o un hashtag y este devolverá un mapa de Google marcando la ubicación de los tuits del usuario o desde se ha comentado el hashtag.
+
+ * Github: [https://github.com/dmsgago/findit](https://github.com/dmsgago/findit)
+ * Web: [http://findit.diegomartin.org/](http://findit.diegomartin.org/)
+
+ #### Carlos García
+
+Ademas de traducir, permitira pedir un texto y dectectara el idioma al que pertenece o si se da el caso a los varios posibles idiomas. Por ultimo si el tiempo lo permite, el programa podra recibir un documento y generara otro con la traducción.
+
+* Github: [https://github.com/cgm1995/Proyecto-final-API](https://github.com/cgm1995/Proyecto-final-API)
+* Web: [http://traductor-carlosgarcia.rhcloud.com](http://traductor-carlosgarcia.rhcloud.com)
+
+#### Antonio Manuel Gómez
+
+El objetivo es hacer una web con las estadísticas actuales de la NBA, tanto estadísticas de equipo como las estadísticas individuales de cada jugador. Tambien habrá una sección de resultados con los detalles de cada partido. Además, cuando se entre en la página de cada equipo saldrá una sección de información en la que se usará la api de la wikipedia.
+
+* Github: [https://github.com/antoniogomezvarela/Proyecto](https://github.com/antoniogomezvarela/Proyecto)
+* Web: [http://nba-check-amgv.rhcloud.com](http://nba-check-amgv.rhcloud.com)
+
+#### Alejandro Valencia
+
+Realizar una calculadora que puedas seleccionar los objetos y un personaje y un nivel para el personaje en el juego LOL y te digas las caracteristicas con ese equipamiento y ese nivel.
+
+* Github: [https://github.com/Valencia1904/lolstraw](https://github.com/Valencia1904/lolstraw)
+* Web: [http://lolstraw-alevalencompany.rhcloud.com/](http://lolstraw-alevalencompany.rhcloud.com/)
