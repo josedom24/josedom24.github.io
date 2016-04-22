@@ -92,12 +92,12 @@ Con esta aplicación voy a mostrar información acerca de la meteorología de un
 
 #### Diego Martín
 
- El servicio web recibirá un username o un hashtag y este devolverá un mapa de Google marcando la ubicación de los tuits del usuario o desde se ha comentado el hashtag.
+El servicio web recibirá un username o un hashtag y este devolverá un mapa de Google marcando la ubicación de los tuits del usuario o desde se ha comentado el hashtag.
 
- * Github: [https://github.com/dmsgago/findit](https://github.com/dmsgago/findit)
- * Web: [http://findit.diegomartin.org/](http://findit.diegomartin.org/)
+* Github: [https://github.com/dmsgago/findit](https://github.com/dmsgago/findit)
+* Web: [http://findit.diegomartin.org/](http://findit.diegomartin.org/)
 
- #### Carlos García
+#### Carlos García
 
 Ademas de traducir, permitira pedir un texto y dectectara el idioma al que pertenece o si se da el caso a los varios posibles idiomas. Por ultimo si el tiempo lo permite, el programa podra recibir un documento y generara otro con la traducción.
 
