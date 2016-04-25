@@ -24,34 +24,44 @@ El proceso de realización del proyecto tendrá las siguientes etapas:
 
 Tanto en la primera etapa, para hacer una estimación de la nota que puedes sacar en el proyecto, como en la evaluación final de la misma se seguirán los siguientes criterios de evaluación:
 
-* ¿Cuantas API web vas a usar en el proyecto? 
+* ¿Cuántas API web vas a usar en el proyecto? 
 	* Sólo una, **1 punto**
 	* Más de una, **2 puntos**
 * ¿Qué métodos vas a usar en las llamada a la API?, es decir, ¿vas a consumir información del servicio web (métodos GET)?, o también, ¿vas a interactuar con el servicio web (métodos POST, PUT, DELETE,...)?
 	* Sólo GET, **1 punto**
 	* GET, POST, ..., **2 puntos**
-* ¿Qué tipo de aunteficiación tiene la API utilizada?
+* ¿Qué tipo de autentificación tiene la API utilizada?
 	* Es libre, con usuario/contraseña o con API key, **1 punto**
-	* Utiliza sistemas de auntentificación 7 autorización como oauth1 o oauth2, **2 puntos**.
-* ¿Cuantas cosas hace la aplicación?, podemos pensar cuantas @route va a tener nuestro programa bottle:
+	* Utiliza sistemas de autentificación 7 autorización como oauth1 o oauth2, **2 puntos**.
+* ¿Cuantas cosas hace la aplicación?, podemos pensar cuantos @route va a tener nuestro programa bottle:
 	* 5 o menos, **1 punto**
 	* Más de 5, **2 puntos**
-* ¿Vas a utilizar alguna API de mapas?
+* ¿Tu página web tiene hoja de estilo y es válida?
 	* Si, **1 punto**
 	* No, **0 puntos**
-* ¿Tu página web tiene hoja de estilo y es válida?
+* Crees que vas a utilizar algo adicional, para alcanzar el 10 (por ejemplo, utilizar una API de mapas, crear un servicio innovador,...) :
 	* Si, **1 punto**
 	* No, **0 puntos**
 
 
 #### Anteproyecto
 
-En el enunciado del proyecto que se debe entrgar antés de comenzar la etapa de codificación se tendrán que indicar los siguientes apartados:
+En el enunciado del proyecto que se debe entregar antes de comenzar la etapa de codificación se tendrán que indicar los siguientes apartados:
 
 * Nombre del proyecto:
-* URL de la API utilizada:
+* Objetivos, descripción y funcionalidad del proyecto:
 * URL del repositorio GItHub:
 * URL de la página web:
-* Lenguaje de marcas que utiliza la API:
-* Objetivos, descipción y funcionalidad del proyecto:
+
+* ¿Cuántas API web vas a usar en el proyecto?: 
+	* URL de la API(s) utilizada(s):
+	* Lenguaje(s) de marcas que utiliza(n) la(s) API:
+	* ¿Qué tipo de autentificación tiene(n) la(s) API utilizada(s)?:
+	* ¿Qué métodos vas a usar en las llamada a la API?, es decir, ¿vas a consumir información del servicio web (métodos GET)?, o también, ¿vas a interactuar con el servicio web (métodos POST, PUT, DELETE,...)?:
+
+* ¿Cuantas cosas hace la aplicación?, podemos pensar cuantos @route va a tener nuestro programa bottle:
+* ¿Vas a hacer una página web válida y con hoja de estilo?
+* Comenta cualquier cosa que crees que puedes hacerte conseguir un 10 en el proyecto:
+
+
 
