@@ -27,7 +27,7 @@ Tanto en la primera etapa, para hacer una estimación de la nota que puedes saca
 * ¿Cuantas API web vas a usar en el proyecto? 
 	* Sólo una, **1 punto**
 	* Más de una, **2 puntos**
-* ¿Qué métodos vas a usar en las llamada a la API?, es decir, ¿vas a consumir información del servicio web (métodos GET)?, o tambíen, ¿vas a interactuar con el servicio web (métodos POST, PUT, DELETE,...)?
+* ¿Qué métodos vas a usar en las llamada a la API?, es decir, ¿vas a consumir información del servicio web (métodos GET)?, o también, ¿vas a interactuar con el servicio web (métodos POST, PUT, DELETE,...)?
 	* Sólo GET, **1 punto**
 	* GET, POST, ..., **2 puntos**
 * ¿Qué tipo de aunteficiación tiene la API utilizada?
@@ -36,7 +36,13 @@ Tanto en la primera etapa, para hacer una estimación de la nota que puedes saca
 * ¿Cuantas cosas hace la aplicación?, podemos pensar cuantas @route va a tener nuestro programa bottle:
 	* 5 o menos, **1 punto**
 	* Más de 5, **2 puntos**
-* 
+* ¿Vas a utilizar alguna API de mapas?
+	* Si, **1 punto**
+	* No, **0 puntos**
+* ¿Tu página web tiene hoja de estilo y es válida?
+	* Si, **1 punto**
+	* No, **0 puntos**
+
 
 #### Anteproyecto
 
