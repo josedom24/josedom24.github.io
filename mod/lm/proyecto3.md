@@ -34,8 +34,8 @@ Tanto en la primera etapa, para hacer una estimación de la nota que puedes saca
 	* Es libre, con usuario/contraseña o con API key, **1 punto**
 	* Utiliza sistemas de autentificación 7 autorización como oauth1 o oauth2, **2 puntos**.
 * ¿Cuantas cosas hace la aplicación?, podemos pensar cuantos @route va a tener nuestro programa bottle:
-	* 5 o menos, **1 punto**
-	* Más de 5, **2 puntos**
+	* 4 o menos, **1 punto**
+	* Más de 4, **2 puntos**
 * ¿Tu página web tiene hoja de estilo y es válida?
 	* Si, **1 punto**
 	* No, **0 puntos**
