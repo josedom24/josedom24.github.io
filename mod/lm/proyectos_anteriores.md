@@ -25,10 +25,27 @@ Voy a realizar una pagina, para todos los aficionados de un equipo que quieran a
 
 #### Aitor León
 
-La aplicación usará Spotify cómo motor de búsqueda. Un usuario, anonimo o no, indicará qué quiere buscar (una canción, un album, un cantante, etc...). La aplicación devolverá una página con dicha información además de una lista con las playlists más escuchadas (de dicha canción, cantante, album, etc...). Tendrá también un link dónde se ejecutará la aplicación y empezará a reproducirse lo elegido.
+La aplicación usará Spotify cómo motor de búsqueda. Ofrecerá realizar una búsqueda con cuatro opciones; por artista, por canción, por album y por lista de reproducción. Las canciones y los albums puedes escucharlos directamente en la web. Un usuario iniciará sesión y tendrá dos enlaces, uno que mostrará su información de perfil, tanto pública cómo privada, y otro donde podrá crear una lista de reproducción vacía.
+En la página de inicio se mostrará una pequeña ayuda de como aprender a usar el buscador.
 
 * Github: [https://github.com/aitor28ld/Proyecto-API](https://github.com/aitor28ld/Proyecto-API)
 * Web: [http://spotype-aitor28ld.rhcloud.com](http://spotype-aitor28ld.rhcloud.com)
+
+#### José María Castillo
+
+Crear un portal de búsqueda y geocalizacion de la oferta de empleo usando la api de infojobs y las apis de google map javascript api y google geocoding map.
+
+* Github: [https://github.com/josemariacastillo/mundolaboral.git](https://github.com/josemariacastillo/mundolaboral.git)
+* Web: [http://mundolaboral-josemccotaniesgn.rhcloud.com/](http://mundolaboral-josemccotaniesgn.rhcloud.com/)
+
+#### Manuel Alcocer
+
+La web que voy a realizar manejará de forma sencilla algunas de las funciones de Proxmox: Creación/Eliminación de máquinas virtuales o contenedores LXC, creación/eliminación/asignación de unidades de almacenamiento. Una de las funciones en la que estoy más interesado en hacer es que Proxmox disponga de una pequeña base de datos (de momento no sé si hacerlo a través de un fichero debidamente formateado o usando un gestor de BBDD como SQLite3) en la cual estén las URLS e información de algunas distros Linux y que se puedan importar directamente a Proxmox esas distros sin tener que ser descargadas por parte del usuario.
+Otra funcionalidad de la que quiero dotar a la aplicación web es la de poder hacer 'USB Passthrought' hacia las máquinas virtuales que el usuario decida de una forma sencilla.
+Sería interesante también hacer el código que permita enviar un mensaje de correo a través de la api gmail al administrador del Nodo Proxmox.
+
+* Github: [https://github.com/manuelalcocer/easyproxmox.git](https://github.com/manuelalcocer/easyproxmox.git)
+* Web: [https://easyproxmox.nashgul.com.es/](https://easyproxmox.nashgul.com.es/)
 
 
 ### 2014-2015
