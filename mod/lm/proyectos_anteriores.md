@@ -16,6 +16,20 @@ Buscador de fotos (flicker), que muestre aparte de las fotos, modelo de camara, 
 * Github: [https://github.com/alvarosola/bottle_buscafoto](https://github.com/alvarosola/bottle_buscafoto)
 * Web: [http://bottle-solaoli.rhcloud.com/](http://bottle-solaoli.rhcloud.com/)
 
+#### Juan Luís Ramírez
+
+Voy a realizar una pagina, para todos los aficionados de un equipo que quieran acompañar a su equipo a los campos rivales, vamos a poder buscar el campo de futbol y nos mostrara los hoteles o restaurantes que tengamos alrededor del campo.
+
+* Github: [https://github.com/juanluramirez/findstadium/](https://github.com/juanluramirez/findstadium/)
+* Web: [http://findstadium-juanluramirez.rhcloud.com](http://findstadium-juanluramirez.rhcloud.com)
+
+#### Aitor León
+
+La aplicación usará Spotify cómo motor de búsqueda. Un usuario, anonimo o no, indicará qué quiere buscar (una canción, un album, un cantante, etc...). La aplicación devolverá una página con dicha información además de una lista con las playlists más escuchadas (de dicha canción, cantante, album, etc...). Tendrá también un link dónde se ejecutará la aplicación y empezará a reproducirse lo elegido.
+
+* Github: [https://github.com/aitor28ld/Proyecto-API](https://github.com/aitor28ld/Proyecto-API)
+* Web: [http://spotype-aitor28ld.rhcloud.com](http://spotype-aitor28ld.rhcloud.com)
+
 
 ### 2014-2015
 
