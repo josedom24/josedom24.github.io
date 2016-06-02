@@ -47,6 +47,23 @@ Sería interesante también hacer el código que permita enviar un mensaje de co
 * Github: [https://github.com/manuelalcocer/easyproxmox.git](https://github.com/manuelalcocer/easyproxmox.git)
 * Web: [https://easyproxmox.nashgul.com.es/](https://easyproxmox.nashgul.com.es/)
 
+#### Marina Nievas
+
+Este proyecto tiene como objetivo entretener a los internautas. Es una recopilación de vídeos de humor de la videoteca de la página de youtube.
+
+* Github: [https://github.com/marinanierod/DivierTT.git](https://github.com/marinanierod/DivierTT.git)
+* Web: [https://diviertt-mnievasiesgn.rhcloud.com](https://diviertt-mnievasiesgn.rhcloud.com)
+
+#### Alvaro Rodríguez
+
+Crear una página desde la que usar algunas de las utilidades de twiter de forma simple e intuitiva.
+
+* Github: [https://github.com/alvaro-rodriguez/Easy-tweets](https://github.com/alvaro-rodriguez/Easy-tweets)
+* Web: [https://proyectolenguaje-alvarorodr.rhcloud.com](https://proyectolenguaje-alvarorodr.rhcloud.com)
+
+
+
+
 
 ### 2014-2015
 
