@@ -27,6 +27,7 @@ tagline: CFGS ASIR
 * [Resuelto boletín 5: Ejercicios cadenas](resuelto5)
 * [Boletín 6 (Navidad): Ejercicios diccionarios, ficheros,...](bol6)
 * [Boletín 7: Ejercicio de ficheros](bol7)
+
 #### xml
 
 * [Temperaturas municipios de Sevilla](xml1)
