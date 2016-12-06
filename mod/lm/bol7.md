@@ -11,9 +11,9 @@ Necesitamos que se facture el uso de un teléfono. Nos informarán de la tarifa 
 
 Vamos a dividir este problemas en problemas más pequeños:
 
-    * Cada comunicación se expresa en horas, minútos y segundos, la tarifa es € por segundos, por lo tanto lo primero que vamos a solucionar es convertir las horas, minútos y segundos en segundos. Para ello vamos acrear una función llamada **pasar_a_segundos**. Piensa los parámetros de entrada que tiene esta función y el valor que devuelve. ¿De qué tipo son?
-    * Una vez que sabemos los segundos que ha tardado una comunicación y la tarifa por segundos vamos a crear una función llamada **calcular_coste** que nos calcule cuanto cuesta, en centimos, la llamada. Piensa los parámetros y el valor devuleto de la función.
-    * Por último vamos a crear una función para convertir el coste en centimos, en una cantidad de dinero expresda en euros y centimos. Para ello creamos la función **convertir_a_euros**. Piensa los parametros de entrada y los valores devueltos.
+* Cada comunicación se expresa en horas, minútos y segundos, la tarifa es € por segundos, por lo tanto lo primero que vamos a solucionar es convertir las horas, minútos y segundos en segundos. Para ello vamos acrear una función llamada **pasar_a_segundos**. Piensa los parámetros de entrada que tiene esta función y el valor que devuelve. ¿De qué tipo son?
+* Una vez que sabemos los segundos que ha tardado una comunicación y la tarifa por segundos vamos a crear una función llamada **calcular_coste** que nos calcule cuanto cuesta, en centimos, la llamada. Piensa los parámetros y el valor devuleto de la función.
+* Por último vamos a crear una función para convertir el coste en centimos, en una cantidad de dinero expresda en euros y centimos. Para ello creamos la función **convertir_a_euros**. Piensa los parametros de entrada y los valores devueltos.
 
 **Ejercicios**
 
