@@ -14,6 +14,6 @@ Leyendo el manual antrior o cualquier otro que busques en Internet, responde las
 4. ¿Qué modos de conexión existen en el prótocolo FTP? ¿En qué consiste cada uno y cuál es la diferencia?
 5. Índica los tipos de transferncia que podemos hacer. ¿Qué tipo utilizarías si vas a transferir un fichero  odt?
 6. ¿Qué tipo de clientes FTP existen?
-7. Si usas un cliente FTP de textto, que comando tendrías que realziar para conectarte al servisor ftp.gonzalonazareno.org y subir un fichero practica.pdf.
+7. Si usas un cliente FTP de línea de comandos, que comando tendrías que ejecutar para conectarte al servidor ftp.gonzalonazareno.org y subir un fichero practica.pdf.
 
 [Volver](index)
