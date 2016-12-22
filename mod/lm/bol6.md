@@ -38,7 +38,7 @@ tagline: CFGS ASIR
 5. **(6 puntos)**[Web scraping](https://es.wikipedia.org/wiki/Web_scraping) es una técnica utilizada mediante programas de software para extraer información de sitios web. Por ejemplo, con el siguiente código podemos leer el HTML de una página web.
 
         import urllib2
-        response = urllib2.urlopen('http://openweathermap.org/city/2518794')
+        response = urllib2.urlopen('http://tiempoytemperatura.es/espana/sevilla/dos-hermanas.html')
         lineas=response.readlines()
 
 En el ejemplo anterior, la página nos da información meteorológica de Dos Hermanas. Haz un programa que te muestre la temperatura, presión y humedad actual de Dos Hermanas.
