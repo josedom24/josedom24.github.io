@@ -49,6 +49,7 @@ tagline: CFGS ASIR
 
 #### Servicios web
 
+* [Ejemplos APIs web](rest)
 * [Ejercicios librería requests](requests)
 
 #### Proyectos
