@@ -111,21 +111,6 @@ desarrollo e incluso una arquitectura diferente. Debe permanecer estable. Suele 
 gestionado por el equipo de Sistemas.</li>
 	</ul>
 </section>
-<section>
-	<h3>Entornos</h3>
-	<ul>
-		<li><strong>Producción</strong>: En la actualidad el entorno de producción se puede definir en distintos escenarios:</li>
-		<ul>
-			<li>Hosting compartidos</li>
-			<li>Servidores dedicados, por ejemplo VPS</li>
-			<li>Cloud Comuting IaaS</li>
-			<li>Cloud Computing PaaS</li>
-			<li>Contenedores y orquestadores de contenedores</li>
-		</ul>
-
-
-	</ul>
-</section>
 
 </section>
 <section data-background="#FFCC99">
@@ -222,17 +207,7 @@ trabajo es modificar los programas.</li>
 	</section>
 
 </section>
-<section>
-	<h3>Infraestructura como código: Automátización de la configuración</h3>
-	<small>Aunque actualmente se automatiza todas las partes posible del ciclo de desarrollo de software, no se hace lo mismo con la administración de sistemas. El concepto de infraestructura como código se refiere a intentar gestionar la infraestructura como si de un desarrollo software se tratase. </small>
-	<p><strong>Ventajas:</strong></p>
-	<ul>
-		<li>Control de las versiones de las configuraciones</li>
-		<li>Automatización de los procesos de instalación y configuración</li>
-		<li>Se mejora la documentación y la auditoría</li>
-	</ul>
-	<p>Herramientas: Puppet, chef, ansible, ...</p>
-</section>
+
 
 <section data-background="#A9D0F5">
 <section>
@@ -271,6 +246,12 @@ trabajo es modificar los programas.</li>
 
 
 </section>
+</section>
+<section data-background="#FFCC99">
+<section>
+	<h3>Herramientas utilizadas en los despliegues modernos</h3>
+	
+</section>
 <section>
 	<h3>Vagrant</h3>
 	<small>Vagrant es una herramienta que gestiona máquinas virtuales (VM). Con un fichero de configuración (VagranFile), puede levantar y provisionar una infraestructura de MV en poco tiempo.</small>
@@ -293,16 +274,31 @@ trabajo es modificar los programas.</li>
 
 	</ul>
 </section>
+<section>
+	<h3>Infraestructura como código: Automátización de la configuración</h3>
+	<small>Aunque actualmente se automatiza todas las partes posible del ciclo de desarrollo de software, no se hace lo mismo con la administración de sistemas. El concepto de infraestructura como código se refiere a intentar gestionar la infraestructura como si de un desarrollo software se tratase. </small>
+	<p><strong>Ventajas:</strong></p>
+	<ul>
+		<li>Control de las versiones de las configuraciones</li>
+		<li>Automatización de los procesos de instalación y configuración</li>
+		<li>Se mejora la documentación y la auditoría</li>
+	</ul>
+	<p>Herramientas: Puppet, chef, ansible, ...</p>
 </section>
-<section data-background="#FFCC99">
+
+</section>
+<section>
 	<h3>Sistema de control de versiones</h3>
 	<p>Tanto para el departamento de desarrollo como para el de sistema es imprescindible el uso de un sistema de control de versiones. En Sistemas, al gestionar la infraestructura como código es necesario gestionar los distintos ficheros de configuración con un sistema de control de versiones.</p>
 	<ul>
 		<li>Git</li>
 	</ul>
 </section>
-
-<section data-background="#A9D0F5">
+<section data-background="#A9D0F">
+<section>
+	<h3>Metodologías de trabajo</h3>
+</section>
+<section>
 	<h3>Despliegue como proceso automático</h3>
 	<p>Desplegar el código en producción o pruebas, y quizás también en desarrollo, es algo que debe hacerse pulsando un botón (ejecutando un script). Hay que evitar los procesos manuales, estos conllevan tiempo y son propensos a errores por mucho que esos procesos se hayan repetido.</p>
 	<ul>
@@ -321,6 +317,7 @@ trabajo es modificar los programas.</li>
 		<li>La aceptación de los miembros del equipo, puesto que la integración continua es una práctica y no una herramienta.</li>
 	</ul>
 	<p>Jenking (Java)</p>
+</section>
 </section>
 <section>
 	<img src="img/devops.png"/>
