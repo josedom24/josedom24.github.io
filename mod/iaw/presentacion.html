@@ -252,15 +252,7 @@ trabajo es modificar los programas.</li>
 <section>
 	<h3>Metodologías de trabajo</h3>
 </section>
-<section>
-	<h3>Despliegue como proceso automático</h3>
-	<p>Desplegar el código en producción o pruebas, y quizás también en desarrollo, es algo que debe hacerse pulsando un botón (ejecutando un script). Hay que evitar los procesos manuales, estos conllevan tiempo y son propensos a errores por mucho que esos procesos se hayan repetido.</p>
-	<ul>
-		<li>Script
-		<li>Herramientas específicas:Ant, maven, para java, Phing: para php, Fabric, para python</li>
-		<li>Sincronizar una rama del sistema de control de versiones entre servidores</li>
-	</ul>
-</section>
+
 <section>
 	<h3>Integración continúa</h3>
 	<small>La integración continua requiere que cada vez que alguien haga un commit se construya la aplicación entera y se que se ejecuten una serie de tests automatizados. Es un cambio de paradigma. Las pruebas y el despliegue se automatizan.</small>
@@ -270,7 +262,17 @@ trabajo es modificar los programas.</li>
 		<li>Un sistema automatizado de build para la aplicación y ejecutar los tests.</li>
 		<li>La aceptación de los miembros del equipo, puesto que la integración continua es una práctica y no una herramienta.</li>
 	</ul>
-	<p>Jenking (Java)</p>
+	
+</section>
+
+<section>
+	<h3>Despliegue como proceso automático</h3>
+	<p>Desplegar el código en producción o pruebas, y quizás también en desarrollo, es algo que debe hacerse pulsando un botón (ejecutando un script). Hay que evitar los procesos manuales, estos conllevan tiempo y son propensos a errores por mucho que esos procesos se hayan repetido.</p>
+	<ul>
+		<li>Script
+		<li>Herramientas específicas:Ant, maven, para java, Phing: para php, Fabric, para python</li>
+		<li>Sincronizar una rama del sistema de control de versiones entre servidores</li>
+	</ul>
 </section>
 </section>
 
@@ -313,16 +315,31 @@ trabajo es modificar los programas.</li>
 	<p>Herramientas: Puppet, chef, ansible, ...</p>
 </section>
 
-
 <section>
 	<h3>Sistema de control de versiones</h3>
 	<p>Tanto para el departamento de desarrollo como para el de sistema es imprescindible el uso de un sistema de control de versiones. En Sistemas, al gestionar la infraestructura como código es necesario gestionar los distintos ficheros de configuración con un sistema de control de versiones.</p>
 	<ul>
 		<li>Git</li>
+		<li>Subversion</li>
+		<li>...</li>
+
 	</ul>
 </section>
 
 <section>
+	<h3>Herramientas de integración y despliegue continúo</h3>
+	<p>Herramientas que nos permite automatizar el ciclo de vida de desarrollo de software: compilación, testeo, control de código, documentación, despliegue, ...
+	<ul>
+		<li>Jenkins</li>
+		<li>travis CI</li>
+		<li>Go CD</li>
+		<li>CodeShip</li>
+		<li>...</li>
+	</ul>
+
+<section>
+<section>
 	<img src="img/devops.png"/>
 	</section>
+</section>
 </section>
