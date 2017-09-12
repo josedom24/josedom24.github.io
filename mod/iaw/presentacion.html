@@ -271,12 +271,16 @@ trabajo es modificar los programas.</li>
 </section>
 
 <section>
-	<h3>Despliegue como proceso automático</h3>
-	<p>Desplegar el código en producción o pruebas, y quizás también en desarrollo, es algo que debe hacerse pulsando un botón (ejecutando un script). Hay que evitar los procesos manuales, estos conllevan tiempo y son propensos a errores por mucho que esos procesos se hayan repetido.</p>
+	<h3>Entrega y despliegue continuo</h3>
+	<ul>
+		<li>EC: Es el siguiente paso de IC, y consiste en preparar la aplicación web para su puesta en producción. El paso a producción se hace de forma manual.</li>
+		<li>DC: Es similar a la anterior pero en este caso también se automatiza el despliegue final en producción.</li>
 	<ul>
 		<li>Script</li>
 		<li>Herramientas específicas:Ant, maven, para java, Phing: para php, Fabric, para python</li>
 		<li>Sincronizar una rama del sistema de control de versiones entre servidores</li>
+		<li>Herramienta de IC (jenkins, travis-CI) también tiene funcionalodad de DC</li>
+		<li>Herramientas específicas para el despliegue continuo de las bases de datos</li>
 	</ul>
 </section>
 </section>
