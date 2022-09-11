@@ -1,8 +1,10 @@
 ---
-layout: index
+layout: home
 
 title: Colección de libros libres
-tagline: www.josedomingo.org
+nav_order: 2
+---
+
 ---
 ## Colección de libros libres
 
