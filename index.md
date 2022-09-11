@@ -8,8 +8,7 @@ nav_order: 1
 
 ## Bienvenid@s
 
-* [Tutoriales, cursos,...](/varios/tutorial)
-* [Internet, web, ...](/varios/web)
-* [Enlaces, páginas completas interesantes...](/varios/enlaces)
-* [Cajón desastre...](varios/cajon)
-* [Colección de libros libres](/libros)
+* [Tutoriales, cursos,...](tutorial.html)
+* [Internet, web, ...](web.html)
+* [Enlaces, páginas completas interesantes...](enlaces.html)
+* [Cajón desastre...](cajon.html)
