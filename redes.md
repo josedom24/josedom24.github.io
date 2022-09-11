@@ -8,6 +8,4 @@ nav_order: 3
 
 Todo lo relacionado con las redes y comunicaciones,...
 
-#### slimbook
-
-Portátiles compatibles con Linux: [https://slimbook.es](https://slimbook.es)
+* [OpenWrt](https://openwrt.org/): The OpenWrt Project is a Linux operating system targeting embedded devices.
