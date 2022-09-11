@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Herrmaientas web
+title: Herramientas web
 nav_order: 6
 ---
 
