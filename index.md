@@ -8,3 +8,5 @@ nav_order: 1
 
 ## Bienvenid@s
 
+{: .highlight }
+Bienvenid@s a tod@s.
