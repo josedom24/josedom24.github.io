@@ -1,7 +1,0 @@
-curl -v -H "Content-Type: application/xml" -X POST --data-binary "@project.xml" -H "X-Redmine-API-Key:5921fa7b1ceafcaa23b85233f800b1c209473543" http://dit.gonzalonazareno.org/redmine/projects.xml
-
-
-<name>test project</name>
-<identifier>test1</identifier>
-<enabled_module_names>time_tracking</enabled_module_names>
-<enabled_module_names>issue_tracking</enabled_module_names>

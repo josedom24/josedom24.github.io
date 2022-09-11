@@ -1,3 +1,0 @@
-nano /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/security/java.security
-
-securerandom.source=file:/dev/./urandom
