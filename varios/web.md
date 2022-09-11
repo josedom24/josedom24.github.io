@@ -1,8 +1,7 @@
 ---
-layout: index
-
-title: Página web josedom24 @pledin_jd
-tagline: www.josedomingo.org
+layout: home
+title: Herrmaientas web
+nav_order: 6
 ---
 
 ## Herramientas web

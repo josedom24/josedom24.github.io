@@ -1,8 +1,7 @@
 ---
-layout: index
-
-title: Página web josedom24 @pledin_jd
-tagline: www.josedomingo.org
+layout: home
+title: Cajón desastre
+nav_order: 3
 ---
 
 ## Cajón desastre

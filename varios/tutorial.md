@@ -1,8 +1,7 @@
 ---
-layout: index
-
+layout: home
 title: Tutoriales
-tagline: www.josedomingo.org
+nav_order: 5
 ---
 
 ### Cursos
