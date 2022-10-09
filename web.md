@@ -7,6 +7,7 @@ nav_order: 6
 ## Herramientas web
 
 * [reveal.js: The HTML Presentation Framework](http://lab.hakim.se/reveal-js/#/)
+* [Sli.dev](https://sli.dev/): Presentaciones que se pueden escribir en Markdown.
 
 ## Aplicaciones web
 
