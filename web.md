@@ -6,7 +6,7 @@ nav_order: 6
 
 # Web
 
-## Herramientas web
+## Presentaciones
 
 * [reveal.js: The HTML Presentation Framework](http://lab.hakim.se/reveal-js/#/)
 * [Sli.dev](https://sli.dev/): Presentaciones que se pueden escribir en Markdown.
@@ -20,6 +20,7 @@ nav_order: 6
 
 * [Pure CSS](http://purecss.io/)
 * [Bootstrap](http://getbootstrap.com/)
+* [Milligram](https://milligram.io/) es una estupenda configuración mínima de CSS para empezar cualquier tipo de web.
 
 ## CSS
 
