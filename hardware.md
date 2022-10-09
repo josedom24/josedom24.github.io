@@ -4,10 +4,10 @@ title: Hardware
 nav_order: 8
 ---
 
-## Hardware
+# Hardware
 
 Hardware, ordenadores, ...
 
-### slimbook
+## slimbook
 
 * [https://slimbook.es](https://slimbook.es): Portátiles compatibles con Linux.

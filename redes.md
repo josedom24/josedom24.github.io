@@ -4,7 +4,7 @@ title: Redes
 nav_order: 3
 ---
 
-## Redes
+# Redes
 
 Todo lo relacionado con las redes y comunicaciones,...
 
