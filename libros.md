@@ -13,3 +13,4 @@ nav_order: 6
 ## Seguridad
 
 * [Seguridad del protocolo SSL/TLS. Ataques criptoanalíticos modernos"](https://t.co/eY8ZPO6yCu). Más libros del mismo autor: [https://github.com/mindcrypt/libros](https://github.com/mindcrypt/libros).
+* [Ansible for DevOps](libros/ansible-for-devops.pdf)
